@@ -1,20 +1,18 @@
-
 import requests
 import os
 import re
 import json
+from datetime import datetime
 
 m3u_sources = [("https://dl.dropbox.com/scl/fi/dj74gt6awxubl4yqoho07/github.m3u?rlkey=m7pzzvk27d94bkfl9a98tluai", "moon"),
-    ("https://raw.githubusercontent.com/Zerk1903/zerkfilm/refs/heads/main/Filmler.m3u", "zerkfilm"),
-    ("https://raw.githubusercontent.com/Lunedor/iptvTR/refs/heads/main/FilmArsiv.m3u", "iptvTR"),
+               ("https://raw.githubusercontent.com/Lunedor/iptvTR/refs/heads/main/FilmArsiv.m3u", "iptvTR"),
+                ("https://raw.githubusercontent.com/Zerk1903/zerkfilm/refs/heads/main/Filmler.m3u", "zerkfilm"),
 ]
 
 birlesik_dosya = "birlesik.m3u"
 eski_dosya = "birlesik_eski.m3u"
 yeni_takip_json = "yeni_linkler.json"
-YENI_MAX = 3  # Kaç döngüde "YENİ" etiketi tutulacak?
 
-# link anahtarı: (group-title'sız #EXTINF + url)
 def parse_m3u(filename):
     if not os.path.exists(filename):
         return set(), {}
@@ -41,14 +39,13 @@ def parse_m3u(filename):
 # Eski dosyadan mevcut linkleri ve group-title'ları al
 eski_kanallar, eski_group_titles = parse_m3u(eski_dosya)
 
-# Yeni/Eski sayaçlarını oku
+# Yeni eklenenlerin tarihini oku
 if os.path.exists(yeni_takip_json):
     with open(yeni_takip_json, "r", encoding="utf-8") as jf:
         yeni_dict = json.load(jf)
 else:
     yeni_dict = {}
 
-# Sayaç arttırma işlemi için yeni dict (link anahtarını stringleştiriyoruz)
 def anahtar2str(anahtar):
     return anahtar[0] + "||" + anahtar[1]
 
@@ -56,7 +53,9 @@ def str2anahtar(s):
     k, v = s.split("||", 1)
     return (k, v)
 
-# Yeni dosya oluştur
+# Şimdiki tarih
+bugun = datetime.now().strftime("%Y-%m-%d")
+
 with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
     outfile.write("#EXTM3U\n")
     toplam_kanal_say = 0
@@ -87,42 +86,43 @@ with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
                 m = re.search(r'group-title="(.*?)"', extinf)
                 orijinal_group_title = m.group(1) if m else ""
 
-                # Eğer yeni eklendiyse
+                # Yeni eklenen link mi?
                 if anahtar not in eski_kanallar:
                     yeni_kanal_say += 1
-                    # Bu linkin sayacını yükselt (veya başlat)
-                    count = yeni_dict.get(anahtar_str, 0) + 1
-                    yeni_dict_tmp[anahtar_str] = count
-                    # group-title varsa sonuna [iptvTR YENİ] ekle
+                    tarih = bugun
+                    yeni_dict_tmp[anahtar_str] = tarih
+                else:
+                    # daha önce kayıtlıysa eski tarihi koru
+                    tarih = yeni_dict.get(anahtar_str, "")
+                    if tarih:
+                        yeni_dict_tmp[anahtar_str] = tarih
+
+                # Group-title eklemesi
+                if anahtar not in eski_kanallar:
+                    # yeni eklenen, bugünün tarihiyle
                     yeni_group_title = orijinal_group_title.strip()
                     if yeni_group_title:
-                        yeni_group_title += f" [{source_name} YENİ]"
+                        yeni_group_title += f" [{source_name} {tarih}]"
                     else:
-                        yeni_group_title = f"[{source_name} YENİ]"
+                        yeni_group_title = f"[{source_name} {tarih}]"
+                    yeni_extinf = re.sub(r'group-title="[^"]*"', f'group-title="{yeni_group_title}"', extinf)
+                    if 'group-title="' not in yeni_extinf:
+                        yeni_extinf = extinf.replace("#EXTINF:-1", f'#EXTINF:-1 group-title="{yeni_group_title}"')
+                elif tarih:
+                    # eski ama daha önce yeni olarak eklenmişse tarihi koru
+                    yeni_group_title = orijinal_group_title.strip()
+                    if yeni_group_title:
+                        # eğer tarih zaten varsa tekrar ekle
+                        if not re.search(rf"\[{re.escape(source_name)} \d{{4}}-\d{{2}}-\d{{2}}\]", yeni_group_title):
+                            yeni_group_title += f" [{source_name} {tarih}]"
+                    else:
+                        yeni_group_title = f"[{source_name} {tarih}]"
                     yeni_extinf = re.sub(r'group-title="[^"]*"', f'group-title="{yeni_group_title}"', extinf)
                     if 'group-title="' not in yeni_extinf:
                         yeni_extinf = extinf.replace("#EXTINF:-1", f'#EXTINF:-1 group-title="{yeni_group_title}"')
                 else:
-                    # Eski bir linkse
-                    count = yeni_dict.get(anahtar_str, 0)
-                    if count > 0:
-                        count += 1
-                        if count > YENI_MAX:
-                            # YENİ etiketi YENİSİZ'e döner
-                            yeni_group_title = orijinal_group_title
-                            if yeni_group_title:
-                                # Sonunda [iptvTR YENİ] varsa, [iptvTR] yap
-                                yeni_group_title = re.sub(rf'\[{source_name} YENİ\]', f'[{source_name}]', yeni_group_title)
-                            yeni_dict_tmp[anahtar_str] = 0  # sayacı sıfırla
-                        else:
-                            # YENİ etiketi devam
-                            yeni_group_title = orijinal_group_title
-                            if yeni_group_title and f"[{source_name} YENİ]" not in yeni_group_title:
-                                yeni_group_title += f" [{source_name} YENİ]"
-                            yeni_dict_tmp[anahtar_str] = count
-                        yeni_extinf = re.sub(r'group-title="[^"]*"', f'group-title="{yeni_group_title}"', extinf)
-                    else:
-                        yeni_extinf = extinf
+                    yeni_extinf = extinf
+
                 outfile.write(yeni_extinf + "\n")
                 if i + 1 < len(lines) and not lines[i + 1].startswith("#"):
                     outfile.write(stream_url + "\n")
@@ -133,7 +133,7 @@ with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
             else:
                 i += 1
 
-# Sayaçları kaydet
+# Tarihleri kaydet
 with open(yeni_takip_json, "w", encoding="utf-8") as jf:
     json.dump(yeni_dict_tmp, jf, ensure_ascii=False, indent=2)
 
