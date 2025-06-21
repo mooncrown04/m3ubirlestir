@@ -1,1 +1,33 @@
 
+name: M3U Birleştirici
+
+on:
+  schedule:
+    - cron: '0 2,14 * * *'  # Her gün 02:00 ve 14:00'de çalışır (UTC)
+  workflow_dispatch:
+
+jobs:
+  birlestir:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo'yu klonla
+        uses: actions/checkout@v4
+
+      - name: Python'u kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Bağımlılıkları kur
+        run: pip install requests
+
+      - name: M3U dosyalarını birleştir
+        run: python m3u_birlestirici.py
+
+      - name: Değişiklikleri commitle ve pusha gönder
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add birlesik.m3u
+          git commit -m "Otomatik m3u birleştirme güncellemesi" || echo "Değişiklik yok"
+          git push
