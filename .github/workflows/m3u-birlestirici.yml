@@ -4,7 +4,8 @@ on:
   schedule:
     - cron: '0 2,14 * * *'  # Her gün 02:00 ve 14:00'de çalışır (UTC)
   workflow_dispatch:         # Manuel başlatmaya izin verir
-
+permissions:
+  contents: write
 jobs:
   birlestir:
     runs-on: ubuntu-latest
