@@ -1,9 +1,9 @@
+
 import requests
 import os
-import re
 
 m3u_sources = [
-    ("https://dl.dropbox.com/scl/fi/dj74gt6awxubl4yqoho07/github.m3u?rlkey=m7pzzvk27d94bkfl9a98tluai", "moon"),
+     ("https://dl.dropbox.com/scl/fi/dj74gt6awxubl4yqoho07/github.m3u?rlkey=m7pzzvk27d94bkfl9a98tluai", "moon"),
     ("https://raw.githubusercontent.com/Zerk1903/zerkfilm/refs/heads/main/Filmler.m3u", "zerkfilm"),
     ("https://raw.githubusercontent.com/Lunedor/iptvTR/refs/heads/main/FilmArsiv.m3u", "iptvTR"),
 ]
@@ -23,7 +23,10 @@ def parse_m3u(filename):
         if line.startswith("#EXTINF"):
             last_extinf = line
         elif last_extinf and line and not line.startswith("#"):
-            kanal_set.add((last_extinf, line))
+            # group-title'ı görmezden gel, kalan EXTINF ve URL'yi anahtar olarak al
+            import re
+            extinf_core = re.sub(r'group-title="[^"]*"', '', last_extinf)
+            kanal_set.add((extinf_core.strip(), line))
             last_extinf = None
     return kanal_set
 
@@ -49,26 +52,22 @@ with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
             if line.startswith("#EXTINF"):
                 extinf = line
                 stream_url = lines[i + 1].strip() if i + 1 < len(lines) else ""
-                anahtar = (extinf, stream_url)
+                import re
+                extinf_core = re.sub(r'group-title="[^"]*"', '', extinf)
+                anahtar = (extinf_core.strip(), stream_url)
                 toplam_kanal_say += 1
 
-                # Sadece yeni eklenen kanallar için group-title'a [kaynak YENİ] ekle
                 if anahtar not in eski_kanallar:
-                    if 'group-title="' in extinf:
-                        # Orijinal group-title'ın sonuna [kaynak YENİ] ekle
-                        yeni_extinf = re.sub(
-                            r'(group-title=")([^"]*)(")',
-                            lambda m: f'{m.group(1)}{m.group(2)} [{source_name} YENİ]{m.group(3)}',
-                            extinf
-                        )
-                    else:
-                        # group-title yoksa ekle
-                        yeni_extinf = extinf.replace(
-                            "#EXTINF:-1", f'#EXTINF:-1 group-title="[{source_name} YENİ]"'
-                        )
+                    group_title = f'group-title="[{source_name} YENİ]"'
                     yeni_kanal_say += 1
                 else:
-                    yeni_extinf = extinf
+                    group_title = f'group-title="[{source_name}]"'
+
+                # Eski group-title'ı silip yenisini ekle
+                if 'group-title="' in extinf:
+                    yeni_extinf = re.sub(r'group-title="[^"]*"', group_title, extinf)
+                else:
+                    yeni_extinf = extinf.replace("#EXTINF:-1", f'#EXTINF:-1 {group_title}')
                 outfile.write(yeni_extinf + "\n")
                 if i + 1 < len(lines) and not lines[i + 1].startswith("#"):
                     outfile.write(stream_url + "\n")
@@ -80,5 +79,6 @@ with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
                 i += 1
 
 print(f"Toplam kanal: {toplam_kanal_say}")
+print(f"Yeni eklenen kanal: {yeni_kanal_say}")
 print(f"Yeni eklenen kanal: {yeni_kanal_say}")
 print(f"Yeni eklenen kanal: {yeni_kanal_say}")
