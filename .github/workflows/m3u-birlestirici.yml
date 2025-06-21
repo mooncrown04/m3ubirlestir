@@ -1,10 +1,9 @@
-
-name: M3U Birlestirici
+name: M3U Birleştirici
 
 on:
   schedule:
     - cron: '0 2,14 * * *'  # Her gün 02:00 ve 14:00'de çalışır (UTC)
-  workflow_dispatch:
+  workflow_dispatch:         # Manuel başlatmaya izin verir
 
 jobs:
   birlestir:
