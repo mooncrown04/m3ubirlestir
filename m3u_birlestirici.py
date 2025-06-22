@@ -4,9 +4,10 @@ import re
 import json
 from datetime import datetime
 
-m3u_sources = [("https://dl.dropbox.com/scl/fi/dj74gt6awxubl4yqoho07/github.m3u?rlkey=m7pzzvk27d94bkfl9a98tluai", "moon"),
-               ("https://raw.githubusercontent.com/Lunedor/iptvTR/refs/heads/main/FilmArsiv.m3u", "iptvTR"),
-                ("https://raw.githubusercontent.com/Zerk1903/zerkfilm/refs/heads/main/Filmler.m3u", "zerkfilm"),
+m3u_sources = [
+    ("https://dl.dropbox.com/scl/fi/dj74gt6awxubl4yqoho07/github.m3u?rlkey=m7pzzvk27d94bkfl9a98tluai", "moon"),
+    ("https://raw.githubusercontent.com/Lunedor/iptvTR/refs/heads/main/FilmArsiv.m3u", "iptvTR"),
+    ("https://raw.githubusercontent.com/Zerk1903/zerkfilm/refs/heads/main/Filmler.m3u", "zerkfilm"),
 ]
 
 birlesik_dosya = "birlesik.m3u"
@@ -53,7 +54,6 @@ def str2anahtar(s):
     k, v = s.split("||", 1)
     return (k, v)
 
-# Şimdiki tarih
 bugun = datetime.now().strftime("%Y-%m-%d")
 
 with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
@@ -86,20 +86,11 @@ with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
                 m = re.search(r'group-title="(.*?)"', extinf)
                 orijinal_group_title = m.group(1) if m else ""
 
-                # Yeni eklenen link mi?
                 if anahtar not in eski_kanallar:
+                    # yeni link
                     yeni_kanal_say += 1
                     tarih = bugun
                     yeni_dict_tmp[anahtar_str] = tarih
-                else:
-                    # daha önce kayıtlıysa eski tarihi koru
-                    tarih = yeni_dict.get(anahtar_str, "")
-                    if tarih:
-                        yeni_dict_tmp[anahtar_str] = tarih
-
-                # Group-title eklemesi
-                if anahtar not in eski_kanallar:
-                    # yeni eklenen, bugünün tarihiyle
                     yeni_group_title = orijinal_group_title.strip()
                     if yeni_group_title:
                         yeni_group_title += f" [{source_name} {tarih}]"
@@ -108,20 +99,19 @@ with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
                     yeni_extinf = re.sub(r'group-title="[^"]*"', f'group-title="{yeni_group_title}"', extinf)
                     if 'group-title="' not in yeni_extinf:
                         yeni_extinf = extinf.replace("#EXTINF:-1", f'#EXTINF:-1 group-title="{yeni_group_title}"')
-                elif tarih:
-                    # eski ama daha önce yeni olarak eklenmişse tarihi koru
-                    yeni_group_title = orijinal_group_title.strip()
-                    if yeni_group_title:
-                        # eğer tarih zaten varsa tekrar ekle
-                        if not re.search(rf"\[{re.escape(source_name)} \d{{4}}-\d{{2}}-\d{{2}}\]", yeni_group_title):
-                            yeni_group_title += f" [{source_name} {tarih}]"
-                    else:
-                        yeni_group_title = f"[{source_name} {tarih}]"
-                    yeni_extinf = re.sub(r'group-title="[^"]*"', f'group-title="{yeni_group_title}"', extinf)
-                    if 'group-title="' not in yeni_extinf:
-                        yeni_extinf = extinf.replace("#EXTINF:-1", f'#EXTINF:-1 group-title="{yeni_group_title}"')
                 else:
-                    yeni_extinf = extinf
+                    # eski link, eski tarih ve eski group-title korunacak
+                    tarih = yeni_dict.get(anahtar_str, "")
+                    if tarih:
+                        yeni_dict_tmp[anahtar_str] = tarih
+                    eski_group_title = eski_group_titles.get(anahtar, "")
+                    if eski_group_title:
+                        # eski group-title'ı doğrudan kullan
+                        yeni_extinf = re.sub(r'group-title="[^"]*"', f'group-title="{eski_group_title}"', extinf)
+                        if 'group-title="' not in yeni_extinf:
+                            yeni_extinf = extinf.replace("#EXTINF:-1", f'#EXTINF:-1 group-title="{eski_group_title}"')
+                    else:
+                        yeni_extinf = extinf
 
                 outfile.write(yeni_extinf + "\n")
                 if i + 1 < len(lines) and not lines[i + 1].startswith("#"):
