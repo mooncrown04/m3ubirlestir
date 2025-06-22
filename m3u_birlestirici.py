@@ -12,6 +12,7 @@ m3u_sources = [
 
 birlesik_dosya = "birlesik.m3u"
 kayit_json_dir = "kayit_json"
+ana_kayit_json = os.path.join(kayit_json_dir, "birlesik_links.json")
 if not os.path.exists(kayit_json_dir):
     os.makedirs(kayit_json_dir)
 
@@ -71,20 +72,16 @@ def get_original_group_title(extinf_line):
         return m.group(1)
     return None
 
-# --- Ana veri tabanı: önceki birleşik dosyanın kayıtları ---
-ana_kayit_json = "kayit_json/birlesik_links.json"
-ana_link_dict = load_json(ana_kayit_json)
-
 today = datetime.now().strftime("%Y-%m-%d")
 now_full = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 today_obj = datetime.strptime(today, "%Y-%m-%d")
 
+# Ana birleşik linkler (tüm kaynaklardan global olarak) jsonu yükle
+ana_link_dict = load_json(ana_kayit_json)
+
 with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
     outfile.write("#EXTM3U\n")
     for m3u_url, source_name in m3u_sources:
-        json_file = os.path.join(kayit_json_dir, f"{source_name}.json")
-        link_dict = load_json(json_file)
-
         try:
             req = requests.get(m3u_url, timeout=20)
             req.raise_for_status()
@@ -94,30 +91,19 @@ with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
         lines = req.text.splitlines()
         kanal_list = parse_m3u_lines(lines)
 
-        yeni_link_dict = dict(link_dict)
         yeni_kanallar, eski_kanallar = [], []
 
         for (key, extinf, url) in kanal_list:
-            dict_key = f"{key[0]}|{key[1]}"
-
+            dict_key = f"{key[0]}|{key[1]}"  # kanal adı + url
             extinf = ensure_group_title(extinf, source_name)
-
-            # --- 1. Öncelik: ana kayıtta var mı (yani daha önce birlesik.m3u'da var mı?) ---
+            # Eğer ana json'da varsa: zaman etiketi değişmesin
             if dict_key in ana_link_dict:
                 ilk_tarih = ana_link_dict[dict_key]["tarih"]
-                ilk_tarih_saat = ana_link_dict[dict_key].get("tarih_saat", ilk_tarih + " 00:00:00")
-                yeni_link_dict[dict_key] = {"tarih": ilk_tarih, "tarih_saat": ilk_tarih_saat}
+                ilk_tarih_saat = ana_link_dict[dict_key]["tarih_saat"]
                 eski_kanallar.append((key, extinf, url, ilk_tarih, ilk_tarih_saat))
-            # --- 2. Sadece kaynağın jsonunda var mı? (ilk defa birleşik dosyada olacak) ---
-            elif dict_key in link_dict:
-                ilk_tarih = link_dict[dict_key]["tarih"]
-                ilk_tarih_saat = link_dict[dict_key].get("tarih_saat", ilk_tarih + " 00:00:00")
-                yeni_link_dict[dict_key] = {"tarih": ilk_tarih, "tarih_saat": ilk_tarih_saat}
-                eski_kanallar.append((key, extinf, url, ilk_tarih, ilk_tarih_saat))
-            # --- 3. Yepyeni link, hiç bir kayıtta yok ---
             else:
-                yeni_link_dict[dict_key] = {"tarih": today, "tarih_saat": now_full}
-                ana_link_dict[dict_key] = {"tarih": today, "tarih_saat": now_full}  # ana kayıta da ekle!
+                # Sadece yeni eklenenler zaman etiketi alır
+                ana_link_dict[dict_key] = {"tarih": today, "tarih_saat": now_full}
                 yeni_kanallar.append((key, extinf, url, today, now_full))
 
         # YENİ grup
@@ -146,7 +132,6 @@ with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
             original_group = get_original_group_title(extinf)
             # 7 gün veya daha fazla geçtiyse
             if (today_obj - tarih_obj).days >= 7:
-                # Eski group-title varsa yanına [source_name] ekle
                 if original_group and f"[{source_name}]" not in original_group:
                     new_group_title = f'{original_group}[{source_name}]'
                 else:
@@ -154,7 +139,6 @@ with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
                 extinf_clean = re.sub(r'group-title="[^"]*"', f'group-title="{new_group_title}"', extinf)
                 kanal_isim = f'{ilk_ad} [{tarih_str}]'
             else:
-                # 7 günden küçükse, saat göster
                 saat_str = format_tr_datehour(eklenme_tarihi_saat)
                 group_title = f'[YENİ] [{source_name}]'
                 extinf_clean = re.sub(r'group-title="[^"]*"', f'group-title="{group_title}"', extinf)
@@ -168,7 +152,5 @@ with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
                 outfile.write(extinf + "\n")
                 outfile.write(url + "\n")
 
-        save_json(yeni_link_dict, json_file)
-
-# Son olarak ana referans kaydı güncelle
+# Ana kayıt dosyasını güncelle
 save_json(ana_link_dict, ana_kayit_json)
