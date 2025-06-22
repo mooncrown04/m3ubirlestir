@@ -1,19 +1,28 @@
 import requests
 import os
 import re
-from datetime import datetime
+import json
+from datetime import datetime, timedelta
 
 m3u_sources = [
-    ("https://dl.dropbox.com/scl/fi/dj74gt6awxubl4yqoho07/github.m3u?rlkey=m7pzzvk27d94bkfl9a98tluai", "moon"),
-    ("https://raw.githubusercontent.com/Lunedor/iptvTR/refs/heads/main/FilmArsiv.m3u", "iptvTR"),
-    ("https://raw.githubusercontent.com/Zerk1903/zerkfilm/refs/heads/main/Filmler.m3u", "zerkfilm"),
+    (
+        "https://dl.dropbox.com/scl/fi/dj74gt6awxubl4yqoho07/github.m3u?rlkey=m7pzzvk27d94bkfl9a98tluai",
+        "moon"
+    ),
+    (
+        "https://raw.githubusercontent.com/Lunedor/iptvTR/refs/heads/main/FilmArsiv.m3u",
+        "iptvTR"
+    ),
+    (
+        "https://raw.githubusercontent.com/Zerk1903/zerkfilm/refs/heads/main/Filmler.m3u",
+        "zerkfilm"
+    ),
 ]
 
 birlesik_dosya = "birlesik.m3u"
-eski_kayitlar_klasoru = "eski_kayitlar"  # Her kaynak için ayrı eski dosya tutulacak
-
-if not os.path.exists(eski_kayitlar_klasoru):
-    os.makedirs(eski_kayitlar_klasoru)
+link_kayit_dir = "link_kayitlar"
+if not os.path.exists(link_kayit_dir):
+    os.makedirs(link_kayit_dir)
 
 def extract_channel_key(extinf_line, url_line):
     match = re.match(r'#EXTINF:.*?,(.*)', extinf_line)
@@ -22,7 +31,7 @@ def extract_channel_key(extinf_line, url_line):
     return (channel_name, url)
 
 def parse_m3u_lines(lines):
-    kanal_set = set()
+    kanal_list = []
     i = 0
     while i < len(lines):
         line = lines[i].strip()
@@ -31,27 +40,32 @@ def parse_m3u_lines(lines):
             if i + 1 < len(lines):
                 url_line = lines[i + 1].strip()
                 anahtar = extract_channel_key(extinf_line, url_line)
-                kanal_set.add(anahtar)
+                kanal_list.append((anahtar, extinf_line, url_line))
             i += 2
         else:
             i += 1
-    return kanal_set
+    return kanal_list
 
-def read_lines(filename):
-    if not os.path.exists(filename):
-        return []
-    with open(filename, encoding="utf-8") as f:
-        return f.readlines()
+def load_json(filename):
+    if os.path.exists(filename):
+        with open(filename, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+def save_json(data, filename):
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
 bugun = datetime.now().strftime("%Y-%m-%d")
+bugun_obj = datetime.strptime(bugun, "%Y-%m-%d")
 header_lines = ["#EXTM3U\n"]
 all_channels = []
 
 for m3u_url, source_name in m3u_sources:
-    # Kaynak için eski kayıt dosyası
-    eski_dosya = os.path.join(eski_kayitlar_klasoru, f"{source_name}.m3u")
-    eski_lines = read_lines(eski_dosya)
-    eski_kanallar = parse_m3u_lines(eski_lines)
+    # Her kaynak için link kayıt dosyası
+    link_json_file = os.path.join(link_kayit_dir, f"{source_name}.json")
+    link_dict = load_json(link_json_file)  # {(kanal_adı, url): eklenme_tarihi}
+    link_date_map = {tuple(eval(k)): v for k, v in link_dict.items()}  # string -> tuple
 
     try:
         response = requests.get(m3u_url, timeout=20)
@@ -61,38 +75,49 @@ for m3u_url, source_name in m3u_sources:
         continue
 
     lines = response.text.splitlines()
-    yeni_kanallar = parse_m3u_lines(lines)
+    kanal_list = parse_m3u_lines(lines)
 
-    # YENİ EKLENENLERİ BUL
-    yeni_eklenen_kanallar = yeni_kanallar - eski_kanallar
-    yeni_bu_kaynak = len(yeni_eklenen_kanallar)
+    yeni_kanallar = []
+    eski_kanallar = []
+    yeni_link_date_map = dict(link_date_map)  # yeni json için
 
-    # Bilgi satırı
-    if yeni_bu_kaynak > 0:
-        group_title_info = f"[{source_name}] [ {yeni_bu_kaynak} Yeni Link Eklendi  {bugun} ]"
-    else:
-        group_title_info = f"[{source_name}] [ Yeni Link Yok {bugun} ]"
-
-    header_lines.append(f'#EXTINF:-1 group-title="{group_title_info}",\n{m3u_url}\n')
-
-    # Kanalları toplu olarak ekle
-    i = 0
-    while i < len(lines):
-        line = lines[i].strip()
-        if line.startswith("#EXTINF"):
-            extinf = line
-            stream_url = lines[i + 1].strip() if i + 1 < len(lines) else ""
-            all_channels.append((extinf, stream_url))
-            i += 2
+    for (key, extinf, url) in kanal_list:
+        if key not in link_date_map:
+            yeni_kanallar.append((key, extinf, url))
+            yeni_link_date_map[str(key)] = bugun
         else:
-            i += 1
+            eski_kanallar.append((key, extinf, url))
 
-    # Güncel listeyi eski dosyaya yaz (bir sonraki çalışmaya hazırlık)
-    with open(eski_dosya, "w", encoding="utf-8") as f:
-        for extinf, stream_url in zip(lines[::2], lines[1::2]):
-            f.write(extinf.strip() + "\n")
-            f.write(stream_url.strip() + "\n")
+    # 1 haftadan eski "yeni" linkler orijinal gruba alınacak
+    yeni_grup_satirlari = []
+    orijinal_grup_satirlari = []
 
+    for (key, extinf, url) in kanal_list:
+        eklenme_tarihi = yeni_link_date_map.get(str(key), bugun)
+        tarih_obj = datetime.strptime(eklenme_tarihi, "%Y-%m-%d")
+        if (bugun_obj - tarih_obj).days < 7:
+            # Hala yeni
+            yeni_grup_satirlari.append((extinf, url, eklenme_tarihi))
+        else:
+            # Artık orijinal gruba
+            orijinal_grup_satirlari.append((extinf, url, eklenme_tarihi))
+
+    # YENİ group-title
+    if yeni_grup_satirlari:
+        header_lines.append(f'#EXTINF:-1 group-title="[YENİ] [{source_name}] [Eklenme Tarihleri]",\n{m3u_url}\n')
+        for extinf, url, eklenme_tarihi in yeni_grup_satirlari:
+            # Eklenme tarihi extinf'e eklenebilir
+            all_channels.append((f'{extinf} EklenmeTarihi="{eklenme_tarihi}"', url))
+
+    # Orijinal group-title
+    header_lines.append(f'#EXTINF:-1 group-title="[{source_name}] [Tüm Kanallar]",\n{m3u_url}\n')
+    for extinf, url, eklenme_tarihi in orijinal_grup_satirlari:
+        all_channels.append((f'{extinf} EklenmeTarihi="{eklenme_tarihi}"', url))
+
+    # Kayıt güncelle
+    save_json({str(k): v for k, v in yeni_link_date_map.items()}, link_json_file)
+
+# Birleşik dosyayı yaz
 with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
     for line in header_lines:
         outfile.write(line)
