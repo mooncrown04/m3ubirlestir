@@ -47,7 +47,6 @@ def save_json(data, filename):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 def format_tr_date(date_str):
-    # "yyyy-mm-dd" -> "g.m.yyyy"
     d = datetime.strptime(date_str, "%Y-%m-%d")
     return f"{d.day}.{d.month}.{d.year}"
 
@@ -57,9 +56,7 @@ header_lines = ["#EXTM3U\n"]
 all_channels = []
 
 for m3u_url, source_name in m3u_sources:
-    # Her kaynak için kayıt dosyası
     json_file = os.path.join(kayit_json_dir, f"{source_name}.json")
-    # { "<kanal_adı>|<url>": {"tarih": "yyyy-mm-dd"} }
     link_dict = load_json(json_file)
 
     try:
@@ -71,7 +68,7 @@ for m3u_url, source_name in m3u_sources:
     lines = req.text.splitlines()
     kanal_list = parse_m3u_lines(lines)
 
-    yeni_link_dict = dict(link_dict)  # yeni json'a yazılacak
+    yeni_link_dict = dict(link_dict)
     yeni_kanallar, eski_kanallar = [], []
 
     for (key, extinf, url) in kanal_list:
@@ -88,30 +85,29 @@ for m3u_url, source_name in m3u_sources:
     for (key, extinf, url, eklenme_tarihi) in yeni_kanallar + eski_kanallar:
         ilk_ad = key[0]
         tarih_obj = datetime.strptime(eklenme_tarihi, "%Y-%m-%d")
-        # 7 gün kuralı
+        tarih_str = format_tr_date(eklenme_tarihi)
         if (today_obj - tarih_obj).days < 7:
-            # Yeni grupta tutulacak
+            # YENİ grubunda tutulacak
             group_title = f'[YENİ] [{source_name}]'
-            kanal_isim = f'{ilk_ad} [{format_tr_date(eklenme_tarihi)}]'
-            # group-title ile extinf'de eski group-title varsa çıkar
+            kanal_isim = f'{ilk_ad} [{tarih_str}]'
             extinf_clean = re.sub(r'group-title="[^"]*"', f'group-title="{group_title}"', extinf)
             extinf_clean = re.sub(r',.*', f',{kanal_isim}', extinf_clean)
             yeni_grup_satirlari.append((extinf_clean, url))
         else:
             # Orijinal grubunda tutulacak
             group_title = f'{source_name}'
-            kanal_isim = f'{ilk_ad} [{format_tr_date(eklenme_tarihi)}]'
+            kanal_isim = f'{ilk_ad} [{tarih_str}]'
             extinf_clean = re.sub(r'group-title="[^"]*"', f'group-title="{group_title}"', extinf)
             extinf_clean = re.sub(r',.*', f',{kanal_isim}', extinf_clean)
             normal_grup_satirlari.append((extinf_clean, url))
 
-    # --- YENİ GRUP başlığı ---
+    # --- YENİ GRUP başlığı (sadece yeni varsa) ---
     if yeni_grup_satirlari:
         header_lines.append(f'#EXTINF:-1 group-title="[YENİ] [{source_name}], ",\n')
         for extinf, url in yeni_grup_satirlari:
             all_channels.append((extinf, url))
 
-    # --- NORMAL GRUP başlığı ---
+    # --- NORMAL GRUP başlığı (sadece varsa) ---
     if normal_grup_satirlari:
         header_lines.append(f'#EXTINF:-1 group-title="[{source_name}], ",\n')
         for extinf, url in normal_grup_satirlari:
