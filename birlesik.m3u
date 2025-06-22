@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="[YENİ] [moon]",
+#EXTINF:-1 group-title="[moon]",
 #EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="[YENİ] [moon]",asillim [22.6.2025 14:07]
 https://koprulu4.global.ssl.fastly.net/ythls/?kanal_id=Udsa6zcRug6Hqp1UX_FdyUeBg.m3u8
 #EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="[YENİ] [moon]",sa44444444444 [22.6.2025 14:07]
@@ -12,6 +12,8 @@ https://koprulu4.global.ssl.fastly.net/ythls/?kanal_id=UCV6zcRug6Hqp1UX_FdyUeBg.
 https://vidmody.com/mm/tt1553516/main/index-v1-a1.m3u8
 #EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="[YENİ] [moon]",sar4 [22.6.2025 14:07]
 https://koprulu4.global.ssl.fastly.net/ythls/?kanal_id=UCV6zcRug6Hqp1UX_FdyUeBg.m3u8
+#EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="[YENİ] [moon]",kar2 [22.6.2025 14:07]
+https://vidmody.com/mm/tt1553516/main/index-v1-a1.m3u8
 #EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="[YENİ] [moon]",car4 [22.6.2025 14:07]
 https://koprulu4.global.ssl.fastly.net/ythls/?kanal_id=UCV6zcRug6Hqp1UX_FdyUeBg.m3u8
 #EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="[YENİ] [moon]",sar [22.6.2025 14:07]
@@ -340,10 +342,15 @@ http://batman2.xyz:8080/korhansimsekbaba3401/kPGin3i6eGMTxg/128811
 http://batman2.xyz:8080/korhansimsekbaba3401/kPGin3i6eGMTxg/128812
 #EXTINF:-1 tvg-id="star tv hd" tvg-name="TR: STAR TV FHD Ⓗ" tvg-logo="" group-title="[YENİ] [moon]",TR: STAR TV FHD Ⓗ [22.6.2025 14:07]
 http://batman2.xyz:8080/korhansimsekbaba3401/kPGin3i6eGMTxg/128813
-#EXTINF:-1 group-title="[moon]",
-#EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="[YENİ] [moon]",kar2 [22.6.2025 14:07]
-https://vidmody.com/mm/tt1553516/main/index-v1-a1.m3u8
-#EXTINF:-1 group-title="[YENİ] [iptvTR]",
+#EXTINF:-1 group-title="[iptvTR]",
+#EXTINF:-1 group-title="[YENİ] [iptvTR]" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/makayla-nin-dunyasi-harflerin-dili-makayla-s-voice-a-letter-to-the-world-79637.jpg",Makayla'nın Dünyası: Harflerin Dili [22.6.2025 14:07]
+https://s12.pixtureup.org/mb/GJSeLKyfLKZhIz9cL2HhDF5ZMKE0MKVhqT8hqTuyYyqipzkxYwVjZwDhI0IPYHEZYwRjBQOjYxEIDHjd0zxpTy4qUIlMKIjYz9lMjs0xi12vr1
+#EXTINF:-1 group-title="[YENİ] [iptvTR]" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/kabin-bagaji-carry-on-51265.jpg",Kabin Bagajı [22.6.2025 14:07]
+https://s16.photogrids.site/mk/D2SlpaxgG24hZwNlAP5KEHVgERjhZGN4ZUNhESIOGNd0zxpTuiqT9apzyxpl5mnKEys0xi16vr1
+#EXTINF:-1 group-title="[YENİ] [iptvTR]" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/fullhd-tatil-fiyaskosu-disaster-holiday.jpg",Tatil Fiyaskosu [22.6.2025 14:07]
+https://s14.imagesbox.cloud/ms/ETymLKA0MKVhFT9fnJEurF4lZQV0YyqSDv1RGP4kZQtjpP5HHyAIDtd0zxnJ1uM2ImLz94YzAfo3Ixs0xi14vr1
+#EXTINF:-1 group-title="[YENİ] [iptvTR]" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/tobin-koprusu-aftermath-71167.jpg",Tobin Köprüsü [22.6.2025 14:07]
+https://s4.picogallery.org/mg/DJM0MKWgLKEbYwVjZwDhI0IPYHEZYwRjBQOjYxEIDHjd0zxpTywo2quoTkypaxho3Was0xi4vr1
 #EXTINF:-1 group-title="[YENİ] [iptvTR]" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/red-one-kod-adi-kirmizi-7121.jpg",Red One [22.6.2025 14:07]
 https://s2.picogallery.org/m5/HzIxYx9hMF4lZQV0YyqSDv1RGP4kZQtjpP5RIHSZd0zxpTywo2quoTkypaxho3Was0xi2vr1
 #EXTINF:-1 group-title="[YENİ] [iptvTR]" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/super-maymun-shimmy-shimmy-the-first-monkey-king-23679.jpg",Süper Maymun Shimmy [22.6.2025 14:07]
@@ -15122,16 +15129,7 @@ https://i6.funxio.buzz/fv/NVDqBft0WfN0fbfP1q3PDwvZ3ZQ10PwZmRgFfjHeYkvFiZK1Vy8PGm
 https://i3.videezy.buzz/fb/NRDP0CU0bVmAmDAgjVmZJePYAg0pGmfFX1lPh2z3NtNd2dXYEgdg2HFZg8Xvr1
 #EXTINF:-1 group-title="[YENİ] [iptvTR]" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/fullhd-dulcinea-izle.jpg",Dulcinea [22.6.2025 14:07]
 https://i7.bauernfeind.buzz/f2/NNOxN9mOAXjNYAmDAgjVmZH30FZ7pFAalph2z3NNONJIyxMrNpJSJDXMVp4YBipmX5nYhjfFWYgdgdlFEiRmAi0FX3FGfb0Fvr1
-#EXTINF:-1 group-title="[iptvTR]",
-#EXTINF:-1 group-title="[YENİ] [iptvTR]" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/makayla-nin-dunyasi-harflerin-dili-makayla-s-voice-a-letter-to-the-world-79637.jpg",Makayla'nın Dünyası: Harflerin Dili [22.6.2025 14:07]
-https://s12.pixtureup.org/mb/GJSeLKyfLKZhIz9cL2HhDF5ZMKE0MKVhqT8hqTuyYyqipzkxYwVjZwDhI0IPYHEZYwRjBQOjYxEIDHjd0zxpTy4qUIlMKIjYz9lMjs0xi12vr1
-#EXTINF:-1 group-title="[YENİ] [iptvTR]" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/kabin-bagaji-carry-on-51265.jpg",Kabin Bagajı [22.6.2025 14:07]
-https://s16.photogrids.site/mk/D2SlpaxgG24hZwNlAP5KEHVgERjhZGN4ZUNhESIOGNd0zxpTuiqT9apzyxpl5mnKEys0xi16vr1
-#EXTINF:-1 group-title="[YENİ] [iptvTR]" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/fullhd-tatil-fiyaskosu-disaster-holiday.jpg",Tatil Fiyaskosu [22.6.2025 14:07]
-https://s14.imagesbox.cloud/ms/ETymLKA0MKVhFT9fnJEurF4lZQV0YyqSDv1RGP4kZQtjpP5HHyAIDtd0zxnJ1uM2ImLz94YzAfo3Ixs0xi14vr1
-#EXTINF:-1 group-title="[YENİ] [iptvTR]" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/tobin-koprusu-aftermath-71167.jpg",Tobin Köprüsü [22.6.2025 14:07]
-https://s4.picogallery.org/mg/DJM0MKWgLKEbYwVjZwDhI0IPYHEZYwRjBQOjYxEIDHjd0zxpTywo2quoTkypaxho3Was0xi4vr1
-#EXTINF:-1 group-title="[YENİ] [zerkfilm]",
+#EXTINF:-1 group-title="[zerkfilm]",
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BODIxNzYxNDEzNl5BMl5BanBnXkFtZTgwMjA1NTM2MTI@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Meraklı Maymun (2006) [22.6.2025 14:07]
 https://pixeldrain.com/api/file/CuWuYgiM
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg4NzQ1ODcxMF5BMl5BanBnXkFtZTcwMDg0MTU2Mw@@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Alfa ve Omega: Eve Dönüş Macerası (2010) [22.6.2025 14:07]
@@ -15332,6 +15330,8 @@ https://vidmody.com/vs/tt30292390
 https://vidmody.com/vs/tt1655389
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMDM0YTkzNTgtZGQ3Yy00MGFiLTk2NTQtODZkYWRjYzYwMGNlXkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Omuz omuza (1998) [22.6.2025 14:07]
 https://vidmody.com/vs/tt0120686
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMDM0YTkzNTgtZGQ3Yy00MGFiLTk2NTQtODZkYWRjYzYwMGNlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Omuz omuza (1998) [22.6.2025 14:07]
+https://vidmody.com/vs/tt0120686
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMDNkNmNiYzYtYWY0YS00NWEwLTgwMWUtYjM0M2E4Nzk3MzhmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Son Umut (2006) [22.6.2025 14:07]
 https://vidmody.com/vs/tt0206634
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMDQzOTUxZGUtMjU5MS00OTY0LWI5ZDUtYzgyMTRjNGRhYWM1XkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Özel Savaş (2018) [22.6.2025 14:07]
@@ -15466,6 +15466,8 @@ https://vidmody.com/vs/tt2139555
 https://vidmody.com/vs/tt0850253
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMjk2MDg4ZDgtZjkxMC00NmRkLTg0NDEtNDY5NTIxYWYyMWU3XkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",The Alto Knights (2025) [22.6.2025 14:07]
 https://pixeldrain.com/api/file/o8SccvKs
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMjk2MDg4ZDgtZjkxMC00NmRkLTg0NDEtNDY5NTIxYWYyMWU3XkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",The Alto Knights (2025) [22.6.2025 14:07]
+https://pixeldrain.com/api/file/o8SccvKs
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMjk5MzdhYWMtOWU3Yi00MTE5LWEyYTEtOGU5NWM0NWNmZDE1XkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Maverick (1994) [22.6.2025 14:07]
 https://vidmody.com/vs/tt0110478
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMjkyMTE1OTYwNF5BMl5BanBnXkFtZTcwMDIxODYzMw@@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Yıldız tozu (2007) [22.6.2025 14:07]
@@ -15594,6 +15596,8 @@ https://vidmody.com/vs/tt0088944
 https://vidmody.com/vs/tt3416532
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg2MjMwMDkyMF5BMl5BanBnXkFtZTgwNjA4MTY2ODE@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Confirmation (2016) [22.6.2025 14:07]
 https://vidmody.com/vs/tt4608402
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg2MjMwMDkyMF5BMl5BanBnXkFtZTgwNjA4MTY2ODE@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Confirmation (2016) [22.6.2025 14:07]
+https://vidmody.com/vs/tt4608402
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg2MzYzNzgzOF5BMl5BanBnXkFtZTgwOTg4NzQ4OTE@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Snowden 2016 [22.6.2025 14:07]
 https://vidmody.com/vs/tt3774114
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg2NDk3Mjg3MF5BMl5BanBnXkFtZTYwMDQyODU5._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Koca bebek Joe (1998) [22.6.2025 14:07]
@@ -15694,6 +15698,8 @@ https://vidmody.com/vs/tt1078588
 https://vidmody.com/vs/tt2674426
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ2NjMzMzIzN15BMl5BanBnXkFtZTcwMDM2MzU3Ng@@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Bahçemdeki ateş böcekleri (2008) [22.6.2025 14:07]
 https://vidmody.com/vs/tt0961108
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ3NzA1MTY3MV5BMl5BanBnXkFtZTgwNzE2Mzg5MTE@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Snowpiercer 2013 [22.6.2025 14:07]
+https://vidmody.com/vs/tt1706620
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ3NzA1MTY3MV5BMl5BanBnXkFtZTgwNzE2Mzg5MTE@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Snowpiercer 2013 [22.6.2025 14:07]
 https://vidmody.com/vs/tt1706620
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ3NzA1MTY3MV5BMl5BanBnXkFtZTgwNzE2Mzg5MTE@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Kar Küreyici (2013) [22.6.2025 14:07]
@@ -15836,6 +15842,10 @@ https://vidmody.com/vs/tt1646971
 https://vidmody.com/vs/tt20255354
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMzMyZTM1MTMtNDdjOS00NzIzLTkxY2QtZTU4OGYxOTUwNDMxXkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Happy Gilmore (1996) [22.6.2025 14:07]
 https://pixeldrain.com/api/file/TgxFUWUQ
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMzMyZTM1MTMtNDdjOS00NzIzLTkxY2QtZTU4OGYxOTUwNDMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Happy Gilmore (1996) [22.6.2025 14:07]
+https://pixeldrain.com/api/file/TgxFUWUQ
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMzNiMGViZGQtNTliNS00MjE5LWE5N2EtZDQwMmQwOTVkYjA3XkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Dönüşüm 2024 [22.6.2025 14:07]
+https://vidmody.com/vs/tt20113412
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMzNiMGViZGQtNTliNS00MjE5LWE5N2EtZDQwMmQwOTVkYjA3XkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Dönüşüm 2024 [22.6.2025 14:07]
 https://vidmody.com/vs/tt20113412
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMzQyYzhkZDktZDE3NS00YTA1LWI4OTItNWMwMmU1MWE5Y2E1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Yeraltı Canavarı 3: Canavarın Dönüşü (2001) [22.6.2025 14:07]
@@ -15909,6 +15919,8 @@ https://vidmody.com/vs/tt0095882
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNDQ3NTEzMzktNTdmOS00MWUxLTk1ODgtMWJhN2RlODQzYzNjXkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Kaos Kardeşler ve Penguen Paul 2024 [22.6.2025 14:07]
 https://vidmody.com/vs/tt6647982
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNDRjY2E0ZmEtN2QwNi00NTEwLWI3MWItODNkMGYwYWFjNGE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Kaptan Amerika Cesur Yeni Dünya 2025 [22.6.2025 14:07]
+https://vidmody.com/vs/tt14513804
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNDRjY2E0ZmEtN2QwNi00NTEwLWI3MWItODNkMGYwYWFjNGE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Kaptan Amerika: Cesur Yeni Dünya 2025 [22.6.2025 14:07]
 https://vidmody.com/vs/tt14513804
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNDRjY2E0ZmEtN2QwNi00NTEwLWI3MWItODNkMGYwYWFjNGE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Kaptan Amerika: Cesur Yeni Dünya 2025 [22.6.2025 14:07]
 https://vidmody.com/vs/tt14513804
@@ -16040,6 +16052,8 @@ https://vidmody.com/vs/tt0138704
 https://vidmody.com/vs/tt1160419
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNWNhYjIxOTUtZDRmNC00NGFkLWEyNTMtN2NiYmViMjRiYzEyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Uyurgezer (2008) [22.6.2025 14:07]
 https://vidmody.com/vs/tt0888693
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNWNhYjIxOTUtZDRmNC00NGFkLWEyNTMtN2NiYmViMjRiYzEyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Uyurgezer (2008) [22.6.2025 14:07]
+https://vidmody.com/vs/tt0888693
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNWQ4ZjQ1MDQtMDBiMS00OGEwLTk3OWQtMWNjY2MyZmJjOGM0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Seven Veils (2023) [22.6.2025 14:07]
 https://pixeldrain.com/api/file/n3ShouaS
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNWQ5OGQ3MjgtZTFmYi00OTYzLWFiMGUtN2YxMDk5YmE4YjQxXkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",We Kill Them All 2025 [22.6.2025 14:07]
@@ -16110,12 +16124,16 @@ https://pixeldrain.com/api/file/4zNDSx6a
 https://vidmody.com/vs/tt2866360
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzQ5ODE4NTcxNV5BMl5BanBnXkFtZTgwNjkyNDQ0MDE@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Aile Sırları (2013) [22.6.2025 14:07]
 https://vidmody.com/vs/tt1322269
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzQ5ODE4NTcxNV5BMl5BanBnXkFtZTgwNjkyNDQ0MDE@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Aile Sırları (2013) [22.6.2025 14:07]
+https://vidmody.com/vs/tt1322269
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzQwNzI3NzMtMGQ1Ny00NzU0LWIxMDUtMTNjMDc5M2I5NjQ0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Tanrının vadisinde (2007) [22.6.2025 14:07]
 https://vidmody.com/vs/tt0478134
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzRmYWFlZmItNGZkMy00ZWU3LTlhNGEtNWM3ZTNmYzJmYWE3XkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Control Freak 2025 [22.6.2025 14:07]
 https://vidmody.com/vs/tt30789086
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzU3OWFhY2MtYTE5My00MjIzLWJlN2YtNjQ2ZDMxMzc5MjVkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Tinker Bell ve Peri Kurtaran 2010 [22.6.2025 14:07]
 https://vidmody.com/vs/tt1216515
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzY0ZTI4YjEtZjI4Yy00NDQyLThjNzctMzM5OWZlNTkwNTk3XkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",The Present 2024 [22.6.2025 14:07]
+https://vidmody.com/vs/tt20255354
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzZhMTc5MWUtOTE2MS00MjUwLTljYWEtYTk1ZmVjNzhmMzYzXkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",The Monkey 2025 [22.6.2025 14:07]
 https://vidmody.com/vs/tt27714946
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzZjZjkwOWItY2U5NS00Yzg0LWI0YmUtZWQwODM2ODZlNzIxXkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Recep İvedik 6 (2019) [22.6.2025 14:07]
@@ -16208,6 +16226,8 @@ https://pixeldrain.com/api/file/pHXSNzLj
 https://vidmody.com/vs/tt0179626
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BOTI4ODM3NTMtZmE2Mi00OTIxLWFhN2YtOGRkNDI0NmNkNmUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Silent Zone 2025 [22.6.2025 14:07]
 https://vidmody.com/vs/tt9023964
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BOTI4ODM3NTMtZmE2Mi00OTIxLWFhN2YtOGRkNDI0NmNkNmUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Silent Zone 2025 [22.6.2025 14:07]
+https://vidmody.com/vs/tt9023964
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BOTI5ODc3NzExNV5BMl5BanBnXkFtZTcwNzYxNzQzMw@@._V1_.jpg"group-title="[YENİ] [zerkfilm]",V for Vendetta 2005 [22.6.2025 14:07]
 https://vidmody.com/vs/tt0434409
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BOTJhMmY5OGMtNDZhNS00ZjAyLWFmODQtOTA0NWM5NjMyOTk5XkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",and Good Luck. (2005) [22.6.2025 14:07]
@@ -16262,6 +16282,8 @@ https://vidmody.com/vs/tt0082949
 https://vidmody.com/vs/tt32086046
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BY2E2NDIwMGUtNmFkZC00NDFjLWI5ZWMtMTE1M2E2YTM1OWVlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Denemeye Değer (2019) [22.6.2025 14:07]
 https://vidmody.com/vs/tt2139881
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BY2E2NDIwMGUtNmFkZC00NDFjLWI5ZWMtMTE1M2E2YTM1OWVlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Denemeye Değer (2019) [22.6.2025 14:07]
+https://vidmody.com/vs/tt2139881
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BY2E3OGE4OTAtYzNlNS00ODA5LTgyMzctNWY5NTI5ZmIxZDUyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Undercover 2024 [22.6.2025 14:07]
 https://vidmody.com/vs/tt29270150
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BY2EwMDg0MDAtN2RkOC00OTE5LWEzMTktYzg1ZWJjNWQ5NDQ0XkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Dağların Ardı 2024 [22.6.2025 14:07]
@@ -16285,6 +16307,8 @@ https://vidmody.com/vs/tt10078772
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BY2QyYWU1Y2EtZmU2Yi00NzMxLTllODUtYTU2NjM4MWQwYzJiXkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Kasımda Aşk Başkadır (2001) [22.6.2025 14:07]
 https://vidmody.com/vs/tt0230838
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BY2UwOGUxMzEtMzEyZi00NjEwLTkxOTMtYTljOWEzYjYyMWNjXkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Pamuk Prenses 2025 [22.6.2025 14:07]
+https://vidmody.com/vs/tt6208148
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BY2UwOGUxMzEtMzEyZi00NjEwLTkxOTMtYTljOWEzYjYyMWNjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Pamuk Prenses 2025 [22.6.2025 14:07]
 https://vidmody.com/vs/tt6208148
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BY2ZiODRlYWMtOGViYS00ZTNiLTlkMGQtZTAxY2IyMDAzYzU2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Copycat (1995) [22.6.2025 14:07]
 https://pixeldrain.com/api/file/bn5GbkP1
@@ -16364,6 +16388,8 @@ https://vidmody.com/vs/tt10719764
 https://vidmody.com/vs/tt28630624
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYmYyZjUzYjgtY2U1My00MTA4LTllNWEtNWU3ZThkOWRmMTY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Plankton Film 2025 [22.6.2025 14:07]
 https://vidmody.com/vs/tt32560777
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYTA4NTZhZmMtNGRiNS00ZTE2LWI4OGQtOTE5ODI2MzExZjI4XkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Organ Trail (2023) [22.6.2025 14:07]
+https://pixeldrain.com/api/file/TiP5v6y1
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYTA4NTZhZmMtNGRiNS00ZTE2LWI4OGQtOTE5ODI2MzExZjI4XkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Organ Trail (2023) [22.6.2025 14:07]
 https://pixeldrain.com/api/file/TiP5v6y1
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYTBlNDI1NDctYzU3Ny00NTFmLWI3MzctY2ZmZjNjNDI3ZmZiXkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",The Parenting (2025) [22.6.2025 14:07]
@@ -16520,6 +16546,8 @@ https://vidmody.com/vs/tt12299608
 https://vidmody.com/vs/tt0402399
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZGVhMWQ5ZTYtODE0NC00MTU0LWIxMGEtMjhiNmY1MmQ5NjhjXkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",5 Kat Yukarı 2014 [22.6.2025 14:07]
 https://vidmody.com/vs/tt2933544
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZGY1NTZhMDUtMzJhNi00ZWZiLWJkZDMtNmVlMmM2ZTdjYzg1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Winner 2024 [22.6.2025 14:07]
+https://vidmody.com/vs/tt11433906
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZGY1NTZhMDUtMzJhNi00ZWZiLWJkZDMtNmVlMmM2ZTdjYzg1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Winner 2024 [22.6.2025 14:07]
 https://vidmody.com/vs/tt11433906
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZGY3ZjEyODAtNjAwMC00ZTEwLTg3NDctYzMzYTZkMjBmZDQwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Köstebek (1999) [22.6.2025 14:07]
@@ -16706,6 +16734,8 @@ https://vidmody.com/vs/tt0259711
 https://vidmody.com/vs/tt1126590
 #EXTINF:-1 tvg-logo="https://static.boxofficeturkiye.com/movie/poster/300x429/43/1999043-542061248.jpg"group-title="[YENİ] [zerkfilm]",Aşkın Gücü 1998 [22.6.2025 14:07]
 https://vidmody.com/vs/tt0120889
+#EXTINF:-1 tvg-logo="https://static.boxofficeturkiye.com/movie/poster/300x429/43/2010343-747626808.jpg"group-title="[YENİ] [zerkfilm]",Robin Hood 2010 [22.6.2025 14:07]
+https://vidmody.com/vs/tt0955308
 #EXTINF:-1 tvg-logo="https://static.boxofficeturkiye.com/movie/poster/300x429/46/2010346-366342124.jpg"group-title="[YENİ] [zerkfilm]",Kaptan Amerika ilk Yenilmez 2011 [22.6.2025 14:07]
 https://vidmody.com/vs/tt0458339
 #EXTINF:-1 tvg-logo="https://static.boxofficeturkiye.com/movie/poster/300x429/47/2011847-45850639.jpg"group-title="[YENİ] [zerkfilm]",Ejderhanı Nasıl Eğitirsin 3: Gizli Dünya 2019 [22.6.2025 14:07]
@@ -16792,6 +16822,8 @@ https://vidmody.com/vs/tt0383574
 https://vidmody.com/vs/tt1053424
 #EXTINF:-1 tvg-logo="https://tr.web.img2.acsta.net/img/25/0e/250e2b3f13b67c286c6980af365f807f.jpg"group-title="[YENİ] [zerkfilm]",Robot Düşleri 2024 [22.6.2025 14:07]
 https://vidmody.com/vs/tt13429870
+#EXTINF:-1 tvg-logo="https://tr.web.img2.acsta.net/img/39/58/39581e87cf32d0e405601bd68fc525d6.jpg"group-title="[YENİ] [zerkfilm]",Joker İkili Delilik 2024 [22.6.2025 14:07]
+https://vidmody.com/vs/tt11315808
 #EXTINF:-1 tvg-logo="https://tr.web.img2.acsta.net/img/4a/11/4a117a4622e98ed7cd3f3e3d76b9c1c1.jpg"group-title="[YENİ] [zerkfilm]",Ad Vitam 2025 [22.6.2025 14:07]
 https://vidmody.com/vs/tt32138452
 #EXTINF:-1 tvg-logo="https://tr.web.img2.acsta.net/img/f9/39/f9393cc8c94087495fc45247cdd3516d.jpg"group-title="[YENİ] [zerkfilm]",Furiosa: Bir Mad Max Destanı 2024 [22.6.2025 14:07]
@@ -16912,6 +16944,8 @@ https://vidmody.com/vs/tt0096874
 https://vidmody.com/vs/tt0330373
 #EXTINF:-1 tvg-logo="https://tr.web.img2.acsta.net/pictures/bzp/01/57060.jpg"group-title="[YENİ] [zerkfilm]",Benjamin Buttonun Tuhaf Hikayesi 2008 [22.6.2025 14:07]
 https://vidmody.com/vs/tt0421715
+#EXTINF:-1 tvg-logo="https://tr.web.img2.acsta.net/pictures/bzp/01/60426.jpg"group-title="[YENİ] [zerkfilm]",Tatil 2006 [22.6.2025 14:07]
+https://vidmody.com/vs/tt0457939
 #EXTINF:-1 tvg-logo="https://tr.web.img2.acsta.net/pictures/bzp/01/64439.jpg"group-title="[YENİ] [zerkfilm]",Hayat Güzeldir 1997 [22.6.2025 14:07]
 https://vidmody.com/vs/tt0118799
 #EXTINF:-1 tvg-logo="https://tr.web.img2.acsta.net/pictures/bzp/01/7524.jpg"group-title="[YENİ] [zerkfilm]",Rezervuar Köpekleri (1992) [22.6.2025 14:07]
@@ -16968,6 +17002,8 @@ https://vidmody.com/vs/tt1193516
 https://vidmody.com/vs/tt0117060
 #EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/c_310_420/pictures/bzp/01/5969.jpg"group-title="[YENİ] [zerkfilm]",Sıkı Dostlar 1990 [22.6.2025 14:07]
 https://vidmody.com/vs/tt0099685
+#EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/c_310_420/pictures/bzp/01/5969.jpg"group-title="[YENİ] [zerkfilm]",Sıkı Dostlar 1990 [22.6.2025 14:07]
+https://vidmody.com/vs/tt0099685
 #EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/c_310_420/pictures/bzp/01/6641.jpg"group-title="[YENİ] [zerkfilm]",Kuzuların Sessizliği 1991 [22.6.2025 14:07]
 https://vidmody.com/vs/tt0102926
 #EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/c_310_420/pictures/bzp/01/900.jpg"group-title="[YENİ] [zerkfilm]",Yaralı Yüz 1983 [22.6.2025 14:07]
@@ -16980,6 +17016,8 @@ https://vidmody.com/vs/tt0126029
 https://vidmody.com/vs/tt0123865
 #EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/img/02/05/0205d08522a543d058d577e829535d10.jpg"group-title="[YENİ] [zerkfilm]",Sessiz Bir Yer 3 Birinci Gün 2024 [22.6.2025 14:07]
 https://vidmody.com/vs/tt13433802
+#EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/img/3f/0a/3f0af076b58e832bdb7db76cf3e7d6bd.jpg"group-title="[YENİ] [zerkfilm]",Avcı Kraven 2024 [22.6.2025 14:07]
+https://vidmody.com/vs/tt8790086
 #EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/img/47/f8/47f894a201dde041674b2706be4224f2.jpg"group-title="[YENİ] [zerkfilm]",Slingshot 2024 [22.6.2025 14:07]
 https://vidmody.com/vs/tt12616480
 #EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/medias/nmedia/18/82/91/44/19647010.jpg"group-title="[YENİ] [zerkfilm]",Gulliver'in gezileri 2010 [22.6.2025 14:07]
@@ -17040,6 +17078,8 @@ https://vidmody.com/vs/tt3717252
 https://vidmody.com/vs/tt1355644
 #EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/17/03/14/10/14/126938.jpg"group-title="[YENİ] [zerkfilm]",Kabuktaki Hayalet 2017 [22.6.2025 14:07]
 https://vidmody.com/vs/tt1219827
+#EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/17/03/14/10/14/126938.jpg"group-title="[YENİ] [zerkfilm]",Kabuktaki Hayalet 2017 [22.6.2025 14:07]
+https://vidmody.com/vs/tt1219827
 #EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/17/05/17/09/21/468187.jpg"group-title="[YENİ] [zerkfilm]",Kasırga 3 2017 [22.6.2025 14:07]
 https://vidmody.com/vs/tt5311972
 #EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/17/09/11/15/01/2705133.jpg"group-title="[YENİ] [zerkfilm]",Anne! 2017 [22.6.2025 14:07]
@@ -17058,6 +17098,8 @@ https://vidmody.com/vs/tt7403570
 https://vidmody.com/vs/tt5095030
 #EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/18/10/24/17/07/3920927.jpg"group-title="[YENİ] [zerkfilm]",Bird Box (2018) [22.6.2025 14:07]
 https://hdfilmce.com/spbtin.mp4
+#EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/19/01/15/12/21/5990863.jpg"group-title="[YENİ] [zerkfilm]",Üst Düzey Yaşam 2018 [22.6.2025 14:07]
+https://vidmody.com/vs/tt4827558
 #EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/19/01/15/12/21/5990863.jpg"group-title="[YENİ] [zerkfilm]",Üst Düzey Yaşam 2018 [22.6.2025 14:07]
 https://vidmody.com/vs/tt4827558
 #EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/19/03/14/12/41/3920043.jpg"group-title="[YENİ] [zerkfilm]",X Men Dark Phoenix 2019 [22.6.2025 14:07]
@@ -17080,6 +17122,8 @@ https://vidmody.com/vs/tt3215824
 https://vidmody.com/vs/tt8332922
 #EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/21/07/29/21/41/4810979.jpg"group-title="[YENİ] [zerkfilm]",Orman Gezisi 2021 [22.6.2025 14:07]
 https://vidmody.com/vs/tt0870154
+#EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/210/037/21003793_20130918092129646.jpg"group-title="[YENİ] [zerkfilm]",Nebraska 2013 [22.6.2025 14:07]
+https://vidmody.com/vs/tt1821549
 #EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/210/037/21003793_20130918092129646.jpg"group-title="[YENİ] [zerkfilm]",Nebraska 2013 [22.6.2025 14:07]
 https://vidmody.com/vs/tt1821549
 #EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/210/057/21005789_20130514174658803.jpg"group-title="[YENİ] [zerkfilm]",The Wolverine 2013 [22.6.2025 14:07]
@@ -17136,6 +17180,8 @@ https://vidmody.com/vs/tt0409182
 https://vidmody.com/vs/tt0454848
 #EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/bzp/04/109693.jpg"group-title="[YENİ] [zerkfilm]",Kelebek Etkisi 2 2006 [22.6.2025 14:07]
 https://vidmody.com/vs/tt0457297
+#EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/bzp/04/26301.jpg"group-title="[YENİ] [zerkfilm]",Vur Emri 2000 [22.6.2025 14:07]
+https://vidmody.com/vs/tt0160797
 #EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/bzp/04/26301.jpg"group-title="[YENİ] [zerkfilm]",Vur Emri 2000 [22.6.2025 14:07]
 https://vidmody.com/vs/tt0160797
 #EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/bzp/04/42950.jpg"group-title="[YENİ] [zerkfilm]",Kan Borcu 2002 [22.6.2025 14:07]
@@ -17200,6 +17246,8 @@ https://vidmody.com/vs/tt0145681
 https://vidmody.com/vs/tt0993842
 #EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/medias/nmedia/18/82/91/43/19647003.jpg"group-title="[YENİ] [zerkfilm]",Hırsızlar Şehri 2010 [22.6.2025 14:07]
 https://vidmody.com/vs/tt0840361
+#EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/medias/nmedia/18/83/09/24/19664851.jpg"group-title="[YENİ] [zerkfilm]",Kaçış Planı 2011 [22.6.2025 14:07]
+https://vidmody.com/vs/tt1458175
 #EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/medias/nmedia/18/84/05/33/19771364.jpg"group-title="[YENİ] [zerkfilm]",Karayip Korsanları 4 Gizemli Denizlerde 2011 [22.6.2025 14:07]
 https://vidmody.com/vs/tt1298650
 #EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/medias/nmedia/18/85/02/83/19862625.jpg"group-title="[YENİ] [zerkfilm]",Görevimiz Tehlike 4 Hayalet Protokol 2011 [22.6.2025 14:07]
@@ -17266,6 +17314,8 @@ https://vidmody.com/vs/tt2293640
 https://vidmody.com/vs/tt2488496
 #EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/pictures/15/11/03/09/37/088353.jpg"group-title="[YENİ] [zerkfilm]",Halk Düşmanları 2009 [22.6.2025 14:07]
 https://vidmody.com/vs/tt1152836
+#EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/pictures/15/11/06/13/05/051069.jpg"group-title="[YENİ] [zerkfilm]",Hayatın Kıyısında 2015 [22.6.2025 14:07]
+https://vidmody.com/vs/tt3707106
 #EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/pictures/15/11/06/13/05/051069.jpg"group-title="[YENİ] [zerkfilm]",Hayatın Kıyısında 2015 [22.6.2025 14:07]
 https://vidmody.com/vs/tt3707106
 #EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/pictures/16/02/10/16/04/143599.jpg"group-title="[YENİ] [zerkfilm]",Deadpool 1 (2016) [22.6.2025 14:07]
@@ -17468,6 +17518,8 @@ https://vidmody.com/vs/tt0438488
 https://vidmody.com/vs/tt0432021
 #EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/pictures/bzp/01/60208.jpg"group-title="[YENİ] [zerkfilm]",Soysuzlar Çetesi 2009 [22.6.2025 14:07]
 https://vidmody.com/vs/tt0361748
+#EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/pictures/bzp/01/60208.jpg"group-title="[YENİ] [zerkfilm]",Soysuzlar Çetesi 2009 [22.6.2025 14:07]
+https://vidmody.com/vs/tt0361748
 #EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/pictures/bzp/01/6272.jpg"group-title="[YENİ] [zerkfilm]",Evde Tek Başına 1 1990 [22.6.2025 14:07]
 https://vidmody.com/vs/tt0099785
 #EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/pictures/bzp/01/6608.jpg"group-title="[YENİ] [zerkfilm]",Baba 3 (1990) [22.6.2025 14:07]
@@ -17494,6 +17546,8 @@ https://vidmody.com/vs/tt0253474
 https://vidmody.com/vs/tt0317919
 #EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/pictures/bzp/03/45634.jpg"group-title="[YENİ] [zerkfilm]",Cazibe Kanunları 2004 [22.6.2025 14:07]
 https://vidmody.com/vs/tt0323033
+#EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/pictures/bzp/03/47165.jpg"group-title="[YENİ] [zerkfilm]",Kızımı Kurtarın 2007 [22.6.2025 14:07]
+https://vidmody.com/vs/tt0452623
 #EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/pictures/bzp/03/47165.jpg"group-title="[YENİ] [zerkfilm]",Kızımı Kurtarın 2007 [22.6.2025 14:07]
 https://vidmody.com/vs/tt0452623
 #EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/pictures/bzp/03/51539.jpg"group-title="[YENİ] [zerkfilm]",Bay ve Bayan Smith 2005 [22.6.2025 14:07]
@@ -17608,60 +17662,3 @@ https://vidmody.com/vs/tt3422094
 https://vidmody.com/vs/tt1231587
 #EXTINF:-1 tvg-logo="https://www.mallofantalya.com.tr/content/upload/images/large/SPER.jpg"group-title="[YENİ] [zerkfilm]",Süper Köpek ve Turbo Kedi 2021 [22.6.2025 14:07]
 https://vidmody.com/vs/tt7531096
-#EXTINF:-1 group-title="[zerkfilm]",
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMDM0YTkzNTgtZGQ3Yy00MGFiLTk2NTQtODZkYWRjYzYwMGNlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Omuz omuza (1998) [22.6.2025 14:07]
-https://vidmody.com/vs/tt0120686
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMjk2MDg4ZDgtZjkxMC00NmRkLTg0NDEtNDY5NTIxYWYyMWU3XkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",The Alto Knights (2025) [22.6.2025 14:07]
-https://pixeldrain.com/api/file/o8SccvKs
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg2MjMwMDkyMF5BMl5BanBnXkFtZTgwNjA4MTY2ODE@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Confirmation (2016) [22.6.2025 14:07]
-https://vidmody.com/vs/tt4608402
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ3NzA1MTY3MV5BMl5BanBnXkFtZTgwNzE2Mzg5MTE@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Snowpiercer 2013 [22.6.2025 14:07]
-https://vidmody.com/vs/tt1706620
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMzMyZTM1MTMtNDdjOS00NzIzLTkxY2QtZTU4OGYxOTUwNDMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Happy Gilmore (1996) [22.6.2025 14:07]
-https://pixeldrain.com/api/file/TgxFUWUQ
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMzNiMGViZGQtNTliNS00MjE5LWE5N2EtZDQwMmQwOTVkYjA3XkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Dönüşüm 2024 [22.6.2025 14:07]
-https://vidmody.com/vs/tt20113412
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNDRjY2E0ZmEtN2QwNi00NTEwLWI3MWItODNkMGYwYWFjNGE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Kaptan Amerika: Cesur Yeni Dünya 2025 [22.6.2025 14:07]
-https://vidmody.com/vs/tt14513804
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNWNhYjIxOTUtZDRmNC00NGFkLWEyNTMtN2NiYmViMjRiYzEyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Uyurgezer (2008) [22.6.2025 14:07]
-https://vidmody.com/vs/tt0888693
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzQ5ODE4NTcxNV5BMl5BanBnXkFtZTgwNjkyNDQ0MDE@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Aile Sırları (2013) [22.6.2025 14:07]
-https://vidmody.com/vs/tt1322269
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzY0ZTI4YjEtZjI4Yy00NDQyLThjNzctMzM5OWZlNTkwNTk3XkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",The Present 2024 [22.6.2025 14:07]
-https://vidmody.com/vs/tt20255354
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BOTI4ODM3NTMtZmE2Mi00OTIxLWFhN2YtOGRkNDI0NmNkNmUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Silent Zone 2025 [22.6.2025 14:07]
-https://vidmody.com/vs/tt9023964
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BY2E2NDIwMGUtNmFkZC00NDFjLWI5ZWMtMTE1M2E2YTM1OWVlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Denemeye Değer (2019) [22.6.2025 14:07]
-https://vidmody.com/vs/tt2139881
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BY2UwOGUxMzEtMzEyZi00NjEwLTkxOTMtYTljOWEzYjYyMWNjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Pamuk Prenses 2025 [22.6.2025 14:07]
-https://vidmody.com/vs/tt6208148
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYTA4NTZhZmMtNGRiNS00ZTE2LWI4OGQtOTE5ODI2MzExZjI4XkEyXkFqcGc@._V1_.jpg"group-title="[YENİ] [zerkfilm]",Organ Trail (2023) [22.6.2025 14:07]
-https://pixeldrain.com/api/file/TiP5v6y1
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZGY1NTZhMDUtMzJhNi00ZWZiLWJkZDMtNmVlMmM2ZTdjYzg1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="[YENİ] [zerkfilm]",Winner 2024 [22.6.2025 14:07]
-https://vidmody.com/vs/tt11433906
-#EXTINF:-1 tvg-logo="https://static.boxofficeturkiye.com/movie/poster/300x429/43/2010343-747626808.jpg"group-title="[YENİ] [zerkfilm]",Robin Hood 2010 [22.6.2025 14:07]
-https://vidmody.com/vs/tt0955308
-#EXTINF:-1 tvg-logo="https://tr.web.img2.acsta.net/img/39/58/39581e87cf32d0e405601bd68fc525d6.jpg"group-title="[YENİ] [zerkfilm]",Joker İkili Delilik 2024 [22.6.2025 14:07]
-https://vidmody.com/vs/tt11315808
-#EXTINF:-1 tvg-logo="https://tr.web.img2.acsta.net/pictures/bzp/01/60426.jpg"group-title="[YENİ] [zerkfilm]",Tatil 2006 [22.6.2025 14:07]
-https://vidmody.com/vs/tt0457939
-#EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/c_310_420/pictures/bzp/01/5969.jpg"group-title="[YENİ] [zerkfilm]",Sıkı Dostlar 1990 [22.6.2025 14:07]
-https://vidmody.com/vs/tt0099685
-#EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/img/3f/0a/3f0af076b58e832bdb7db76cf3e7d6bd.jpg"group-title="[YENİ] [zerkfilm]",Avcı Kraven 2024 [22.6.2025 14:07]
-https://vidmody.com/vs/tt8790086
-#EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/17/03/14/10/14/126938.jpg"group-title="[YENİ] [zerkfilm]",Kabuktaki Hayalet 2017 [22.6.2025 14:07]
-https://vidmody.com/vs/tt1219827
-#EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/19/01/15/12/21/5990863.jpg"group-title="[YENİ] [zerkfilm]",Üst Düzey Yaşam 2018 [22.6.2025 14:07]
-https://vidmody.com/vs/tt4827558
-#EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/210/037/21003793_20130918092129646.jpg"group-title="[YENİ] [zerkfilm]",Nebraska 2013 [22.6.2025 14:07]
-https://vidmody.com/vs/tt1821549
-#EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/bzp/04/26301.jpg"group-title="[YENİ] [zerkfilm]",Vur Emri 2000 [22.6.2025 14:07]
-https://vidmody.com/vs/tt0160797
-#EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/medias/nmedia/18/83/09/24/19664851.jpg"group-title="[YENİ] [zerkfilm]",Kaçış Planı 2011 [22.6.2025 14:07]
-https://vidmody.com/vs/tt1458175
-#EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/pictures/15/11/06/13/05/051069.jpg"group-title="[YENİ] [zerkfilm]",Hayatın Kıyısında 2015 [22.6.2025 14:07]
-https://vidmody.com/vs/tt3707106
-#EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/pictures/bzp/01/60208.jpg"group-title="[YENİ] [zerkfilm]",Soysuzlar Çetesi 2009 [22.6.2025 14:07]
-https://vidmody.com/vs/tt0361748
-#EXTINF:-1 tvg-logo="https://tr.web.img4.acsta.net/pictures/bzp/03/47165.jpg"group-title="[YENİ] [zerkfilm]",Kızımı Kurtarın 2007 [22.6.2025 14:07]
-https://vidmody.com/vs/tt0452623
