@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Repo'yu klonla
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - name: Python'u kur
         uses: actions/setup-python@v5
         with:
@@ -23,9 +25,12 @@ jobs:
       - name: M3U dosyalarını birleştir
         run: python m3u_birlestirici.py
       - name: Değişiklikleri commitle ve pusha gönder
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add birlesik.m3u
+          git add birlesik.m3u kayit_json/birlesik_links.json
           git commit -m "Otomatik m3u birleştirme güncellemesi" || echo "Değişiklik yok"
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           git push
