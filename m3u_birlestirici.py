@@ -1,7 +1,6 @@
 import requests
 import os
 import re
-import json
 from datetime import datetime
 
 m3u_sources = [
@@ -12,16 +11,20 @@ m3u_sources = [
 
 birlesik_dosya = "birlesik.m3u"
 eski_dosya = "birlesik_eski.m3u"
-yeni_takip_json = "yeni_linkler.json"
 
 def extract_channel_key(extinf_line, url_line):
-    # EXTINF satırından kanal adını al
+    """
+    EXTINF satırındaki kanal adını ve url'yi anahtar olarak döndürür.
+    """
     match = re.match(r'#EXTINF:.*?,(.*)', extinf_line)
     channel_name = match.group(1).strip() if match else ''
     url = url_line.strip()
     return (channel_name, url)
 
 def parse_m3u(filename):
+    """
+    Verilen M3U dosyasındaki tüm (kanal adı, url) çiftlerini set olarak döndürür.
+    """
     if not os.path.exists(filename):
         return set()
     with open(filename, encoding="utf-8") as f:
@@ -41,9 +44,8 @@ def parse_m3u(filename):
             i += 1
     return kanal_set
 
-# Eski dosyadan mevcut linkleri al
+# Eski dosyadaki kanallar
 eski_kanallar = parse_m3u(eski_dosya)
-
 bugun = datetime.now().strftime("%Y-%m-%d")
 
 header_lines = ["#EXTM3U\n"]
@@ -59,40 +61,31 @@ for m3u_url, source_name in m3u_sources:
 
     lines = response.text.splitlines()
     i = 0
-    yeni_bu_kaynak = 0  # Yeni link sayacı
+    yeni_bu_kaynak = 0
     kanallar_blok = []
-
     while i < len(lines):
         line = lines[i].strip()
         if line.startswith("#EXTINF"):
             extinf = line
             stream_url = lines[i + 1].strip() if i + 1 < len(lines) else ""
             anahtar = extract_channel_key(extinf, stream_url)
-
-            # Yeni mi?
             if anahtar not in eski_kanallar:
                 yeni_bu_kaynak += 1
-
             kanallar_blok.append((extinf, stream_url))
             i += 2
         else:
             i += 1
 
-    # Her kaynak için group-title ile özet başlık satırı
     if yeni_bu_kaynak > 0:
         group_title_info = f"[{source_name}] [ {yeni_bu_kaynak} yeni link eklendi {bugun} ]"
     else:
         group_title_info = f"[{source_name}] [ yeni link yok {bugun} ]"
     header_lines.append(f'#EXTINF:-1 group-title="{group_title_info}",\n{m3u_url}\n')
-
-    # Asıl kanallar, aşağıya eklenecek
     all_channels.extend(kanallar_blok)
 
-# Dosyaya yaz
 with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
     for line in header_lines:
         outfile.write(line)
     for extinf, stream_url in all_channels:
         outfile.write(extinf + "\n")
         outfile.write(stream_url + "\n")
- 
