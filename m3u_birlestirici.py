@@ -13,6 +13,7 @@ m3u_sources = [
 birlesik_dosya = "birlesik.m3u"
 kayit_json_dir = "kayit_json"
 ana_kayit_json = os.path.join(kayit_json_dir, "birlesik_links.json")
+
 if not os.path.exists(kayit_json_dir):
     os.makedirs(kayit_json_dir)
 
@@ -44,6 +45,7 @@ def load_json(filename):
     return {}
 
 def save_json(data, filename):
+    # JSON dosyasını güvenli şekilde kaydet
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
@@ -76,7 +78,7 @@ today = datetime.now().strftime("%Y-%m-%d")
 now_full = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 today_obj = datetime.strptime(today, "%Y-%m-%d")
 
-# Ana birleşik linkler (tüm kaynaklardan global olarak) jsonu yükle
+# --- ANA JSON DOSYASI YÜKLENİR veya YOKSA BOŞ OLARAK OLUŞTURULUR ---
 ana_link_dict = load_json(ana_kayit_json)
 
 with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
@@ -152,5 +154,6 @@ with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
                 outfile.write(extinf + "\n")
                 outfile.write(url + "\n")
 
-# Ana kayıt dosyasını güncelle
+# --- ANA JSON DOSYASI KESİN KAYDEDİLİR ---
 save_json(ana_link_dict, ana_kayit_json)
+print(f"Kayıt dosyası güncellendi: {ana_kayit_json}")
