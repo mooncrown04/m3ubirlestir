@@ -50,8 +50,12 @@ def format_tr_date(date_str):
     d = datetime.strptime(date_str, "%Y-%m-%d")
     return f"{d.day}.{d.month}.{d.year}"
 
+def format_tr_datehour(date_str):
+    # date_str: "YYYY-MM-DD HH:MM:SS"
+    d = datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
+    return f"{d.day}.{d.month}.{d.year} {d.hour:02d}:{d.minute:02d}"
+
 def ensure_group_title(extinf_line, source_name):
-    # Eğer group-title yoksa, ekle
     if 'group-title="' not in extinf_line:
         parts = extinf_line.split(" ", 1)
         if len(parts) == 2:
@@ -68,6 +72,7 @@ def get_original_group_title(extinf_line):
     return None
 
 today = datetime.now().strftime("%Y-%m-%d")
+now_full = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 today_obj = datetime.strptime(today, "%Y-%m-%d")
 
 with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
@@ -92,18 +97,24 @@ with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
             dict_key = f"{key[0]}|{key[1]}"
             extinf = ensure_group_title(extinf, source_name)
             if dict_key not in link_dict:
-                yeni_link_dict[dict_key] = {"tarih": today}
-                yeni_kanallar.append((key, extinf, url, today))
+                # yeni eklenenler için tarihi saatli kaydet
+                yeni_link_dict[dict_key] = {"tarih": today, "tarih_saat": now_full}
+                yeni_kanallar.append((key, extinf, url, today, now_full))
             else:
-                eski_kanallar.append((key, extinf, url, link_dict[dict_key]["tarih"]))
+                # eski eklenenlerde saat var mı kontrol et, yoksa varsayılanı ekle (eski kayıtlar için uyum)
+                eski_kayit = link_dict[dict_key]
+                eski_tarih = eski_kayit["tarih"]
+                eski_tarih_saat = eski_kayit.get("tarih_saat", eski_tarih + " 00:00:00")
+                eski_kanallar.append((key, extinf, url, eski_tarih, eski_tarih_saat))
 
         # YENİ grup
         yeni_grup_satirlari = []
-        for (key, extinf, url, eklenme_tarihi) in yeni_kanallar:
+        for (key, extinf, url, eklenme_tarihi, eklenme_tarihi_saat) in yeni_kanallar:
             ilk_ad = key[0]
             tarih_str = format_tr_date(eklenme_tarihi)
+            saat_str = format_tr_datehour(eklenme_tarihi_saat)
             group_title = f'[YENİ] [{source_name}]'
-            kanal_isim = f'{ilk_ad} [{tarih_str}]'
+            kanal_isim = f'{ilk_ad} [{saat_str}]'
             extinf_clean = re.sub(r'group-title="[^"]*"', f'group-title="{group_title}"', extinf)
             extinf_clean = re.sub(r',.*', f',{kanal_isim}', extinf_clean)
             yeni_grup_satirlari.append((extinf_clean, url))
@@ -116,7 +127,7 @@ with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
 
         # NORMAL grup
         normal_grup_satirlari = []
-        for (key, extinf, url, eklenme_tarihi) in eski_kanallar:
+        for (key, extinf, url, eklenme_tarihi, eklenme_tarihi_saat) in eski_kanallar:
             ilk_ad = key[0]
             tarih_obj = datetime.strptime(eklenme_tarihi, "%Y-%m-%d")
             tarih_str = format_tr_date(eklenme_tarihi)
@@ -129,9 +140,13 @@ with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
                 else:
                     new_group_title = f'{source_name}'
                 extinf_clean = re.sub(r'group-title="[^"]*"', f'group-title="{new_group_title}"', extinf)
+                kanal_isim = f'{ilk_ad} [{tarih_str}]'
             else:
-                extinf_clean = extinf
-            kanal_isim = f'{ilk_ad} [{tarih_str}]'
+                # 7 günden küçükse, saat göster
+                saat_str = format_tr_datehour(eklenme_tarihi_saat)
+                group_title = f'[YENİ] [{source_name}]'
+                extinf_clean = re.sub(r'group-title="[^"]*"', f'group-title="{group_title}"', extinf)
+                kanal_isim = f'{ilk_ad} [{saat_str}]'
             extinf_clean = re.sub(r',.*', f',{kanal_isim}', extinf_clean)
             normal_grup_satirlari.append((extinf_clean, url))
 
