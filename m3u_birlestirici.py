@@ -101,13 +101,13 @@ for m3u_url, source_name in m3u_sources:
             extinf_clean = re.sub(r',.*', f',{kanal_isim}', extinf_clean)
             normal_grup_satirlari.append((extinf_clean, url))
 
-    # --- SADECE ALTINDA KANAL VARSA YENİ BAŞLIĞI EKLE ---
+    # ---- SADECE ALTINDA KANAL VARSA YENİ BAŞLIĞI EKLE ----
     if yeni_grup_satirlari:
         header_lines.append(f'#EXTINF:-1 group-title="[YENİ] [{source_name}]",\n')
         for extinf, url in yeni_grup_satirlari:
             all_channels.append((extinf, url))
 
-    # --- NORMAL GRUP başlığı (sadece varsa) ---
+    # ---- NORMAL GRUP başlığı (sadece varsa) ----
     if normal_grup_satirlari:
         header_lines.append(f'#EXTINF:-1 group-title="[{source_name}]",\n')
         for extinf, url in normal_grup_satirlari:
