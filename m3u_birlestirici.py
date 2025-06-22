@@ -14,36 +14,35 @@ birlesik_dosya = "birlesik.m3u"
 eski_dosya = "birlesik_eski.m3u"
 yeni_takip_json = "yeni_linkler.json"
 
+def extract_channel_key(extinf_line, url_line):
+    # EXTINF satırından kanal adını al
+    match = re.match(r'#EXTINF:.*?,(.*)', extinf_line)
+    channel_name = match.group(1).strip() if match else ''
+    url = url_line.strip()
+    return (channel_name, url)
+
 def parse_m3u(filename):
     if not os.path.exists(filename):
         return set()
     with open(filename, encoding="utf-8") as f:
         lines = f.readlines()
     kanal_set = set()
-    last_extinf = None
-    for line in lines:
-        line = line.strip()
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
         if line.startswith("#EXTINF"):
-            last_extinf = line
-        elif last_extinf and line and not line.startswith("#"):
-            extinf_core = re.sub(r'group-title="[^"]*"', '', last_extinf)
-            anahtar = (extinf_core.strip(), line)
-            kanal_set.add(anahtar)
-            last_extinf = None
+            extinf_line = line
+            if i + 1 < len(lines):
+                url_line = lines[i + 1].strip()
+                anahtar = extract_channel_key(extinf_line, url_line)
+                kanal_set.add(anahtar)
+            i += 2
+        else:
+            i += 1
     return kanal_set
 
 # Eski dosyadan mevcut linkleri al
 eski_kanallar = parse_m3u(eski_dosya)
-
-# Yeni eklenenlerin tarihini oku
-if os.path.exists(yeni_takip_json):
-    with open(yeni_takip_json, "r", encoding="utf-8") as jf:
-        yeni_dict = json.load(jf)
-else:
-    yeni_dict = {}
-
-def anahtar2str(anahtar):
-    return anahtar[0] + "||" + anahtar[1]
 
 bugun = datetime.now().strftime("%Y-%m-%d")
 
@@ -68,9 +67,7 @@ for m3u_url, source_name in m3u_sources:
         if line.startswith("#EXTINF"):
             extinf = line
             stream_url = lines[i + 1].strip() if i + 1 < len(lines) else ""
-            extinf_core = re.sub(r'group-title="[^"]*"', '', extinf)
-            anahtar = (extinf_core.strip(), stream_url)
-            anahtar_str = anahtar2str(anahtar)
+            anahtar = extract_channel_key(extinf, stream_url)
 
             # Yeni mi?
             if anahtar not in eski_kanallar:
@@ -98,3 +95,4 @@ with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
     for extinf, stream_url in all_channels:
         outfile.write(extinf + "\n")
         outfile.write(stream_url + "\n")
+ 
