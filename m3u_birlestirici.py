@@ -10,7 +10,7 @@ m3u_sources = [
 ]
 
 birlesik_dosya = "birlesik.m3u"
-eski_kayitlar_klasoru = "eski_kayitlar"  # Her kaynak için ayrı eski dosya tutarız
+eski_kayitlar_klasoru = "eski_kayitlar"  # Her kaynak için ayrı eski dosya tutulacak
 
 if not os.path.exists(eski_kayitlar_klasoru):
     os.makedirs(eski_kayitlar_klasoru)
@@ -37,18 +37,11 @@ def parse_m3u_lines(lines):
             i += 1
     return kanal_set
 
-def get_previous_header_info(eski_dosya):
-    # Önceki başlık satırı ve tarihini al
-    if not os.path.exists(eski_dosya):
-        return None, None
-    with open(eski_dosya, "r", encoding="utf-8") as f:
-        for line in f:
-            if line.startswith("#EXTINF:-1 group-title="):
-                m = re.search(r"\[(.*?)\]\s*\[(.*?)\s*(\d{4}-\d{2}-\d{2})\s*\]", line)
-                if m:
-                    # m.group(2) kısmı "Yeni Link Yok" veya "X Yeni Link Eklendi"
-                    return m.group(2).strip(), m.group(3).strip()
-    return None, None
+def read_lines(filename):
+    if not os.path.exists(filename):
+        return []
+    with open(filename, encoding="utf-8") as f:
+        return f.readlines()
 
 bugun = datetime.now().strftime("%Y-%m-%d")
 header_lines = ["#EXTM3U\n"]
@@ -57,16 +50,8 @@ all_channels = []
 for m3u_url, source_name in m3u_sources:
     # Kaynak için eski kayıt dosyası
     eski_dosya = os.path.join(eski_kayitlar_klasoru, f"{source_name}.m3u")
-    # Eski kanallar
-    if os.path.exists(eski_dosya):
-        with open(eski_dosya, "r", encoding="utf-8") as f:
-            eski_lines = f.readlines()
-        eski_kanallar = parse_m3u_lines(eski_lines)
-    else:
-        eski_kanallar = set()
-
-    # Önceki başlık türü ve tarihini bul
-    onceki_bilgi, onceki_tarih = get_previous_header_info(eski_dosya)
+    eski_lines = read_lines(eski_dosya)
+    eski_kanallar = parse_m3u_lines(eski_lines)
 
     try:
         response = requests.get(m3u_url, timeout=20)
@@ -77,23 +62,16 @@ for m3u_url, source_name in m3u_sources:
 
     lines = response.text.splitlines()
     yeni_kanallar = parse_m3u_lines(lines)
-    yeni_bu_kaynak = len(yeni_kanallar - eski_kanallar)
 
-    # Bilgi satırı ve tarih
+    # YENİ EKLENENLERİ BUL
+    yeni_eklenen_kanallar = yeni_kanallar - eski_kanallar
+    yeni_bu_kaynak = len(yeni_eklenen_kanallar)
+
+    # Bilgi satırı
     if yeni_bu_kaynak > 0:
         group_title_info = f"[{source_name}] [ {yeni_bu_kaynak} Yeni Link Eklendi  {bugun} ]"
-        kullanilacak_tarih = bugun
     else:
-        # Önceki başlık ve tarihi koru
-        if onceki_bilgi and onceki_tarih:
-            if onceki_bilgi == "Yeni Link Yok":
-                group_title_info = f"[{source_name}] [ Yeni Link Yok {onceki_tarih} ]"
-            else:
-                group_title_info = f"[{source_name}] [ {onceki_bilgi} {onceki_tarih} ]"
-            kullanilacak_tarih = onceki_tarih
-        else:
-            group_title_info = f"[{source_name}] [ Yeni Link Yok {bugun} ]"
-            kullanilacak_tarih = bugun
+        group_title_info = f"[{source_name}] [ Yeni Link Yok {bugun} ]"
 
     header_lines.append(f'#EXTINF:-1 group-title="{group_title_info}",\n{m3u_url}\n')
 
@@ -111,7 +89,6 @@ for m3u_url, source_name in m3u_sources:
 
     # Güncel listeyi eski dosyaya yaz (bir sonraki çalışmaya hazırlık)
     with open(eski_dosya, "w", encoding="utf-8") as f:
-        f.write(f'#EXTINF:-1 group-title="{group_title_info}",\n{m3u_url}\n')
         for extinf, stream_url in zip(lines[::2], lines[1::2]):
             f.write(extinf.strip() + "\n")
             f.write(stream_url.strip() + "\n")
