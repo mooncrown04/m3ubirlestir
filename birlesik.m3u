@@ -11,6 +11,14 @@ https://raw.githubusercontent.com/Lunedor/iptvTR/refs/heads/main/FilmArsiv.m3u
 https://raw.githubusercontent.com/Zerk1903/zerkfilm/refs/heads/main/Filmler.m3u
 #EXTINF:-1 group-title="[zerkfilm] [Tüm Kanallar]",
 https://raw.githubusercontent.com/Zerk1903/zerkfilm/refs/heads/main/Filmler.m3u
+#EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="moonc",sar EklenmeTarihi="2025-06-22"
+https://koprulu4.global.ssl.fastly.net/ythls/?kanal_id=UCV6zcRug6Hqp1UX_FdyUeBg.m3u8
+#EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="moonc",kar EklenmeTarihi="2025-06-22"
+https://vidmody.com/mm/tt1553516/main/index-v1-a1.m3u8
+#EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="moonc",car EklenmeTarihi="2025-06-22"
+https://koprulu4.global.ssl.fastly.net/ythls/?kanal_id=UCV6zcRug6Hqp1UX_FdyUeBg.m3u8
+#EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="moonc",lar EklenmeTarihi="2025-06-22"
+https://vidmody.com/mm/tt1553516/main/index-v1-a1.m3u8
 #EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="moonc",44581 EklenmeTarihi="2025-06-22"
 https://koprulu4.global.ssl.fastly.net/ythls/?kanal_id=UCV6zcRug6Hqp1UX_FdyUeBg.m3u8
 #EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="moonc",47lkhg EklenmeTarihi="2025-06-22"
