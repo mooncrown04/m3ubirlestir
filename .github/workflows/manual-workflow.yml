@@ -1,0 +1,11 @@
+name: Elle Çalıştırılabilir Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  ornek_is:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mesaj yaz
+        run: echo "Bu workflow elle başlatıldı!"
