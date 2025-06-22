@@ -71,6 +71,10 @@ def get_original_group_title(extinf_line):
         return m.group(1)
     return None
 
+# --- Ana veri tabanı: önceki birleşik dosyanın kayıtları ---
+ana_kayit_json = "kayit_json/birlesik_links.json"
+ana_link_dict = load_json(ana_kayit_json)
+
 today = datetime.now().strftime("%Y-%m-%d")
 now_full = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 today_obj = datetime.strptime(today, "%Y-%m-%d")
@@ -95,23 +99,31 @@ with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
 
         for (key, extinf, url) in kanal_list:
             dict_key = f"{key[0]}|{key[1]}"
+
             extinf = ensure_group_title(extinf, source_name)
-            if dict_key not in link_dict:
-                # yeni eklenenler için tarihi saatli kaydet
-                yeni_link_dict[dict_key] = {"tarih": today, "tarih_saat": now_full}
-                yeni_kanallar.append((key, extinf, url, today, now_full))
+
+            # --- 1. Öncelik: ana kayıtta var mı (yani daha önce birlesik.m3u'da var mı?) ---
+            if dict_key in ana_link_dict:
+                ilk_tarih = ana_link_dict[dict_key]["tarih"]
+                ilk_tarih_saat = ana_link_dict[dict_key].get("tarih_saat", ilk_tarih + " 00:00:00")
+                yeni_link_dict[dict_key] = {"tarih": ilk_tarih, "tarih_saat": ilk_tarih_saat}
+                eski_kanallar.append((key, extinf, url, ilk_tarih, ilk_tarih_saat))
+            # --- 2. Sadece kaynağın jsonunda var mı? (ilk defa birleşik dosyada olacak) ---
+            elif dict_key in link_dict:
+                ilk_tarih = link_dict[dict_key]["tarih"]
+                ilk_tarih_saat = link_dict[dict_key].get("tarih_saat", ilk_tarih + " 00:00:00")
+                yeni_link_dict[dict_key] = {"tarih": ilk_tarih, "tarih_saat": ilk_tarih_saat}
+                eski_kanallar.append((key, extinf, url, ilk_tarih, ilk_tarih_saat))
+            # --- 3. Yepyeni link, hiç bir kayıtta yok ---
             else:
-                # eski eklenenlerde saat var mı kontrol et, yoksa varsayılanı ekle (eski kayıtlar için uyum)
-                eski_kayit = link_dict[dict_key]
-                eski_tarih = eski_kayit["tarih"]
-                eski_tarih_saat = eski_kayit.get("tarih_saat", eski_tarih + " 00:00:00")
-                eski_kanallar.append((key, extinf, url, eski_tarih, eski_tarih_saat))
+                yeni_link_dict[dict_key] = {"tarih": today, "tarih_saat": now_full}
+                ana_link_dict[dict_key] = {"tarih": today, "tarih_saat": now_full}  # ana kayıta da ekle!
+                yeni_kanallar.append((key, extinf, url, today, now_full))
 
         # YENİ grup
         yeni_grup_satirlari = []
         for (key, extinf, url, eklenme_tarihi, eklenme_tarihi_saat) in yeni_kanallar:
             ilk_ad = key[0]
-            tarih_str = format_tr_date(eklenme_tarihi)
             saat_str = format_tr_datehour(eklenme_tarihi_saat)
             group_title = f'[YENİ] [{source_name}]'
             kanal_isim = f'{ilk_ad} [{saat_str}]'
@@ -157,3 +169,6 @@ with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
                 outfile.write(url + "\n")
 
         save_json(yeni_link_dict, json_file)
+
+# Son olarak ana referans kaydı güncelle
+save_json(ana_link_dict, ana_kayit_json)
