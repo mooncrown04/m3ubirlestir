@@ -51,6 +51,7 @@ def format_tr_date(date_str):
     return f"{d.day}.{d.month}.{d.year}"
 
 def ensure_group_title(extinf_line, source_name):
+    # Eğer group-title yoksa, ekle
     if 'group-title="' not in extinf_line:
         parts = extinf_line.split(" ", 1)
         if len(parts) == 2:
@@ -59,6 +60,12 @@ def ensure_group_title(extinf_line, source_name):
         else:
             return f'#EXTINF:-1 group-title="[{source_name}]",'
     return extinf_line
+
+def get_original_group_title(extinf_line):
+    m = re.search(r'group-title="([^"]*)"', extinf_line)
+    if m:
+        return m.group(1)
+    return None
 
 today = datetime.now().strftime("%Y-%m-%d")
 today_obj = datetime.strptime(today, "%Y-%m-%d")
@@ -111,10 +118,20 @@ with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
         normal_grup_satirlari = []
         for (key, extinf, url, eklenme_tarihi) in eski_kanallar:
             ilk_ad = key[0]
+            tarih_obj = datetime.strptime(eklenme_tarihi, "%Y-%m-%d")
             tarih_str = format_tr_date(eklenme_tarihi)
-            group_title = f'{source_name}'
+            original_group = get_original_group_title(extinf)
+            # 7 gün veya daha fazla geçtiyse
+            if (today_obj - tarih_obj).days >= 7:
+                # Eski group-title varsa yanına [source_name] ekle
+                if original_group and f"[{source_name}]" not in original_group:
+                    new_group_title = f'{original_group}[{source_name}]'
+                else:
+                    new_group_title = f'{source_name}'
+                extinf_clean = re.sub(r'group-title="[^"]*"', f'group-title="{new_group_title}"', extinf)
+            else:
+                extinf_clean = extinf
             kanal_isim = f'{ilk_ad} [{tarih_str}]'
-            extinf_clean = re.sub(r'group-title="[^"]*"', f'group-title="{group_title}"', extinf)
             extinf_clean = re.sub(r',.*', f',{kanal_isim}', extinf_clean)
             normal_grup_satirlari.append((extinf_clean, url))
 
