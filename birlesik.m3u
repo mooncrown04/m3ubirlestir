@@ -1,8 +1,10 @@
 #EXTM3U
 #EXTINF:-1 group-title="[YENİ] [moon]",
+#EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="[YENİ] [moon]",adsar [23.6.2025 03:19]
+https://koprulu4.global.ssl.fastly.net/ythls/?kanal_id=gggggX_FdyUeBg.m3u8
+#EXTINF:-1 group-title="[moon]",
 #EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="[YENİ] [moon]",asatyre [22.6.2025 14:19]
 https://koprulu4.global.ssl.fastly.net/ythls/?kanal_id=Udsa6zcRug6Hqp1UX_FdyUeBg.m3u8
-#EXTINF:-1 group-title="[moon]",
 #EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="[YENİ] [moon]",asillim [22.6.2025 14:07]
 https://koprulu4.global.ssl.fastly.net/ythls/?kanal_id=Udsa6zcRug6Hqp1UX_FdyUeBg.m3u8
 #EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="[YENİ] [moon]",sa44444444444 [22.6.2025 14:07]
