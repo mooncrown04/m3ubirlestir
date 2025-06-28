@@ -1,4 +1,7 @@
 #EXTM3U
+#EXTINF:-1 group-title="[YENİ] [moon]",
+#EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="[YENİ] [moon]",astor [28.6.2025 14:07]
+https://koprulu4.global.ssl.fastly.net/ythls/?kanal_id=UCV6zcRug6Hqp1UX_FdyUeBg.m3u8
 #EXTINF:-1 group-title="[moon]",
 #EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="[YENİ] [moon]",TURKjjjhuy [23.6.2025 20:45]
 https://koprulu4.global.ssl.fastly.net/ythls/?kanal_id=UCV6zcRug6Hqp1UX_FdyUeBg.m3u8
@@ -17618,6 +17621,17 @@ https://vidmody.com/vs/tt3422094
 https://vidmody.com/vs/tt1231587
 #EXTINF:-1 tvg-logo="https://www.mallofantalya.com.tr/content/upload/images/large/SPER.jpg"group-title="[YENİ] [zerkfilm]",Süper Köpek ve Turbo Kedi 2021 [22.6.2025 14:07]
 https://vidmody.com/vs/tt7531096
+#EXTINF:-1 group-title="[YENİ] [powerboard]",
+#EXTINF:0 type="video" tvg-logo="https://tr.web.img4.acsta.net/c_310_420/img/a0/17/a0176450d8baa0923af2b5a2694fae90.jpg" group-title="[YENİ] [powerboard]",ŞamPİYONlar (2025) [28.6.2025 14:07]
+https://vidmody.com/vs/tt34982167/
+#EXTINF:0 type="video" tvg-logo="https://m.media-amazon.com/images/M/MV5BYTMzYTcyY2EtODhlZi00YTI3LTlkNzMtNDJjNzg4MGVmYjFjXkEyXkFqcGc@._V1_.jpg" group-title="[YENİ] [powerboard]",Hakkı (2024) [28.6.2025 14:07]
+https://vidmody.com/vs/tt30810790/
+#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/22004344.jpg" group-title="[YENİ] [powerboard]",Havuzdaki Büfe:Snack Shack (2024) [28.6.2025 14:07]
+https://vidmody.com/vs/tt22004344/
+#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/15552142.jpg" group-title="[YENİ] [powerboard]",Caddo Lake (2024) [28.6.2025 14:07]
+https://vidmody.com/vs/tt15552142/
+#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/2396589.jpg" group-title="[YENİ] [powerboard]",Savaştan Sonra (2017) [28.6.2025 14:07]
+https://vidmody.com/vs//tt2396589/
 #EXTINF:-1 group-title="[powerboard]",
 #EXTINF:0 type="video" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTBiYWJlMjQtOTIyMy00NTY4LWFhOWItOWZhNzc3NGMyMjc2XkEyXkFqcGc@._V1_.jpg" group-title="[YENİ] [powerboard]",K-Pop:İblis Avcıları-K-Pop: Demon Hunters (2025) [25.6.2025 17:51]
 https://vidmody.com/vs/tt14205554/
