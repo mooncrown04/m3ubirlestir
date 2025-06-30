@@ -1,5 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="[moon]",
 #EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="[YENİ] [moon]",astor [28.6.2025 14:07]
 https://koprulu4.global.ssl.fastly.net/ythls/?kanal_id=UCV6zcRug6Hqp1UX_FdyUeBg.m3u8
 #EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="moonc[moon]",TURKjjjhuy [23.6.2025]
@@ -300,7 +299,6 @@ http://batman2.xyz:8080/korhansimsekbaba3401/kPGin3i6eGMTxg/128811
 http://batman2.xyz:8080/korhansimsekbaba3401/kPGin3i6eGMTxg/128812
 #EXTINF:-1 tvg-id="star tv hd" tvg-name="TR: STAR TV FHD Ⓗ" tvg-logo="" group-title="TR: ULUSAL[moon]",TR: STAR TV FHD Ⓗ [22.6.2025]
 http://batman2.xyz:8080/korhansimsekbaba3401/kPGin3i6eGMTxg/128813
-#EXTINF:-1 group-title="[iptvTR]",
 #EXTINF:-1 group-title="iptvTR" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/makayla-nin-dunyasi-harflerin-dili-makayla-s-voice-a-letter-to-the-world-79637.jpg",Makayla'nın Dünyası: Harflerin Dili [22.6.2025]
 https://s12.pixtureup.org/mb/GJSeLKyfLKZhIz9cL2HhDF5ZMKE0MKVhqT8hqTuyYyqipzkxYwVjZwDhI0IPYHEZYwRjBQOjYxEIDHjd0zxpTy4qUIlMKIjYz9lMjs0xi12vr1
 #EXTINF:-1 group-title="iptvTR" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/kabin-bagaji-carry-on-51265.jpg",Kabin Bagajı [22.6.2025]
@@ -15087,7 +15085,6 @@ https://i6.funxio.buzz/fv/NVDqBft0WfN0fbfP1q3PDwvZ3ZQ10PwZmRgFfjHeYkvFiZK1Vy8PGm
 https://i3.videezy.buzz/fb/NRDP0CU0bVmAmDAgjVmZJePYAg0pGmfFX1lPh2z3NtNd2dXYEgdg2HFZg8Xvr1
 #EXTINF:-1 group-title="iptvTR" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/fullhd-dulcinea-izle.jpg",Dulcinea [22.6.2025]
 https://i7.bauernfeind.buzz/f2/NNOxN9mOAXjNYAmDAgjVmZH30FZ7pFAalph2z3NNONJIyxMrNpJSJDXMVp4YBipmX5nYhjfFWYgdgdlFEiRmAi0FX3FGfb0Fvr1
-#EXTINF:-1 group-title="[zerkfilm]",
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BODIxNzYxNDEzNl5BMl5BanBnXkFtZTgwMjA1NTM2MTI@._V1_FMjpg_UX1000_.jpg"group-title="zerkfilm",Meraklı Maymun (2006) [22.6.2025]
 https://pixeldrain.com/api/file/CuWuYgiM
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg4NzQ1ODcxMF5BMl5BanBnXkFtZTcwMDg0MTU2Mw@@._V1_FMjpg_UX1000_.jpg"group-title="zerkfilm",Alfa ve Omega: Eve Dönüş Macerası (2010) [22.6.2025]
@@ -17620,7 +17617,6 @@ https://vidmody.com/vs/tt3422094
 https://vidmody.com/vs/tt1231587
 #EXTINF:-1 tvg-logo="https://www.mallofantalya.com.tr/content/upload/images/large/SPER.jpg"group-title="zerkfilm",Süper Köpek ve Turbo Kedi 2021 [22.6.2025]
 https://vidmody.com/vs/tt7531096
-#EXTINF:-1 group-title="[powerboard]",
 #EXTINF:0 type="video" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTBiYWJlMjQtOTIyMy00NTY4LWFhOWItOWZhNzc3NGMyMjc2XkEyXkFqcGc@._V1_.jpg" group-title="[YENİ] [powerboard]",K-Pop:İblis Avcıları-K-Pop: Demon Hunters (2025) [25.6.2025 17:51]
 https://vidmody.com/vs/tt14205554/
 #EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/10954718.jpg" group-title="[YENİ] [powerboard]",Dog Man (2025) [25.6.2025 17:51]
