@@ -1,14 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="[YENİ] [moon]",astor [28.6.2025 14:07]
-https://koprulu4.global.ssl.fastly.net/ythls/?kanal_id=UCV6zcRug6Hqp1UX_FdyUeBg.m3u8
-#EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="moonc[moon]",TURKjjjhuy [23.6.2025]
-https://koprulu4.global.ssl.fastly.net/ythls/?kanal_id=UCV6zcRug6Hqp1UX_FdyUeBg.m3u8
-#EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="moonc[moon]",111111111111RECEPgyff İVff 1 [23.6.2025]
-https://vidmody.com/mm/tt1553516/main/index-v1-a1.m3u8
-#EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="moonc[moon]",CNNTURK [22.6.2025]
-https://koprulu4.global.ssl.fastly.net/ythls/?kanal_id=UCV6zcRug6Hqp1UX_FdyUeBg.m3u8
-#EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="moonc[moon]",RECEP İVEDİK 1 [22.6.2025]
-https://vidmody.com/mm/tt1193516/main/index-v1-a1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TR| KRAL POP HD" tvg-logo="https://argontv.ru/api/v1/channel-logo?k=aHR0cDovL3BpY29ucy5jbXNodWxrLmNvbS9waWNvbnMvOTEzMDIxLnBuZw%3D%3D" group-title="TR| MUZIK KANALLARI[moon]",TR| KRAL POP HD [22.6.2025]
 http://freeiptv.ottc.xyz:80/live/854731541919/885213168182/913021.ts
 #EXTINF:-1 tvg-id="" tvg-name="TR| DREAM TURK HD" tvg-logo="https://argontv.ru/api/v1/channel-logo?k=aHR0cDovLzEwMy4xNzYuOTAuMTE4L3BpY29ucy9sb2dvcy9kcmVhbXR1cmsuanBn" group-title="TR| MUZIK KANALLARI[moon]",TR| DREAM TURK HD [22.6.2025]
@@ -43,12 +33,6 @@ http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/1184.ts
 http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/113215.ts
 #EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Beinsports1.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TR ✦ beIN SPORTS 1 HD [22.6.2025]
 http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/3937.ts
-#EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Beinsports2.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TR ✦ beIN SPORTS 2 HD [22.6.2025]
-http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/1177.ts
-#EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Beinsports3.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TR ✦ beIN SPORTS 3 HD [22.6.2025]
-http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/1178.ts
-#EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Beinsports4.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TR ✦ beIN SPORTS 4 HD [22.6.2025]
-http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/1179.ts
 #EXTINF:-1  tvg-logo="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS5_DIGITAL_Mono.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TR ✦ beIN SPORTS 5 HD [22.6.2025]
 http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/106797.ts
 #EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Beinsportsmax1.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TR ✦ beIN SPORTS MAX 1 HD [22.6.2025]
@@ -57,16 +41,6 @@ http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/1182.ts
 http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/1183.ts
 #EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Exxenspor1.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TR ✦ EXXEN-SPORTS 1 HD [22.6.2025]
 http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/92007.ts
-#EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Exxenspor2.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TR ✦ EXXEN-SPORTS 2 HD [22.6.2025]
-http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/92008.ts
-#EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Exxenspor3.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TR ✦ EXXEN-SPORTS 3 HD [22.6.2025]
-http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/92009.ts
-#EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Exxenspor4.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TR ✦ EXXEN-SPORTS 4 HD [22.6.2025]
-http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/92010.ts
-#EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Exxenspor5.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TR ✦ EXXEN-SPORTS 5 HD [22.6.2025]
-http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/92011.ts
-#EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Exxenspor6.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TR ✦ EXXEN-SPORTS 6 HD [22.6.2025]
-http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/92012.ts
 #EXTINF:-1  tvg-logo="https://antensiztv.eu/tabispor.jpg" group-title="💥[TURKİYE SPORTS]💥[moon]",TRS✦ TABii SPOR 1 HD [22.6.2025]
 http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/120043.ts
 #EXTINF:-1  tvg-logo="https://cappadociaultratrail.com/upload/etkinlikler/partners/ssport.jpg" group-title="💥[TURKİYE SPORTS]💥[moon]",TRS ✦ S-SPORT 1 HD [22.6.2025]
@@ -75,22 +49,8 @@ http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/1196.ts
 http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/3068.ts
 #EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Ssportplus1.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TRS ✦ S-SPORT-PLUS 1 HD [22.6.2025]
 http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/92461.ts
-#EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Ssport2.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TRS ✦ S-SPORT-PLUS 2 HD [22.6.2025]
-http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/92462.ts
-#EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Ssportplus3.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TRS ✦ S-SPORT-PLUS 3 HD [22.6.2025]
-http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/92463.ts
-#EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Ssportplus4.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TRS ✦ S-SPORT-PLUS 4 HD [22.6.2025]
-http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/92464.ts
-#EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Sporsmart.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TRS ✦ SMART-SPOR 1 HD [22.6.2025]
-http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/4957.ts
-#EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Sporsmart2.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TRS ✦ SMART SPOR 2 HD [22.6.2025]
-http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/60516.ts
-#EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Sporsmart2.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TRS ✦ SMART SPOR 2 FHD [22.6.2025]
-http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/60515.ts
 #EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Aspor.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TRS ✦ A SPOR HD [22.6.2025]
 http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/1203.ts
-#EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Trtsporyildiz.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TRS ✦ TRT SPOR YILDIZ HD [22.6.2025]
-http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/93068.ts
 #EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Trtspor.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TRS ✦ TRT SPOR HD [22.6.2025]
 http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/1205.ts
 #EXTINF:-1  tvg-logo="https://picon.pics/TR/Spor/Eurosports1.png" group-title="💥[TURKİYE SPORTS]💥[moon]",TRS ✦ EUROSPORT 1 HD [22.6.2025]
@@ -119,12 +79,6 @@ http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/25761.ts
 http://xc1.vpnip.in:80/live/Kax7PUbqGgUE/cw2e3hjKvnVS/2622.ts
 #EXTINF:-1 tvg-id="Spor_beINSPORTS1" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://sakultah.org/1/image/02.png" group-title="BEIN-SPORTS-1[moon]",beIN SPORTS 1 HD [22.6.2025]
 https://d0.4928d54d950ee70q4.lat/yayinzirve.m3u8
-#EXTINF:-1 tvg-id="Spor_beINSPORTS2" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://sakultah.org/1/image/03.png" group-title="Spor[moon]",beIN SPORTS 2 HD [22.6.2025]
-https://d0.4928d54d950ee70q4.lat/yayinb2.m3u8
-#EXTINF:-1 tvg-id="Spor_beINSPORTS3" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://sakultah.org/1/image/04.png" group-title="Spor[moon]",beIN SPORTS 3 HD [22.6.2025]
-https://d0.4928d54d950ee70q4.lat/yayinb3.m3u8
-#EXTINF:-1 tvg-id="Spor_beINSPORTS4" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://sakultah.org/1/image/05.png" group-title="Spor[moon]",beIN SPORTS 4 HD [22.6.2025]
-https://d0.4928d54d950ee70q4.lat/yayinb4.m3u8
 #EXTINF:-1 group-title="moon" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/makayla-nin-dunyasi-harflerin-dili-makayla-s-voice-a-letter-to-the-world-79637.jpg",Makayla'nın Dünyası: Harflerin Dili [22.6.2025]
 https://s12.pixtureup.org/mb/GJSeLKyfLKZhIz9cL2HhDF5ZMKE0MKVhqT8hqTuyYyqipzkxYwVjZwDhI0IPYHEZYwRjBQOjYxEIDHjd0zxpTy4qUIlMKIjYz9lMjs0xi12vr1
 #EXTINF:-1 group-title="moon" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/kabin-bagaji-carry-on-51265.jpg",Kabin Bagajı [22.6.2025]
@@ -283,8 +237,6 @@ https://uzunmuhalefet.serv00.net/bursa.php?id=23322&.m3u8
 https://uzunmuhalefet.serv00.net/bursa.php?id=23321&.m3u8
 #EXTINF:1 tvg-logo="https://i.imgur.com/lQ1jJAX.png" group-title="Bursa - Osmangazi[moon]",Osmangazi - Nikah Salonu [22.6.2025]
 https://659d201a7c7ed.streamlock.net/live/nikah.stream/playlist.m3u8
-#EXTINF:1 tvg-logo="https://i.imgur.com/8gwVGCD.png" group-title="Bursa - Trafik [moon]",Kent Meydanı Kavsağı(Yeni) [22.6.2025]
-#EXTINF:-1 tvg-id="atv" tvg-name="TR: ATV HD Ⓗ" tvg-logo="" group-title="TR: ULUSAL",TR: ATV HD Ⓗ
 #EXTINF:-1 tvg-id="atv" tvg-name="TR: ATV FHD Ⓗ" tvg-logo="" group-title="TR: ULUSAL[moon]",TR: ATV FHD Ⓗ [22.6.2025]
 http://batman2.xyz:8080/korhansimsekbaba3401/kPGin3i6eGMTxg/128807
 #EXTINF:-1 tvg-id="atv" tvg-name="TR: ATV EU Ⓗ" tvg-logo="" group-title="TR: ULUSAL[moon]",TR: ATV EU Ⓗ [22.6.2025]
