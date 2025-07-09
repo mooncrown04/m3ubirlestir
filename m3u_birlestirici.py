@@ -6,7 +6,7 @@ from datetime import datetime
 
 m3u_sources = [
     ("https://deathless.short.gy/Caption-iptv.m3u", "deathless"),
-    ("https://tinyurl.com/2ao2rans", "powerboard"),
+    ("https://tinyurl.com/2ao2rans", "powerboard")
 ]
 
 birlesik_dosya = "birlesik.m3u"
