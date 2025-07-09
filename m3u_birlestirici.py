@@ -5,8 +5,8 @@ import json
 from datetime import datetime
 
 m3u_sources = [
-    ("https://deathless.short.gy/Caption-iptv.m3u", "deathless"),
-    ("https://tinyurl.com/2ao2rans", "powerboard")
+    ("https://raw.githubusercontent.com/Lunedor/iptvTR/refs/heads/main/FilmArsiv.m3u", "Lunedor"),
+    ("https://tinyurl.com/2ao2rans", "powerboard"),
 ]
 
 birlesik_dosya = "birlesik.m3u"
