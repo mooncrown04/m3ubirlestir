@@ -1,18 +1,4 @@
 #EXTM3U
-#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/30445556.jpg" group-title="[YENİ] [powerboard]",The Pickup (2025) [7.8.2025 14:14]
-https://vidmody.com/vs/tt30445556/
-#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/23853982.jpg" group-title="[YENİ] [powerboard]",Su Perisi Parthenope (2024) [7.8.2025 14:14]
-https://vidmody.com/vs/tt23853982/
-#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/32149847.jpg" group-title="[YENİ] [powerboard]",Drop: Kabul Et veya Reddet (2025) [7.8.2025 14:14]
-https://vidmody.com/vs/tt32149847/
-#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/4978342.jpg" group-title="[YENİ] [powerboard]",My Oxford Year (2025) [7.8.2025 14:14]
-https://vidmody.com/vs/tt4978342/
-#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/21375602.jpg" group-title="[YENİ] [powerboard]",Love Me (2024) [7.8.2025 14:14]
-https://vidmody.com/vs/tt21375602/
-#EXTINF:0 type="video" tvg-logo="https://m.media-amazon.com/images/M/MV5BNjYwNzkyODAtZTRlNi00MmE2LTlmODktZmJmYWVmMzQ5NTk0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="[YENİ] [powerboard]",Daniela Forever (2024) [7.8.2025 14:14]
-https://vidmody.com/vs/tt26676914/
-#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/1707687.jpg" group-title="[YENİ] [powerboard]",Street Kings 2: Motor City (2011) [7.8.2025 14:14]
-https://vidmody.com/vs/tt1707687/
 #EXTINF:-1 group-title="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/makayla-nin-dunyasi-harflerin-dili-makayla-s-voice-a-letter-to-the-world-79637.jpg",Makayla'nın Dünyası: Harflerin Dili
 https://s12.pixtureup.org/mb/GJSeLKyfLKZhIz9cL2HhDF5ZMKE0MKVhqT8hqTuyYyqipzkxYwVjZwDhI0IPYHEZYwRjBQOjYxEIDHjd0zxpTy4qUIlMKIjYz9lMjs0xi12vr1
 #EXTINF:-1 group-title="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/kabin-bagaji-carry-on-51265.jpg",Kabin Bagajı
@@ -22519,8 +22505,22 @@ https://vidmody.com/mm/tt1131724/main/index.m3u8
 https://vidmody.com/mm/tt1221208/main/index.m3u8
 #EXTINF:0 type="video" tvg-logo="https://image.tmdb.org/t/p/w500/ujERk3aKABXU3NDXOAxEQYTHe9A.jpg" group-title="[powerboard]",10 Things I Hate About You
 https://vidmody.com/mm/tt0147800/main/index.m3u8
+#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/30445556.jpg" group-title="[YENİ] [powerboard]",The Pickup (2025) [7.8.2025 14:14]
+https://vidmody.com/vs/tt30445556/
+#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/23853982.jpg" group-title="[YENİ] [powerboard]",Su Perisi Parthenope (2024) [7.8.2025 14:14]
+https://vidmody.com/vs/tt23853982/
 #EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/31036941.jpg" group-title="[powerboard]",Jurassic World: Yeniden Doğuş (2025)
 https://vidmody.com/vs/tt31036941/
+#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/32149847.jpg" group-title="[YENİ] [powerboard]",Drop: Kabul Et veya Reddet (2025) [7.8.2025 14:14]
+https://vidmody.com/vs/tt32149847/
+#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/4978342.jpg" group-title="[YENİ] [powerboard]",My Oxford Year (2025) [7.8.2025 14:14]
+https://vidmody.com/vs/tt4978342/
+#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/21375602.jpg" group-title="[YENİ] [powerboard]",Love Me (2024) [7.8.2025 14:14]
+https://vidmody.com/vs/tt21375602/
+#EXTINF:0 type="video" tvg-logo="https://m.media-amazon.com/images/M/MV5BNjYwNzkyODAtZTRlNi00MmE2LTlmODktZmJmYWVmMzQ5NTk0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="[YENİ] [powerboard]",Daniela Forever (2024) [7.8.2025 14:14]
+https://vidmody.com/vs/tt26676914/
+#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/1707687.jpg" group-title="[YENİ] [powerboard]",Street Kings 2: Motor City (2011) [7.8.2025 14:14]
+https://vidmody.com/vs/tt1707687/
 #EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/0407304.jpg" group-title="[YENİ] [powerboard]",Dünyalar Savaşı (2005)War of the Worlds [2.8.2025 03:19]
 https://vidmody.com/vs/tt0407304/
 #EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/13186306.jpg" group-title="[YENİ] [powerboard]",War of the Worlds (2025)Dünyalar Savaşı [2.8.2025 03:19]
@@ -22569,13 +22569,13 @@ https://vidmody.com/vs/tt5402714/
 https://vidmody.com/vs/tt32246771/
 #EXTINF:0 type="video" tvg-logo="https://m.media-amazon.com/images/M/MV5BYjg0NTFlMzktYjM3NS00NmI0LTlmZmMtNTVlNWRjMTNlNjRmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="[YENİ] [powerboard]",Yunan (2025) [11.7.2025 14:09]
 https://vidmody.com/vs/tt24022322/
-#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/1137450.jpg" group-title="[YENİ] [powerboard]",Öldürme Arzusu:Death Wish (2018) [9.7.2025 14:09]
+#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/1137450.jpg" group-title="[powerboard]",Öldürme Arzusu:Death Wish (2018)
 https://vidmody.com/vs/tt1137450/
-#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/21201300.jpg" group-title="[YENİ] [powerboard]",Karabasan:Bagman (2024) [9.7.2025 14:09]
+#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/21201300.jpg" group-title="[powerboard]",Karabasan:Bagman (2024)
 https://vidmody.com/vs/tt21201300/
-#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/22964884.jpg" group-title="[YENİ] [powerboard]",Upon Entry (2022) [9.7.2025 14:09]
+#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/22964884.jpg" group-title="[powerboard]",Upon Entry (2022)
 https://vidmody.com/vs/tt22964884/
-#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/22874848.jpg" group-title="[YENİ] [powerboard]",Sessiz Saat :The Silent Hour (2024) [9.7.2025 14:09]
+#EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/22874848.jpg" group-title="[powerboard]",Sessiz Saat :The Silent Hour (2024)
 https://vidmody.com/vs/tt22874848/
 #EXTINF:0 type="video" tvg-logo="https://turkcealtyazi.org/film/200/32086046.jpg" group-title="[powerboard]",Süleyman’ın Hikayesi:L'histoire de Souleymane (2024)
 https://vidmody.com/vs/tt32086046/
