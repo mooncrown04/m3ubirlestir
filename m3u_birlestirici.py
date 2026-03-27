@@ -3,183 +3,147 @@ import os
 import re
 import json
 from datetime import datetime
+import pytz # pip install pytz komutuyla yüklenmiş olmalı
 
+# Yapılandırma
 m3u_sources = [
     ("https://raw.githubusercontent.com/Lunedor/iptvTR/refs/heads/main/FilmArsiv.m3u", "Lunedor"),
     ("https://tinyurl.com/2ao2rans", "powerboard"),
+    # Buraya daha fazla kaynak ekleyebilirsin
 ]
 
 birlesik_dosya = "birlesik.m3u"
 kayit_json_dir = "kayit_json"
 ana_kayit_json = os.path.join(kayit_json_dir, "birlesik_links.json")
 
+# Klasör kontrolü
 if not os.path.exists(kayit_json_dir):
     os.makedirs(kayit_json_dir)
 
-def extract_channel_key(extinf_line, url_line):
-    """EXTINF satırından ve URL'den kanal anahtarını çıkarır."""
-    match = re.match(r'#EXTINF:.*?,(.*)', extinf_line)
-    channel_name = match.group(1).strip() if match else ''
-    url = url_line.strip()
-    return (channel_name, url)
+def safe_extract_channel_key(extinf_line, url_line):
+    """Logodaki virgüllerden etkilenmeden kanal ismini ve URL'yi çıkarır."""
+    # Logo URL'si içindeki virgülleri korumaya al (virgülü %2C yap)
+    clean_line = re.sub(r'logo="([^"]+?)"', lambda m: f'logo="{m.group(1).replace(",", "%2C")}"', extinf_line)
+    
+    # En sondaki virgülden sonrasını (kanal adını) al
+    match = re.search(r',([^,]*)$', clean_line)
+    channel_name = match.group(1).strip() if match else 'Bilinmeyen Kanal'
+    
+    # Kanal adındaki alt tireleri temizle
+    channel_name = channel_name.replace("_", " ").strip()
+    return (channel_name, url_line.strip())
 
 def parse_m3u_lines(lines):
-    """M3U satırlarını ayrıştırarak kanal listesi oluşturur."""
+    """M3U satırlarını ayrıştırır."""
     kanal_list = []
     i = 0
     while i < len(lines):
         line = lines[i].strip()
-        if line.startswith("#EXTINF"):
+        if line.startswith("#EXTINF") and i + 1 < len(lines):
             extinf_line = line
-            if i + 1 < len(lines):
-                url_line = lines[i + 1].strip()
-                kanal_list.append((extract_channel_key(extinf_line, url_line), extinf_line, url_line))
+            url_line = lines[i + 1].strip()
+            key_data = safe_extract_channel_key(extinf_line, url_line)
+            kanal_list.append((key_data, extinf_line, url_line))
             i += 2
         else:
             i += 1
     return kanal_list
 
 def load_json(filename):
-    """JSON dosyasını yükler."""
     if os.path.exists(filename):
         try:
             with open(filename, "r", encoding="utf-8") as f:
                 return json.load(f)
-        except json.JSONDecodeError:
-            print(f"⚠️ {filename} bozuk veya geçersiz JSON içeriyor. Boş sözlük döndürülüyor.")
+        except:
             return {}
     return {}
 
 def save_json(data, filename):
-    """Veriyi JSON dosyasına kaydeder."""
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-def format_tr_date(date_str):
-    """YYYY-MM-DD formatındaki tarihi DD.MM.YYYY formatına dönüştürür."""
-    d = datetime.strptime(date_str, "%Y-%m-%d")
-    return f"{d.day}.{d.month}.{d.year}"
-
-def format_tr_datehour(date_str):
-    """YYYY-MM-DD HH:MM:SS formatındaki tarihi DD.MM.YYYY HH:MM formatına dönüştürür."""
-    d = datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
-    return f"{d.day}.{d.month}.{d.year} {d.hour:02d}:{d.minute:02d}"
-
-def ensure_group_title(extinf_line, source_name):
-    """EXTINF satırında group-title yoksa ekler, varsa kaynağı ekler."""
-    # group-title'ı bul
-    m = re.search(r'group-title="([^"]*)"', extinf_line)
-    if m:
-        original_group = m.group(1)
-        # Eğer kaynak adı zaten group-title içinde yoksa ekle
-        if f"[{source_name}]" not in original_group:
-            new_group_title = f'{original_group}[{source_name}]'
-            return re.sub(r'group-title="[^"]*"', f'group-title="{new_group_title}"', extinf_line)
-        return extinf_line # Zaten varsa değiştirmeden döndür
-    else:
-        # group-title yoksa ekle
-        parts = extinf_line.split(" ", 1)
-        if len(parts) == 2:
-            prefix, rest = parts
-            return f'{prefix} group-title="[{source_name}]" {rest}'
-        else:
-            # Sadece #EXTINF ve isim varsa
-            return f'{extinf_line.strip()} group-title="[{source_name}]"'
-
-
-def get_original_group_title(extinf_line):
-    """EXTINF satırından orijinal group-title'ı çıkarır."""
-    m = re.search(r'group-title="([^"]*)"', extinf_line)
-    if m:
-        return m.group(1)
-    return None
-
-# Güncel tarih ve saat bilgileri
-today = datetime.now().strftime("%Y-%m-%d")
-now_full = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+# Zaman Ayarları (Türkiye Saat Dilimi)
+tr_tz = pytz.timezone("Europe/Istanbul")
+now_tr = datetime.now(tr_tz)
+today = now_tr.strftime("%Y-%m-%d")
+now_full = now_tr.strftime("%Y-%m-%d %H:%M:%S")
 today_obj = datetime.strptime(today, "%Y-%m-%d")
 
-# Mevcut kayıt dosyasını yükle
+# Mevcut kayıtları yükle
 ana_link_dict = load_json(ana_kayit_json)
 
-# Tüm kaynaklardan gelen yeni ve eski kanalları toplamak için listeler
-tum_yeni_kanallar = [] # (key, extinf, url, eklenme_tarihi, eklenme_tarihi_saat, source_name)
-tum_eski_kanallar = [] # (key, extinf, url, eklenme_tarihi, eklenme_tarihi_saat, source_name)
+tum_yeni_kanallar = []
+tum_eski_kanallar = []
+gorulen_url_ler = set() # Duplicate (Kopya) kontrolü için
+
+print("🔄 İşlem başlıyor...")
 
 for m3u_url, source_name in m3u_sources:
     try:
-        print(f"[+] {m3u_url} indiriliyor...")
+        print(f"[+] {source_name} indiriliyor...")
         req = requests.get(m3u_url, timeout=20)
-        req.raise_for_status() # HTTP hataları için istisna fırlatır
-    except requests.exceptions.RequestException as e:
-        print(f"❌ {m3u_url} alınamadı: {e}")
+        req.raise_for_status()
+    except Exception as e:
+        print(f"❌ {source_name} alınamadı: {e}")
         continue
     
     lines = req.text.splitlines()
     kanal_list = parse_m3u_lines(lines)
 
     for (key, extinf, url) in kanal_list:
-        dict_key = f"{key[0]}|{key[1]}"
-        extinf_with_group = ensure_group_title(extinf, source_name) # group-title'ı ekle/güncelle
+        # KOPYA KONTROLÜ: Eğer bu URL daha önce bu çalışmada eklendiyse atla
+        if url in gorulen_url_ler:
+            continue
+        gorulen_url_ler.add(url)
 
+        dict_key = f"{key[0]}|{url}" # Anahtar olarak isim + url kullanıyoruz
+        
         if dict_key in ana_link_dict:
-            # Kanal zaten kayıtlı, eski kanal olarak işaretle
+            # Eski kanal
             ilk_tarih = ana_link_dict[dict_key]["tarih"]
             ilk_tarih_saat = ana_link_dict[dict_key]["tarih_saat"]
-            tum_eski_kanallar.append((key, extinf_with_group, url, ilk_tarih, ilk_tarih_saat, source_name))
+            tum_eski_kanallar.append((key, extinf, url, ilk_tarih, ilk_tarih_saat, source_name))
         else:
-            # Kanal yeni, kayıt defterine ekle ve yeni kanal olarak işaretle
+            # Yeni kanal
             ana_link_dict[dict_key] = {"tarih": today, "tarih_saat": now_full}
-            tum_yeni_kanallar.append((key, extinf_with_group, url, today, now_full, source_name))
+            tum_yeni_kanallar.append((key, extinf, url, today, now_full, source_name))
 
-# Birleşik M3U dosyasını yazma
+# Dosyaya Yazma
 with open(birlesik_dosya, "w", encoding="utf-8") as outfile:
     outfile.write("#EXTM3U\n")
 
-    # Önce tüm yeni kanalları yaz
+    # Yeni Kanallar (Grup: [YENİ])
     for (key, extinf, url, eklenme_tarihi, eklenme_tarihi_saat, source_name) in tum_yeni_kanallar:
-        ilk_ad = key[0]
-        saat_str = format_tr_datehour(eklenme_tarihi_saat)
-        group_title = f'[YENİ] [{source_name}]' # Yeni eklenenler için özel grup
-        kanal_isim = f'{ilk_ad} [{saat_str}]'
+        saat_dt = datetime.strptime(eklenme_tarihi_saat, "%Y-%m-%d %H:%M:%S")
+        saat_str = saat_dt.strftime("%d.%m.%Y %H:%M")
         
-        # group-title'ı güncelle
-        extinf_final = re.sub(r'group-title="[^"]*"', f'group-title="{group_title}"', extinf)
-        # Kanal ismini güncelle
-        extinf_final = re.sub(r',.*', f',{kanal_isim}', extinf_final)
+        # EXTINF Manipülasyonu
+        extinf = re.sub(r'group-title="[^"]*"', f'group-title="✨YENİ [{source_name}]"', extinf)
+        extinf = re.sub(r',.*', f',{key[0]} [{saat_str}]', extinf)
         
-        outfile.write(extinf_final + "\n")
-        outfile.write(url + "\n")
+        outfile.write(extinf + "\n" + url + "\n")
 
-    # Sonra tüm eski kanalları yaz
+    # Eski Kanallar
     for (key, extinf, url, eklenme_tarihi, eklenme_tarihi_saat, source_name) in tum_eski_kanallar:
-        ilk_ad = key[0]
         tarih_obj = datetime.strptime(eklenme_tarihi, "%Y-%m-%d")
-        tarih_str = format_tr_date(eklenme_tarihi)
+        fark_gun = (today_obj - tarih_obj).days
         
-        # 1 ay (30 gün) kontrolü
-        if (today_obj - tarih_obj).days < 30: # Eğer 30 günden az geçmişse hala "YENİ" olarak kabul et
-            saat_str = format_tr_datehour(eklenme_tarihi_saat)
-            new_group_title = f'[YENİ] [{source_name}]' # Hala yeni grubunda kalsın
-            kanal_isim = f'{ilk_ad} [{saat_str}]'
+        if fark_gun < 30:
+            # 30 günden azsa hala yeni sayılır
+            saat_dt = datetime.strptime(eklenme_tarihi_saat, "%Y-%m-%d %H:%M:%S")
+            saat_str = saat_dt.strftime("%d.%m.%Y %H:%M")
+            extinf = re.sub(r'group-title="[^"]*"', f'group-title="✨YENİ [{source_name}]"', extinf)
+            extinf = re.sub(r',.*', f',{key[0]} [{saat_str}]', extinf)
         else:
-            # 30 günden fazla geçmişse orijinal grubuna dönsün veya kaynak adı eklensin
-            original_group = get_original_group_title(extinf)
-            if original_group and f"[{source_name}]" not in original_group:
-                new_group_title = f'{original_group}[{source_name}]'
-            else:
-                new_group_title = f'[{source_name}]' # Sadece kaynak adı, eğer orijinal grup yoksa veya zaten içeriyorsa
-            kanal_isim = ilk_ad # Orijinal kanal ismi
+            # Normal kanal (Orijinal grubunu koru veya kaynak ekle)
+            m_group = re.search(r'group-title="([^"]*)"', extinf)
+            org_group = m_group.group(1) if m_group else source_name
+            new_group = f"{org_group} [{source_name}]" if source_name not in org_group else org_group
+            
+            extinf = re.sub(r'group-title="[^"]*"', f'group-title="{new_group}"', extinf)
+            extinf = re.sub(r',.*', f',{key[0]}', extinf)
 
-        # group-title'ı güncelle
-        extinf_final = re.sub(r'group-title="[^"]*"', f'group-title="{new_group_title}"', extinf)
-        # Kanal ismini güncelle
-        extinf_final = re.sub(r',.*', f',{kanal_isim}', extinf_final)
-        
-        outfile.write(extinf_final + "\n")
-        outfile.write(url + "\n")
+        outfile.write(extinf + "\n" + url + "\n")
 
-# Kayıt dosyasını güncelle
 save_json(ana_link_dict, ana_kayit_json)
-print(f"Kayıt dosyası güncellendi: {ana_kayit_json}")
-print(f"\n✅ {len(tum_yeni_kanallar) + len(tum_eski_kanallar)} kanal başarıyla birleştirildi → {birlesik_dosya}")
+print(f"\n✅ Toplam {len(gorulen_url_ler)} benzersiz kanal kaydedildi.")
