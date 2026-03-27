@@ -7,6 +7,7 @@ from datetime import datetime, timedelta, timezone
 # --- AYARLAR ---
 m3u_sources = [
     ("https://raw.githubusercontent.com/Lunedor/iptvTR/refs/heads/main/FilmArsiv.m3u", "Lunedor"),
+    ("https://raw.githubusercontent.com/Zerk1903/zerkfilm/refs/heads/main/Filmler.m3u", "Zerk"),
     ("https://tinyurl.com/2ao2rans", "powerboard"),
 ]
 
