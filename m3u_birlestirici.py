@@ -29,6 +29,13 @@ def safe_extract_channel_key(extinf_line, url_line):
     channel_name = channel_name.replace("_", " ").strip()
     return (channel_name, url_line.strip())
 
+def add_video_type(extinf_line):
+    """Eğer satırda type='video' yoksa ekler."""
+    if 'type="video"' not in extinf_line:
+        # #EXTINF:-1 den hemen sonrasına ekle
+        extinf_line = extinf_line.replace("#EXTINF:-1", '#EXTINF:-1 type="video"')
+    return extinf_line
+
 def parse_m3u_lines(lines):
     kanal_list = []
     i = 0
@@ -90,13 +97,20 @@ with open(birlesik_dosya, "w", encoding="utf-8") as f:
     # Yeni Kanallar
     for (key, extinf, url, t, ts, src) in tum_yeni_kanallar:
         saat_str = datetime.strptime(ts, "%Y-%m-%d %H:%M:%S").strftime("%d.%m.%Y %H:%M")
+        
+        # İşlemler
+        extinf = add_video_type(extinf) # type="video" ekle
         extinf = re.sub(r'group-title="[^"]*"', f'group-title="✨YENİ [{src}]"', extinf)
         extinf = re.sub(r',.*', f',{key[0]} [{saat_str}]', extinf)
+        
         f.write(extinf + "\n" + url + "\n")
 
     # Eski Kanallar
     for (key, extinf, url, t, ts, src) in tum_eski_kanallar:
         fark = (today_obj - datetime.strptime(t, "%Y-%m-%d")).days
+        
+        extinf = add_video_type(extinf) # type="video" ekle
+        
         if fark < 30:
             saat_str = datetime.strptime(ts, "%Y-%m-%d %H:%M:%S").strftime("%d.%m.%Y %H:%M")
             extinf = re.sub(r'group-title="[^"]*"', f'group-title="✨YENİ [{src}]"', extinf)
@@ -107,8 +121,10 @@ with open(birlesik_dosya, "w", encoding="utf-8") as f:
             new_g = f"{org_g} [{src}]" if src not in org_g else org_g
             extinf = re.sub(r'group-title="[^"]*"', f'group-title="{new_g}"', extinf)
             extinf = re.sub(r',.*', f',{key[0]}', extinf)
+            
         f.write(extinf + "\n" + url + "\n")
 
 with open(ana_kayit_json, "w", encoding="utf-8") as f:
     json.dump(ana_link_dict, f, ensure_ascii=False, indent=2)
-print(f"Bitti! Toplam {len(gorulen_url_ler)} benzersiz kanal.")
+
+print(f"Bitti! Toplam {len(gorulen_url_ler)} benzersiz kanal kaydedildi.")
