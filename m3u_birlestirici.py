@@ -29,8 +29,6 @@ def safe_extract_channel_key(extinf_line, url_line):
     return (channel_name, url_line.strip())
 
 def process_metadata(extinf_line, source_name, add_time):
-    """Etiketleri (author, time, type) düzenler ve boş kategorileri doldurur."""
-    
     # 1. Video Tipi
     if 'type="video"' not in extinf_line:
         extinf_line = extinf_line.replace("#EXTINF:-1", '#EXTINF:-1 type="video"')
@@ -39,14 +37,15 @@ def process_metadata(extinf_line, source_name, add_time):
     if 'group-author=' not in extinf_line:
         extinf_line = re.sub(r',', f' group-author="{source_name}",', extinf_line, count=1)
     
-    # 3. group-time Ekle (Eklenme zamanı)
-    clean_time = add_time.replace(" ", "_") # Bazı oynatıcılar boşluk sevmez
+    # 3. group-time Ekle
+    clean_time = add_time.replace(" ", "_")
     if 'group-time=' not in extinf_line:
         extinf_line = re.sub(r',', f' group-time="{clean_time}",', extinf_line, count=1)
     
-    # 4. Boş group-title (Kategori) Kontrolü
-    # Eğer group-title yoksa veya içi boşsa group-author değerini ata
-    if 'group-title=""' in extinf_line or 'group-title=' not in extinf_line:
+    # 4. Akıllı group-title (Sadece boşsa kaynak ismi ekle, doluysa dokunma)
+    m_title = re.search(r'group-title="([^"]*)"', extinf_line)
+    if not m_title or not m_title.group(1).strip():
+        # Kategori yoksa veya içi boşsa kaynak ismini yaz
         if 'group-title=' in extinf_line:
             extinf_line = re.sub(r'group-title="[^"]*"', f'group-title="{source_name}"', extinf_line)
         else:
@@ -124,12 +123,12 @@ tum_eski_kanallar.sort(key=lambda x: x[0][0].lower())
 with open(birlesik_dosya, "w", encoding="utf-8") as f:
     f.write("#EXTM3U\n")
     
-    # YENİLER
+    # YENİLER (Yeni grubunda kaynak ismi kalabilir çünkü bu özel bir kategori)
     for (key, extinf, url, t, ts, src) in tum_yeni_kanallar:
-        saat_str = datetime.strptime(ts, "%Y-%m-%d %H:%M:%S").strftime("%d.%m.%Y_%H:%M")
-        extinf = process_metadata(extinf, src, ts) # Author, Time ve Title düzenleme
+        saat_str = datetime.strptime(ts, "%Y-%m-%d %H:%M:%S").strftime("%d.%m.%Y %H:%M")
+        extinf = process_metadata(extinf, src, ts)
         extinf = re.sub(r'group-title="[^"]*"', f'group-title="✨YENİ [{src}]"', extinf)
-        extinf = re.sub(r',.*', f',{key[0]} [{saat_str.replace("_", " ")}]', extinf)
+        extinf = re.sub(r',.*', f',{key[0]} [{saat_str}]', extinf)
         f.write(extinf + "\n" + url + "\n")
 
     # ESKİLER
@@ -138,19 +137,16 @@ with open(birlesik_dosya, "w", encoding="utf-8") as f:
         extinf = process_metadata(extinf, src, ts)
         
         if fark < 30:
-            saat_str = datetime.strptime(ts, "%Y-%m-%d %H:%M:%S").strftime("%d.%m.%Y_%H:%M")
+            saat_str = datetime.strptime(ts, "%Y-%m-%d %H:%M:%S").strftime("%d.%m.%Y %H:%M")
             extinf = re.sub(r'group-title="[^"]*"', f'group-title="✨YENİ [{src}]"', extinf)
             extinf = re.sub(r',.*', f',{key[0]} [{saat_str}]', extinf)
         else:
-            # Eğer orijinal grupta veri yoksa process_metadata zaten author'u title'a yazdı
-            m_g = re.search(r'group-title="([^"]*)"', extinf)
-            org_g = m_g.group(1) if m_g else src
-            new_g = f"{org_g} [{src}]" if src not in org_g else org_g
-            extinf = re.sub(r'group-title="[^"]*"', f'group-title="{new_g}"', extinf)
-            extinf = re.sub(r',.*', f',{key[0]}', extinf)
-        f.write(extinf + "\n" + url + "\n")
+            # Burası değişti: Sadece mevcut kategoriyi kullanıyoruz
+            # Eğer process_metadata içinde kategori boş olduğu için src atandıysa o kullanılır
+            # Değilse orijinal kategori (örn: 2021 ✨ 2022) korunur.
+            f.write(extinf + "\n" + url + "\n")
 
 with open(ana_kayit_json, "w", encoding="utf-8") as f:
     json.dump(ana_link_dict, f, ensure_ascii=False, indent=2)
 
-print(f"Tamamlandı! Author, Time ve Akıllı Kategori etiketleri eklendi.")
+print(f"Bitti! Temiz kategori yapısı ile kaydedildi.")
