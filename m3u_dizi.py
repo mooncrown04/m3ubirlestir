@@ -130,45 +130,49 @@ for m3u_url, source_name in m3u_sources:
     except Exception as e:
         print(f"⚠️ Hata: {source_name} -> {e}")
 
-# İsimleri temizle ve kopyaları say
-isim_sayaci = Counter([clean_display_name(item[0][0]).lower() for item in hepsi_gecici])
+# --- GÜVENLİK KONTROLÜ ---
+if len(hepsi_gecici) == 0:
+    print("❌ HATA: Hiçbir kaynaktan dizi verisi alınamadı! Mevcut dosyanın bozulmaması için işlem durduruldu.")
+else:
+    # İsimleri temizle ve kopyaları say
+    isim_sayaci = Counter([clean_display_name(item[0][0]).lower() for item in hepsi_gecici])
 
-tum_yeni_kanallar = []
-tum_eski_kanallar = []
+    tum_yeni_kanallar = []
+    tum_eski_kanallar = []
 
-for (key, extinf, url, source_name) in hepsi_gecici:
-    temiz_isim = clean_display_name(key[0])
-    display_name = f"{KOPYA_IKONU} {temiz_isim}" if isim_sayaci[temiz_isim.lower()] > 1 else temiz_isim
-    
-    dict_key = f"{key[0]}|{url}" 
-    if dict_key in ana_link_dict:
-        kayit = ana_link_dict[dict_key]
-        tum_eski_kanallar.append(((display_name, url), extinf, url, kayit["tarih"], kayit["tarih_saat"], source_name))
-    else:
-        ana_link_dict[dict_key] = {"tarih": today, "tarih_saat": now_full}
-        tum_yeni_kanallar.append(((display_name, url), extinf, url, today, now_full, source_name))
+    for (key, extinf, url, source_name) in hepsi_gecici:
+        temiz_isim = clean_display_name(key[0])
+        display_name = f"{KOPYA_IKONU} {temiz_isim}" if isim_sayaci[temiz_isim.lower()] > 1 else temiz_isim
+        
+        dict_key = f"{key[0]}|{url}" 
+        if dict_key in ana_link_dict:
+            kayit = ana_link_dict[dict_key]
+            tum_eski_kanallar.append(((display_name, url), extinf, url, kayit["tarih"], kayit["tarih_saat"], source_name))
+        else:
+            ana_link_dict[dict_key] = {"tarih": today, "tarih_saat": now_full}
+            tum_yeni_kanallar.append(((display_name, url), extinf, url, today, now_full, source_name))
 
-# --- SIRALAMA VE YAZMA ---
-tum_yeni_kanallar.sort(key=lambda x: x[0][0].lower())
-tum_eski_kanallar.sort(key=lambda x: x[0][0].lower())
+    # --- SIRALAMA VE YAZMA ---
+    tum_yeni_kanallar.sort(key=lambda x: x[0][0].lower())
+    tum_eski_kanallar.sort(key=lambda x: x[0][0].lower())
 
-with open(birlesik_dosya, "w", encoding="utf-8") as f:
-    f.write("#EXTM3U\n")
-    
-    for (key, extinf, url, t, ts, src) in tum_yeni_kanallar:
-        extinf = process_metadata(extinf, src, ts, is_new=True)
-        # İsmi temizlenmiş halle değiştir (S01E01 formatında ve []/() temizlenmiş)
-        extinf = re.sub(r',.*', f',{key[0]}', extinf)
-        f.write(extinf + "\n" + url + "\n")
+    with open(birlesik_dosya, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        
+        for (key, extinf, url, t, ts, src) in tum_yeni_kanallar:
+            extinf = process_metadata(extinf, src, ts, is_new=True)
+            # İsmi temizlenmiş halle değiştir
+            extinf = re.sub(r',.*', f',{key[0]}', extinf)
+            f.write(extinf + "\n" + url + "\n")
 
-    for (key, extinf, url, t, ts, src) in tum_eski_kanallar:
-        fark = (today_obj - datetime.strptime(t, "%Y-%m-%d")).days
-        is_new_tag = True if fark < 15 else False
-        extinf = process_metadata(extinf, src, ts, is_new=is_new_tag)
-        extinf = re.sub(r',.*', f',{key[0]}', extinf)
-        f.write(extinf + "\n" + url + "\n")
+        for (key, extinf, url, t, ts, src) in tum_eski_kanallar:
+            fark = (today_obj - datetime.strptime(t, "%Y-%m-%d")).days
+            is_new_tag = True if fark < 15 else False
+            extinf = process_metadata(extinf, src, ts, is_new=is_new_tag)
+            extinf = re.sub(r',.*', f',{key[0]}', extinf)
+            f.write(extinf + "\n" + url + "\n")
 
-with open(ana_kayit_json, "w", encoding="utf-8") as f:
-    json.dump(ana_link_dict, f, ensure_ascii=False, indent=2)
+    with open(ana_kayit_json, "w", encoding="utf-8") as f:
+        json.dump(ana_link_dict, f, ensure_ascii=False, indent=2)
 
-print(f"Tamamlandı! Köşeli parantezler silindi, dizi isimleri S01E01 formatına çevrildi.")
+    print(f"✅ Tamamlandı! {len(hepsi_gecici)} dizi işlendi. Güvenlik kilidi devrede.")
