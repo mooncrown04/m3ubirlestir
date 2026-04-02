@@ -22,29 +22,19 @@ if not os.path.exists(kayit_json_dir):
 
 # --- İSİM TEMİZLEME FONKSİYONU (YILI KORUR) ---
 def clean_display_name(name):
-    """
-    (2016) gibi tarihleri korur, (6.6) veya (Aksiyon) gibi kısımları siler.
-    """
-    # 1. İçinde tam olarak 4 hane rakam olan parantezleri (Yılları) geçici olarak korumaya alalım
-    # Örnek: (2016) -> [[YEAR_2016]]
+    """(2016) gibi tarihleri korur, (6.6) veya (Aksiyon) gibi kısımları siler."""
     yillar = re.findall(r'\(\d{4}\)', name)
     for i, yil in enumerate(yillar):
         name = name.replace(yil, f"[[YIL_{i}]]")
 
-    # 2. Geri kalan tüm parantezleri ve içindekileri sil (Puan, Tür vb.)
     name = re.sub(r'\(.*?\)', '', name)
 
-    # 3. Korunan yılları geri yükle
     for i, yil in enumerate(yillar):
         name = name.replace(f"[[YIL_{i}]]", yil)
 
-    # 4. Yıldız ve gereksiz karakter temizliği
     name = name.replace("🌟", "").strip()
-    
-    # 5. Teknik temizlik (Alt tire vb.) ve fazla boşlukları silme
     name = name.replace("_", " ")
     name = ' '.join(name.split())
-    
     return name
 
 def safe_extract_channel_key(extinf_line, url_line):
@@ -53,22 +43,26 @@ def safe_extract_channel_key(extinf_line, url_line):
     channel_name = match.group(1).strip() if match else 'Bilinmeyen Dizi'
     return (channel_name, url_line.strip())
 
-def process_metadata(extinf_line, source_name, add_time):
+def process_metadata(extinf_line, source_name, add_time, is_new=False):
+    # Video tipini ekle
     if 'type="video"' not in extinf_line:
         extinf_line = extinf_line.replace("#EXTINF:-1", '#EXTINF:-1 type="video"')
-    if 'group-author=' not in extinf_line:
-        extinf_line = re.sub(r',', f' group-author="{source_name}",', extinf_line, count=1)
     
+    # Author kısmına "YENİ DİZİ" bilgisini ekle
+    author_val = f"📺 YENİ DİZİ [{source_name}]" if is_new else source_name
+    
+    if 'group-author=' in extinf_line:
+        extinf_line = re.sub(r'group-author="[^"]*"', f'group-author="{author_val}"', extinf_line)
+    else:
+        extinf_line = re.sub(r',', f' group-author="{author_val}",', extinf_line, count=1)
+    
+    # Zaman bilgisini ekle
     clean_time = add_time.replace(" ", "_")
-    if 'group-time=' not in extinf_line:
+    if 'group-time=' in extinf_line:
+        extinf_line = re.sub(r'group-time="[^"]*"', f'group-time="{clean_time}"', extinf_line)
+    else:
         extinf_line = re.sub(r',', f' group-time="{clean_time}",', extinf_line, count=1)
-    
-    m_title = re.search(r'group-title="([^"]*)"', extinf_line)
-    if not m_title or not m_title.group(1).strip():
-        if 'group-title=' in extinf_line:
-            extinf_line = re.sub(r'group-title="[^"]*"', f'group-title="{source_name}"', extinf_line)
-        else:
-            extinf_line = re.sub(r',', f' group-title="{source_name}",', extinf_line, count=1)
+        
     return extinf_line
 
 def parse_m3u_lines(lines):
@@ -143,26 +137,23 @@ with open(birlesik_dosya, "w", encoding="utf-8") as f:
     
     # YENİLER
     for (key, extinf, url, t, ts, src) in tum_yeni_kanallar:
-        saat_str = datetime.strptime(ts, "%Y-%m-%d %H:%M:%S").strftime("%d.%m.%Y %H:%M")
-        extinf = process_metadata(extinf, src, ts)
-        extinf = re.sub(r'group-title="[^"]*"', f'group-title="📺 YENİ DİZİ [{src}]"', extinf)
-        extinf = re.sub(r',.*', f',{key[0]} [{saat_str}]', extinf)
+        # is_new=True göndererek group-author'a bilgiyi işletiyoruz
+        extinf = process_metadata(extinf, src, ts, is_new=True)
+        # Virgül sonrasındaki ismi temizlenmiş halle değiştir (Tarih ekleme yapmadan)
+        extinf = re.sub(r',.*', f',{key[0]}', extinf)
         f.write(extinf + "\n" + url + "\n")
 
     # ESKİLER
     for (key, extinf, url, t, ts, src) in tum_eski_kanallar:
         fark = (today_obj - datetime.strptime(t, "%Y-%m-%d")).days
-        extinf = process_metadata(extinf, src, ts)
+        is_new_tag = True if fark < 15 else False
         
-        if fark < 15:
-            saat_str = datetime.strptime(ts, "%Y-%m-%d %H:%M:%S").strftime("%d.%m.%Y %H:%M")
-            extinf = re.sub(r'group-title="[^"]*"', f'group-title="📺 YENİ DİZİ [{src}]"', extinf)
-            extinf = re.sub(r',.*', f',{key[0]} [{saat_str}]', extinf)
-        else:
-            extinf = re.sub(r',.*', f',{key[0]}', extinf)
+        extinf = process_metadata(extinf, src, ts, is_new=is_new_tag)
+        # Virgül sonrasındaki ismi değiştir (Tarih ekleme yapmadan)
+        extinf = re.sub(r',.*', f',{key[0]}', extinf)
         f.write(extinf + "\n" + url + "\n")
 
 with open(ana_kayit_json, "w", encoding="utf-8") as f:
     json.dump(ana_link_dict, f, ensure_ascii=False, indent=2)
 
-print(f"Bitti! Tarih bilgileri (2016 vb.) korundu, diğer teknik detaylar temizlendi.")
+print(f"Bitti! Yeni dizi etiketi group-author kısmına taşındı, dizi isimleri sade bırakıldı.")
