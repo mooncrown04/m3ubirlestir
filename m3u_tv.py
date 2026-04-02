@@ -139,7 +139,7 @@ async def main():
             # 2. Kategoriler aynıysa isme göre alfabetik dizilir.
             alive_channels.sort(key=lambda x: (get_group_priority(x.category), x.category, x.name))
             
-            with open("guncel_liste.m3u", "w", encoding="utf-8") as f:
+            with open("birlesik_tv.m3u", "w", encoding="utf-8") as f:
                 f.write("#EXTM3U\n")
                 for ch in alive_channels:
                     final_logo = logo_map.get(ch.name, ch.logo)
