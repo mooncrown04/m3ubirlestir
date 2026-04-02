@@ -2,8 +2,8 @@ name: M3U Birleştirici
 
 on:
   schedule:
-    - cron: '0 2,14 * * *' # Günde iki kez otomatik çalışır
-  workflow_dispatch: # Manuel çalıştırma butonu sağlar
+    - cron: '0 2,14 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -23,7 +23,8 @@ jobs:
           python-version: '3.x'
 
       - name: Bağımlılıkları kur
-        run: pip install requests
+        # aiohttp buraya eklendi, böylece m3u_tv.py hata vermeyecek
+        run: pip install requests aiohttp
 
       - name: M3U Dosyalarını Oluştur (Sinema, Dizi, TV)
         run: |
@@ -38,10 +39,12 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # Tüm oluşturulan M3U ve JSON dosyalarını ekle
-          # Not: Eğer dosyaların/klasörlerin isimleri farklıysa buraya ekleme yapabilirsin
-          git add *.m3u kayit_json/ kayit_json_dizi/
+          # Tüm m3u dosyalarını ve varsa oluşturulan tüm json klasörlerini ekle
+          git add *.m3u
+          git add kayit_json/ || echo "Klasör yok"
+          git add kayit_json_dizi/ || echo "Klasör yok"
+          git add kayit_json_tv/ || echo "Klasör yok"
           
-          git commit -m "Otomatik M3U güncellemesi (Sinema, Dizi, TV)" || echo "Değişiklik yok"
+          git commit -m "Otomatik M3U güncellemesi (Modül hatası giderildi)" || echo "Değişiklik yok"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           git push
