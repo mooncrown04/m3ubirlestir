@@ -20,21 +20,43 @@ KOPYA_IKONU = "🔄"
 if not os.path.exists(kayit_json_dir):
     os.makedirs(kayit_json_dir)
 
-# --- İSİM TEMİZLEME FONKSİYONU (YILI KORUR) ---
+# --- FORMAT VE TEMİZLİK FONKSİYONLARI ---
+
+def standardize_episode_names(name):
+    """Dizi bölümlerini S01E01 formatına sokar."""
+    # "1. Sezon 8. Bölüm" -> S01E08
+    name = re.sub(r'(\d+)\.\s*Sezon\s*(\d+)\.\s*Bölüm', lambda m: f"S{int(m.group(1)):02d}E{int(m.group(2)):02d}", name, flags=re.IGNORECASE)
+    # "- 3. Bölüm" -> S01E03
+    name = re.sub(r'-\s*(\d+)\.\s*Bölüm', lambda m: f"S01E{int(m.group(1)):02d}", name, flags=re.IGNORECASE)
+    # "s1e8" veya "s01e8" -> S01E08
+    name = re.sub(r's(\d+)e(\d+)', lambda m: f"S{int(m.group(1)):02d}E{int(m.group(2)):02d}", name, flags=re.IGNORECASE)
+    # S01E08a gibi sondaki küçük harfleri siler
+    name = re.sub(r'S(\d{2})E(\d{2})[a-z]', r'S\1E\2', name)
+    return name
+
 def clean_display_name(name):
-    """(2016) gibi tarihleri korur, (6.6) veya (Aksiyon) gibi kısımları siler."""
+    # 1. Köşeli parantez içindekileri sil [8.7] [Aksiyon] vb.
+    name = re.sub(r'\[.*?\]', '', name)
+    
+    # 2. Yılları koruma (2016)
     yillar = re.findall(r'\(\d{4}\)', name)
     for i, yil in enumerate(yillar):
         name = name.replace(yil, f"[[YIL_{i}]]")
 
+    # 3. Normal parantez içindeki diğer her şeyi sil (Puan, Tür vb.)
     name = re.sub(r'\(.*?\)', '', name)
 
+    # 4. Yılları geri yükle
     for i, yil in enumerate(yillar):
         name = name.replace(f"[[YIL_{i}]]", yil)
 
-    name = name.replace("🌟", "").strip()
-    name = name.replace("_", " ")
+    # 5. Dizi bölüm formatını standartlaştır (S01E01)
+    name = standardize_episode_names(name)
+
+    # 6. Gereksiz karakter ve boşluk temizliği
+    name = name.replace("🌟", "").replace("_", " ").strip()
     name = ' '.join(name.split())
+    
     return name
 
 def safe_extract_channel_key(extinf_line, url_line):
@@ -44,11 +66,9 @@ def safe_extract_channel_key(extinf_line, url_line):
     return (channel_name, url_line.strip())
 
 def process_metadata(extinf_line, source_name, add_time, is_new=False):
-    # Video tipini ekle
     if 'type="video"' not in extinf_line:
         extinf_line = extinf_line.replace("#EXTINF:-1", '#EXTINF:-1 type="video"')
     
-    # Author kısmına "YENİ DİZİ" bilgisini ekle
     author_val = f"📺 YENİ DİZİ [{source_name}]" if is_new else source_name
     
     if 'group-author=' in extinf_line:
@@ -56,7 +76,6 @@ def process_metadata(extinf_line, source_name, add_time, is_new=False):
     else:
         extinf_line = re.sub(r',', f' group-author="{author_val}",', extinf_line, count=1)
     
-    # Zaman bilgisini ekle
     clean_time = add_time.replace(" ", "_")
     if 'group-time=' in extinf_line:
         extinf_line = re.sub(r'group-time="[^"]*"', f'group-time="{clean_time}"', extinf_line)
@@ -111,6 +130,7 @@ for m3u_url, source_name in m3u_sources:
     except Exception as e:
         print(f"⚠️ Hata: {source_name} -> {e}")
 
+# İsimleri temizle ve kopyaları say
 isim_sayaci = Counter([clean_display_name(item[0][0]).lower() for item in hepsi_gecici])
 
 tum_yeni_kanallar = []
@@ -135,25 +155,20 @@ tum_eski_kanallar.sort(key=lambda x: x[0][0].lower())
 with open(birlesik_dosya, "w", encoding="utf-8") as f:
     f.write("#EXTM3U\n")
     
-    # YENİLER
     for (key, extinf, url, t, ts, src) in tum_yeni_kanallar:
-        # is_new=True göndererek group-author'a bilgiyi işletiyoruz
         extinf = process_metadata(extinf, src, ts, is_new=True)
-        # Virgül sonrasındaki ismi temizlenmiş halle değiştir (Tarih ekleme yapmadan)
+        # İsmi temizlenmiş halle değiştir (S01E01 formatında ve []/() temizlenmiş)
         extinf = re.sub(r',.*', f',{key[0]}', extinf)
         f.write(extinf + "\n" + url + "\n")
 
-    # ESKİLER
     for (key, extinf, url, t, ts, src) in tum_eski_kanallar:
         fark = (today_obj - datetime.strptime(t, "%Y-%m-%d")).days
         is_new_tag = True if fark < 15 else False
-        
         extinf = process_metadata(extinf, src, ts, is_new=is_new_tag)
-        # Virgül sonrasındaki ismi değiştir (Tarih ekleme yapmadan)
         extinf = re.sub(r',.*', f',{key[0]}', extinf)
         f.write(extinf + "\n" + url + "\n")
 
 with open(ana_kayit_json, "w", encoding="utf-8") as f:
     json.dump(ana_link_dict, f, ensure_ascii=False, indent=2)
 
-print(f"Bitti! Yeni dizi etiketi group-author kısmına taşındı, dizi isimleri sade bırakıldı.")
+print(f"Tamamlandı! Köşeli parantezler silindi, dizi isimleri S01E01 formatına çevrildi.")
