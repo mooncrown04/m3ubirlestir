@@ -20,37 +20,47 @@ KOPYA_IKONU = "🔄"
 if not os.path.exists(kayit_json_dir):
     os.makedirs(kayit_json_dir)
 
-# --- İSİM TEMİZLEME FONKSİYONU ---
+# --- İSİM TEMİZLEME FONKSİYONU (YILI KORUR) ---
 def clean_display_name(name):
-    """(2016) gibi tarihleri korur, diğer fazlalıkları siler."""
+    """
+    Film ismindeki (2024) gibi kısımları KORUR.
+    Sadece [ ] içindeki ekleri ve gereksiz boşlukları temizler.
+    """
+    # Köşeli parantez içindeki tarih damgalarını veya ekleri sil [02.04.2026] gibi
     name = re.sub(r'\[.*?\]', '', name)
-    yillar = re.findall(r'\(\d{4}\)', name)
-    for i, yil in enumerate(yillar):
-        name = name.replace(yil, f"[[YIL_{i}]]")
-    name = re.sub(r'\(.*?\)', '', name)
-    for i, yil in enumerate(yillar):
-        name = name.replace(f"[[YIL_{i}]]", yil)
-    name = name.replace("🌟", "").replace("_", " ").strip()
+    # Alt tireleri boşluk yap ve fazla boşlukları temizle
+    name = name.replace("_", " ").strip()
     name = ' '.join(name.split())
     return name
 
 def safe_extract_channel_key(extinf_line, url_line):
+    """M3U satırından film ismini (virgülden sonrasını) çeker."""
     clean_line = re.sub(r'logo="([^"]+?)"', lambda m: f'logo="{m.group(1).replace(",", "%2C")}"', extinf_line)
     match = re.search(r',([^,]*)$', clean_line)
     channel_name = match.group(1).strip() if match else 'Bilinmeyen Film'
     return (channel_name, url_line.strip())
 
-# --- KALICI ZAMAN VE METADATA İŞLEME ---
-def process_metadata(extinf_line, source_name, add_time):
-    """Zamanı group-time içinde kalıcı olarak saklar."""
+# --- METADATA İŞLEME ---
+def process_metadata(extinf_line, source_name, add_time, is_new=False, is_duplicate=False):
+    """
+    Kategoriyi korur. Kaynak, Yeni ve Kopya bilgisini group-author'a yazar.
+    """
     if 'type="video"' not in extinf_line:
         extinf_line = extinf_line.replace("#EXTINF:-1", '#EXTINF:-1 type="video"')
     
-    # Kaynak bilgisini ekle
-    if 'group-author=' not in extinf_line:
-        extinf_line = re.sub(r',', f' group-author="{source_name}",', extinf_line, count=1)
+    # group-author alanı: ✨YENİ 🔄 [Kaynak]
+    prefix = ""
+    if is_new: prefix += "✨YENİ "
+    if is_duplicate: prefix += f"{KOPYA_IKONU} "
     
-    # KALICI ZAMAN BURADA: group-time içine yazılıyor
+    status_label = f"{prefix}[{source_name}]".strip()
+    
+    if 'group-author=' in extinf_line:
+        extinf_line = re.sub(r'group-author="[^"]*"', f'group-author="{status_label}"', extinf_line)
+    else:
+        extinf_line = re.sub(r',', f' group-author="{status_label}",', extinf_line, count=1)
+    
+    # group-time alanı: Arka planda kalıcı zaman
     clean_time = add_time.replace(" ", "_")
     if 'group-time=' in extinf_line:
         extinf_line = re.sub(r'group-time="[^"]*"', f'group-time="{clean_time}"', extinf_line)
@@ -105,55 +115,53 @@ for m3u_url, source_name in m3u_sources:
     except Exception as e:
         print(f"⚠️ Hata: {source_name} -> {e}")
 
-# --- GÜVENLİK KONTROLÜ ---
 if len(hepsi_gecici) == 0:
-    print("❌ HATA: Veri alınamadı! Dosya korunuyor.")
+    print("❌ HATA: Veri alınamadı!")
 else:
+    # Kopya kontrolü için isimleri say (Yılları koruyarak)
     isim_sayaci = Counter([clean_display_name(item[0][0]).lower() for item in hepsi_gecici])
+    
     tum_yeni_kanallar = []
     tum_eski_kanallar = []
 
     for (key, extinf, url, source_name) in hepsi_gecici:
-        temiz_isim = clean_display_name(key[0])
-        display_name = f"{KOPYA_IKONU} {temiz_isim}" if isim_sayaci[temiz_isim.lower()] > 1 else temiz_isim
-        
         dict_key = f"{key[0]}|{url}"
         if dict_key in ana_link_dict:
             kayit = ana_link_dict[dict_key]
-            # Eski filmin kayıtlı olan zamanını (ts) koruyoruz
-            tum_eski_kanallar.append(((display_name, url), extinf, url, kayit["tarih"], kayit["tarih_saat"], source_name))
+            tum_eski_kanallar.append((key, extinf, url, kayit["tarih"], kayit["tarih_saat"], source_name))
         else:
-            # Yeni filmi şu anki zamanla kaydediyoruz
             ana_link_dict[dict_key] = {"tarih": today, "tarih_saat": now_full}
-            tum_yeni_kanallar.append(((display_name, url), extinf, url, today, now_full, source_name))
+            tum_yeni_kanallar.append((key, extinf, url, today, now_full, source_name))
 
-    # --- SIRALAMA VE YAZMA ---
+    # --- SIRALAMA ---
     tum_yeni_kanallar.sort(key=lambda x: x[0][0].lower())
     tum_eski_kanallar.sort(key=lambda x: x[0][0].lower())
 
+    # --- YAZMA ---
     with open(birlesik_dosya, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         
         # YENİLER
         for (key, extinf, url, t, ts, src) in tum_yeni_kanallar:
-            extinf = process_metadata(extinf, src, ts) # ts burada kalıcı zaman (group-time)
-            extinf = re.sub(r'group-title="[^"]*"', f'group-title="✨YENİ [{src}]"', extinf)
-            # İSMİN SONUNA TARİH EKLEMİYORUZ (Eşleşme bozulmasın diye)
-            extinf = re.sub(r',.*', f',{key[0]}', extinf)
+            temiz_isim = clean_display_name(key[0])
+            is_dup = isim_sayaci[temiz_isim.lower()] > 1
+            
+            extinf = process_metadata(extinf, src, ts, is_new=True, is_duplicate=is_dup)
+            # İsim olduğu gibi kalır (clean_display_name sayesinde parantezli yıllar korunur)
+            extinf = re.sub(r',.*', f',{temiz_isim}', extinf)
             f.write(extinf + "\n" + url + "\n")
 
         # ESKİLER
         for (key, extinf, url, t, ts, src) in tum_eski_kanallar:
+            temiz_isim = clean_display_name(key[0])
+            is_dup = isim_sayaci[temiz_isim.lower()] > 1
             fark = (today_obj - datetime.strptime(t, "%Y-%m-%d")).days
-            extinf = process_metadata(extinf, src, ts) # Eski kayıt zamanı korunur
             
-            if fark < 30:
-                extinf = re.sub(r'group-title="[^"]*"', f'group-title="✨YENİ [{src}]"', extinf)
-            
-            extinf = re.sub(r',.*', f',{key[0]}', extinf)
+            extinf = process_metadata(extinf, src, ts, is_new=(fark < 30), is_duplicate=is_dup)
+            extinf = re.sub(r',.*', f',{temiz_isim}', extinf)
             f.write(extinf + "\n" + url + "\n")
 
     with open(ana_kayit_json, "w", encoding="utf-8") as f:
         json.dump(ana_link_dict, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ Tamamlandı! Zaman metadata içinde (group-time) kalıcı hale getirildi.")
+    print(f"✅ İşlem Tamam! Yıllar ( ) korundu, {KOPYA_IKONU} sadece group-author alanına eklendi.")
