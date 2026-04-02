@@ -41,7 +41,7 @@ jobs:
           
           # Tüm m3u dosyalarını ve varsa oluşturulan tüm json klasörlerini ekle
           git add *.m3u
-          git add kayit_json/ || echo "Klasör yok"
+          git add kayit_json_sinema/ || echo "Klasör yok"
           git add kayit_json_dizi/ || echo "Klasör yok"
           git add kayit_json_tv/ || echo "Klasör yok"
           
