@@ -9,7 +9,7 @@ from collections import Counter
 m3u_sources = [
     ("https://tinyurl.com/FanatikPlayDizi", "FanatikPlay"),
     ("https://raw.githubusercontent.com/Zerk1903/zerkfilm/refs/heads/main/Diziler.m3u", "Zerk"),
-    (""https://tinyurl.com/24lt9aqs", "powerboard"),
+    ("https://tinyurl.com/24lt9aqs", "powerboard"),
 ]
 
 birlesik_dosya = "birlesik_diziler.m3u"
