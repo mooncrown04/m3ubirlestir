@@ -12,38 +12,56 @@ m3u_sources = [
     ("https://tinyurl.com/2ao2rans", "powerboard"),
 ]
 
-birlesik_dosya = "birlesik.m3u"
-kayit_json_dir = "kayit_json"
-ana_kayit_json = os.path.join(kayit_json_dir, "birlesik_links.json")
+birlesik_dosya = "birlesik_sinema.m3u"
+kayit_json_dir = "kayit_json_sinema"
+ana_kayit_json = os.path.join(kayit_json_dir, "birlesik_sinema_links.json")
 KOPYA_IKONU = "🔄"
 
 if not os.path.exists(kayit_json_dir):
     os.makedirs(kayit_json_dir)
 
-# --- YENİ: İSİM TEMİZLEME FONKSİYONU ---
+# --- İSİM TEMİZLEME FONKSİYONU (YILI KORUR) ---
 def clean_display_name(name):
-    """(🌟6.6), (Aksiyon), (2002) gibi parantezli kısımları siler."""
-    # 1. Parantez içindeki her şeyi (ve parantezleri) siler
+    """
+    (2016) gibi tarihleri korur, [8.7], (Aksiyon), (🌟6.6) gibi kısımları siler.
+    """
+    # 1. Köşeli parantez içindeki her şeyi sil [Puan] [4K] vb.
+    name = re.sub(r'\[.*?\]', '', name)
+
+    # 2. İçinde tam olarak 4 hane rakam olan parantezleri (Yılları) geçici olarak korumaya al
+    yillar = re.findall(r'\(\d{4}\)', name)
+    for i, yil in enumerate(yillar):
+        name = name.replace(yil, f"[[YIL_{i}]]")
+
+    # 3. Geri kalan tüm normal parantezleri ve içindekileri sil
     name = re.sub(r'\(.*?\)', '', name)
-    # 2. Başta veya sonda kalabilecek yıldız, boşluk gibi karakterleri temizle
-    name = name.replace("🌟", "").strip()
-    # 3. Birden fazla boşluk kaldıysa teke indir
+
+    # 4. Korunan yılları geri yükle
+    for i, yil in enumerate(yillar):
+        name = name.replace(f"[[YIL_{i}]]", yil)
+
+    # 5. Başta veya sonda kalabilecek yıldız, boşluk ve alt tireleri temizle
+    name = name.replace("🌟", "").replace("_", " ").strip()
+    
+    # 6. Birden fazla boşluk kaldıysa teke indir
     name = ' '.join(name.split())
     return name
 
 def safe_extract_channel_key(extinf_line, url_line):
+    # Logo içindeki virgül hatasını önlemek için teknik temizlik
     clean_line = re.sub(r'logo="([^"]+?)"', lambda m: f'logo="{m.group(1).replace(",", "%2C")}"', extinf_line)
     match = re.search(r',([^,]*)$', clean_line)
-    channel_name = match.group(1).strip() if match else 'Bilinmeyen Kanal'
-    # Teknik temizlik (alt tire vb.)
+    channel_name = match.group(1).strip() if match else 'Bilinmeyen Film'
     channel_name = channel_name.replace("_", " ").strip()
     return (channel_name, url_line.strip())
 
 def process_metadata(extinf_line, source_name, add_time):
     if 'type="video"' not in extinf_line:
         extinf_line = extinf_line.replace("#EXTINF:-1", '#EXTINF:-1 type="video"')
+    
     if 'group-author=' not in extinf_line:
         extinf_line = re.sub(r',', f' group-author="{source_name}",', extinf_line, count=1)
+    
     clean_time = add_time.replace(" ", "_")
     if 'group-time=' not in extinf_line:
         extinf_line = re.sub(r',', f' group-time="{clean_time}",', extinf_line, count=1)
@@ -71,7 +89,7 @@ def parse_m3u_lines(lines):
             i += 1
     return kanal_list
 
-# --- ZAMAN ---
+# --- ZAMAN AYARLARI ---
 tr_tz = timezone(timedelta(hours=3)) 
 now_tr = datetime.now(tr_tz)
 today = now_tr.strftime("%Y-%m-%d")
@@ -102,20 +120,17 @@ for m3u_url, source_name in m3u_sources:
     except Exception as e:
         print(f"⚠️ Hata: {source_name} -> {e}")
 
-# Sayacı orijinal isimler üzerinden tutuyoruz
+# Kopya kontrolü için temiz isimleri say
 isim_sayaci = Counter([clean_display_name(item[0][0]).lower() for item in hepsi_gecici])
 
 tum_yeni_kanallar = []
 tum_eski_kanallar = []
 
 for (key, extinf, url, source_name) in hepsi_gecici:
-    # İSMİ BURADA TEMİZLİYORUZ
     temiz_isim = clean_display_name(key[0])
-    
-    # Kopya kontrolü temizlenmiş isim üzerinden yapılır
     display_name = f"{KOPYA_IKONU} {temiz_isim}" if isim_sayaci[temiz_isim.lower()] > 1 else temiz_isim
     
-    dict_key = f"{key[0]}|{url}" # JSON anahtarı orijinal kalsın ki eşleşme bozulmasın
+    dict_key = f"{key[0]}|{url}"
     if dict_key in ana_link_dict:
         kayit = ana_link_dict[dict_key]
         tum_eski_kanallar.append(((display_name, url), extinf, url, kayit["tarih"], kayit["tarih_saat"], source_name))
@@ -154,4 +169,4 @@ with open(birlesik_dosya, "w", encoding="utf-8") as f:
 with open(ana_kayit_json, "w", encoding="utf-8") as f:
     json.dump(ana_link_dict, f, ensure_ascii=False, indent=2)
 
-print(f"Bitti! İsimlerdeki parantezli teknik detaylar temizlendi.")
+print(f"Bitti! Film yıllarını (20xx) koruyan parantez istisnası uygulandı.")
