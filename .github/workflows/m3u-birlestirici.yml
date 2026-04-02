@@ -2,8 +2,8 @@ name: M3U Birleştirici
 
 on:
   schedule:
-    - cron: '0 2,14 * * *'
-  workflow_dispatch:
+    - cron: '0 2,14 * * *' # Günde iki kez otomatik çalışır
+  workflow_dispatch: # Manuel çalıştırma butonu sağlar
 
 permissions:
   contents: write
@@ -16,21 +16,32 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: false
+
       - name: Python'u kur
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+
       - name: Bağımlılıkları kur
         run: pip install requests
-      - name: M3U dosyalarını birleştir
-        run: python m3u_birlestirici.py
+
+      - name: M3U Dosyalarını Oluştur (Sinema, Dizi, TV)
+        run: |
+          python m3u_sinema.py
+          python m3u_dizi.py
+          python m3u_tv.py
+
       - name: Değişiklikleri commitle ve pusha gönder
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add birlesik.m3u kayit_json/birlesik_links.json
-          git commit -m "Otomatik m3u birleştirme güncellemesi" || echo "Değişiklik yok"
+          
+          # Tüm oluşturulan M3U ve JSON dosyalarını ekle
+          # Not: Eğer dosyaların/klasörlerin isimleri farklıysa buraya ekleme yapabilirsin
+          git add *.m3u kayit_json/ kayit_json_dizi/
+          
+          git commit -m "Otomatik M3U güncellemesi (Sinema, Dizi, TV)" || echo "Değişiklik yok"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           git push
