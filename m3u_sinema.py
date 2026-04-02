@@ -20,9 +20,9 @@ KOPYA_IKONU = "🔄"
 if not os.path.exists(kayit_json_dir):
     os.makedirs(kayit_json_dir)
 
-# --- İSİM TEMİZLEME FONKSİYONU (YILI KORUR) ---
+# --- İSİM TEMİZLEME FONKSİYONU ---
 def clean_display_name(name):
-    """(2016) gibi tarihleri korur, [8.7], (Aksiyon) gibi kısımları siler."""
+    """(2016) gibi tarihleri korur, diğer fazlalıkları siler."""
     name = re.sub(r'\[.*?\]', '', name)
     yillar = re.findall(r'\(\d{4}\)', name)
     for i, yil in enumerate(yillar):
@@ -38,23 +38,25 @@ def safe_extract_channel_key(extinf_line, url_line):
     clean_line = re.sub(r'logo="([^"]+?)"', lambda m: f'logo="{m.group(1).replace(",", "%2C")}"', extinf_line)
     match = re.search(r',([^,]*)$', clean_line)
     channel_name = match.group(1).strip() if match else 'Bilinmeyen Film'
-    channel_name = channel_name.replace("_", " ").strip()
     return (channel_name, url_line.strip())
 
+# --- KALICI ZAMAN VE METADATA İŞLEME ---
 def process_metadata(extinf_line, source_name, add_time):
+    """Zamanı group-time içinde kalıcı olarak saklar."""
     if 'type="video"' not in extinf_line:
         extinf_line = extinf_line.replace("#EXTINF:-1", '#EXTINF:-1 type="video"')
+    
+    # Kaynak bilgisini ekle
     if 'group-author=' not in extinf_line:
         extinf_line = re.sub(r',', f' group-author="{source_name}",', extinf_line, count=1)
+    
+    # KALICI ZAMAN BURADA: group-time içine yazılıyor
     clean_time = add_time.replace(" ", "_")
-    if 'group-time=' not in extinf_line:
+    if 'group-time=' in extinf_line:
+        extinf_line = re.sub(r'group-time="[^"]*"', f'group-time="{clean_time}"', extinf_line)
+    else:
         extinf_line = re.sub(r',', f' group-time="{clean_time}",', extinf_line, count=1)
-    m_title = re.search(r'group-title="([^"]*)"', extinf_line)
-    if not m_title or not m_title.group(1).strip():
-        if 'group-title=' in extinf_line:
-            extinf_line = re.sub(r'group-title="[^"]*"', f'group-title="{source_name}"', extinf_line)
-        else:
-            extinf_line = re.sub(r',', f' group-title="{source_name}",', extinf_line, count=1)
+    
     return extinf_line
 
 def parse_m3u_lines(lines):
@@ -105,9 +107,8 @@ for m3u_url, source_name in m3u_sources:
 
 # --- GÜVENLİK KONTROLÜ ---
 if len(hepsi_gecici) == 0:
-    print("❌ HATA: Hiçbir kaynaktan veri alınamadı! M3U dosyası silinmemesi için işlem durduruldu.")
+    print("❌ HATA: Veri alınamadı! Dosya korunuyor.")
 else:
-    # İsimleri say ve kategorize et
     isim_sayaci = Counter([clean_display_name(item[0][0]).lower() for item in hepsi_gecici])
     tum_yeni_kanallar = []
     tum_eski_kanallar = []
@@ -119,8 +120,10 @@ else:
         dict_key = f"{key[0]}|{url}"
         if dict_key in ana_link_dict:
             kayit = ana_link_dict[dict_key]
+            # Eski filmin kayıtlı olan zamanını (ts) koruyoruz
             tum_eski_kanallar.append(((display_name, url), extinf, url, kayit["tarih"], kayit["tarih_saat"], source_name))
         else:
+            # Yeni filmi şu anki zamanla kaydediyoruz
             ana_link_dict[dict_key] = {"tarih": today, "tarih_saat": now_full}
             tum_yeni_kanallar.append(((display_name, url), extinf, url, today, now_full, source_name))
 
@@ -133,26 +136,24 @@ else:
         
         # YENİLER
         for (key, extinf, url, t, ts, src) in tum_yeni_kanallar:
-            saat_str = datetime.strptime(ts, "%Y-%m-%d %H:%M:%S").strftime("%d.%m.%Y %H:%M")
-            extinf = process_metadata(extinf, src, ts)
+            extinf = process_metadata(extinf, src, ts) # ts burada kalıcı zaman (group-time)
             extinf = re.sub(r'group-title="[^"]*"', f'group-title="✨YENİ [{src}]"', extinf)
-            extinf = re.sub(r',.*', f',{key[0]} [{saat_str}]', extinf)
+            # İSMİN SONUNA TARİH EKLEMİYORUZ (Eşleşme bozulmasın diye)
+            extinf = re.sub(r',.*', f',{key[0]}', extinf)
             f.write(extinf + "\n" + url + "\n")
 
         # ESKİLER
         for (key, extinf, url, t, ts, src) in tum_eski_kanallar:
             fark = (today_obj - datetime.strptime(t, "%Y-%m-%d")).days
-            extinf = process_metadata(extinf, src, ts)
+            extinf = process_metadata(extinf, src, ts) # Eski kayıt zamanı korunur
             
             if fark < 30:
-                saat_str = datetime.strptime(ts, "%Y-%m-%d %H:%M:%S").strftime("%d.%m.%Y %H:%M")
                 extinf = re.sub(r'group-title="[^"]*"', f'group-title="✨YENİ [{src}]"', extinf)
-                extinf = re.sub(r',.*', f',{key[0]} [{saat_str}]', extinf)
-            else:
-                extinf = re.sub(r',.*', f',{key[0]}', extinf)
+            
+            extinf = re.sub(r',.*', f',{key[0]}', extinf)
             f.write(extinf + "\n" + url + "\n")
 
     with open(ana_kayit_json, "w", encoding="utf-8") as f:
         json.dump(ana_link_dict, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ Bitti! {len(hepsi_gecici)} film işlendi. Yıllar korundu, boş dosya riski engellendi.")
+    print(f"✅ Tamamlandı! Zaman metadata içinde (group-time) kalıcı hale getirildi.")
