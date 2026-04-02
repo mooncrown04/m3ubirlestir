@@ -1,157 +1,152 @@
-import requests
-import os
+import asyncio
+import logging
+import aiohttp
 import re
-import json
-from datetime import datetime, timedelta, timezone
-from collections import Counter
+from dataclasses import dataclass
+from typing import List
+
+# --- LOG AYARLARI ---
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # --- AYARLAR ---
-m3u_sources = [
-    ("https://raw.githubusercontent.com/Lunedor/iptvTR/refs/heads/main/FilmArsiv.m3u", "Lunedor"),
-    ("https://raw.githubusercontent.com/Zerk1903/zerkfilm/refs/heads/main/Filmler.m3u", "Zerk"),
-    ("https://tinyurl.com/2ao2rans", "powerboard"),
+TIMEOUT = 7 
+MAX_CONCURRENT_REQUESTS = 30 
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
+
+M3U_SOURCES = [
+    'https://raw.githubusercontent.com/smartgmr/cdn/refs/heads/main/Perfect.m3u',
+    'https://raw.githubusercontent.com/Mertcantv/Mertcan/refs/heads/main/%C4%B0zle2.m3u',
+    'https://raw.githubusercontent.com/primatzeka/kurbaga/main/NeonSpor/NeonSpor.m3u',
+    'https://tinyurl.com/TVCANLI'
 ]
 
-birlesik_dosya = "birlesik.m3u"
-kayit_json_dir = "kayit_json"
-ana_kayit_json = os.path.join(kayit_json_dir, "birlesik_links.json")
-KOPYA_IKONU = "🔄"
+# --- SIRALAMA ÖNCELİĞİ ---
+# Buradaki sıraya göre M3U dosyasında en üstte görünecekler.
+# İstediğin zaman buraya yeni gruplar ekleyebilirsin.
+PRIORITY_GROUPS = [
+    "Ulusal Kanallar",
+    "Haberler",
+    "Spor"
+]
 
-if not os.path.exists(kayit_json_dir):
-    os.makedirs(kayit_json_dir)
+CATEGORY_MAPPING = {
+    "haber": "Haberler",
+    "ulusal": "Ulusal Kanallar",
+    "sport": "Spor",
+    "spor": "Spor",
+    "movie": "Sinema",
+    "film": "Sinema",
+    "belgesel": "Belgesel",
+    "cocuk": "Çocuk & Aile",
+    "kids": "Çocuk & Aile"
+}
 
-# --- YENİ: İSİM TEMİZLEME FONKSİYONU ---
-def clean_display_name(name):
-    """(🌟6.6), (Aksiyon), (2002) gibi parantezli kısımları siler."""
-    # 1. Parantez içindeki her şeyi (ve parantezleri) siler
-    name = re.sub(r'\(.*?\)', '', name)
-    # 2. Başta veya sonda kalabilecek yıldız, boşluk gibi karakterleri temizle
-    name = name.replace("🌟", "").strip()
-    # 3. Birden fazla boşluk kaldıysa teke indir
-    name = ' '.join(name.split())
-    return name
+@dataclass
+class Channel:
+    name: str
+    category: str
+    url: str
+    logo: str = ""
 
-def safe_extract_channel_key(extinf_line, url_line):
-    clean_line = re.sub(r'logo="([^"]+?)"', lambda m: f'logo="{m.group(1).replace(",", "%2C")}"', extinf_line)
-    match = re.search(r',([^,]*)$', clean_line)
-    channel_name = match.group(1).strip() if match else 'Bilinmeyen Kanal'
-    # Teknik temizlik (alt tire vb.)
-    channel_name = channel_name.replace("_", " ").strip()
-    return (channel_name, url_line.strip())
+def clean_category(raw_cat: str) -> str:
+    if not raw_cat: return "Genel"
+    clean = re.sub(r'[|\[\(].*?[|\]\)]', '', raw_cat) 
+    clean = clean.replace(':', '').strip().lower()
+    clean = clean.replace('ı', 'i').replace('ü', 'u').replace('ö', 'o').replace('ş', 's').replace('ç', 'c').replace('ğ', 'g')
+    for key, target in CATEGORY_MAPPING.items():
+        if key in clean:
+            return target
+    return clean.title() if clean else "Genel"
 
-def process_metadata(extinf_line, source_name, add_time):
-    if 'type="video"' not in extinf_line:
-        extinf_line = extinf_line.replace("#EXTINF:-1", '#EXTINF:-1 type="video"')
-    if 'group-author=' not in extinf_line:
-        extinf_line = re.sub(r',', f' group-author="{source_name}",', extinf_line, count=1)
-    clean_time = add_time.replace(" ", "_")
-    if 'group-time=' not in extinf_line:
-        extinf_line = re.sub(r',', f' group-time="{clean_time}",', extinf_line, count=1)
-    
-    m_title = re.search(r'group-title="([^"]*)"', extinf_line)
-    if not m_title or not m_title.group(1).strip():
-        if 'group-title=' in extinf_line:
-            extinf_line = re.sub(r'group-title="[^"]*"', f'group-title="{source_name}"', extinf_line)
-        else:
-            extinf_line = re.sub(r',', f' group-title="{source_name}",', extinf_line, count=1)
-    return extinf_line
+def normalize_channel_identity(name: str):
+    name = re.sub(r'[\[\(].*?[\]\)]', '', name)
+    patterns = [r'\bHD\b', r'\bSD\b', r'\bFHD\b', r'\b4K\b', r'\bYedek\b', r'\bBackup\b', r'\bHEVC\b']
+    for p in patterns:
+        name = re.sub(p, '', name, flags=re.IGNORECASE)
+    return ' '.join(name.split()).strip().upper()
 
-def parse_m3u_lines(lines):
-    kanal_list = []
-    i = 0
-    while i < len(lines):
-        line = lines[i].strip()
-        if line.startswith("#EXTINF") and i + 1 < len(lines):
-            extinf_line = line
-            url_line = lines[i + 1].strip()
-            key_data = safe_extract_channel_key(extinf_line, url_line)
-            kanal_list.append((key_data, extinf_line, url_line))
-            i += 2
-        else:
-            i += 1
-    return kanal_list
+def parse_m3u(m3u_content: str) -> List[Channel]:
+    channels = []
+    pattern = re.compile(
+        r'#EXTINF:.*?(?:group-title|tvg-group)="([^"]*)".*?(?:tvg-logo)="([^"]*)".*?,([^\n\r]+)[\s\n\r]+(http[^\s\n\r]+)', 
+        re.IGNORECASE | re.DOTALL
+    )
+    matches = pattern.findall(m3u_content)
+    seen_urls = set()
+    for match in matches:
+        raw_group, logo_url, raw_name, url = match
+        url = url.strip()
+        if url in seen_urls: continue
+        std_name = normalize_channel_identity(raw_name)
+        std_category = clean_category(raw_group)
+        if std_name and url:
+            channels.append(Channel(name=std_name, category=std_category, url=url, logo=logo_url.strip()))
+            seen_urls.add(url)
+    return channels
 
-# --- ZAMAN ---
-tr_tz = timezone(timedelta(hours=3)) 
-now_tr = datetime.now(tr_tz)
-today = now_tr.strftime("%Y-%m-%d")
-now_full = now_tr.strftime("%Y-%m-%d %H:%M:%S")
-today_obj = datetime.strptime(today, "%Y-%m-%d")
+async def check_url(sem, session, ch):
+    async with sem:
+        try:
+            async with session.get(ch.url, timeout=TIMEOUT, allow_redirects=True) as response:
+                if response.status == 200:
+                    logging.info(f"OK: {ch.name}")
+                    return ch
+        except:
+            pass
+        return None
 
-# --- İŞLEM ---
-ana_link_dict = {}
-if os.path.exists(ana_kayit_json):
-    with open(ana_kayit_json, "r", encoding="utf-8") as f:
-        ana_link_dict = json.load(f)
-
-hepsi_gecici = [] 
-gorulen_url_ler = set()
-
-for m3u_url, source_name in m3u_sources:
+def get_group_priority(category_name: str) -> int:
+    """Kategorinin öncelik sırasını döndürür."""
     try:
-        print(f"[+] {source_name} çekiliyor...")
-        req = requests.get(m3u_url, timeout=25)
-        req.raise_for_status()
-        lines = req.text.splitlines()
-        kanal_list = parse_m3u_lines(lines)
+        # Eğer kategori PRIORITY_GROUPS içindeyse index numarasını döner (0, 1, 2...)
+        return PRIORITY_GROUPS.index(category_name)
+    except ValueError:
+        # Eğer listede yoksa çok büyük bir numara döner ki en sona kalsın
+        return 999
 
-        for (key, extinf, url) in kanal_list:
-            if url in gorulen_url_ler: continue
-            gorulen_url_ler.add(url)
-            hepsi_gecici.append((key, extinf, url, source_name))
-    except Exception as e:
-        print(f"⚠️ Hata: {source_name} -> {e}")
-
-# Sayacı orijinal isimler üzerinden tutuyoruz
-isim_sayaci = Counter([clean_display_name(item[0][0]).lower() for item in hepsi_gecici])
-
-tum_yeni_kanallar = []
-tum_eski_kanallar = []
-
-for (key, extinf, url, source_name) in hepsi_gecici:
-    # İSMİ BURADA TEMİZLİYORUZ
-    temiz_isim = clean_display_name(key[0])
-    
-    # Kopya kontrolü temizlenmiş isim üzerinden yapılır
-    display_name = f"{KOPYA_IKONU} {temiz_isim}" if isim_sayaci[temiz_isim.lower()] > 1 else temiz_isim
-    
-    dict_key = f"{key[0]}|{url}" # JSON anahtarı orijinal kalsın ki eşleşme bozulmasın
-    if dict_key in ana_link_dict:
-        kayit = ana_link_dict[dict_key]
-        tum_eski_kanallar.append(((display_name, url), extinf, url, kayit["tarih"], kayit["tarih_saat"], source_name))
-    else:
-        ana_link_dict[dict_key] = {"tarih": today, "tarih_saat": now_full}
-        tum_yeni_kanallar.append(((display_name, url), extinf, url, today, now_full, source_name))
-
-# --- SIRALAMA VE YAZMA ---
-tum_yeni_kanallar.sort(key=lambda x: x[0][0].lower())
-tum_eski_kanallar.sort(key=lambda x: x[0][0].lower())
-
-with open(birlesik_dosya, "w", encoding="utf-8") as f:
-    f.write("#EXTM3U\n")
-    
-    # YENİLER
-    for (key, extinf, url, t, ts, src) in tum_yeni_kanallar:
-        saat_str = datetime.strptime(ts, "%Y-%m-%d %H:%M:%S").strftime("%d.%m.%Y %H:%M")
-        extinf = process_metadata(extinf, src, ts)
-        extinf = re.sub(r'group-title="[^"]*"', f'group-title="✨YENİ [{src}]"', extinf)
-        extinf = re.sub(r',.*', f',{key[0]} [{saat_str}]', extinf)
-        f.write(extinf + "\n" + url + "\n")
-
-    # ESKİLER
-    for (key, extinf, url, t, ts, src) in tum_eski_kanallar:
-        fark = (today_obj - datetime.strptime(t, "%Y-%m-%d")).days
-        extinf = process_metadata(extinf, src, ts)
+async def main():
+    async with aiohttp.ClientSession(headers={'User-Agent': USER_AGENT}) as session:
+        all_channels = []
+        global_seen_urls = set()
+        logo_map = {} 
         
-        if fark < 30:
-            saat_str = datetime.strptime(ts, "%Y-%m-%d %H:%M:%S").strftime("%d.%m.%Y %H:%M")
-            extinf = re.sub(r'group-title="[^"]*"', f'group-title="✨YENİ [{src}]"', extinf)
-            extinf = re.sub(r',.*', f',{key[0]} [{saat_str}]', extinf)
-        else:
-            extinf = re.sub(r',.*', f',{key[0]}', extinf)
-            f.write(extinf + "\n" + url + "\n")
+        for url in M3U_SOURCES:
+            logging.info(f"İndiriliyor: {url}")
+            try:
+                async with session.get(url, timeout=15) as resp:
+                    if resp.status == 200:
+                        text = await resp.text()
+                        found = parse_m3u(text)
+                        for ch in found:
+                            if ch.url not in global_seen_urls:
+                                if ch.name not in logo_map and ch.logo:
+                                    logo_map[ch.name] = ch.logo
+                                all_channels.append(ch)
+                                global_seen_urls.add(ch.url)
+            except Exception as e:
+                logging.error(f"Hata: {e}")
 
-with open(ana_kayit_json, "w", encoding="utf-8") as f:
-    json.dump(ana_link_dict, f, ensure_ascii=False, indent=2)
+        if not all_channels: return
 
-print(f"Bitti! İsimlerdeki parantezli teknik detaylar temizlendi.")
+        sem = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
+        tasks = [check_url(sem, session, ch) for ch in all_channels]
+        results = await asyncio.gather(*tasks)
+        alive_channels = [c for c in results if c]
+
+        if alive_channels:
+            # --- ÖZEL SIRALAMA MANTIĞI ---
+            # 1. Önce get_group_priority ile kategori sırasına bakılır.
+            # 2. Kategoriler aynıysa isme göre alfabetik dizilir.
+            alive_channels.sort(key=lambda x: (get_group_priority(x.category), x.category, x.name))
+            
+            with open("guncel_liste.m3u", "w", encoding="utf-8") as f:
+                f.write("#EXTM3U\n")
+                for ch in alive_channels:
+                    final_logo = logo_map.get(ch.name, ch.logo)
+                    f.write(f'#EXTINF:-1 group-title="{ch.category}" tvg-logo="{final_logo}",{ch.name}\n')
+                    f.write(f"{ch.url}\n")
+            
+            logging.info(f"BİTTİ! {len(alive_channels)} kanal sıralı şekilde kaydedildi.")
+
+if __name__ == "__main__":
+    asyncio.run(main())
