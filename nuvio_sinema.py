@@ -12,7 +12,7 @@ m3u_sources = [
 
 birlesik_dosya = "nuvio_sinema.m3u"
 kayit_json_dir = "kayit_json_nuvio"
-ana_kayit_json = os.path.join(kayit_json_dir, "birlesik_sinema_links.json")
+ana_kayit_json = os.path.join(kayit_json_dir, "nuvio_sinema_links.json")
 KOPYA_IKONU = "🔄"
 
 if not os.path.exists(kayit_json_dir):
