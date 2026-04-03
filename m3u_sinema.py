@@ -31,7 +31,7 @@ def clean_and_extract(raw_name):
     clean_name = clean_name.split(' Aksiyon-')[0].split('--')[0].strip()
     
     year = ""
-    # 2. Sadece en sondaki 4 haneli rakamı ara
+    # 2. Sadece en sondaki 4 haneli rakamı ara (1920-2027 arası)
     year_match = re.search(r'(?:\s|[\(\[])(\d{4})[\)\]]?$', clean_name)
     
     if year_match:
@@ -51,30 +51,31 @@ def clean_and_extract(raw_name):
     
     return clean_name, year
 
-# --- METADATA İŞLEME (GÜNCELLENDİ: EN SADE FORMAT) ---
+# --- METADATA İŞLEME (GÜNCELLENDİ: GARANTİ FORMAT) ---
 def process_metadata(extinf_line, source_name, add_time, year_val, is_new=False, is_duplicate=False):
+    # Logoyu orijinal satırdan çek
     logo_match = re.search(r'tvg-logo="([^"]*)"', extinf_line)
     logo = logo_match.group(1) if logo_match else ""
     
-    # Emojileri ismin başından buraya (bilgi kısmına) çektik ki arama bozulmasın
     prefix = ""
-    if is_new: prefix += "YENI "
+    if is_new: prefix += "✨YENİ "
     if is_duplicate: prefix += f"{KOPYA_IKONU} "
     status_label = f"{prefix}[{source_name}]".strip()
     clean_time = add_time.replace(" ", "_")
 
-    # Eklentinin takılmadan okuduğu en garanti dizilim
+    # Eklentinin en sevdiği dizilim: group-title'ı ortaya aldık, year'ı sona yaklaştırdık
     parts = [
         '#EXTINF:-1',
         f'tvg-logo="{logo}"',
         f'group-time="{clean_time}"',
         f'group-author="{status_label}"',
-        'group-title="Sinema"' # Boş bırakmak yerine kategori ismi verdik
+        'group-title=""'
     ]
     
     if year_val:
         parts.append(f'year="{year_val}"')
     
+    # Sonda asla boşluk kalmayacak şekilde birleştir
     return " ".join(parts).strip()
 
 # --- ANA MOTOR ---
@@ -134,18 +135,17 @@ if hepsi_gecici:
 
             fark = (today_obj - datetime.strptime(t_tarih, "%Y-%m-%d")).days
             
-            # Header Oluştur
+            # Metadata Header'ı oluştur
             yeni_header = process_metadata(item["ext"], item["src"], t_full, film_yili, (fark < 30), is_dup)
             
-            # İsim sonuna yılı ekle (IMDb eşleşmesi için en garanti yöntem)
-            final_isim = f"{temiz_isim} ({film_yili})" if film_yili else temiz_isim
-            final_isim = final_isim.strip().replace('\xa0', ' ')
+            # İsimdeki görünmez karakterleri temizle (Örn: \xa0)
+            temiz_isim_final = temiz_isim.strip().replace('\xa0', ' ')
             
-            # KRİTİK: Virgül ile isim arası sıfır boşluk
-            f.write(f"{yeni_header},{final_isim}\n")
+            # KRİTİK: Header + Virgül + İsim (Arada asla boşluk yok!)
+            f.write(f"{yeni_header},{temiz_isim_final}\n")
             f.write(f"{item['url'].strip()}\n")
 
     with open(ana_kayit_json, "w", encoding="utf-8") as f:
         json.dump(ana_link_dict, f, ensure_ascii=False, indent=2)
 
-print(f"✅ Bitti! '{birlesik_dosya}' oluşturuldu.")
+print(f"✅ İşlem Tamamlandı! '{birlesik_dosya}' oluşturuldu.")
