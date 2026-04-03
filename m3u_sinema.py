@@ -7,10 +7,9 @@ from collections import Counter
 
 # --- AYARLAR ---
 m3u_sources = [
-    ("https://tinyurl.com/2ao2rans", "powerboard"),
     ("https://raw.githubusercontent.com/Lunedor/iptvTR/refs/heads/main/FilmArsiv.m3u", "Lunedor"),
     ("https://raw.githubusercontent.com/Zerk1903/zerkfilm/refs/heads/main/Filmler.m3u", "Zerk"),
-    
+    ("https://tinyurl.com/2ao2rans", "powerboard"),
 ]
 
 birlesik_dosya = "birlesik_sinema.m3u"
@@ -44,10 +43,15 @@ def clean_and_extract(raw_name):
     
     return clean_name, year
 
-# --- METADATA İŞLEME (TYPE="VIDEO" GERİ EKLENDİ) ---
+# --- METADATA İŞLEME (ORİJİNAL GROUP-TITLE KORUMALI) ---
 def process_metadata(extinf_line, source_name, add_time, year_val, is_new=False, is_duplicate=False):
+    # Logoyu orijinal satırdan çek
     logo_match = re.search(r'tvg-logo="([^"]*)"', extinf_line)
     logo = logo_match.group(1) if logo_match else ""
+    
+    # ORİJİNAL group-title'ı ÇEK: Eğer varsa al, yoksa boş bırak
+    title_match = re.search(r'group-title="([^"]*)"', extinf_line)
+    original_title = title_match.group(1) if title_match else ""
     
     prefix = ""
     if is_new: prefix += "✨YENİ "
@@ -55,14 +59,14 @@ def process_metadata(extinf_line, source_name, add_time, year_val, is_new=False,
     status_label = f"{prefix}[{source_name}]".strip()
     clean_time = add_time.replace(" ", "_")
 
-    # İstediğin type="video" parametresi ve standart dizilim
+    # type="video" dahil, orijinal title korumalı dizilim
     parts = [
         '#EXTINF:-1',
         'type="video"',
         f'group-time="{clean_time}"',
         f'group-author="{status_label}"',
         f'tvg-logo="{logo}"',
-        'group-title=""'
+        f'group-title="{original_title}"' # Orijinalden gelen veri buraya yazılır
     ]
     
     if year_val:
@@ -130,14 +134,14 @@ if hepsi_gecici:
             # Metadata Header'ı oluştur
             yeni_header = process_metadata(item["ext"], item["src"], t_full, film_yili, (fark < 30), is_dup)
             
-            # İsim temizliği (\xa0 gibi gizli karakterleri siler)
+            # Karakter temizliği
             temiz_isim_final = temiz_isim.strip().replace('\xa0', ' ')
             
-            # KRİTİK: Header + Virgül + İsim (Bitişik yazım)
+            # Yazım
             f.write(f"{yeni_header},{temiz_isim_final}\n")
             f.write(f"{item['url'].strip()}\n")
 
     with open(ana_kayit_json, "w", encoding="utf-8") as f:
         json.dump(ana_link_dict, f, ensure_ascii=False, indent=2)
 
-print(f"✅ Bitti! '{birlesik_dosya}' eski formatıyla (type=video dahil) hazırlandı.")
+print(f"✅ Bitti! Orijinal group-title verileri korunarak '{birlesik_dosya}' oluşturuldu.")
