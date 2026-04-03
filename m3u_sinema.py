@@ -23,47 +23,58 @@ if not os.path.exists(kayit_json_dir):
 def normalize_url(url):
     return url.strip().rstrip('/')
 
-# --- İSİM TEMİZLEME VE YIL AYIKLAMA (GELİŞTİRİLDİ) ---
+# --- HİBRİT İSİM TEMİZLEME VE YIL AYIKLAMA ---
 def clean_and_extract(raw_name):
-    # Hem (2016) hem [2016] formatını yakalar
-    year_match = re.search(r'[\(\[](\d{4})[\)\]]', raw_name)
-    year = year_match.group(1) if year_match else ""
+    # 1. Powerboard Temizliği (İsimden sonra gelen tür ve oyuncu bilgilerini budar)
+    # "Hellfire Aksiyon-Gerilim--Stephen Lang" -> "Hellfire"
+    clean_name = re.split(r' (Aksiyon|Korku|Dram|Gerilim|Komedi|Macera|Polisiye|Biyografi|Müzik|Gizem|Bilim-Kurgu|Romantik|Belgesel|Western|Animasyon|Aile|Suç)--', raw_name)[0]
+    clean_name = clean_name.split(' Aksiyon-')[0].split('--')[0] # Yedek kesiciler
     
-    # Parantezleri ve içindekileri siler
-    clean_name = re.sub(r'[\(\[].*?[\)\]]', '', raw_name)
-    # Özel karakterleri ve alt çizgileri temizler
-    clean_name = clean_name.replace("_", " ").replace("🌟", "").replace(":", "").strip()
-    # Çift boşlukları tek boşluğa indirir
-    clean_name = ' '.join(clean_name.split())
+    # 2. Yıl Ayıklama (Parantezli: (2024) veya Parantezsiz sonda: 2024)
+    year = ""
+    # Önce parantezli ara: (2024)
+    year_match = re.search(r'[\(\[](\d{4})[\)\]]', clean_name)
+    if year_match:
+        year = year_match.group(1)
+    else:
+        # Yoksa ismin sonundaki parantezsiz 4 haneli rakamı ara: "Son Adam 1992"
+        year_match = re.search(r'(\d{4})$', clean_name.strip())
+        if year_match:
+            year = year_match.group(1)
+
+    # 3. İsim Temizliği (Yılı ve parantezleri isimden atar)
+    clean_name = re.sub(r'[\(\[].*?[\)\]]', '', clean_name) # Parantezleri sil
+    clean_name = re.sub(r'\d{4}$', '', clean_name.strip()) # Sondaki yılı sil
+    
+    # Özel karakter temizliği
+    clean_name = clean_name.replace("_", " ").replace("🌟", "").replace(":", "").replace("🔥", "").strip()
+    clean_name = ' '.join(clean_name.split()) # Çift boşlukları temizle
+    
     return clean_name, year
 
+# --- METADATA İŞLEME (Tüm listelere uyumlu) ---
 def process_metadata(extinf_line, source_name, add_time, year_val, is_new=False, is_duplicate=False):
-    # 1. Type Etiketi
-    if 'type="video"' not in extinf_line:
-        extinf_line = extinf_line.replace("#EXTINF:-1", '#EXTINF:-1 type="video"')
+    # tvg-logo bilgisini orijinal satırdan çek ve koru
+    logo_match = re.search(r'tvg-logo="([^"]*)"', extinf_line)
+    logo = logo_match.group(1) if logo_match else ""
     
-    # 2. YEAR TAGI (JS'nin Dangal'ı bulması için en kritik yer burası)
-    # Mevcut bir year tagı varsa güncelle, yoksa type'dan sonraya ekle
-    if year_val:
-        if 'year="' in extinf_line:
-            extinf_line = re.sub(r'year="[^"]*"', f'year="{year_val}"', extinf_line)
-        else:
-            extinf_line = extinf_line.replace('type="video"', f'type="video" year="{year_val}"')
-
-    # 3. Etiket ve Zaman Bilgileri
+    # Yeni etiketler
     prefix = ""
     if is_new: prefix += "✨YENİ "
     if is_duplicate: prefix += f"{KOPYA_IKONU} "
     status_label = f"{prefix}[{source_name}]".strip()
+    clean_time = add_time.replace(" ", "_")
+
+    # M3U Satırını sıfırdan ve hatasız inşa et (etiket birleşme sorunlarını çözer)
+    # JS'nin en sevdiği format: önce etiketler, en son virgül ve temiz isim.
+    yeni_ext = f'#EXTINF:-1 type="video" group-time="{clean_time}" group-author="{status_label}"'
     
-    # Author ve Time etiketlerini güvenli şekilde enjekte et
-    for tag, val in [("group-author", status_label), ("group-time", add_time.replace(" ", "_"))]:
-        if f'{tag}="' in extinf_line:
-            extinf_line = re.sub(f'{tag}="[^"]*"', f'{tag}="{val}"', extinf_line)
-        else:
-            extinf_line = extinf_line.replace('type="video"', f'type="video" {tag}="{val}"')
+    if year_val:
+        yeni_ext += f' year="{year_val}"'
     
-    return extinf_line
+    yeni_ext += f' tvg-logo="{logo}" group-title=""'
+    
+    return yeni_ext
 
 # --- ANA MOTOR ---
 tr_tz = timezone(timedelta(hours=3)) 
@@ -97,7 +108,7 @@ for m3u_url, source_name in m3u_sources:
                 
                 if norm_url not in gorulen_url_ler:
                     gorulen_url_ler.add(norm_url)
-                    # Orijinal ismi virgülden sonra yakala
+                    # Virgülden sonraki gerçek ismi yakala
                     name_match = re.search(r',([^,]*)$', extinf)
                     raw_name = name_match.group(1).strip() if name_match else "Bilinmeyen Film"
                     hepsi_gecici.append({"raw": raw_name, "ext": extinf, "url": url, "src": source_name})
@@ -106,17 +117,14 @@ for m3u_url, source_name in m3u_sources:
     except Exception as e: print(f"⚠️ Hata: {source_name} -> {e}")
 
 if hepsi_gecici:
-    # Kopya kontrolü için temiz isimleri say
     isim_sayaci = Counter([clean_and_extract(item["raw"])[0].lower() for item in hepsi_gecici])
     
-    # UTF-8 ve Linux satır sonu ile dosyayı aç (JS uyumu için çok önemli)
     with open(birlesik_dosya, "w", encoding="utf-8", newline='\n') as f:
         f.write("#EXTM3U\n")
         for item in hepsi_gecici:
             temiz_isim, film_yili = clean_and_extract(item["raw"])
             is_dup = isim_sayaci[temiz_isim.lower()] > 1
             
-            # Kayıt Kontrolü
             dict_key = f"{item['raw']}|{item['url']}"
             if dict_key in ana_link_dict:
                 t_tarih, t_full = ana_link_dict[dict_key]["tarih"], ana_link_dict[dict_key]["tarih_saat"]
@@ -126,15 +134,12 @@ if hepsi_gecici:
 
             fark = (today_obj - datetime.strptime(t_tarih, "%Y-%m-%d")).days
             
-            # Metadata işleme
-            yeni_extinf = process_metadata(item["ext"], item["src"], t_full, film_yili, is_new=(fark < 30), is_duplicate=is_dup)
+            # Satırı temiz isim ve yıl etiketiyle yeniden kur
+            yeni_header = process_metadata(item["ext"], item["src"], t_full, film_yili, is_new=(fark < 30), is_duplicate=is_dup)
             
-            # Sondaki ismi tertemiz yap (Virgülden sonrasını güncelle)
-            yeni_extinf = re.sub(r',[^,]*$', f',{temiz_isim}', yeni_extinf)
-            
-            f.write(yeni_extinf + "\n" + item["url"] + "\n")
+            f.write(f"{yeni_header},{temiz_isim}\n{item['url']}\n")
 
     with open(ana_kayit_json, "w", encoding="utf-8") as f:
         json.dump(ana_link_dict, f, ensure_ascii=False, indent=2)
 
-print(f"✅ Başarılı! {len(gorulen_url_ler)} benzersiz film eklendi.")
+print(f"✅ Başarılı! {len(gorulen_url_ler)} benzersiz film, hibrit temizlik ile birleştirildi.")
