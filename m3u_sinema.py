@@ -26,34 +26,26 @@ def normalize_url(url):
 
 # --- HİBRİT İSİM TEMİZLEME VE YIL AYIKLAMA ---
 def clean_and_extract(raw_name):
-    # 1. Kuyruk Temizliği (Tür ve Oyuncu bilgilerini budama)
     clean_name = re.split(r' (Aksiyon|Korku|Dram|Gerilim|Komedi|Macera|Polisiye|Biyografi|Müzik|Gizem|Bilim-Kurgu|Romantik|Belgesel|Western|Animasyon|Aile|Suç)--', raw_name)[0]
     clean_name = clean_name.split(' Aksiyon-')[0].split('--')[0].strip()
     
     year = ""
-    # 2. Sadece en sondaki 4 haneli rakamı ara (1920-2027 arası)
     year_match = re.search(r'(?:\s|[\(\[])(\d{4})[\)\]]?$', clean_name)
     
     if year_match:
         found_num = year_match.group(1)
         val = int(found_num)
-        
         if 1920 <= val <= 2027:
-            if clean_name.strip() == found_num:
-                year = found_num
-            else:
-                year = found_num
-                clean_name = re.sub(r'[\(\[]?' + found_num + r'[\)\]]?$', '', clean_name).strip()
+            year = found_num
+            clean_name = re.sub(r'[\(\[]?' + found_num + r'[\)\]]?$', '', clean_name).strip()
 
-    # 3. Genel Karakter Temizliği
     clean_name = clean_name.replace("_", " ").replace("🌟", "").replace(":", "").replace("🔥", "").strip()
     clean_name = ' '.join(clean_name.split())
     
     return clean_name, year
 
-# --- METADATA İŞLEME (GÜNCELLENDİ: GARANTİ FORMAT) ---
+# --- METADATA İŞLEME (TYPE="VIDEO" GERİ EKLENDİ) ---
 def process_metadata(extinf_line, source_name, add_time, year_val, is_new=False, is_duplicate=False):
-    # Logoyu orijinal satırdan çek
     logo_match = re.search(r'tvg-logo="([^"]*)"', extinf_line)
     logo = logo_match.group(1) if logo_match else ""
     
@@ -63,19 +55,19 @@ def process_metadata(extinf_line, source_name, add_time, year_val, is_new=False,
     status_label = f"{prefix}[{source_name}]".strip()
     clean_time = add_time.replace(" ", "_")
 
-    # Eklentinin en sevdiği dizilim: group-title'ı ortaya aldık, year'ı sona yaklaştırdık
+    # İstediğin type="video" parametresi ve standart dizilim
     parts = [
         '#EXTINF:-1',
-        f'tvg-logo="{logo}"',
+        'type="video"',
         f'group-time="{clean_time}"',
         f'group-author="{status_label}"',
+        f'tvg-logo="{logo}"',
         'group-title=""'
     ]
     
     if year_val:
         parts.append(f'year="{year_val}"')
     
-    # Sonda asla boşluk kalmayacak şekilde birleştir
     return " ".join(parts).strip()
 
 # --- ANA MOTOR ---
@@ -138,14 +130,14 @@ if hepsi_gecici:
             # Metadata Header'ı oluştur
             yeni_header = process_metadata(item["ext"], item["src"], t_full, film_yili, (fark < 30), is_dup)
             
-            # İsimdeki görünmez karakterleri temizle (Örn: \xa0)
+            # İsim temizliği (\xa0 gibi gizli karakterleri siler)
             temiz_isim_final = temiz_isim.strip().replace('\xa0', ' ')
             
-            # KRİTİK: Header + Virgül + İsim (Arada asla boşluk yok!)
+            # KRİTİK: Header + Virgül + İsim (Bitişik yazım)
             f.write(f"{yeni_header},{temiz_isim_final}\n")
             f.write(f"{item['url'].strip()}\n")
 
     with open(ana_kayit_json, "w", encoding="utf-8") as f:
         json.dump(ana_link_dict, f, ensure_ascii=False, indent=2)
 
-print(f"✅ İşlem Tamamlandı! '{birlesik_dosya}' oluşturuldu.")
+print(f"✅ Bitti! '{birlesik_dosya}' eski formatıyla (type=video dahil) hazırlandı.")
