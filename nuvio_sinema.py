@@ -7,9 +7,7 @@ from collections import Counter
 
 # --- AYARLAR ---
 m3u_sources = [
-    ("https://raw.githubusercontent.com/Lunedor/iptvTR/refs/heads/main/FilmArsiv.m3u", "Lunedor"),
-    ("https://raw.githubusercontent.com/Zerk1903/zerkfilm/refs/heads/main/Filmler.m3u", "Zerk"),
-    ("https://tinyurl.com/2ao2rans", "powerboard"),
+ ("https://raw.githubusercontent.com/mooncrown04/m3ubirlestir/refs/heads/main/birlesik_sinema.m3u", "mooncrown"),
 ]
 
 birlesik_dosya = "nuvio_sinema.m3u"
@@ -43,13 +41,9 @@ def clean_and_extract(raw_name):
     
     return clean_name, year
 
-# --- METADATA İŞLEME (ORİJİNAL GROUP-TITLE KORUMALI) ---
-def process_metadata(extinf_line, source_name, add_time, year_val, is_new=False, is_duplicate=False):
-    # Logoyu orijinal satırdan çek
-    logo_match = re.search(r'tvg-logo="([^"]*)"', extinf_line)
-    logo = logo_match.group(1) if logo_match else ""
-    
-    # ORİJİNAL group-title'ı ÇEK: Eğer varsa al, yoksa boş bırak
+# --- METADATA İŞLEME (NUVIO ÖZEL - SADELEŞTİRİLMİŞ) ---
+def process_metadata(extinf_line, source_name, year_val, is_new=False, is_duplicate=False):
+    # Orijinal group-title'ı çek: Varsa al, yoksa boş kalsın
     title_match = re.search(r'group-title="([^"]*)"', extinf_line)
     original_title = title_match.group(1) if title_match else ""
     
@@ -57,16 +51,13 @@ def process_metadata(extinf_line, source_name, add_time, year_val, is_new=False,
     if is_new: prefix += "✨YENİ "
     if is_duplicate: prefix += f"{KOPYA_IKONU} "
     status_label = f"{prefix}[{source_name}]".strip()
-    clean_time = add_time.replace(" ", "_")
 
-    # type="video" dahil, orijinal title korumalı dizilim
+    # Logo ve group-time silindi. Sadece gerekli olanlar kaldı.
     parts = [
         '#EXTINF:-1',
         'type="video"',
-        f'group-time="{clean_time}"',
         f'group-author="{status_label}"',
-        f'tvg-logo="{logo}"',
-        f'group-title="{original_title}"' # Orijinalden gelen veri buraya yazılır
+        f'group-title="{original_title}"'
     ]
     
     if year_val:
@@ -78,7 +69,6 @@ def process_metadata(extinf_line, source_name, add_time, year_val, is_new=False,
 tr_tz = timezone(timedelta(hours=3)) 
 now_tr = datetime.now(tr_tz)
 today = now_tr.strftime("%Y-%m-%d")
-now_full = now_tr.strftime("%Y-%m-%d %H:%M:%S")
 today_obj = datetime.strptime(today, "%Y-%m-%d")
 
 ana_link_dict = {}
@@ -124,17 +114,16 @@ if hepsi_gecici:
             
             dict_key = f"{item['raw']}|{item['url']}"
             if dict_key in ana_link_dict:
-                t_tarih, t_full = ana_link_dict[dict_key]["tarih"], ana_link_dict[dict_key]["tarih_saat"]
+                t_tarih = ana_link_dict[dict_key]["tarih"]
             else:
-                ana_link_dict[dict_key] = {"tarih": today, "tarih_saat": now_full}
-                t_tarih, t_full = today, now_full
+                ana_link_dict[dict_key] = {"tarih": today}
+                t_tarih = today
 
             fark = (today_obj - datetime.strptime(t_tarih, "%Y-%m-%d")).days
             
-            # Metadata Header'ı oluştur
-            yeni_header = process_metadata(item["ext"], item["src"], t_full, film_yili, (fark < 30), is_dup)
+            # Header Oluştur (Logo ve Time parametreleri olmadan)
+            yeni_header = process_metadata(item["ext"], item["src"], film_yili, (fark < 30), is_dup)
             
-            # Karakter temizliği
             temiz_isim_final = temiz_isim.strip().replace('\xa0', ' ')
             
             # Yazım
@@ -144,4 +133,4 @@ if hepsi_gecici:
     with open(ana_kayit_json, "w", encoding="utf-8") as f:
         json.dump(ana_link_dict, f, ensure_ascii=False, indent=2)
 
-print(f"✅ Bitti! Orijinal group-title verileri korunarak '{birlesik_dosya}' oluşturuldu.")
+print(f"✅ Bitti! Nuvio için optimize edilmiş '{birlesik_dosya}' oluşturuldu.")
