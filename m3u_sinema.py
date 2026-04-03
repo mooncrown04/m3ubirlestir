@@ -30,31 +30,27 @@ def clean_and_extract(raw_name):
     clean_name = clean_name.split(' Aksiyon-')[0].split('--')[0].strip()
     
     year = ""
-    # 2. Sadece en sondaki 4 haneli rakamı ara (Virgülden sonra gelen ismin en sonu)
-    # Örn: "Dangal 2016" veya "Dangal (2016)"
+    # 2. Sadece en sondaki 4 haneli rakamı ara (1920-2027 arası)
     year_match = re.search(r'(?:\s|[\(\[])(\d{4})[\)\]]?$', clean_name)
     
     if year_match:
         found_num = year_match.group(1)
         val = int(found_num)
         
-        # 3. Mantıklı Yıl Aralığı Kontrolü (1920 - 2027)
         if 1920 <= val <= 2027:
-            # Film ismi sadece rakamdan mı ibaret? (Örn: "1917")
             if clean_name.strip() == found_num:
                 year = found_num
             else:
                 year = found_num
-                # İsmin sonundaki yılı sil
                 clean_name = re.sub(r'[\(\[]?' + found_num + r'[\)\]]?$', '', clean_name).strip()
 
-    # 4. Genel Karakter Temizliği
+    # 3. Genel Karakter Temizliği
     clean_name = clean_name.replace("_", " ").replace("🌟", "").replace(":", "").replace("🔥", "").strip()
     clean_name = ' '.join(clean_name.split())
     
     return clean_name, year
 
-# --- METADATA İŞLEME ---
+# --- METADATA İŞLEME (GÜNCELLENDİ: GARANTİ FORMAT) ---
 def process_metadata(extinf_line, source_name, add_time, year_val, is_new=False, is_duplicate=False):
     # Logoyu orijinal satırdan çek
     logo_match = re.search(r'tvg-logo="([^"]*)"', extinf_line)
@@ -66,22 +62,20 @@ def process_metadata(extinf_line, source_name, add_time, year_val, is_new=False,
     status_label = f"{prefix}[{source_name}]".strip()
     clean_time = add_time.replace(" ", "_")
 
-    # Parçaları topla (Virgül öncesi tam etiket satırı)
+    # Eklentinin en sevdiği dizilim: group-title'ı ortaya aldık, year'ı sona yaklaştırdık
     parts = [
         '#EXTINF:-1',
-        'type="video"',
+        f'tvg-logo="{logo}"',
         f'group-time="{clean_time}"',
-        f'group-author="{status_label}"'
+        f'group-author="{status_label}"',
+        'group-title=""'
     ]
     
     if year_val:
         parts.append(f'year="{year_val}"')
     
-    parts.append(f'tvg-logo="{logo}"')
-    parts.append('group-title=""')
-    
-    # Etiketler arasına tek boşluk, sona boşluk yok!
-    return " ".join(parts)
+    # Sonda asla boşluk kalmayacak şekilde birleştir
+    return " ".join(parts).strip()
 
 # --- ANA MOTOR ---
 tr_tz = timezone(timedelta(hours=3)) 
@@ -115,7 +109,6 @@ for m3u_url, source_name in m3u_sources:
                 
                 if norm_url not in gorulen_url_ler:
                     gorulen_url_ler.add(norm_url)
-                    # Sadece en sondaki virgülden sonrasını raw_name al
                     name_match = re.search(r',([^,]*)$', extinf)
                     raw_name = name_match.group(1).strip() if name_match else "Bilinmeyen Film"
                     hepsi_gecici.append({"raw": raw_name, "ext": extinf, "url": url, "src": source_name})
@@ -124,7 +117,6 @@ for m3u_url, source_name in m3u_sources:
     except Exception as e: print(f"⚠️ {source_name} hatası: {e}")
 
 if hepsi_gecici:
-    # Kopya sayacı
     isim_sayaci = Counter([clean_and_extract(item["raw"])[0].lower() for item in hepsi_gecici])
     
     with open(birlesik_dosya, "w", encoding="utf-8", newline='\n') as f:
@@ -142,14 +134,17 @@ if hepsi_gecici:
 
             fark = (today_obj - datetime.strptime(t_tarih, "%Y-%m-%d")).days
             
-            # Header oluştur
+            # Metadata Header'ı oluştur
             yeni_header = process_metadata(item["ext"], item["src"], t_full, film_yili, (fark < 30), is_dup)
             
-            # KRİTİK: Virgül ile isim arasına boşluk koyma!
-            f.write(f"{yeni_header},{temiz_isim}\n")
-            f.write(f"{item['url']}\n")
+            # İsimdeki görünmez karakterleri temizle (Örn: \xa0)
+            temiz_isim_final = temiz_isim.strip().replace('\xa0', ' ')
+            
+            # KRİTİK: Header + Virgül + İsim (Arada asla boşluk yok!)
+            f.write(f"{yeni_header},{temiz_isim_final}\n")
+            f.write(f"{item['url'].strip()}\n")
 
     with open(ana_kayit_json, "w", encoding="utf-8") as f:
         json.dump(ana_link_dict, f, ensure_ascii=False, indent=2)
 
-print(f"✅ Bitti! {len(gorulen_url_ler)} film hazır.")
+print(f"✅ İşlem Tamamlandı! '{birlesik_dosya}' oluşturuldu.")
