@@ -5,7 +5,7 @@ import json
 from datetime import datetime, timedelta, timezone
 from collections import Counter
 
-# --- AYARLAR ---
+# -- AYARLAR ---
 m3u_sources = [
  ("https://raw.githubusercontent.com/mooncrown04/m3ubirlestir/refs/heads/main/birlesik_sinema.m3u", "mooncrown"),
 ]
