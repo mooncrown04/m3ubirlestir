@@ -31,6 +31,7 @@ jobs:
           python m3u_sinema.py
           python m3u_dizi.py
           python m3u_tv.py
+          python nuvio_sinema.py
 
       - name: Değişiklikleri commitle ve pusha gönder
         env:
@@ -43,7 +44,7 @@ jobs:
           git add *.m3u
           git add kayit_json_sinema/ || echo "Klasör yok"
           git add kayit_json_dizi/ || echo "Klasör yok"
-          git add kayit_json_tv/ || echo "Klasör yok"
+          git add kayit_json_nuvio/ || echo "Klasör yok"
           
           git commit -m "Otomatik M3U güncellemesi (Modül hatası giderildi)" || echo "Değişiklik yok"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
