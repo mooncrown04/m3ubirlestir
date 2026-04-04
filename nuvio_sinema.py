@@ -1,7 +1,6 @@
 import requests
 import os
 import re
-from collections import Counter
 
 # --- AYARLAR ---
 m3u_sources = [
@@ -13,20 +12,17 @@ birlesik_dosya = "nuvio_sinema.m3u"
 def normalize_url(url):
     return url.strip().rstrip('/')
 
-def clean_name_minimal(raw_name):
-    # Türleri ve -- işaretlerini temizle
+def clean_name_only(raw_name):
+    # Sadece isimdeki "Aksiyon--" gibi fazlalıkları temizler, diğer her şeyi bırakır.
     clean = re.split(r' (Aksiyon|Korku|Dram|Gerilim|Komedi|Macera|Polisiye|Biyografi|Müzik|Gizem|Bilim-Kurgu|Romantik|Belgesel|Western|Animasyon|Aile|Suç)--', raw_name)[0]
     clean = clean.split(' Aksiyon-')[0].split('--')[0].strip()
     
-    # Yılı bul ve isimden ayır (Eklenti ismin içinde yılı sevmez, ultraClean her şeyi birleştirir)
-    year = ""
+    # Yıl bilgisini isimden temizle (ama orijinal header içinde varsa dokunulmaz)
     year_match = re.search(r'(\d{4})', clean)
     if year_match:
-        year = year_match.group(1)
-        clean = clean.replace(year, "").replace("(", "").replace(")", "").strip()
+        clean = clean.replace(year_match.group(1), "").replace("(", "").replace(")", "").strip()
     
-    clean = ' '.join(clean.split())
-    return clean, year
+    return ' '.join(clean.split())
 
 # --- ANA MOTOR ---
 hepsi_gecici = []
@@ -44,12 +40,26 @@ for m3u_url, source_name in m3u_sources:
             line = lines[i].strip()
             if line.startswith("#EXTINF") and i + 1 < len(lines):
                 url = lines[i+1].strip()
+                
+                # --- KRİTİK FİLTRE: vidmody.com içerenleri tamamen siler ---
+                if "vidmody.com" in url:
+                    i += 2
+                    continue
+                
                 norm_url = normalize_url(url)
                 if norm_url not in gorulen_url_ler:
                     gorulen_url_ler.add(norm_url)
-                    name_match = re.search(r',([^,]*)$', line)
-                    raw_name = name_match.group(1).strip() if name_match else "Bilinmeyen"
-                    hepsi_gecici.append({"raw": raw_name, "url": url})
+                    
+                    # Virgülün solundaki tüm bilgileri (group-title vb.) koru
+                    inf_parts = line.split(',', 1)
+                    header_raw = inf_parts[0]  # #EXTINF:-1 group-title="Sinema" vb.
+                    name_raw = inf_parts[1].strip() if len(inf_parts) > 1 else "Bilinmeyen"
+                    
+                    hepsi_gecici.append({
+                        "header": header_raw, 
+                        "name": name_raw, 
+                        "url": url
+                    })
                 i += 2
             else: i += 1
     except Exception as e: print(f"⚠️ Hata: {e}")
@@ -58,17 +68,10 @@ if hepsi_gecici:
     with open(birlesik_dosya, "w", encoding="utf-8", newline='\n') as f:
         f.write("#EXTM3U\n")
         for item in hepsi_gecici:
-            t_isim, t_yil = clean_name_minimal(item["raw"])
+            # Sadece ismi temizliyoruz, header'daki group-title vb. aynen kalıyor
+            temiz_isim = clean_name_only(item["name"])
             
-            # TYPE VIDEO DAHİL HER ŞEYİ SİLDİK
-            # Sadece year bıraktık çünkü eklenti (JS) puanlama yaparken year="2024" arıyor.
-            # Eğer bu da fazla gelirse bunu da silebiliriz ama puan düşer.
-            if t_yil:
-                header = f'#EXTINF:-1 year="{t_yil}"'
-            else:
-                header = f'#EXTINF:-1'
-            
-            f.write(f"{header},{t_isim}\n")
+            f.write(f"{item['header']},{temiz_isim}\n")
             f.write(f"{item['url'].strip()}\n")
 
-print(f"✅ İşlem tamam! '{birlesik_dosya}' artık kuş gibi hafif.")
+print(f"✅ İşlem tamam! Vidmody linkleri çıkarıldı, tüm metadata (grup/logo/etiket) korundu.")
