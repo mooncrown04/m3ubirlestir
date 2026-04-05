@@ -7,7 +7,6 @@ from collections import Counter
 
 # --- AYARLAR ---
 m3u_sources = [
-    ("https://tinyurl.com/FanatikPlayDizi", "FanatikPlay"),
     ("https://raw.githubusercontent.com/Zerk1903/zerkfilm/refs/heads/main/Diziler.m3u", "Zerk"),
     ("https://tinyurl.com/24lt9aqs", "powerboard"),
 ]
