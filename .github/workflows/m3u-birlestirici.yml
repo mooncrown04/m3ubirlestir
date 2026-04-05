@@ -15,7 +15,6 @@ jobs:
       - name: Repo'yu klonla
         uses: actions/checkout@v4
         with:
-          # persist-credentials true olmalı ki push işlemi yetki sorunu yaşamasın
           persist-credentials: true
           fetch-depth: 0 
 
@@ -27,12 +26,15 @@ jobs:
       - name: Bağımlılıkları kur
         run: pip install requests aiohttp
 
+      - name: Eski M3U Dosyalarını Temizle
+        # Yeni alfabetik dosyalar oluşmadan önce klasördeki tüm eski m3u'ları siliyoruz
+        run: rm -f *.m3u
+
       - name: M3U Dosyalarını Oluştur (Sinema, Dizi, TV ve Alfabetik Bölme)
         run: |
           python m3u_sinema.py
           python m3u_dizi.py
           python m3u_tv.py
-          # Bu script artık alfabetik parçaları (nuvio_sinema_a-d_arasi.m3u vb.) üretiyor
           python nuvio_sinema.py
 
       - name: Değişiklikleri commitle ve pusha gönder
@@ -42,10 +44,13 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # Tüm M3U dosyalarını (alfabetik parçalar dahil) ekle
+          # 1. Yeni oluşturulan tüm m3u dosyalarını ekle
           git add *.m3u
           
-          # Varsa JSON klasörlerini ekle (hata vermemesi için || true kullanıldı)
+          # 2. Silinen (rm ile sildiğimiz) eski dosyaları Git takibinden çıkar
+          git add -u
+          
+          # 3. JSON klasörlerini ekle
           git add kayit_json_sinema/ || true
           git add kayit_json_dizi/ || true
           git add kayit_json_nuvio/ || true
@@ -54,9 +59,9 @@ jobs:
           if git diff --staged --quiet; then
             echo "Değişiklik yok, işlem sonlandırılıyor."
           else
-            git commit -m "Otomatik M3U güncellemesi ve Alfabetik Bölme"
+            git commit -m "Eski dosyalar temizlendi ve alfabetik listeler güncellendi"
             
-            # Uzak sunucudaki (GitHub) değişiklikleri çek ve kendi üzerine ekle (Çakışma önleyici)
+            # Uzak sunucudaki (GitHub) değişiklikleri çek ve kendi üzerine ekle
             git pull --rebase origin main
             
             # Token ile URL set et ve gönder
