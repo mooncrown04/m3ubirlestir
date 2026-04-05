@@ -26,11 +26,12 @@ jobs:
       - name: Bağımlılıkları kur
         run: pip install requests aiohttp
 
-      - name: Eski M3U Dosyalarını Temizle
-        # Yeni alfabetik dosyalar oluşmadan önce klasördeki tüm eski m3u'ları siliyoruz
-        run: rm -f *.m3u
+      - name: Eski Dosyaları ve Klasörü Temizle
+        run: |
+          rm -rf nuvio_parcalari/
+          rm -f *.m3u
 
-      - name: M3U Dosyalarını Oluştur (Sinema, Dizi, TV ve Alfabetik Bölme)
+      - name: M3U Dosyalarını Oluştur
         run: |
           python m3u_sinema.py
           python m3u_dizi.py
@@ -44,27 +45,22 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # 1. Yeni oluşturulan tüm m3u dosyalarını ekle
+          # Yeni klasörü ve m3u dosyalarını ekle
+          git add nuvio_parcalari/
           git add *.m3u
           
-          # 2. Silinen (rm ile sildiğimiz) eski dosyaları Git takibinden çıkar
+          # Silinen eski dosyaları git'e bildir
           git add -u
           
-          # 3. JSON klasörlerini ekle
           git add kayit_json_sinema/ || true
           git add kayit_json_dizi/ || true
           git add kayit_json_nuvio/ || true
           
-          # Değişiklik kontrolü ve Commit
           if git diff --staged --quiet; then
-            echo "Değişiklik yok, işlem sonlandırılıyor."
+            echo "Değişiklik yok."
           else
-            git commit -m "Eski dosyalar temizlendi ve alfabetik listeler güncellendi"
-            
-            # Uzak sunucudaki (GitHub) değişiklikleri çek ve kendi üzerine ekle
+            git commit -m "Harf bazlı klasörleme yapıldı ve eskiler temizlendi"
             git pull --rebase origin main
-            
-            # Token ile URL set et ve gönder
             git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
             git push origin main
           fi
