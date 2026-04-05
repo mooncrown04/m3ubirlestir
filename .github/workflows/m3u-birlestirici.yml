@@ -15,7 +15,9 @@ jobs:
       - name: Repo'yu klonla
         uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          # persist-credentials true olmalı ki push işlemi yetki sorunu yaşamasın
+          persist-credentials: true
+          fetch-depth: 0 
 
       - name: Python'u kur
         uses: actions/setup-python@v5
@@ -23,14 +25,14 @@ jobs:
           python-version: '3.x'
 
       - name: Bağımlılıkları kur
-        # aiohttp buraya eklendi, böylece m3u_tv.py hata vermeyecek
         run: pip install requests aiohttp
 
-      - name: M3U Dosyalarını Oluştur (Sinema, Dizi, TV)
+      - name: M3U Dosyalarını Oluştur (Sinema, Dizi, TV ve Alfabetik Bölme)
         run: |
           python m3u_sinema.py
           python m3u_dizi.py
           python m3u_tv.py
+          # Bu script artık alfabetik parçaları (nuvio_sinema_a-d_arasi.m3u vb.) üretiyor
           python nuvio_sinema.py
 
       - name: Değişiklikleri commitle ve pusha gönder
@@ -40,12 +42,24 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # Tüm m3u dosyalarını ve varsa oluşturulan tüm json klasörlerini ekle
+          # Tüm M3U dosyalarını (alfabetik parçalar dahil) ekle
           git add *.m3u
-          git add kayit_json_sinema/ || echo "Klasör yok"
-          git add kayit_json_dizi/ || echo "Klasör yok"
-          git add kayit_json_nuvio/ || echo "Klasör yok"
           
-          git commit -m "Otomatik M3U güncellemesi (Modül hatası giderildi)" || echo "Değişiklik yok"
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          git push
+          # Varsa JSON klasörlerini ekle (hata vermemesi için || true kullanıldı)
+          git add kayit_json_sinema/ || true
+          git add kayit_json_dizi/ || true
+          git add kayit_json_nuvio/ || true
+          
+          # Değişiklik kontrolü ve Commit
+          if git diff --staged --quiet; then
+            echo "Değişiklik yok, işlem sonlandırılıyor."
+          else
+            git commit -m "Otomatik M3U güncellemesi ve Alfabetik Bölme"
+            
+            # Uzak sunucudaki (GitHub) değişiklikleri çek ve kendi üzerine ekle (Çakışma önleyici)
+            git pull --rebase origin main
+            
+            # Token ile URL set et ve gönder
+            git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+            git push origin main
+          fi
