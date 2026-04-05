@@ -7,30 +7,16 @@ m3u_sources = [
     ("https://raw.githubusercontent.com/mooncrown04/m3ubirlestir/refs/heads/main/birlesik_sinema.m3u", "mooncrown"),
 ]
 
-GURUPLAR = {
-    "0-9_Rakam": r'^[0-9]',
-    "A-D_Arasi": r'^[a-d]',
-    "E-J_Arasi": r'^[e-j]',
-    "K-P_Arasi": r'^[k-p]',
-    "R-Z_Arasi": r'^[r-z]',
-}
+# ÇIKTI KLASÖRÜ: Tüm parçalar bu klasöre gidecek
+OUTPUT_FOLDER = "nuvio_parcalari"
+if not os.path.exists(OUTPUT_FOLDER):
+    os.makedirs(OUTPUT_FOLDER)
 
 def normalize_for_alpha(s):
     if not s: return ""
     s = s.strip().lower()
     mapping = str.maketrans("ıİğĞüÜşŞöÖçÇ", "iigguussuocc")
     return s.translate(mapping)
-
-def normalize_url(url):
-    return url.strip().rstrip('/')
-
-def clean_header_tags(header):
-    targets = ["type", "group-author", "group-time", "tvg-logo", "group-title"]
-    for target in targets:
-        pattern = rf'\b{target}=(?:"[^"]*"|[^\s]+)'
-        header = re.sub(pattern, "", header)
-    header = ' '.join(header.split())
-    return header
 
 def clean_name_only(raw_name):
     clean = re.split(r' (Aksiyon|Korku|Dram|Gerilim|Komedi|Macera|Polisiye|Biyografi|Müzik|Gizem|Bilim-Kurgu|Romantik|Belgesel|Western|Animasyon|Aile|Suç)--', raw_name)[0]
@@ -41,16 +27,13 @@ def clean_name_only(raw_name):
     return ' '.join(clean.split())
 
 # --- ANA MOTOR ---
-dosya_gruplari = {key: [] for key in GURUPLAR}
-dosya_gruplari["Diger"] = []
-
+dosya_gruplari = {} 
 gorulen_url_ler = set()
 
 for m3u_url, source_name in m3u_sources:
     try:
         print(f"[+] {source_name} indiriliyor...")
         req = requests.get(m3u_url, timeout=25)
-        req.raise_for_status()
         lines = req.text.splitlines()
         
         i = 0
@@ -62,54 +45,34 @@ for m3u_url, source_name in m3u_sources:
                     i += 2
                     continue
                 
-                norm_url = normalize_url(url)
-                if norm_url not in gorulen_url_ler:
-                    gorulen_url_ler.add(norm_url)
+                if url not in gorulen_url_ler:
+                    gorulen_url_ler.add(url)
                     inf_parts = line.split(',', 1)
-                    header_raw = inf_parts[0]
                     name_raw = inf_parts[1].strip() if len(inf_parts) > 1 else "Bilinmeyen"
                     
-                    temiz_header = clean_header_tags(header_raw)
                     temiz_isim = clean_name_only(name_raw)
                     arama_ismi = normalize_for_alpha(temiz_isim)
                     
-                    item = {
-                        "header": temiz_header, 
-                        "name": temiz_isim, 
-                        "url": url,
-                        "sort_name": arama_ismi # Sıralama için temiz isim eklendi
-                    }
-
-                    matched = False
+                    # Harf Belirleme
                     if arama_ismi:
-                        for grup_adi, pattern in GURUPLAR.items():
-                            if re.match(pattern, arama_ismi):
-                                dosya_gruplari[grup_adi].append(item)
-                                matched = True
-                                break
-                    if not matched:
-                        dosya_gruplari["Diger"].append(item)
+                        ilk = arama_ismi[0]
+                        grup = "0_9_rakam" if ilk.isdigit() else (ilk if 'a' <= ilk <= 'z' else "diger")
+                    else:
+                        grup = "diger"
+
+                    if grup not in dosya_gruplari: dosya_gruplari[grup] = []
+                    dosya_gruplari[grup].append({"line": line, "name": temiz_isim, "url": url, "sort": arama_ismi})
                 i += 2
             else: i += 1
-    except Exception as e: print(f"⚠️ Hata: {e}")
+    except Exception as e: print(f"Hata: {e}")
 
-# --- DOSYALARI KAYDETME VE SIRALAMA ---
-print("-" * 30)
-for grup_adi, kalemler in dosya_gruplari.items():
-    dosya_yolu = f"nuvio_sinema_{grup_adi.lower().replace('-', '_')}.m3u"
+# --- KAYDETME ---
+for grup, kalemler in dosya_gruplari.items():
+    kalemler.sort(key=lambda x: x["sort"])
+    # Klasör yolunu ekliyoruz: nuvio_parcalari/nuvio_a.m3u gibi
+    dosya_yolu = os.path.join(OUTPUT_FOLDER, f"nuvio_{grup}.m3u")
     
-    # KRİTİK NOKTA: Grubu kendi içinde alfabetik sırala
-    kalemler.sort(key=lambda x: x["sort_name"])
-
-    with open(dosya_yolu, "w", encoding="utf-8", newline='\n') as f:
+    with open(dosya_yolu, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        if kalemler:
-            for item in kalemler:
-                f.write(f"{item['header']},{item['name']}\n")
-                f.write(f"{item['url'].strip()}\n")
-            print(f"✅ {dosya_yolu} oluşturuldu ve alfabetik sıralandı. ({len(kalemler)} film)")
-        else:
-            print(f"ℹ️ {grup_adi} boş dosya oluşturuldu.")
-
-print("-" * 30)
-print("🚀 Tüm listeler alfabetik olarak sıralandı ve kaydedildi!")
+        for item in kalemler:
+            f.write(f"{item['line'].split(',')[0]},{item['name']}\n{item['url']}\n")
