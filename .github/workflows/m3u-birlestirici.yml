@@ -26,9 +26,10 @@ jobs:
       - name: Bağımlılıkları kur
         run: pip install requests aiohttp
 
-      - name: Eski Dosyaları ve Klasörü Temizle
+      - name: Eski Dosyaları ve Klasörleri Temizle
         run: |
           rm -rf nuvio_parcalari/
+          rm -rf nuvio_dizi_parcalari/
           rm -f *.m3u
 
       - name: M3U Dosyalarını Oluştur
@@ -37,6 +38,7 @@ jobs:
           python m3u_dizi.py
           python m3u_tv.py
           python nuvio_sinema.py
+          python nuvio_dizi.py  # <-- Dizi parçalayıcı buraya eklendi
 
       - name: Değişiklikleri commitle ve pusha gönder
         env:
@@ -45,11 +47,11 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # Yeni klasörü ve m3u dosyalarını ekle
+          # Tüm parçalanmış klasörleri ve ana m3u'ları ekle
           git add nuvio_parcalari/
+          git add nuvio_dizi_parcalari/
           git add *.m3u
           
-          # Silinen eski dosyaları git'e bildir
           git add -u
           
           git add kayit_json_sinema/ || true
@@ -59,7 +61,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "Değişiklik yok."
           else
-            git commit -m "Harf bazlı klasörleme yapıldı ve eskiler temizlendi"
+            git commit -m "Sinema ve Dizi harf bazlı klasörleme yapıldı"
             git pull --rebase origin main
             git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
             git push origin main
