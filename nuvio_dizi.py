@@ -13,6 +13,18 @@ if not os.path.exists(OUTPUT_FOLDER):
 
 BAKILMAYACAK_LINKLER = ["vidmody.com", "diziyou"]
 
+def get_season_num(name_raw):
+    """İsmin içinden sezon numarasını çeker (S02 -> 2, 2. Sezon -> 2)"""
+    # S01, s01, S1 formatlarını ara
+    match = re.search(r'[Ss](\d+)', name_raw)
+    if match:
+        return int(match.group(1))
+    # '2. Sezon' veya '2 Sezon' formatlarını ara
+    match_alt = re.search(r'(\d+)\.?\s?Sezon', name_raw, re.I)
+    if match_alt:
+        return int(match_alt.group(1))
+    return 1 # Hiçbir şey bulamazsa varsayılan Sezon 1
+
 def normalize_for_alpha(s):
     if not s: return ""
     s = s.strip().lower()
@@ -36,11 +48,7 @@ def extract_clean_author(header):
     return "M3U"
 
 def clean_name_for_output(raw_name):
-    """
-    Virgülden sonrasını temizler: Sadece 'Dizi Adı S01E01' bırakır.
-    Bölüm isimlerini (Örn: - Pilot Bölüm) siler.
-    """
-    # Sezon/Bölüm kodunu yakala (S01E01 veya s01e01)
+    """Virgülden sonrasını temizler: Sadece 'Dizi Adı S01E01' bırakır."""
     match = re.search(r'(.*?\s?[Ss]\d+[Ee]\d+)', raw_name)
     if match:
         return match.group(1).strip()
@@ -82,28 +90,31 @@ for m3u_url, source_name in m3u_sources:
                     
                     # 1. Header ve İsim Temizliği
                     clean_header = clean_header_tags(header_raw)
-                    # YENİ: Virgülden sonrasını sadeleştir (Bölüm adını sil)
                     final_name = clean_name_for_output(name_raw)
                     
                     # 2. Author Temizliği
                     author_name = extract_clean_author(clean_header)
                     final_header = re.sub(r'group-author="[^"]+"', f'group-author="{author_name}"', clean_header)
                     
-                    # 3. Harf Grubu Belirleme
+                    # 3. SEZON VE HARF GRUBU (PARÇALAMA MANTIĞI)
+                    sezon_num = get_season_num(name_raw)
                     dizi_adi_sade = clean_dizi_name_for_alpha(name_raw)
                     arama_ismi = normalize_for_alpha(dizi_adi_sade)
                     
                     if arama_ismi:
                         ilk = arama_ismi[0]
-                        if ilk.isdigit(): grup = "0_9_rakam"
-                        elif 'a' <= ilk <= 'z': grup = ilk
-                        else: grup = "diger"
-                    else: grup = "diger"
+                        harf_grubu = "0_9_rakam" if ilk.isdigit() else (ilk if 'a' <= ilk <= 'z' else "diger")
+                        # Önemli: Dosya anahtarı Harf + Sezon (Örn: b_s1)
+                        grup_anahtari = f"{harf_grubu}_s{sezon_num}"
+                    else:
+                        grup_anahtari = "diger"
 
-                    if grup not in dosya_gruplari: dosya_gruplari[grup] = []
-                    dosya_gruplari[grup].append({
+                    if grup_anahtari not in dosya_gruplari:
+                        dosya_gruplari[grup_anahtari] = []
+                    
+                    dosya_gruplari[grup_anahtari].append({
                         "header": final_header,
-                        "name": final_name, # Sadeleşmiş isim
+                        "name": final_name,
                         "url": url,
                         "sort": arama_ismi
                     })
@@ -113,13 +124,14 @@ for m3u_url, source_name in m3u_sources:
         print(f"Hata oluştu: {e}")
 
 # --- KAYDETME ---
-for grup, kalemler in dosya_gruplari.items():
+print("-" * 30)
+for grup_id, kalemler in dosya_gruplari.items():
     kalemler.sort(key=lambda x: x["sort"])
-    dosya_adi = f"dizi_{grup}.m3u"
+    dosya_adi = f"dizi_{grup_id}.m3u"
     dosya_yolu = os.path.join(OUTPUT_FOLDER, dosya_adi)
     
     with open(dosya_yolu, "w", encoding="utf-8", newline='\n') as f:
         f.write("#EXTM3U\n")
         for item in kalemler:
             f.write(f"{item['header']},{item['name']}\n{item['url']}\n")
-    print(f"✅ {dosya_adi} maksimum sadeleştirme ile hazır.")
+    print(f"✅ {dosya_adi} oluşturuldu. ({len(kalemler)} link)")
