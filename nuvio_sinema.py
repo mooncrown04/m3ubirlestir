@@ -7,26 +7,24 @@ m3u_sources = [
     ("https://raw.githubusercontent.com/mooncrown04/m3ubirlestir/refs/heads/main/birlesik_sinema.m3u", "mooncrown"),
 ]
 
-birlesik_dosya = "nuvio_sinema.m3u"
+# Harf Grupları ve Regex Desenleri
+# Türkçe karakterler (ı, i, ş, ç vb.) ilgili harf grubuna dahil edildi.
+GURUPLAR = {
+    "0-9_Rakam": r'^[0-9]',
+    "A-D_Arasi": r'^[a-dA-Dİı]',
+    "E-J_Arasi": r'^[e-jE-JğĞ]',
+    "K-P_Arasi": r'^[k-pK-P]',
+    "R-Z_Arasi": r'^[r-zR-ZşŞçÇöÖüÜ]',
+}
 
 def normalize_url(url):
     return url.strip().rstrip('/')
 
 def clean_header_tags(header):
-    """
-    Belirtilen tagları (type, group-author, group-time, tvg-logo, group-title) 
-    ve değerlerini header içinden siler.
-    """
-    # Silinmesi istenen anahtar kelimeler
     targets = ["type", "group-author", "group-time", "tvg-logo", "group-title"]
-    
     for target in targets:
-        # Örn: group-title="Sinema" veya type=movie yapılarını temizler
-        # [^\s"]+ -> tırnaksız değerler için, "[^"]*" -> tırnaklı değerler için
         pattern = rf'\b{target}=(?:"[^"]*"|[^\s]+)'
         header = re.sub(pattern, "", header)
-    
-    # Fazla boşlukları temizle ve başı/sonu kırp
     header = ' '.join(header.split())
     return header
 
@@ -34,21 +32,22 @@ def clean_name_only(raw_name):
     # Tür takılarını temizle
     clean = re.split(r' (Aksiyon|Korku|Dram|Gerilim|Komedi|Macera|Polisiye|Biyografi|Müzik|Gizem|Bilim-Kurgu|Romantik|Belgesel|Western|Animasyon|Aile|Suç)--', raw_name)[0]
     clean = clean.split(' Aksiyon-')[0].split('--')[0].strip()
-    
     # Yıl bilgisini temizle
     year_match = re.search(r'(\d{4})', clean)
     if year_match:
         clean = clean.replace(year_match.group(1), "").replace("(", "").replace(")", "").strip()
-    
     return ' '.join(clean.split())
 
 # --- ANA MOTOR ---
-hepsi_gecici = []
+# Sonuçları gruplara göre saklamak için bir sözlük oluşturuyoruz
+dosya_gruplari = {key: [] for key in GURUPLAR}
+dosya_gruplari["Diger"] = [] # Hiçbir gruba uymayanlar için
+
 gorulen_url_ler = set()
 
 for m3u_url, source_name in m3u_sources:
     try:
-        print(f"[+] {source_name} indiriliyor...")
+        print(f"[+] {source_name} indiriliyor ve işleniyor...")
         req = requests.get(m3u_url, timeout=25)
         req.raise_for_status()
         lines = req.text.splitlines()
@@ -71,24 +70,43 @@ for m3u_url, source_name in m3u_sources:
                     header_raw = inf_parts[0]
                     name_raw = inf_parts[1].strip() if len(inf_parts) > 1 else "Bilinmeyen"
                     
-                    # HEADER TEMİZLEME BURADA YAPILIYOR
                     temiz_header = clean_header_tags(header_raw)
+                    temiz_isim = clean_name_only(name_raw)
                     
-                    hepsi_gecici.append({
+                    item = {
                         "header": temiz_header, 
-                        "name": name_raw, 
+                        "name": temiz_isim, 
                         "url": url
-                    })
+                    }
+
+                    # --- ALFABETİK BÖLME MANTIĞI ---
+                    matched = False
+                    for grup_adi, pattern in GURUPLAR.items():
+                        if re.match(pattern, temiz_isim, re.IGNORECASE):
+                            dosya_gruplari[grup_adi].append(item)
+                            matched = True
+                            break
+                    
+                    if not matched:
+                        dosya_gruplari["Diger"].append(item)
+
                 i += 2
             else: i += 1
     except Exception as e: print(f"⚠️ Hata: {e}")
 
-if hepsi_gecici:
-    with open(birlesik_dosya, "w", encoding="utf-8", newline='\n') as f:
-        f.write("#EXTM3U\n")
-        for item in hepsi_gecici:
-            temiz_isim = clean_name_only(item["name"])
-            f.write(f"{item['header']},{temiz_isim}\n")
-            f.write(f"{item['url'].strip()}\n")
+# --- DOSYALARI KAYDETME ---
+print("-" * 30)
+for grup_adi, kalemler in dosya_gruplari.items():
+    if kalemler:
+        dosya_yolu = f"nuvio_sinema_{grup_adi.lower()}.m3u"
+        with open(dosya_yolu, "w", encoding="utf-8", newline='\n') as f:
+            f.write("#EXTM3U\n")
+            for item in kalemler:
+                f.write(f"{item['header']},{item['name']}\n")
+                f.write(f"{item['url'].strip()}\n")
+        print(f"✅ {dosya_yolu} oluşturuldu. ({len(kalemler)} film)")
+    else:
+        print(f"ℹ️ {grup_adi} için içerik bulunamadı, dosya oluşturulmadı.")
 
-print(f"✅ İşlem tamam! Belirtilen taglar silindi ve Vidmody linkleri çıkarıldı.")
+print("-" * 30)
+print("🚀 Tüm bölme ve temizleme işlemleri başarıyla tamamlandı!")
