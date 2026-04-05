@@ -7,15 +7,22 @@ m3u_sources = [
     ("https://raw.githubusercontent.com/mooncrown04/m3ubirlestir/refs/heads/main/birlesik_sinema.m3u", "mooncrown"),
 ]
 
-# Harf Grupları ve Regex Desenleri
-# Türkçe karakterler (ı, i, ş, ç vb.) ilgili harf grubuna dahil edildi.
+# Gruplandırma için harf aralıkları
+# Not: Grupları ismin ilk harfinin normalize edilmiş haline göre belirliyoruz.
 GURUPLAR = {
     "0-9_Rakam": r'^[0-9]',
-    "A-D_Arasi": r'^[a-dA-Dİı]',
-    "E-J_Arasi": r'^[e-jE-JğĞ]',
-    "K-P_Arasi": r'^[k-pK-P]',
-    "R-Z_Arasi": r'^[r-zR-ZşŞçÇöÖüÜ]',
+    "A-D_Arasi": r'^[a-d]',
+    "E-J_Arasi": r'^[e-j]',
+    "K-P_Arasi": r'^[k-p]',
+    "R-Z_Arasi": r'^[r-z]',
 }
+
+def normalize_for_alpha(s):
+    """Harf grubunu bulmak için ismi geçici olarak İngilizce karakterlere çevirir."""
+    if not s: return ""
+    s = s.strip().lower()
+    mapping = str.maketrans("ıİğĞüÜşŞöÖçÇ", "iigguussuocc")
+    return s.translate(mapping)
 
 def normalize_url(url):
     return url.strip().rstrip('/')
@@ -39,9 +46,8 @@ def clean_name_only(raw_name):
     return ' '.join(clean.split())
 
 # --- ANA MOTOR ---
-# Sonuçları gruplara göre saklamak için bir sözlük oluşturuyoruz
 dosya_gruplari = {key: [] for key in GURUPLAR}
-dosya_gruplari["Diger"] = [] # Hiçbir gruba uymayanlar için
+dosya_gruplari["Diger"] = []
 
 gorulen_url_ler = set()
 
@@ -73,6 +79,9 @@ for m3u_url, source_name in m3u_sources:
                     temiz_header = clean_header_tags(header_raw)
                     temiz_isim = clean_name_only(name_raw)
                     
+                    # Alfabetik kontrol için ismin en temiz halini al (i/ı dönüşümü yapılmış)
+                    arama_ismi = normalize_for_alpha(temiz_isim)
+                    
                     item = {
                         "header": temiz_header, 
                         "name": temiz_isim, 
@@ -81,11 +90,12 @@ for m3u_url, source_name in m3u_sources:
 
                     # --- ALFABETİK BÖLME MANTIĞI ---
                     matched = False
-                    for grup_adi, pattern in GURUPLAR.items():
-                        if re.match(pattern, temiz_isim, re.IGNORECASE):
-                            dosya_gruplari[grup_adi].append(item)
-                            matched = True
-                            break
+                    if arama_ismi:
+                        for grup_adi, pattern in GURUPLAR.items():
+                            if re.match(pattern, arama_ismi):
+                                dosya_gruplari[grup_adi].append(item)
+                                matched = True
+                                break
                     
                     if not matched:
                         dosya_gruplari["Diger"].append(item)
@@ -97,16 +107,19 @@ for m3u_url, source_name in m3u_sources:
 # --- DOSYALARI KAYDETME ---
 print("-" * 30)
 for grup_adi, kalemler in dosya_gruplari.items():
-    if kalemler:
-        dosya_yolu = f"nuvio_sinema_{grup_adi.lower()}.m3u"
-        with open(dosya_yolu, "w", encoding="utf-8", newline='\n') as f:
-            f.write("#EXTM3U\n")
+    # Dosya isimlerini JS koduyla uyumlu hale getiriyoruz
+    dosya_yolu = f"nuvio_sinema_{grup_adi.lower().replace('-', '_')}.m3u"
+    
+    with open(dosya_yolu, "w", encoding="utf-8", newline='\n') as f:
+        f.write("#EXTM3U\n")
+        if kalemler:
             for item in kalemler:
                 f.write(f"{item['header']},{item['name']}\n")
                 f.write(f"{item['url'].strip()}\n")
-        print(f"✅ {dosya_yolu} oluşturuldu. ({len(kalemler)} film)")
-    else:
-        print(f"ℹ️ {grup_adi} için içerik bulunamadı, dosya oluşturulmadı.")
+            print(f"✅ {dosya_yolu} oluşturuldu. ({len(kalemler)} film)")
+        else:
+            # Boş olsa bile dosyayı oluştur ki JS hata vermesin
+            print(f"ℹ️ {grup_adi} boş, boş dosya oluşturuldu.")
 
 print("-" * 30)
 print("🚀 Tüm bölme ve temizleme işlemleri başarıyla tamamlandı!")
