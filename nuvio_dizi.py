@@ -21,7 +21,7 @@ def normalize_for_alpha(s):
     return s.translate(mapping)
 
 def extract_clean_author(header):
-    """group-author="📺 YENİ DİZİ [Zerk]" -> Zerk (Sadece ismi alır)"""
+    """group-author="📺 YENİ DİZİ [Zerk]" -> Zerk"""
     match = re.search(r'group-author="[^"]*\[([^\]]+)\]"', header)
     if match:
         return match.group(1).strip()
@@ -29,6 +29,16 @@ def extract_clean_author(header):
     if simple_match:
         return simple_match.group(1).split()[-1].replace("]", "").replace("[", "")
     return "M3U"
+
+def clean_header_tags(header):
+    """tvg-logo ve group-time etiketlerini tamamen siler, header'ı hafifletir"""
+    # tvg-logo="..." kısmını sil
+    header = re.sub(r'\s?tvg-logo="[^"]*"', '', header)
+    # group-time="..." kısmını sil
+    header = re.sub(r'\s?group-time="[^"]*"', '', header)
+    # Fazla boşlukları temizle
+    header = re.sub(r'\s+', ' ', header).strip()
+    return header
 
 def clean_dizi_name_for_alpha(raw_name):
     """Harf tespiti için sadece dizi adını çeker"""
@@ -52,12 +62,10 @@ for m3u_url, source_name in m3u_sources:
             if line.startswith("#EXTINF") and i + 1 < len(lines):
                 url = lines[i+1].strip()
                 
-                # --- FİLTRELEME BAŞLANGICI ---
-                # Link vidmody veya diziyou içeriyorsa tamamen atla
+                # --- DOMAİN FİLTRESİ ---
                 if any(domain in url for domain in BAKILMAYACAK_LINKLER):
                     i += 2
                     continue
-                # -----------------------------
 
                 if url not in gorulen_url_ler:
                     gorulen_url_ler.add(url)
@@ -66,11 +74,15 @@ for m3u_url, source_name in m3u_sources:
                     header_raw = inf_parts[0]
                     name_raw = inf_parts[1].strip() if len(inf_parts) > 1 else "Bilinmeyen"
                     
-                    # 1. Kaynak Temizliği
-                    clean_author = extract_clean_author(header_raw)
-                    new_header = re.sub(r'group-author="[^"]+"', f'group-author="{clean_author}"', header_raw)
+                    # 1. Header Temizliği (Gereksiz Tagları Sil)
+                    clean_header = clean_header_tags(header_raw)
                     
-                    # 2. Harf Belirleme
+                    # 2. Kaynak (Author) Temizliği
+                    clean_author = extract_clean_author(clean_header)
+                    # Mevcut author kısmını sadece temiz isimle değiştir
+                    final_header = re.sub(r'group-author="[^"]+"', f'group-author="{clean_author}"', clean_header)
+                    
+                    # 3. Harf Belirleme
                     dizi_adi_sade = clean_dizi_name_for_alpha(name_raw)
                     arama_ismi = normalize_for_alpha(dizi_adi_sade)
                     
@@ -84,7 +96,7 @@ for m3u_url, source_name in m3u_sources:
 
                     if grup not in dosya_gruplari: dosya_gruplari[grup] = []
                     dosya_gruplari[grup].append({
-                        "header": new_header,
+                        "header": final_header,
                         "name": name_raw,
                         "url": url,
                         "sort": arama_ismi
@@ -105,4 +117,4 @@ for grup, kalemler in dosya_gruplari.items():
         f.write("#EXTM3U\n")
         for item in kalemler:
             f.write(f"{item['header']},{item['name']}\n{item['url']}\n")
-    print(f"✅ {dosya_adi} hazır (Gereksiz linkler elendi).")
+    print(f"✅ {dosya_adi} hazır (Taglar silindi, dosya hafifledi).")
