@@ -7,7 +7,6 @@ m3u_sources = [
     ("https://raw.githubusercontent.com/mooncrown04/m3ubirlestir/refs/heads/main/birlesik_sinema.m3u", "mooncrown"),
 ]
 
-# Çıktı klasörü (Ana dizini kirletmemek için)
 OUTPUT_FOLDER = "nuvio_parcalari"
 if not os.path.exists(OUTPUT_FOLDER):
     os.makedirs(OUTPUT_FOLDER)
@@ -22,11 +21,25 @@ def clean_name_only(raw_name):
     # Tür takılarını temizle
     clean = re.split(r' (Aksiyon|Korku|Dram|Gerilim|Komedi|Macera|Polisiye|Biyografi|Müzik|Gizem|Bilim-Kurgu|Romantik|Belgesel|Western|Animasyon|Aile|Suç)--', raw_name)[0]
     clean = clean.split(' Aksiyon-')[0].split('--')[0].strip()
-    # Yıl bilgisini temizle
     year_match = re.search(r'(\d{4})', clean)
     if year_match:
         clean = clean.replace(year_match.group(1), "").replace("(", "").replace(")", "").strip()
     return ' '.join(clean.split())
+
+def extract_clean_author(header):
+    """group-author içindeki emoji ve gereksiz metinleri temizler."""
+    match = re.search(r'group-author="([^"]+)"', header)
+    if match:
+        full_author = match.group(1)
+        # Köşeli parantez içindeyse onu al (Zerk), değilse son kelimeyi al
+        name_match = re.search(r'\[(.*?)\]', full_author)
+        if name_match:
+            return name_match.group(1).strip()
+        # Eğer köşeli parantez yoksa emojileri ve "YENİ" gibi kelimeleri temizleyip son kelimeyi al
+        clean_name = re.sub(r'[^\w\s]', '', full_author) # Emojileri temizle
+        clean_name = clean_name.replace("YENİ", "").strip()
+        return clean_name.split()[-1] if clean_name else "M3U"
+    return "M3U"
 
 # --- ANA MOTOR ---
 dosya_gruplari = {} 
@@ -34,7 +47,7 @@ gorulen_url_ler = set()
 
 for m3u_url, source_name in m3u_sources:
     try:
-        print(f"[+] {source_name} indiriliyor ve parçalanıyor...")
+        print(f"[+] {source_name} işleniyor...")
         req = requests.get(m3u_url, timeout=25)
         req.raise_for_status()
         lines = req.text.splitlines()
@@ -54,20 +67,24 @@ for m3u_url, source_name in m3u_sources:
                     header_raw = inf_parts[0]
                     name_raw = inf_parts[1].strip() if len(inf_parts) > 1 else "Bilinmeyen"
                     
+                    # 1. Kaynak İsmini Temizle (✨YENİ [Zerk] -> Zerk)
+                    clean_author = extract_clean_author(header_raw)
+                    
+                    # 2. Header'ı güncelle (Yeni group-author formatı)
+                    # Mevcut group-author'u silip yerine sadesini koyuyoruz
+                    new_header = re.sub(r'group-author="[^"]+"', f'group-author="{clean_author}"', header_raw)
+                    
                     temiz_isim = clean_name_only(name_raw)
                     arama_ismi = normalize_for_alpha(temiz_isim)
                     
-                    # Harf Belirleme (a, b, c... 0_9_rakam veya diger)
                     if arama_ismi:
                         ilk = arama_ismi[0]
-                        if ilk.isdigit(): grup = "0_9_rakam"
-                        elif 'a' <= ilk <= 'z': grup = ilk
-                        else: grup = "diger"
+                        grup = "0_9_rakam" if ilk.isdigit() else (ilk if 'a' <= ilk <= 'z' else "diger")
                     else: grup = "diger"
 
                     if grup not in dosya_gruplari: dosya_gruplari[grup] = []
                     dosya_gruplari[grup].append({
-                        "header": header_raw,
+                        "header": new_header,
                         "name": temiz_isim,
                         "url": url,
                         "sort": arama_ismi
@@ -77,14 +94,10 @@ for m3u_url, source_name in m3u_sources:
     except Exception as e: print(f"Hata: {e}")
 
 # --- KAYDETME ---
-print("-" * 30)
 for grup, kalemler in dosya_gruplari.items():
     kalemler.sort(key=lambda x: x["sort"])
-    dosya_adi = f"nuvio_{grup}.m3u"
-    dosya_yolu = os.path.join(OUTPUT_FOLDER, dosya_adi)
-    
+    dosya_yolu = os.path.join(OUTPUT_FOLDER, f"nuvio_{grup}.m3u")
     with open(dosya_yolu, "w", encoding="utf-8", newline='\n') as f:
         f.write("#EXTM3U\n")
         for item in kalemler:
             f.write(f"{item['header']},{item['name']}\n{item['url']}\n")
-    print(f"✅ {dosya_adi} -> {OUTPUT_FOLDER}/ klasörüne eklendi.")
