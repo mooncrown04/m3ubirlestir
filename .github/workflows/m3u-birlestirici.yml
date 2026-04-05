@@ -1,9 +1,12 @@
 name: M3U Birleştirici
 
 on:
+  push:
+    branches:
+      - main  # Değişiklik geldiği an otomatik başlar
   schedule:
-    - cron: '0 2,14 * * *'
-  workflow_dispatch:
+    - cron: '0 2,14 * * *'  # Günde 2 kez otomatik başlar
+  workflow_dispatch:        # İstediğinde elle (butonla) başlatmanı sağlar
 
 permissions:
   contents: write
