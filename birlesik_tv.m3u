@@ -3,6 +3,8 @@
 https://tv.ensonhaber.com/tv360/tv360.m3u8
 #EXTINF:-1 group-title="Ulusal Kanallar" tvg-logo="https://i.ibb.co/7WTsG83/a2.png",A2
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
+#EXTINF:-1 group-title="Ulusal Kanallar" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/S/Js/246030/logo.png",ATV
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8
 #EXTINF:-1 group-title="Ulusal Kanallar" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/euro_d_QNy.png",EURO D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8
 #EXTINF:-1 group-title="Ulusal Kanallar" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/J/B7/246144/logo.png",HABER GLOBAL
@@ -79,6 +81,8 @@ http://cdn.tv-rds.workers.dev/ARTSport1.m3u8
 http://cdn.tv-rds.workers.dev/ARTSport3.m3u8
 #EXTINF:-1 group-title="Freeshot Albania & Kosovo" tvg-logo="https://freeshot.live/upload/source/ART-Sport-5-logo.png",ART SPORT 5 XK
 http://cdn.tv-rds.workers.dev/ARTSport5.m3u8
+#EXTINF:-1 group-title="Freeshot Arabia" tvg-logo="https://freeshot.live/upload/source/AbuDhabiSports-logo.png",ABU DHABI SPORTS 1
+http://cdn.tv-rds.workers.dev/AbuDhabiSports1.m3u8
 #EXTINF:-1 group-title="Freeshot Arabia" tvg-logo="https://freeshot.live/upload/source/DubaiSports-logo.png",DUBAI RACING
 http://cdn.tv-rds.workers.dev/DubaiRacing.m3u8
 #EXTINF:-1 group-title="Freeshot Arabia" tvg-logo="https://freeshot.live/upload/source/DubaiSports-logo.png",DUBAI SPORTS 2
@@ -151,8 +155,6 @@ http://cdn.tv-rds.workers.dev/Eurosport1CZ.m3u8
 http://cdn.tv-rds.workers.dev/Sport1CZ.m3u8
 #EXTINF:-1 group-title="Freeshot Ex-Yu" tvg-logo="https://freeshot.live/upload/source/Arena-Sport-2-logo.png",ARENA SPORT 2 HR
 http://cdn.tv-rds.workers.dev/ArenaSport2HR.m3u8
-#EXTINF:-1 group-title="Freeshot Ex-Yu" tvg-logo="https://freeshot.live/upload/source/ArenaSport-logo-4.png",ARENA SPORT 4 HR
-http://cdn.tv-rds.workers.dev/ArenaSport4HR.m3u8
 #EXTINF:-1 group-title="Freeshot Ex-Yu" tvg-logo="https://freeshot.live/upload/source/ArenaSport-6-logo.png",ARENA SPORT 6 HR
 http://cdn.tv-rds.workers.dev/ArenaSport6HR.m3u8
 #EXTINF:-1 group-title="Freeshot Ex-Yu" tvg-logo="https://freeshot.live/upload/source/ArenaSport-8-logo.png",ARENA SPORT 8 HR
@@ -177,8 +179,6 @@ http://cdn.tv-rds.workers.dev/TF1FR.m3u8
 http://cdn.tv-rds.workers.dev/SkyAtlanticDE.m3u8
 #EXTINF:-1 group-title="Freeshot Germany" tvg-logo="https://freeshot.live/upload/source/Sky_Sport_Golf-Logo.png",SKY SPORT GOLF DE
 http://cdn.tv-rds.workers.dev/SkySportGolfDE.m3u8
-#EXTINF:-1 group-title="Freeshot Germany" tvg-logo="https://freeshot.live/upload/source/Sky_Sport_Mix-Logo.png",SKY SPORT MIX DE
-http://cdn.tv-rds.workers.dev/SkySportMixDE.m3u8
 #EXTINF:-1 group-title="Freeshot Italia" tvg-logo="https://freeshot.live/upload/source/la7-logo.png",LA7
 http://cdn.tv-rds.workers.dev/La7.m3u8
 #EXTINF:-1 group-title="Freeshot Italia" tvg-logo="https://freeshot.live/upload/source/Milan-TV-logo.png",MILAN TV
@@ -271,6 +271,8 @@ http://cdn.tv-rds.workers.dev/TivibuSPOR.m3u8
 http://cdn.tv-rds.workers.dev/TRTSPOR.m3u8
 #EXTINF:-1 group-title="Freeshot United Kingdom" tvg-logo="https://freeshot.live/upload/source/Eurosport_2_logo.png",EUROSPORT 2 UK
 http://cdn.tv-rds.workers.dev/Eurosport2UK.m3u8
+#EXTINF:-1 group-title="Freeshot United Kingdom" tvg-logo="https://freeshot.live/upload/source/GoldUK-logo.png",GOLD UK
+http://cdn.tv-rds.workers.dev/GoldUK.m3u8
 #EXTINF:-1 group-title="Freeshot United Kingdom" tvg-logo="https://freeshot.live/upload/source/ITV2-logo.png",ITV2 UK
 http://cdn.tv-rds.workers.dev/ITV2.m3u8
 #EXTINF:-1 group-title="Freeshot United Kingdom" tvg-logo="https://freeshot.live/upload/source/ITV4-logo.png",ITV4 UK
@@ -341,6 +343,8 @@ http://live.smartglwiz.workers.dev/?ID=ART_HD
 http://live.smartglwiz.workers.dev/?ID=Aryen_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_300573.png",ASSYRIASAT
 http://live.smartglwiz.workers.dev/?ID=AssyrSat_HD
+#EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_300328.png",ATN
+http://live.smartglwiz.workers.dev/?ID=ArianaAfghan_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_300341.png",ATN NEWS
 http://live.smartglwiz.workers.dev/?ID=ATNNews_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307035.png",AVA FAMILY
@@ -553,6 +557,8 @@ http://live.smartglwiz.workers.dev/?ID=Navahang_HD
 http://live.smartglwiz.workers.dev/?ID=NejatTV_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307304.png",NET TV
 http://live.smartglwiz.workers.dev/?ID=NetTV_HD
+#EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307596.png",NIMA TV
+http://live.smartglwiz.workers.dev/?ID=NimaTV_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307411.png",NOHADRA TV
 http://live.smartglwiz.workers.dev/?ID=NohadraTV_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_303110.png",NRT
@@ -857,44 +863,88 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e18
 https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlists.m3u8
 #EXTINF:-1 group-title="Muzik" tvg-logo="https://i.ibb.co/R4pcKqK/powerturk-slow.png",POWERTÜRK SLOW
 https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/538.png",ALE KINO+
-http://live.cdn-polskie.workers.dev/?ID=38
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/541.png",CANAL + SPORT 2
-http://live.cdn-polskie.workers.dev/?ID=41
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/519.png",CANAL+ SERIALE
-http://live.cdn-polskie.workers.dev/?ID=19
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/528.png",CARTOON NETWORK
-http://live.cdn-polskie.workers.dev/?ID=28
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/630.png",DISCOVERY INVESTIGATION
-http://live.cdn-polskie.workers.dev/?ID=130
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/526.png",DISNEY CHANNEL
-http://live.cdn-polskie.workers.dev/?ID=26
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/544.png",ELEVEN SPORTS 4
-http://live.cdn-polskie.workers.dev/?ID=44
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/523.png",HBO 3
-http://live.cdn-polskie.workers.dev/?ID=23
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/572.png",HGTV
-http://live.cdn-polskie.workers.dev/?ID=72
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/524.png",POLSAT FILM
-http://live.cdn-polskie.workers.dev/?ID=24
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/612.png",ACTIVE FAMILY
+http://live.cdn-polskie.workers.dev/?ID=112
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/584.png",AXN BLACK
+http://live.cdn-polskie.workers.dev/?ID=84
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/627.png",CANAL+ DOKUMENT
+http://live.cdn-polskie.workers.dev/?ID=127
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/623.png",CANAL+ EXTRA 2
+http://live.cdn-polskie.workers.dev/?ID=123
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/624.png",CANAL+ EXTRA 3
+http://live.cdn-polskie.workers.dev/?ID=124
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/516.png",CINEMAX
+http://live.cdn-polskie.workers.dev/?ID=16
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/626.png",CINEMAX 2
+http://live.cdn-polskie.workers.dev/?ID=126
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/594.png",DISCOVERY SCIENCE
+http://live.cdn-polskie.workers.dev/?ID=94
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/562.png",DOMO+
+http://live.cdn-polskie.workers.dev/?ID=62
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/521.png",ELEVEN SPORTS 2
+http://live.cdn-polskie.workers.dev/?ID=21
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/522.png",ELEVEN SPORTS 3
+http://live.cdn-polskie.workers.dev/?ID=22
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/517.png",EUROSPORT 1
+http://live.cdn-polskie.workers.dev/?ID=17
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/547.png",FIGHTKLUB
+http://live.cdn-polskie.workers.dev/?ID=47
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/631.png",FILMBOX ARTHOUSE
+http://live.cdn-polskie.workers.dev/?ID=131
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/614.png",FILMBOX FAMILY
+http://live.cdn-polskie.workers.dev/?ID=114
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/520.png",FILMBOX PREMIUM
+http://live.cdn-polskie.workers.dev/?ID=20
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/609.png",H2
+http://live.cdn-polskie.workers.dev/?ID=109
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/591.png",KINO POLSKA
+http://live.cdn-polskie.workers.dev/?ID=91
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/620.png",KINO TV
+http://live.cdn-polskie.workers.dev/?ID=120
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/632.png",MOTOWIZJA
+http://live.cdn-polskie.workers.dev/?ID=132
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/616.png",NICK JR
+http://live.cdn-polskie.workers.dev/?ID=116
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/548.png",POLO TV
+http://live.cdn-polskie.workers.dev/?ID=48
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/501.png",POLSAT 2
+http://live.cdn-polskie.workers.dev/?ID=1
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/556.png",POLSAT 2 NEWS
+http://live.cdn-polskie.workers.dev/?ID=56
 #EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/567.png",POLSAT MUSIC
 http://live.cdn-polskie.workers.dev/?ID=67
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/565.png",TV REPUBLIKA
-http://live.cdn-polskie.workers.dev/?ID=65
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/539.png",POLSAT PLAY
+http://live.cdn-polskie.workers.dev/?ID=39
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/602.png",POLSAT SERIALE
+http://live.cdn-polskie.workers.dev/?ID=102
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/546.png",POLSAT SPORT 3
+http://live.cdn-polskie.workers.dev/?ID=46
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/512.png",POLSAT SPORT PREMIUM 2
+http://live.cdn-polskie.workers.dev/?ID=12
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/U/Wm/246069/logo.png",TLC
+http://live.cdn-polskie.workers.dev/?ID=71
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/563.png",TTV
+http://live.cdn-polskie.workers.dev/?ID=63
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/611.png",TV 6
+http://live.cdn-polskie.workers.dev/?ID=111
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/553.png",TV PULS
+http://live.cdn-polskie.workers.dev/?ID=53
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/552.png",TVN 7
+http://live.cdn-polskie.workers.dev/?ID=52
 #EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/590.png",TVN STYLE
 http://live.cdn-polskie.workers.dev/?ID=90
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/592.png",TVP
-http://live.cdn-polskie.workers.dev/?ID=92
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/605.png",TVN TURBO
+http://live.cdn-polskie.workers.dev/?ID=105
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/504.png",TVP 3
+http://live.cdn-polskie.workers.dev/?ID=4
 #EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/555.png",TVP INFO
 http://live.cdn-polskie.workers.dev/?ID=55
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/580.png",TVP POLONIA
-http://live.cdn-polskie.workers.dev/?ID=80
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/535.png",TVP SPORT
-http://live.cdn-polskie.workers.dev/?ID=35
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/587.png",VIASAT EXPLORE
-http://live.cdn-polskie.workers.dev/?ID=87
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/586.png",VIASAT NATURE
-http://live.cdn-polskie.workers.dev/?ID=86
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/576.png",TVP KULTURA
+http://live.cdn-polskie.workers.dev/?ID=76
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/574.png",TVS
+http://live.cdn-polskie.workers.dev/?ID=74
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/603.png",VIASAT HISTORY
+http://live.cdn-polskie.workers.dev/?ID=103
 #EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/549.png",ZOOM TV
 http://live.cdn-polskie.workers.dev/?ID=49
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/24 техно.png",24 ТЕХНО
@@ -1003,10 +1053,14 @@ http://live.sarkortv.workers.dev/?ID=183
 http://live.sarkortv.workers.dev/?ID=87
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/Ozbekiston.png",OZBEKISTON
 http://live.sarkortv.workers.dev/?ID=8
+#EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/Ozbekiston 24 HD.png",OZBEKISTON 24
+http://live.sarkortv.workers.dev/?ID=20
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/Renessans TV.png",RENESSANS TV
 http://live.sarkortv.workers.dev/?ID=88
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/RU.TV.png",RU.TV
 http://live.sarkortv.workers.dev/?ID=72
+#EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/Sevimli HD.png",SEVIMLI
+http://live.sarkortv.workers.dev/?ID=25
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/Sport TV HD.png",SPORT TV
 http://live.sarkortv.workers.dev/?ID=11
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/Taraqqiyot TV.png",TARAQQIYOT TV
@@ -1027,8 +1081,6 @@ http://live.sarkortv.workers.dev/?ID=139
 http://live.sarkortv.workers.dev/?ID=95
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/TVC RU.png",TVC RU
 http://live.sarkortv.workers.dev/?ID=168
-#EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/Uzbekiston Tarixi.png",UZBEKISTON TARIXI
-http://live.sarkortv.workers.dev/?ID=86
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/UzReport HD.png",UZREPORT
 http://live.sarkortv.workers.dev/?ID=75
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/YoshlAR.png",YOSHLAR
@@ -1137,8 +1189,6 @@ http://live.sarkortv.workers.dev/?ID=55
 http://live.sarkortv.workers.dev/?ID=61
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/Россия 1.png",РОССИЯ 1
 http://live.sarkortv.workers.dev/?ID=28
-#EXTINF:-1 group-title="Sarkortv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/ONGlJrus24mb.png",РОССИЯ 24
-http://live.sarkortv.workers.dev/?ID=29
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/Россия Культура.png",РОССИЯ КУЛЬТУРА
 http://live.sarkortv.workers.dev/?ID=56
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/Рыжий SD.png",РЫЖИЙ
@@ -1217,26 +1267,28 @@ https://tv-trtworld.medya.trt.com.tr/master.m3u8
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
 #EXTINF:-1 group-title="Turk Hd+ Line" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tv100-tr.png",TV100
 https://tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8
-#EXTINF:-1 group-title="Vizitv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/T/Rx/246135/logo.png",A SPOR
-http://live.cdn-vizi.workers.dev/?ID=19
 #EXTINF:-1 group-title="Vizitv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/S/Js/246030/logo.png",ATV
 http://live.cdn-vizi.workers.dev/?ID=2
+#EXTINF:-1 group-title="Vizitv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/z/s0/246105/logo.png",BEYAZ TV
+http://live.cdn-vizi.workers.dev/?ID=9
 #EXTINF:-1 group-title="Vizitv" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/euro_d_QNy.png",EURO D
 http://live.cdn-vizi.workers.dev/?ID=6
 #EXTINF:-1 group-title="Vizitv" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/now_tv_dGf.png",FOX TV
 http://live.cdn-vizi.workers.dev/?ID=4
-#EXTINF:-1 group-title="Vizitv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/A/Bt/246120/logo.png",NTV
-http://live.cdn-vizi.workers.dev/?ID=17
+#EXTINF:-1 group-title="Vizitv" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/haber_turk_nEH.png",HABER TURK
+http://live.cdn-vizi.workers.dev/?ID=13
+#EXTINF:-1 group-title="Vizitv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/E/ON/246138/logo.png",KANAL 7
+http://live.cdn-vizi.workers.dev/?ID=7
 #EXTINF:-1 group-title="Vizitv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/X/rT/245949/logo.png",SHOW TV
 http://live.cdn-vizi.workers.dev/?ID=3
-#EXTINF:-1 group-title="Vizitv" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/sozcu_tv_QyD.png",SOZCU TV
-http://live.cdn-vizi.workers.dev/?ID=18
 #EXTINF:-1 group-title="Vizitv" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/star_tv_3ey.png",STAR TV
 http://live.cdn-vizi.workers.dev/?ID=5
 #EXTINF:-1 group-title="Vizitv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/S/tg/245943/logo.png",TRT 1
 http://live.cdn-vizi.workers.dev/?ID=1
 #EXTINF:-1 group-title="Vizitv" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/viziturk_klasik_eQm.png",VIZITÜRK KLASIK
 http://live.cdn-vizi.workers.dev/?ID=11
+#EXTINF:-1 group-title="Vizitv" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/viziturk_komedi_TmR.png",VIZITÜRK KOMEDI
+http://live.cdn-vizi.workers.dev/?ID=10
 #EXTINF:-1 group-title="Çocuk & Aile" tvg-logo="https://i.ibb.co/7WTsG83/a2.png",A2
 http://89.187.191.41/A2-HD-TR/video.m3u8
 #EXTINF:-1 group-title="Çocuk & Aile" tvg-logo="",TRT DİYANET ÇOCUK
