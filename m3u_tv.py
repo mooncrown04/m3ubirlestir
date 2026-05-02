@@ -18,7 +18,7 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 # "KANAL 7" yazdığında "KANAL 7 AVRUPA"yı almaması için "==" kontrolü eklendi.
 OZEL_FILTRELER = {
     "Ulusal Kanallar": ["TRT 1", "ATV", "KANAL D", "SHOW TV", "NOW TV", "STAR TV", "TV 8", "BEYAZ TV", "TEVE 2", "A2", "TELE 1", "SHOWTURK", "KANAL 7"],
-    "SPOR KANALLARI": ["BEIN SPORTS 1 TURKEY", "SPOR", "TARAFTAR", "EXXEN", "S SPORT", "TRT SPOR"],
+    "SPOR": ["BEIN SPORTS 1 TURKEY", "SPOR", "TARAFTAR", "EXXEN", "S SPORT", "TRT SPOR"],
     "HABER": ["HALK TV", "TV 100", "SÖZCÜ TV", "NTV", "HABER GLOBAL", "TRT HABER"],
 }
 
@@ -27,7 +27,7 @@ CATEGORY_MAPPING = {
     "haber": "HABER",
     "ulusal": "Ulusal Kanallar",
     "sport": "SPOR KANALLARI",
-    "spor": "SPOR KANALLARI",
+    "spor": "SPOR",
     "movie": "SİNEMA & DİZİ",
     "film": "SİNEMA & DİZİ",
     "belgesel": "BELGESEL",
@@ -52,11 +52,13 @@ CHANNEL_NAME_MAPPING = {
     "KANAL 7 HD": "KANAL 7"
 }
 
+# --- 4. KAYNAKLAR (URL ve Yazar Bilgisi) ---
+# Format: (URL, YAZAR_ISMI)
 M3U_SOURCES = [
-    'https://raw.githubusercontent.com/smartgmr/cdn/refs/heads/main/Perfect.m3u',
-    'https://raw.githubusercontent.com/Mertcantv/Mertcan/refs/heads/main/%C4%B0zle2.m3u',
-    'https://raw.githubusercontent.com/primatzeka/kurbaga/main/NeonSpor/NeonSpor.m3u',
-    'https://tinyurl.com/TVCANLI'
+    ('https://raw.githubusercontent.com/smartgmr/cdn/refs/heads/main/Perfect.m3u', "smartgmr"),
+    ('https://raw.githubusercontent.com/Mertcantv/Mertcan/refs/heads/main/%C4%B0zle2.m3u', "Mertcantv"),
+    ('https://raw.githubusercontent.com/primatzeka/kurbaga/main/NeonSpor/NeonSpor.m3u', "NeonSpor"),
+    ('https://tinyurl.com/TVCANLI', "TVCANLI")
 ]
 
 PRIORITY_GROUPS = list(OZEL_FILTRELER.keys())
@@ -66,6 +68,7 @@ class Channel:
     name: str
     category: str
     url: str
+    author: str  # Kanalın hangi kaynaktan geldiğini tutar
     logo: str = ""
 
 def normalize_channel_identity(name: str):
@@ -119,7 +122,7 @@ def get_group_priority(category_name: str) -> int:
     except ValueError:
         return 999
 
-def parse_m3u(m3u_content: str) -> List[Channel]:
+def parse_m3u(m3u_content: str, author_name: str) -> List[Channel]:
     channels = []
     pattern = re.compile(
         r'#EXTINF:.*?(?:group-title|tvg-group)="([^"]*)".*?(?:tvg-logo)="([^"]*)".*?,([^\n\r]+)[\s\n\r]+(http[^\s\n\r]+)', 
@@ -136,7 +139,13 @@ def parse_m3u(m3u_content: str) -> List[Channel]:
         std_category = clean_category(raw_group, std_name)
         
         if std_name and url:
-            channels.append(Channel(name=std_name, category=std_category, url=url, logo=logo_url.strip()))
+            channels.append(Channel(
+                name=std_name, 
+                category=std_category, 
+                url=url, 
+                author=author_name, 
+                logo=logo_url.strip()
+            ))
             seen_urls.add(url)
     return channels
 
@@ -148,7 +157,7 @@ async def check_url(sem, session, ch):
                     # Bazı paneller hata sayfasını 200 ile döner, onları engelle:
                     ctype = response.headers.get('Content-Type', '').lower()
                     if 'text/html' in ctype: return None
-                    logging.info(f"OK: {ch.name}")
+                    logging.info(f"OK: {ch.name} (Kaynak: {ch.author})")
                     return ch
         except:
             pass
@@ -160,13 +169,13 @@ async def main():
         global_seen_urls = set()
         logo_map = {} 
         
-        for url in M3U_SOURCES:
-            logging.info(f"İndiriliyor: {url}")
+        for url, author in M3U_SOURCES:
+            logging.info(f"İndiriliyor: {url} | Kaynak: {author}")
             try:
                 async with session.get(url, timeout=15) as resp:
                     if resp.status == 200:
                         text = await resp.text()
-                        found = parse_m3u(text)
+                        found = parse_m3u(text, author)
                         for ch in found:
                             if ch.url not in global_seen_urls:
                                 if ch.name not in logo_map and ch.logo:
@@ -174,7 +183,7 @@ async def main():
                                 all_channels.append(ch)
                                 global_seen_urls.add(ch.url)
             except Exception as e:
-                logging.error(f"Hata: {e}")
+                logging.error(f"Hata ({author}): {e}")
 
         if not all_channels: return
 
@@ -195,10 +204,11 @@ async def main():
                 f.write("#EXTM3U\n")
                 for ch in alive_channels:
                     final_logo = logo_map.get(ch.name, ch.logo)
-                    f.write(f'#EXTINF:-1 group-title="{ch.category}" tvg-logo="{final_logo}",{ch.name}\n')
+                    # group-author etiketi her kanalın satırına eklendi
+                    f.write(f'#EXTINF:-1 group-title="{ch.category}" group-author="{ch.author}" tvg-logo="{final_logo}",{ch.name}\n')
                     f.write(f"{ch.url}\n")
             
-            logging.info(f"BİTTİ! Tam eşleşme sağlandı. 'KANAL 7' artık 'KANAL 7 AVRUPA' ile karışmayacak.")
+            logging.info(f"BİTTİ! Kaynak bazlı (group-author) ayrıştırma tamamlandı.")
 
 if __name__ == "__main__":
     asyncio.run(main())
