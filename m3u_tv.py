@@ -16,9 +16,9 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 # --- 1. ÖZEL FİLTRELER VE KATEGORİ İÇİ SIRALAMA ---
 # Buradaki kanallar hem ilgili kategoriye atanır hem de KATEGORİ İÇİNDE en üstte görünür.
 OZEL_FILTRELER = {
-    "Ulusal Kanallar": ["TRT 1", "ATV", "KANAL D", "SHOW TV", "NOW TV", "STAR TV", "TV8", "TEVE 2"],
-    "SPOR KANALLARI": ["BEIN", "SPOR", "TARAFTAR", "EXXEN", "S SPORT", "EUROSPORT"],
-    "HABER": ["HABER GLOBAL", "HALK TV", "TGRT HABER", "SÖZCÜ TV", "NTV"],
+    "Ulusal Kanallar": ["TRT 1", "ATV", "KANAL D", "SHOW TV", "NOW TV", "STAR TV", "TV 8","BEYAZ TV","TEVE 2","A2","TELE 1","SHOWTURK"],
+    "SPOR KANALLARI": ["BEIN SPORTS 1 TURKEY", "SPOR", "TARAFTAR", "EXXEN", "S SPORT", "TRT SPOR"],
+    "HABER": ["HALK TV","TV 100", "HALK TV", "TGRT HABER", "SÖZCÜ TV", "NTV","HABER GLOBAL","TRT HABER"],
    
 }
 
