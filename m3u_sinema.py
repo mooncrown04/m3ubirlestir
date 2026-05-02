@@ -7,6 +7,7 @@ from collections import Counter
 
 # --- AYARLAR ---
 m3u_sources = [
+	("https://raw.githubusercontent.com/mooncrown04/m3ubirlestir/refs/heads/main/filtrelisinema.js", "MoOnCrOwN"),
     ("https://tinyurl.com/2ao2rans", "powerboard"),
     ("https://raw.githubusercontent.com/Zerk1903/zerkfilm/refs/heads/main/Filmler.m3u", "Zerk"),
     ("https://raw.githubusercontent.com/Lunedor/iptvTR/refs/heads/main/FilmArsiv.m3u", "Lunedor"),    
