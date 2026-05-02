@@ -13,25 +13,26 @@ TIMEOUT = 7
 MAX_CONCURRENT_REQUESTS = 30 
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
 
-# --- 1. ÖZEL FİLTRELER (KANAL İSMİNE GÖRE) ---
-# Kanal adında bu kelimeler geçerse direkt bu kategoriye atanır.
+# --- 1. ÖZEL FİLTRELER VE KATEGORİ İÇİ SIRALAMA ---
+# Buradaki kanallar hem ilgili kategoriye atanır hem de KATEGORİ İÇİNDE en üstte görünür.
 OZEL_FILTRELER = {
+    "Ulusal Kanallar": ["TRT 1", "ATV", "KANAL D", "SHOW TV", "NOW TV", "STAR TV", "TV8", "TEVE 2"],
+    "SPOR KANALLARI": ["BEIN", "SPOR", "TARAFTAR", "EXXEN", "S SPORT", "EUROSPORT"],
     "HABER": ["HABER GLOBAL", "HALK TV", "TGRT HABER", "SÖZCÜ TV", "NTV"],
-    "Ulusal Kanallar": ["TRT 1", "KANAL D", "SHOW TV", "NOW", "TEVE 2"],
+   
 }
 
-# --- 2. KATEGORİ MAPPING (MEVCUT GRUP İSMİNE GÖRE) ---
-# Eğer kanal ismi yukarıdaki filtrelere takılmazsa, M3U'daki orijinal kategori ismine bakılır.
+# --- 2. KATEGORİ MAPPING ---
 CATEGORY_MAPPING = {
     "haber": "HABER",
     "ulusal": "Ulusal Kanallar",
-    "sport": "Spor",
-    "spor": "Spor",
-    "movie": "Sinema",
-    "film": "Sinema",
-    "belgesel": "Belgesel",
-    "cocuk": "Çocuk & Aile",
-    "kids": "Çocuk & Aile"
+    "sport": "SPOR KANALLARI",
+    "spor": "SPOR KANALLARI",
+    "movie": "SİNEMA & DİZİ",
+    "film": "SİNEMA & DİZİ",
+    "belgesel": "BELGESEL",
+    "cocuk": "ÇOCUK & AİLE",
+    "kids": "ÇOCUK & AİLE"
 }
 
 M3U_SOURCES = [
@@ -41,9 +42,8 @@ M3U_SOURCES = [
     'https://tinyurl.com/TVCANLI'
 ]
 
-# --- SIRALAMA ÖNCELİĞİ ---
-# Özel filtreler ve mapping kategorilerini en üste alıyoruz.
-PRIORITY_GROUPS = list(OZEL_FILTRELER.keys()) + list(CATEGORY_MAPPING.values())
+# Kategorilerin genel (dosya genelindeki) sıralaması
+PRIORITY_GROUPS = list(OZEL_FILTRELER.keys())
 
 @dataclass
 class Channel:
@@ -53,21 +53,18 @@ class Channel:
     logo: str = ""
 
 def clean_category(raw_cat: str, channel_name: str) -> str:
-    # ADIM 1: Önce kanal ismini kontrol et (OZEL_FILTRELER)
     upper_name = channel_name.upper()
-    for hedef_kategori, anahtar_kelimeler in OZEL_FILTRELER.items():
-        for kelime in anahtar_kelimeler:
+    for hedef_kategori, kelimeler in OZEL_FILTRELER.items():
+        for kelime in kelimeler:
             if kelime.upper() in upper_name:
                 return hedef_kategori
 
-    # ADIM 2: Kanal isminde bir şey bulunamazsa kategori ismine bak (CATEGORY_MAPPING)
     if not raw_cat: return "Genel"
     raw_cat_lower = raw_cat.lower()
     for anahtar, hedef_isim in CATEGORY_MAPPING.items():
         if anahtar in raw_cat_lower:
             return hedef_isim
 
-    # ADIM 3: İkisinde de yoksa temizle ve bırak
     clean = re.sub(r'[|\[\(].*?[|\]\)]', '', raw_cat) 
     clean = clean.replace(':', '').strip()
     return clean.title() if clean else "Genel"
@@ -78,6 +75,22 @@ def normalize_channel_identity(name: str):
     for p in patterns:
         name = re.sub(p, '', name, flags=re.IGNORECASE)
     return ' '.join(name.split()).strip().upper()
+
+def get_channel_internal_priority(channel_name: str, category: str) -> int:
+    """Kanalın kendi kategorisi içindeki sıra numarasını döndürür."""
+    if category in OZEL_FILTRELER:
+        search_list = OZEL_FILTRELER[category]
+        upper_name = channel_name.upper()
+        for i, keyword in enumerate(search_list):
+            if keyword.upper() in upper_name:
+                return i  # Liste sırasını (0, 1, 2...) döndürür (En öncelikli)
+    return 999  # Listede yoksa en sona atar
+
+def get_group_priority(category_name: str) -> int:
+    try:
+        return PRIORITY_GROUPS.index(category_name)
+    except ValueError:
+        return 999
 
 def parse_m3u(m3u_content: str) -> List[Channel]:
     channels = []
@@ -111,12 +124,6 @@ async def check_url(sem, session, ch):
             pass
         return None
 
-def get_group_priority(category_name: str) -> int:
-    try:
-        return PRIORITY_GROUPS.index(category_name)
-    except ValueError:
-        return 999
-
 async def main():
     async with aiohttp.ClientSession(headers={'User-Agent': USER_AGENT}) as session:
         all_channels = []
@@ -147,8 +154,15 @@ async def main():
         alive_channels = [c for c in results if c]
 
         if alive_channels:
-            # Sıralama
-            alive_channels.sort(key=lambda x: (get_group_priority(x.category), x.category, x.name))
+            # --- GELİŞMİŞ SIRALAMA MANTIĞI ---
+            # 1. Kategori önceliği (PRIORITY_GROUPS)
+            # 2. Kategori içi kanal önceliği (Liste sırasına göre)
+            # 3. Aynı öncelikteyse alfabetik isim
+            alive_channels.sort(key=lambda x: (
+                get_group_priority(x.category), 
+                get_channel_internal_priority(x.name, x.category), 
+                x.name
+            ))
             
             with open("birlesik_tv.m3u", "w", encoding="utf-8") as f:
                 f.write("#EXTM3U\n")
@@ -157,7 +171,7 @@ async def main():
                     f.write(f'#EXTINF:-1 group-title="{ch.category}" tvg-logo="{final_logo}",{ch.name}\n')
                     f.write(f"{ch.url}\n")
             
-            logging.info(f"BİTTİ! {len(alive_channels)} kanal düzenli şekilde kaydedildi.")
+            logging.info(f"BİTTİ! {len(alive_channels)} kanal hem kategori hem kanal bazlı sıralandı.")
 
 if __name__ == "__main__":
     asyncio.run(main())
