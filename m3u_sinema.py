@@ -53,26 +53,36 @@ def process_metadata(extinf_line, source_name, add_time, year_val, is_new=False,
     title_match = re.search(r'group-title="([^"]*)"', extinf_line)
     original_title = title_match.group(1) if title_match else ""
     
-    prefix = ""
-    if is_new: prefix += "✨YENİ "
-    if is_duplicate: prefix += f"{KOPYA_IKONU} "
-    status_label = f"{prefix}[{source_name}]".strip()
+	
+	# --- KRİTİK NOKTA: Mevcut group-author var mı kontrol et ---
+    author_match = re.search(r'group-author="([^"]*)"', extinf_line)
+    if author_match:
+        # Eğer zaten bir author varsa, onu bozma, aynen kullan
+        status_label = author_match.group(1)
+    else:
+        # Eğer yoksa, yeni etiketi oluştur (✨YENİ [Kaynak] gibi)
+        prefix = ""
+        if is_new: prefix += "✨YENİ "
+        if is_duplicate: prefix += f"{KOPYA_IKONU} "
+        status_label = f"{prefix}[{source_name}]".strip()
+
     clean_time = add_time.replace(" ", "_")
 
-    # type="video" dahil, orijinal title korumalı dizilim
     parts = [
         '#EXTINF:-1',
         'type="video"',
         f'group-time="{clean_time}"',
-        f'group-author="{status_label}"',
+        f'group-author="{status_label}"', # Burası artık mevcut olanı korur
         f'tvg-logo="{logo}"',
-        f'group-title="{original_title}"' # Orijinalden gelen veri buraya yazılır
+        f'group-title="{original_title}"'
     ]
     
     if year_val:
         parts.append(f'year="{year_val}"')
     
     return " ".join(parts).strip()
+	
+   
 
 # --- ANA MOTOR ---
 tr_tz = timezone(timedelta(hours=3)) 
