@@ -54,6 +54,14 @@ def process_metadata(extinf_line, source_name, add_time, year_val, is_new=False,
     title_match = re.search(r'group-title="([^"]*)"', extinf_line)
     original_title = title_match.group(1) if title_match else ""
     
+	# --- YIL KONTROLÜ (KRİTİK) ---
+    # Eğer orijinal satırda zaten bir year="2013" varsa onu al
+    existing_year_match = re.search(r'year="([^"]*)"', extinf_line)
+    if existing_year_match:
+        final_year = existing_year_match.group(1)
+    else:
+        final_year = year_val # Orijinalde yoksa fonksiyona gelen yılı kullan
+	
 	
 	# --- KRİTİK NOKTA: Mevcut group-author var mı kontrol et ---
     author_match = re.search(r'group-author="([^"]*)"', extinf_line)
@@ -78,11 +86,11 @@ def process_metadata(extinf_line, source_name, add_time, year_val, is_new=False,
         f'group-title="{original_title}"'
     ]
     
-    if year_val:
-        parts.append(f'year="{year_val}"')
+   # Yılı group-title'dan hemen sonra ekle
+    if final_year:
+        parts.append(f'year="{final_year}"')
     
     return " ".join(parts).strip()
-	
    
 
 # --- ANA MOTOR ---
