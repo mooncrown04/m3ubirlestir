@@ -23,6 +23,13 @@ if not os.path.exists(kayit_json_dir):
 
 def normalize_url(url):
     return url.strip().rstrip('/')
+	
+	# Eğer link .m3u8 ile bitiyorsa, o kısmı kaldırarak karşılaştır
+    # Böylece 'link.m3u8' ile 'link' aynı kabul edilir
+    if url.lower().endswith('.m3u8'):
+        return url[:-5]
+    return url
+	
 
 # --- HİBRİT İSİM TEMİZLEME VE YIL AYIKLAMA ---
 def clean_and_extract(raw_name):
