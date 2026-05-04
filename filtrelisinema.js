@@ -1,26 +1,184 @@
 #EXTM3U
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/25097/poster/thumb/hep-yek.jpg" group-title="TÜRK FİLMİ SERİ" year="2013" ,Hep Yek
-https://p3.photofunny.org/v/ojx9ybe2jkys/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.ive/poster/film/hep-yek-1-73108.jpg" group-title="TÜRK FİLMİ SERİ"year="2013",Hep Yek
-https://s20.imagescdns.pics/m1/FTIjYyyynl4lZQR2YyqSDv1RGP4kZQtjpNd0zxnJ1uM2ImL2Ehpl5jnJAms0xi20vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.ive/poster/film/hep-yek-2-91137.jpg" group-title="TÜRK FİLMİ SERİ" year="2017" ,Hep Yek 2
-https://s20.imagebin.pics/md/FTIjYyyynl4lYwVjZGphI0IPYHEZYwRjBQOjd0zxnJ1uM2IvnJ4hpTywpjs0xi20vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/25516/poster/thumb/hep-yek-2.jpg" group-title="TÜRK FİLMİ SERİ" year="2017" ,Hep Yek 2
-https://p3.photofunny.org/v/8dhtgrvtagkq/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.ive/poster/film/hep-yek-3-titrettin-beni-38537.jpg" group-title="TÜRK FİLMİ SERİ" year="2019" ,Hep Yek 3 Titrettin Beni
-https://s20.imageshub.pro/mj/FTIjYyyynl4mYyEcqUWyqUEcov5PMJ5cYwVjZGxhI0IPYHEZYwRjBQOjd0zxnJ1uM2ImnUIvYaOlojs0xi20vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/25065/poster/thumb/hep-yek-3-titrettin-beni.jpg" group-title="TÜRK FİLMİ SERİ" year="2019" ,Hep Yek 3 Titrettin Beni
-https://p2.photofunia.pro/v/69j734d0y7um/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.ive/poster/film/hep-yek-4-bela-okuma-altan-3971.jpg" group-title="TÜRK FİLMİ SERİ" year="2021" ,Hep Yek 4 Bela Okuma Altan
-https://s20.imagebin.pics/md/FTIjYyyynl40YxWyoTRhG2g1oJRhDJk0LJ4hZwNlZF5KEHVgERjhZGN4ZUNd0zxnJ1uM2IvnJ4hpTywpjs0xi20vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/54738/poster/thumb/hep-yek-5-bizim-seyimiz-mi-altan.jpg" group-title="TÜRK FİLMİ SERİ" year="2022" ,Hep Yek 5 Bizim Şeyimiz mi Altan
-https://vs5.photour.org/v/g9nj3oul24te/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/54736/poster/thumb/hep-yek-dugun.jpg" group-title="TÜRK FİLMİ SERİ" year="2023" ,Hep Yek Düğün
-https://vs1.photour.org/v/oig62e6itr6a/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/58868/poster/thumb/hep-yek-asiret-izle.jpg" group-title="TÜRK FİLMİ SERİ" year="2024" ,Hep Yek Aşiret
-https://vs1.photour.org/v/md4upqq9hcot/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/502901/poster/thumb/hep-yek-loto.jpg" group-title="TÜRK FİLMİ SERİ" year="2025" ,Hep Yek Loto
-https://vs14.photoflick.org/v/Hep.Yek.Loto.2025.WEB-DL.1080p.H.264-HDM/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11815/poster/thumb/srek.jpg" group-title="SERI FILM Şrek" year="2001" ,Şrek
+https://p1.photostack.net/v/6zet7563p1xs/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11817/poster/thumb/srek-2.jpg" group-title="SERI FILM Şrek" year="2004" ,Şrek 2
+https://p1.photofunny.org/v/2uwe455gmx1p/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11819/poster/thumb/srek-uc.jpg" group-title="SERI FILM Şrek" year="2007" ,Şrek 3
+https://p3.photostack.net/v/q5ml17riphdl/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11821/poster/thumb/srek-sonsuza-dek-mutlu.jpg" group-title="SERI FILM Şrek" year="2010" ,Şrek 4 Sonsuza Dek Mutlu
+https://p1.photostack.net/v/a2249j0c9wrt/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/27071/poster/thumb/shrek-the-musical.jpg" group-title="SERI FILM Şrek" year="2013" ,Şrek Müzikali
+https://vs6.photour.org/v/g0stho9s9hx0/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="SERI FILM Korku Kapanı" year="2003",Korku Kapanı 1
+http://movie.okru.workers.dev/?ID=7372871575944
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/14687/poster/thumb/korku-kapani.jpg" group-title="SERI FILM Korku Kapanı" year="2003" ,Korku Kapanı 1
+https://p2.photostack.net/v/shwhnjrl1zos/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13853/poster/thumb/korku-kapani-2-olum-cikmazi.jpg" group-title="SERI FILM Korku Kapanı" year="2007",Korku Kapanı 2 Ölüm Çıkmazı
+https://p2.photofunia.pro/v/w2g42wlrs0ie/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="SERI FILM Korku Kapanı" year="2009",Korku Kapanı 3 Ölüme Terk Ediş
+http://movie.okru.workers.dev/?ID=7328508422536
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/15690/poster/thumb/korku-kapani-3-olume-terkedis.jpg" group-title="SERI FILM Korku Kapanı" year="2009",Korku Kapanı 3 Ölüme Terk Ediş
+https://p3.photostack.net/v/5k4j482ea5xw/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/korku-kapani-4-turkce-dublaj-izle-68126.jpg" group-title="SERI FILM Korku Kapanı" year="2011" ,Korku Kapanı 4 Kanlı Başlangıç
+https://s3.imglink.pro/ms/F29ln3HhF2SjLJ5cYwDhF2ShoTxhDzSmoTShM2ywYyqlo25aYyE1pz4hAP5PoT9iMUxhDzIanJ5hnJ5mYwVjZGRhZGN4ZUNhEUIuoNd0zxnJ1aoTyhnl5jpz8s0xi3vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="SERI FILM Korku Kapanı" year="2011",Korku Kapanı 4 Kanlı Başlangıç
+http://movie.okru.workers.dev/?ID=7328508488072
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/14111/poster/thumb/korku-kapani-4-kanli-baslangic.jpg" group-title="SERI FILM Korku Kapanı" year="2011" ,Korku Kapanı 4 Kanlı Başlangıç
+https://p1.photofunny.org/v/bi9tn235lbc8/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/14063/poster/thumb/korku-kapani-5-kanli-parti.jpg" group-title="SERI FILM Korku Kapanı" year="2012" ,Korku Kapanı 5 Kanlı Parti
+https://p2.photofunia.pro/v/87d1e7xsy7p4/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="SERI FILM Korku Kapanı" year="2012" ,Korku Kapanı 5 Kanlı Parti
+http://movie.okru.workers.dev/?ID=7328627960200
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="SERI FILM Korku Kapanı" year="2014" ,Korku Kapanı 6 Son Çare
+http://movie.okru.workers.dev/?ID=7328627894664
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/14438/poster/thumb/korku-kapani-6-son-care.jpg" group-title="SERI FILM Korku Kapanı" year="2012" ,Korku Kapanı 6 Son Çare
+https://p3.photostack.net/v/9w5udfdn1gxi/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/wrong-turn-70327.jpg" group-title="SERI FILM Korku Kapanı" year="2021" ,Korku Kapanı 7 Başlangıç
+https://s16.imagescdns.pics/m8/I3WiozphIUIlov4lZQVkYxWfqKWurF4kZQtjpP5RIHSZZwVld0zxnJ1uM2ImL2Ehpl5jnJAms0xi16vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/10870/poster/thumb/korku-kapani-baslangic-hd-1.jpg" group-title="SERI FILM Korku Kapanı" year="2021" ,Korku Kapanı 7 Başlangıç
+https://p2.photofunny.org/v/r1bzd18au585/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="SERI FILM Korku Kapanı" year="2021" ,Korku Kapanı 7 Başlangıç
+http://movie.okru.workers.dev/?ID=7328627829128
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11865/poster/thumb/gorevimiz-tehlike.jpg" group-title="SERI FILM Görevimiz Tehlike" year="1996" ,Görevimiz Tehlike 1
+https://p3.photostack.net/v/fe1o0xhihk1i/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-gorevimiz-tehlike-1-filmini-izle.jpg" group-title="SERI FILM Görevimiz Tehlike" year="1996" ,Görevimiz Tehlike 1
+https://s13.imagehub.pics/mz/GJymp2yiov5WoKOip3AcLzkyYwRhZGx5Av5FMJ1up3EypzIxYwRjBQOjYzE1LJjd0zxnJ1uM2IbqJVhpTywpjs0xi13vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11867/poster/thumb/gorevimiz-tehlike-ii.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2000" ,Görevimiz Tehlike 2
+https://p1.photostack.net/v/q3ee1h1hi49d/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/23521/poster/thumb/gorevimiz-tehlike-3.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2006" ,Görevimiz Tehlike 3
+https://p1.photofunny.org/v/j3blhp2hvyem/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11869/poster/thumb/gorevimiz-tehlike-hayalet-protokol.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2011" ,Görevimiz Tehlike 4 Hayalet Protokol
+https://p2.photofunny.org/v/8se8ab9anxxj/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-gorevimiz-tehlike-4-hayalet-protokol-720p.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2011" ,Görevimiz Tehlike 4 Hayalet Protokol
+https://s4.imagescdns.pics/mz/GJymp2yiov5WoKOip3AcLzkyYwDhZwNkZF5FMJ1up3EypzIxYwRjBQOjYzE1LJjd0zxnJ1uM2ImL2Ehpl5jnJAms0xi4vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11888/poster/thumb/gorevimiz-tehlike-rogue-nation.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2015" ,Görevimiz Tehlike 5 Rogue Nation
+https://p3.photostack.net/v/iitth5werogz/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-gorevimiz-tehlike-5-mission-impossible-rogue-nation.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2015" ,Görevimiz Tehlike 5 Rogue Nation
+https://s1.imagehub.pics/mh/GJymp2yiov5WoKOip3AcLzkyYwHhZwNkAF5FMJ1up3EypzIxYwRjBQOjYzE1LJjd0zxnJ1uM2IbqJVhpTywpjs0xi1vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-gorevimiz-tehlike-6-yansimalar-mission-impossible-6-fallout-hd-izle.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2018" ,Görevimiz Tehlike 6 Yansımalar
+https://s6.picturebox.cloud/m4/GJymp2yiov5WoKOip3AcLzkyYwLhZwNkBP5FMJ1up3EypzIxYwRjBQOjYzE1LJjd0zxpTywqUIlMJWirP5woT91MNs0xi6vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11886/poster/thumb/gorevimiz-tehlike-yansimalar.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2018" ,Görevimiz Tehlike 6 Yansımalar
+https://p2.photostack.net/v/lf1ixo4i37o6/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/9403/poster/thumb/gorevimiz-tehlike-7-olumcul-hesaplasma-bolum-1-izle.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2023" ,Görevimiz Tehlike 7 Ölümcül Hesaplaşma Bölüm 1
+https://p2.photofunny.org/v/g6xheqs3dg8b/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/mission-impossible-7-izle-1-89708.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2023" ,Görevimiz tehlike 7 Ölümcül Hesaplaşma Bölüm 1
+https://s26.photogrids.site/mj/GJymp2yiov5WoKOip3AcLzkyYxEyLJDhHzIwn29hnJ5aYyOupaDhG25yYwVjZwZhDzk1pzS5YwRjBQOjYxEIDHjd0zxpTuiqT9apzyxpl5mnKEys0xi26vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/502068/poster/thumb/mission-impossible-son-hesaplasma.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2025" ,Görevimiz Tehlike 8 Son Hesaplaşma
+https://vs11.photofunia.pro/v/Mission.Impossible.The.Final.Reckoning.2025.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-hizli-ve-ofkeli-1-fast-and-furious-1-turkce-dublaj-izle.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2001" ,Hızlı ve Öfkeli 1
+https://s5.imglink.info/me/EzSmqP5uozDhqTuyYxM1pzyiqKZhZwNjZF5PoUIlLKxhZGN4ZUNhESIOGNd0zxnJ1aoTyhnl5cozMis0xi5vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11308/poster/thumb/hizli-ve-ofkeli.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2001" ,Hızlı ve Öfkeli 1
+https://p1.photomag.biz/v/173embl2wvpt/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11638/poster/thumb/daha-hizli-daha-ofkeli.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2003" ,Hızlı ve Öfkeli 2 Daha Hızlı Daha Öfkeli
+https://p1.photomag.biz/v/kjivkv6iv7zi/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-hizli-ve-ofkeli-3-tokyo-yarisi-izle-full.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2006" ,Hızlı ve Öfkeli 3 Tokyo Yarışı
+https://s7.imagebin.pics/me/EzSmqP5uozDhqTuyYxM1pzyiqKZhIT9erJ8hEUWcMaDhZwNjAv5PoUIlLKxhZGN4ZUNhESIOGNd0zxnJ1uM2IvnJ4hpTywpjs0xi7vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11310/poster/thumb/hizli-ve-ofkeli-3-tokyo-yarisi.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2006" ,Hızlı ve Öfkeli 3 Tokyo Yarışı
+https://p2.photostack.net/v/c09od7mz3auy/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11629/poster/thumb/hizli-ve-ofkeli-4.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2009" ,Hızlı ve Öfkeli 4
+https://p2.photofunny.org/v/b6v5zcd6d2ff/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11632/poster/thumb/hizli-ve-ofkeli-5-rio-soygunu-hd.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2011" ,Hızlı ve Öfkeli 5 Rio Soygunu
+https://p1.photostack.net/v/ioa3lwi3eb7z/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11318/poster/thumb/hizli-ve-ofkeli-6.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2013" ,Hızlı ve Öfkeli 6
+https://p1.photofunny.org/v/o4uymphetq0a/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11315/poster/thumb/hizli-ve-ofkeli-7.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2015" ,Hızlı ve Öfkeli 7
+https://p3.photostack.net/v/mkzpqfsxzfm7/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-hizli-ve-ofkeli-7-furious-seven-izlehd.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2015" ,Hızlı ve Öfkeli 7
+https://s4.imagescdns.pics/mh/EaIlnJ91pl5GMKMyov4lZQR1YxWfqKWurF4kZQtjpP5RIHSZd0zxnJ1uM2ImL2Ehpl5jnJAms0xi4vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11635/poster/thumb/hizli-ve-ofkeli-8.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2017" ,Hızlı ve Öfkeli 8
+https://p1.photofunny.org/v/gbfytd2amd1w/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/hizli-ve-ofkeli-8-the-fate-of-the-furious-izle-full-30106.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2017" ,Hızlı ve Öfkeli 8
+https://s26.imageshub.pro/md/ITuyYxMuqTHho2LhqTuyYxM1pzyiqKZhZwNkAl5PoUIlLKxhZGN4ZUNhESIOGNd0zxnJ1uM2ImnUIvYaOlojs0xi26vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11312/poster/thumb/hizli-ve-ofkeli-9.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2021" ,Hızlı ve Öfkeli 9 Hız Efsanesi
+https://p1.photomag.biz/v/sfetopj1spwn/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/hizli-ve-ofkeli-9-izle-1-60494.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2021" ,Hızlı ve Öfkeli 9
+https://s9.imagehub.pics/ms/EwxhZwNlZF5PoUIlLKxhZGN4ZUNhESIOGNd0zxnJ1uM2IbqJVhpTywpjs0xi9vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/58093/poster/thumb/hizli-ve-ofkeli-10.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2023" ,Hızlı ve Öfkeli 10
+https://vs4.photofunia.pro/v/v0qgr6ge4vss/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/hizli-ve-ofkeli-10-fast-x-fhd4-84704.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2023" ,Hızlı ve Öfkeli 10
+https://s24.seeshare.pics/m9/EzSmqP5LYwVjZwZhDzk1pzS5YwRjBQOjYxEIDHjd0zxp2Iyp2uupzHhpTywpjs0xi24vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/hizli-ve-ofkeli-hobbs-ve-shaw-izle-1-36055.jpg" group-title="" year="2019" ,Hızlı ve Öfkeli Hobbs ve Shaw
+https://s10.imglink.pro/mo/EzSmqP5TqKWco3ImYyOlMKAyoaEmYxuiLzWmYyAbLKphZwNkBF5PoUIlLKxhZGN4ZUNhESIOGNd0zxnJ1aoTyhnl5jpz8s0xi10vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13123/poster/thumb/hizli-ve-ofkeli-hobbs-ve-shaw.jpg" group-title="Aksiyon" year="2019" ,Hızlı ve Öfkeli Hobbs ve Shaw
+https://p3.photofunia.pro/v/p3my6quiihcr/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/503207/poster/thumb/transformers-prime-beast-hunters-predacons-rising.jpg" group-title="Animasyon" year="2013" ,Transformers Prime Beast Hunters - Predacons Rising
+https://vs22.photoflix.org/v/Transformers.Prime.Beast.Hunters.Predacons.Rising.2013.1080p.BluRay/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-transformers-turkce-dublaj-izle-hd-720p.jpg" group-title="SERI FILM TRANSFORMERS" year="2007" ,Transformers 1
+https://s15.imgmania.org/mr/IUWuoaAzo3WgMKWmYwVjZQphDzk1pzS5YwRjBQOjYxEIDHkGH1ZkH1Zd0zxnJ1aoJShnJRho3Was0xi15vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11649/poster/thumb/transformers.jpg" group-title="SERI FILM TRANSFORMERS" year="2007" ,Transformers 1
+https://p2.photomag.biz/v/uvvbz3v0k27l/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11641/poster/thumb/transformers-yenilenlerin-intikami.jpg" group-title="SERI FILM TRANSFORMERS" year="2009" ,Transformers 2 Yenilenlerin İntikamı
+https://p2.photofunny.org/v/43szy9w8tekk/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11642/poster/thumb/transformers-ayin-karanlik-yuzu.jpg" group-title="SERI FILM TRANSFORMERS" year="2011" ,Transformers 3 Ay'ın Karanlık Yüzü
+https://p3.photomag.biz/v/yd31hgrfcygn/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11647/poster/thumb/transformers-kayip-cag.jpg" group-title="SERI FILM TRANSFORMERS" year="2014" ,Transformers 4 Kayıp Çağ
+https://p2.photomag.biz/v/lqtniarxy4m1/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="SERI FILM TRANSFORMERS" year="2014" year="2014" ,Transformers 4 Kayıp Çağ
+http://movie.okru.workers.dev/?ID=7281411107208
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11645/poster/thumb/transformers-5-son-sovalye-hd.jpg" group-title="SERI FILM TRANSFORMERS" year="2017" ,Transformers 5 Son Şövalye
+https://p1.photostack.net/v/5pygxa7tp1g7/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-trns-5-son-sovalye-filmi-izle.jpg" group-title="SERI FILM TRANSFORMERS" year="2017" ,Transformers 5 Son Şövalye
+https://s11.imglink.pro/m6/IUWuoaAzo3WgMKWmYyEbMF5ZLKA0YxghnJqbqP4lZQR3YwRjBQOjYzE1LJjd0zxnJ1aoTyhnl5jpz8s0xi11vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/transformers-7-canavarlarin-yukselisi-izle-1-14180.jpg" group-title="SERI FILM TRANSFORMERS" year="2023" ,Transformers 7 Canavarların Yükselişi
+https://s24.photogrids.site/mk/IUWuoaAzo3WgMKWmYyWcp2Hho2LhqTuyYxWyLKA0pl4lZQVmYxWfqKWurF4kZQtjpP5RIHSZd0zxpTuiqT9apzyxpl5mnKEys0xi24vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/8662/poster/thumb/transformers-canavarlarin-yukselisi-izle-hd.jpg" group-title="SERI FILM TRANSFORMERS" year="2023" ,Transformers Canavarların Yükselişi
+https://p2.photostack.net/v/1h6zgg03vhtq/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/59051/poster/thumb/transformers-baslangic-hd.jpg" group-title="SERI FILM TRANSFORMERS" year="2024" ,Transformers Başlangıç
+https://vs13.photomag.biz/v/Transformers.One.2024.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13364/poster/thumb/bumblebee.jpg" group-title="SERI FILM TRANSFORMERS" year="2018" ,Transformers Bumblebee
+https://p3.photofunia.pro/v/p560o0ihjlll/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/503214/poster/thumb/the-transformers-the-movie.jpg" group-title="Animasyon" year="1986" ,The Transformers The Movie
+https://vs22.photostack.net/v/The.Transformers.The.Movie.1986.1080p.BluRay/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="" year="2017",Transformers Canavar Kamyonlar
+http://movie.okru.workers.dev/?ID=7281410517384
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12057/poster/thumb/terminator.jpg" group-title="SERI FILM Terminatör" year="1984" ,Terminatör 1
+https://p2.photomag.biz/v/4ehtf8qeel4z/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-terminator-1-izle.jpg" group-title="SERI FILM Terminatör" year="1984" ,Terminator 1
+https://s6.imagescdns.pics/m2/ITuyYyEypz1cozS0o3VhZGx4AP5PoUIlLKxhZGN4ZUNhESIOGNd0zxnJ1uM2ImL2Ehpl5jnJAms0xi6vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-terminator-2-mahser-gunu-izle.jpg" group-title="SERI FILM Terminatör" year="1991" ,Terminator 2 Mahşer Günü
+https://s14.imglink.pro/mi/ITIloJyhLKEipv4lYxc1MTqgMJ50YxEurF4kBGxkYxWfqKWurF4kZQtjpP5RIHSZd0zxnJ1aoTyhnl5jpz8s0xi14vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12059/poster/thumb/terminator-2-mahser-gunu.jpg" group-title="SERI FILM Terminatör" year="1991" ,Terminatör 2 Mahşer Günü
+https://vs1.photostack.net/v/2z09ugnyi3uq/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-terminator-3-makinelerin-yukselisi-izle.jpg" group-title="SERI FILM Terminatör" year="2003" ,Terminatör 3 Makinelerin Yükselişi
+https://s17.photogrids.site/mt/ITIloJyhLKEipv4mYyWcp2Hho2LhqTuyYx1uL2ucozImYwVjZQZhDzk1pzS5YwRjBQOjYxEIDHjd0zxpTuiqT9apzyxpl5mnKEys0xi17vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12060/poster/thumb/terminator-3-makinelerin-yukselisi.jpg" group-title="SERI FILM Terminatör" year="2003" ,Terminatör 3 Makinelerin Yükselişi
+https://p3.photostack.net/v/nrd89lzb9wi3/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12062/poster/thumb/terminator-kurtulus.jpg" group-title="SERI FILM Terminatör" year="2009" ,Terminatör 4 Kurtuluş
+https://p1.photomag.biz/v/wy7p70uddz76/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-trmnto-5-gnsys-filmi-izle.jpg" group-title="SERI FILM Terminatör" year="2015" ,Terminator 5 Genisys
+https://s8.imagebin.pics/m9/ITIloJyhLKEipv5UMJ5cp3ymYwVjZGHhDzk1pzS5YwRjBQOjYxEIDHjd0zxnJ1uM2IvnJ4hpTywpjs0xi8vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12067/poster/thumb/terminator-genisys.jpg" group-title="SERI FILM Terminatör" year="2015" ,Terminator 5 Genisys
+https://p1.photostack.net/v/b4rkufy2o8m6/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12065/poster/thumb/terminator-kara-kader.jpg" group-title="SERI FILM Terminatör" year="2019" ,Terminatör 6 Kara Kader
+https://p2.photostack.net/v/98580s3kong0/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-terminator-6-Kara-Kader-2019-film-izle.jpg" group-title="SERI FILM Terminatör" year="2019" ,Terminator 6 Kara Kader
+https://s9.pixypost.art/ms/ITIloJyhLKEipv5RLKWeYxMuqTHhZwNkBF5PoUIlLKxhZGN4ZUNhESIOGNd0zxpTy4rKOip3DhLKW0s0xi9vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11697/poster/thumb/orumcek-adam.jpg" group-title="SERI FILM örümcek adam" year="2002" ,Örümcek Adam
+https://p2.photomag.biz/v/fhvj71w3a7vf/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11688/poster/thumb/orumcek-adam-2.jpg" group-title="SERI FILM örümcek adam" year="2004" ,Örümcek Adam 2
+https://p3.photomag.biz/v/q6aaxhk4eh91/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-orumcek-adam-3-spider-man-3-full-hd-izle.jpg" group-title="SERI FILM örümcek adam" year="2007" ,Örümcek Adam 3
+https://s18.imagescdns.pics/mc/H3OcMTIlYJ1uov4mYwVjZQphZGN4ZUOmYxE1LJjd0zxnJ1uM2ImL2Ehpl5jnJAms0xi18vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11694/poster/thumb/orumcek-adam-3.jpg" group-title="SERI FILM örümcek adam" year="2007" ,Örümcek Adam 3
+https://p1.photomag.biz/v/qpkcfg0djsta/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11692/poster/thumb/inanilmaz-orumcek-adam.jpg" group-title="SERI FILM örümcek adam" year="2012" ,İnanılmaz Örümcek Adam
+https://p1.photostack.net/v/cetblnjdg3wk/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11686/poster/thumb/inanilmaz-orumcek-adam-2.jpg" group-title="SERI FILM örümcek adam" year="2014" ,İnanılmaz Örümcek Adam 2
+https://vs1.photofunny.org/v/d98xvx038llf/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-orumcek-adam-eve-donus-spider-man-homecoming.jpg" group-title="SERI FILM örümcek adam" year="2017" ,Örümcek Adam: Eve Dönüş
+https://s24.imagehub.pics/mk/H3OcMTIlYH1uov5Vo21yL29gnJ5aYwVjZGphDzk1pzS5YwRjBQOjYxEIDHjd0zxnJ1uM2IbqJVhpTywpjs0xi24vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11682/poster/thumb/orumcek-adam-eve-donus.jpg" group-title="SERI FILM örümcek adam" year="2017" ,Örümcek Adam: Eve Dönüş
+https://p2.photofunny.org/v/o6txe09i6c1b/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/orumcek-adam-evden-uzakta-izle-1-23390.jpg" group-title="SERI FILM örümcek adam" year="2019" ,Örümcek Adam Evden Uzakta
+https://s4.imagescdns.pics/m3/H3OcMTIlYx1uov5TLKVhMaWioF5Vo21yYwVjZGxhDzk1pzS5YwRjBQOjYxEIDHjd0zxnJ1uM2ImL2Ehpl5jnJAms0xi4vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11680/poster/thumb/orumcek-adam-evden-uzakta.jpg" group-title="SERI FILM örümcek adam" year="2019" ,Örümcek Adam Evden Uzakta
+https://p1.photomag.biz/v/gwri039c8yjt/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13312/poster/thumb/orumcek-adam-orumcek-evreninde.jpg" group-title="SERI FILM örümcek adam" year="2018" ,Örümcek Adam: Örümcek Evreninde
+https://p2.photofunia.pro/v/uinzp75bkyla/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-orumcek-adam-orumcek-evreninde-animasyon-film-izle.jpg" group-title="SERI FILM örümcek adam" year="2018" ,Örümcek Adam: Örümcek Evreninde
+https://s20.imagescdns.pics/mw/G3W1oJAynl5OMTSgYx9lqJ1wMJfhEKMlMJ5cozEyYyAjnJEypv5ALJ4hFJ50ol5HnTHhH3OcMTIlYyMypaAyYwVjZGthZGN4ZUNhEUIuoNd0zxnJ1uM2ImL2Ehpl5jnJAms0xi20vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/orumcek-adam-orumcek-evrenine-gecis-izle-8-77240.jpg" group-title="SERI FILM örümcek adam" year="2023" ,Örümcek Adam: Örümcek Evrenine Geçiş
+https://s16.seeshare.pics/ms/H3OcMTIlYH1uov5OL3Wip3ZhqTuyYyAjnJEypv1JMKWmMF4lZQVmYxWfqKWurF4kZQtjpP5RIHSZd0zxp2Iyp2uupzHhpTywpjs0xi16vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/18038/poster/thumb/taxi.jpg" group-title="SERI FILM" year="2004" , Taxi
 https://p2.photofunia.pro/v/tlxtdsgapx9s/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/32771/poster/thumb/taksi.jpg" group-title="SERI FILM" year="1998" ,Taksi
@@ -166,7 +324,612 @@ https://s25.photogrids.site/mm/GJIlpaxhGTy0qTkyYxWuqT1uov4lZQVmYyqSDv1RGP4kZQtjp
 https://p1.photofunny.org/v/36dher2nedyn/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/502256/poster/thumb/batman-ninja-vs-yakuza-league.jpg" group-title="Animasyom BATMAN" year="2025" ,Batman Ninja vs. Yakuza League
 https://vs16.photoflick.org/v/Batman.Ninja.vs.Yakuza.League.2025.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-kung-fu-panda-1-720p.jpg" group-title="Kung Fu Panda" year="2008" ,Kung Fu Panda
+https://s4.imagebin.pics/mk/F3IhMl5TqF5DLJ5xLF4lZQN4YwRjBQOjYzE1LJjd0zxnJ1uM2IvnJ4hpTywpjs0xi4vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13182/poster/thumb/kung-fu-panda.jpg" group-title="Kung Fu Panda" year="2008" ,Kung Fu Panda
+https://p2.photostack.net/v/oe50ob34w7lv/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13184/poster/thumb/kung-fu-panda-2.jpg" group-title="Kung Fu Panda" year="2011" ,Kung Fu Panda 2
+https://p2.photostack.net/v/8u5ceg9o6r2j/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="Kung Fu Panda" year="2011",Kung Fu Panda 2
+http://movie.okru.workers.dev/?ID=7468638808456
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13186/poster/thumb/kung-fu-panda-3.jpg" group-title="Kung Fu Panda" year="2016" ,Kung Fu Panda 3
+https://p1.photofunny.org/v/a8qiruk1c2v9/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/kung-fu-panda-3-58258.jpg" group-title="Kung Fu Panda" year="2016" ,Kung Fu Panda 3
+https://s12.picturebox.cloud/m2/F3IhMl5TqF5DLJ5xLF4mYwVjZGLhDzk1pzS5YwRjBQOjYxEIDGAZpjd0zxpTywqUIlMJWirP5woT91MNs0xi12vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/kung-fu-panda-4-46130.jpg" group-title="Kung Fu Panda" year="2024" ,Kung Fu Panda 4
+https://s26.pixypost.art/mo/F3IhMl5TqF5DLJ5xLF40YwVjZwDhDzk1pzS5YwRjBQOjYxEIDHjd0zxpTy4rKOip3DhLKW0s0xi26vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/55572/poster/thumb/kung-fu-panda-4.jpg" group-title="Kung Fu Panda" year="2024" ,Kung Fu Panda 4
+https://vs6.gamephotos.pro/v/nfuqvgindff1/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/kung-fu-panda-ofkeli-besli-nin-sirlari-kung-fu-panda-secrets-of-the-furious-five-10756.jpg" group-title="Kung Fu Panda" year="2008" ,Kung Fu Panda Öfkeli Beşli'nin Sırları
+https://s19.seeshare.pics/mn/F3IhMl5TqF5DLJ5xLF5GMJAlMKEmYz9zYaEbMF5TqKWco3ImYxMcqzHhZwNjBP5KEHVgERjhZGN4ZUNhESIOGNd0zxp2Iyp2uupzHhpTywpjs0xi19vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/kung-fu-panda-bayram-2441.jpg" group-title="Kung Fu Panda" year="2010" ,Kung Fu Panda Bayram
+https://s19.imagebin.pics/md/F3IhMl5TqF5DLJ5xLF5Vo2kcMTS5YwVjZGNhDzk1pzS5YwRjBQOjYxEIDHjd0zxnJ1uM2IvnJ4hpTywpjs0xi19vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/kung-fu-panda-ustalarin-sirri-8081.jpg" group-title="Kung Fu Panda" year="2011" ,Kung Fu Panda Ustaların Sırrı
+https://s19.pixtureup.org/mt/F3IhMl5TqF5DLJ5xLF5GMJAlMKEmYz9zYaEbMF5GL3WioTjhZwNkAv5KEHVgERjhZGN4ZUNhESIOd0zxpTy4qUIlMKIjYz9lMjs0xi19vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/kung-fu-panda-ustanin-sirlari-45381.jpg" group-title="Kung Fu Panda" year="2011" ,Kung Fu Panda Ustanın Sırları
+https://s19.photogrids.site/m5/F3IhMl5TqF5DLJ5xLF5GMJAlMKEmYz9zYaEbMF5ALKA0MKWmYwVjZGRhI0IPYHEZYwRjBQOjYxEIDHjd0zxpTuiqT9apzyxpl5mnKEys0xi19vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13188/poster/thumb/kung-fu-panda-secrets-of-the-scroll.jpg" group-title="Kung Fu Panda" year="2016" ,Kung Fu Panda Parşömenin Sırları
+https://p1.photour.org/v/9slpwern4ztp/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/the-matrix-revisited-47098.jpg" group-title="Belgesel" year="2001" ,The Matrix Revisited
+https://s14.imglink.info/mp/oJS0pzy4YKWyqzymnJDd0zxnJ1aoTyhnl5cozMis0xi14vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-the-matrix-1-720p.jpg" group-title="SERI FILM Matrix" year="1999" ,The Matrix 1
+https://s25.imagebin.pics/m2/GJS0pzy4YwRhZGN4ZUNhDzk1pzS5d0zxnJ1uM2IvnJ4hpTywpjs0xi25vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13248/poster/thumb/the-matrix-reloaded-hd.jpg" group-title="SERI FILM Matrix" year="2003" ,Matrix 2 Reloaded
+https://p2.photofunny.org/v/xpsq4tkbmx9f/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-the-matrix-2-reloaded-720p-2.jpg" group-title="SERI FILM Matrix" year="2003" ,The Matrix 2 Reloaded
+https://s15.picogallery.org/m9/GJS0pzy4YwVhZGN4ZUNhDzk1pzS5d0zxpTywo2quoTkypaxho3Was0xi15vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13956/poster/thumb/the-matrix-revolutions.jpg" group-title="SERI FILM Matrix" year="2003" ,Matrix 3 Revolutions
+https://p1.photofunia.pro/v/vutobzav2gb7/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-the-matrix-3-revolutions-720p.jpg" group-title="SERI FILM Matrix" year="2003" ,The Matrix 3 Revolutions
+https://s12.pixtures.art/mo/GJS0pzy4YwZhZGN4ZUNhDzk1pzS5d0zxpTy4qUIlMKZhLKW0s0xi12vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/the-matrix-4-resurrections-92026.jpg" group-title="SERI FILM Matrix" year="2021" ,The Matrix 4 Resurrections
+https://s2.picturebox.cloud/mk/ITuyYx1uqUWcrP5FMKA1paWyL3Eco25mYwVjZwRhIHWfqKWurF4kZQtjpP5RIHSZd0zxpTywqUIlMJWirP5woT91MNs0xi2vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13841/poster/thumb/evde-tek-basina.jpg" group-title="SERI FILM Evde Tek Başına" year="1990" ,Evde Tek Başına 1
+https://vs22.photour.org/v/Home.Alone.1990.1080p.BluRay.x264.TR.ENG.Filmbol/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/15046/poster/thumb/evde-tek-basina-2-izle.jpg" group-title="SERI FILM Evde Tek Başına" year="1992" ,Evde Tek Başına 2
+https://vs22.photostack.net/v/Home.Alone.2.Lost.in.New.York.1992.1080p.BluRay.x264.TR.ENG.Filmbol/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/14829/poster/thumb/evde-tek-basina-3-izle.jpg" group-title="SERI FILM Evde Tek Başına" year="1997" ,Evde Tek Başına 3
+https://vs16.photomag.biz/v/Home.Alone.3.1997.1080p.WebRip.x264.TR.ENG.Filmbol/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/503749/poster/thumb/evde-tek-basina-4.jpg" group-title="SERI FILM Evde Tek Başına" year="2002" ,Evde Tek Başına 4
+https://vs22.gamephotos.pro/v/Home.Alone.4.Taking.Back.the.House.2002.1080p.WebRip.x264.TR.ENG.Filmbol/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/30942/poster/thumb/evde-tek-basina-5-izle.jpg" group-title="SERI FILM Evde Tek Başına" year="2012" ,Evde Tek Başına 5 Tatil Soygunu
+https://vs22.photoflick.org/v/Home.Alone.5.The.Holiday.Heist.2012.1080p.BluRay.x264.TR.ENG.Filmbol/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/501101/poster/thumb/max-evde-tek-basina.jpg" group-title="SERI FILM Evde Tek Başına" year="2021" ,Evde Tek Başına 6
+https://vs21.photomag.biz/v/Home.Sweet.Home.Alone.2021.1080p.WebRip.x264.TR.ENG.Filmbol/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12247/poster/thumb/rambo-ilk-kan-hd.jpg" group-title="SERI FILM Rambo" year="1982" ,Rambo İlk kan
+https://p3.photofunny.org/v/hs0z0v65771q/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12240/poster/thumb/rambo-ilk-kan-2-hd.jpg" group-title="SERI FILM Rambo" year="1985" ,Rambo 2 İlk kan 2
+https://p2.photofunny.org/v/gpqpxqx41sl7/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12244/poster/thumb/rambo-3-hd.jpg" group-title="SERI FILM Rambo" year="1988" ,Rambo 3
+https://p3.photostack.net/v/bdejv4x24jni/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12242/poster/thumb/rambo-4-john-rambo-hd.jpg" group-title="SERI FILM Rambo" year="2008" ,Rambo 4 John Rambo
+https://p2.photomag.biz/v/tkwmkft3dhqu/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/rmb-son-kan-hd-filmi-2019-izle-49331.jpg" group-title="SERI FILM Rambo" year="2019" ,Rambo 5 Son Kan
+https://s6.photogrids.site/mp/HzSgLz8hGTSmqP5PoT9iMP4lZQR5YyIPoUIlLKxhZGN4ZUNhESIOGNd0zxpTuiqT9apzyxpl5mnKEys0xi6vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12246/poster/thumb/rambo-5-son-kan-hd.jpg" group-title="SERI FILM Rambo" year="2019" ,Rambo 5 Son Kan
+https://p1.photomag.biz/v/l56vza7zatw0/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12296/poster/thumb/zor-olum.jpg" group-title="SERI FILM Zor Ölüm" year="1988" ,Zor Ölüm
+https://p3.photomag.biz/v/vja1mbilnjck/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12289/poster/thumb/zor-olum-2.jpg" group-title="SERI FILM Zor Ölüm" year="1990" ,Zor Ölüm 2
+https://p3.photostack.net/v/thcse1kdn5um/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12291/poster/thumb/zor-olum-3.jpg" group-title="SERI FILM Zor Ölüm" year="1995" ,Zor Ölüm 3 Zeka Öcünü Alıyor
+https://p3.photostack.net/v/ktxzk9bv64xg/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12293/poster/thumb/zor-olum-4.jpg" group-title="SERI FILM Zor Ölüm" year="2007" ,Zor Ölüm 4 Özgür Yaşa veya Zor Öl
+https://p3.photomag.biz/v/13bbkowlchcl/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-zor-olum-olmek-icin-guzel-bir-gun-film-izle.jpg" group-title="SERI FILM Zor Ölüm" year="2013" ,Zor Ölüm 5 Ölmek İçin Güzel Bir Gün
+https://s2.imgmania.org/mi/ETyyYxuupzDhAF4lZQRmYwRjBQOjYxE1LJjd0zxnJ1aoJShnJRho3Was0xi2vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12295/poster/thumb/zor-olum-5-olmek-icin-guzel-bir-gun.jpg" group-title="SERI FILM Zor Ölüm" year="2013" ,Zor Ölüm 5 Ölmek İçin Güzel Bir Gün
+https://p2.photomag.biz/v/nt5jd62c54ip/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="SERI FILM King Kong" year="1976",King Kong
+http://movie.okru.workers.dev/?ID=9748655581576
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="SERI FILM King Kong" year="1933",King Kong
+http://movie.okru.workers.dev/?ID=9749003774344
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="SERI FILM King Kong" year="1986",King Kong Yaşıyor
+http://movie.okru.workers.dev/?ID=9749004757384
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="SERI FILM King Kong" year="2005",King Kong
+http://movie.okru.workers.dev/?ID=8139857865096
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1978" ,Yüz Numaralı Adam  (Kemal Sunal - Oya Aydoğan)
+http://movie.okru.workers.dev/?ID=9758921337167
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/sevgili-komsum-13326.jpg" group-title="YERLI FILM" year="2018" ,Sevgili Komsum
+https://s22.imglink.pro/m8/H2I2M2yfnF5Yo21mqJ0hZwNkBP5KEHVgERjhZGN4ZUNd0zxnJ1aoTyhnl5jpz8s0xi22vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [powerboard]" tvg-logo="https://tr.web.img4.acsta.net/pictures/18/09/19/16/14/4583643.jpg" group-title="YERLI FILM" year="2018" ,Sevgili Komsum
+https://vidmody.com/mm//tt8822370/
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDlhNWFlNzktZTFjZS00N2I3LTllZjAtZDUwOWE3ODFmY2NkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="YERLI FILM" year="2025",Program
+https://vs4.pictureflix.org/v/Program.2025.WEB-DL.1080p.x264-HDM/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://m.media-amazon.com/images/M/MV5BNWExYjhmZTEtMWMyNS00ZThhLThmYTctYTNlNmM4NDEwZWI4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="YERLI FILM" year="2017",Ketenpere
+https://p2.photostack.net/v/ib9ctkakw0v0/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/26404/poster/thumb/lanet-ervah-cinleri.jpg" group-title="Yerli Film",Lanet Ervah Cinleri
+https://p2.photofunny.org/v/m6gb16s2mvck/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/26320/poster/thumb/halef.jpg" group-title="Yerli Film",Halef
+https://vs6.photour.org/v/cvobpu5dqaq6/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/25871/poster/thumb/hasret-bitti.jpg" group-title="Yerli Film",Hasret Bitti
+https://vs5.photour.org/v/o9byjpjugwx3/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/25556/poster/thumb/krallar-kulubu.jpg" group-title="Yerli Film",Krallar Kulübü
+https://vs1.photour.org/v/hyrqseejambu/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/25329/poster/thumb/en-uzun-gece.jpg" group-title="Yerli Film",En Uzun Gece
+https://vs6.photour.org/v/i0j4gj98f13k/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/25314/poster/thumb/bir-sey-degilim.jpg" group-title="Yerli Film",Bir Şey Değilim
+https://vs1.photour.org/v/05gs4azwe378/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/25186/poster/thumb/hemso.jpg" group-title="Yerli Film",Hemso
+https://p1.photostack.net/v/ypdsg1q6g0vx/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/25177/poster/thumb/enkaz.jpg" group-title="Yerli Film",Enkaz
+https://vs6.photour.org/v/um32e850feu5/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/25067/poster/thumb/bana-bir-soygun-yaz-2.jpg" group-title="Yerli Film",Bana Bir Soygun Yaz 2
+https://p2.gamephotos.pro/v/mer70y3trozy/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM",Neon.Maniacs.-Gece.Yaratıkları (1986)
+http://movie.okru.workers.dev/?ID=10806968134041
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="YERLI FILM" year="1973",Toprak Ana
+http://movie.okru.workers.dev/?ID=3378079476025
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="YERLI FILM" year="1971",Oyun Bitti
+http://movie.okru.workers.dev/?ID=3412219013433
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="YERLI FILM" year="1974",Çılgınlar
+http://movie.okru.workers.dev/?ID=3413805377849
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1975",Çirkef
+http://movie.okru.workers.dev/?ID=3413806360889
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1970",Yarım Kalan Saadet
+http://movie.okru.workers.dev/?ID=3413868751161
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="YERLI FILM" year="1976",Kader Bağlayınca
+http://movie.okru.workers.dev/?ID=3414182340921
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1969",Cilveli Kız
+http://movie.okru.workers.dev/?ID=3414182603065
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1968",Aşka Tövbe
+http://movie.okru.workers.dev/?ID=3414182734137
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1970",Söz Müdafaanın
+http://movie.okru.workers.dev/?ID=3414186010937
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1973",Namus
+http://movie.okru.workers.dev/?ID=3491087853881
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="YERLI FILM" year="1974",Köyden İndim Şehire
+http://movie.okru.workers.dev/?ID=3491088116025
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1969",Yaralı Kalp
+http://movie.okru.workers.dev/?ID=3491089885497
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1974",Uyanık Kardeşler
+http://movie.okru.workers.dev/?ID=3491090540857
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1976",Hasip İle Nasip
+http://movie.okru.workers.dev/?ID=3493284620601
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1975",Delisin
+http://movie.okru.workers.dev/?ID=3493284686137
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1972",Zulüm
+http://movie.okru.workers.dev/?ID=3493284751673
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1983",Kılıbık
+http://movie.okru.workers.dev/?ID=3494567225657
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="YERLI FILM" year="1972",Hayatımızın En Güzel Yılları
+http://movie.okru.workers.dev/?ID=3494567291193
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="YERLI FILM" year="1976",Süt Kardeşler
+http://movie.okru.workers.dev/?ID=3495136405817
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1983",Şalvar Davası
+http://movie.okru.workers.dev/?ID=3495136471353
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1973",Acı Hayat
+http://movie.okru.workers.dev/?ID=3514077882681
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1979",Kanun Gücü
+http://movie.okru.workers.dev/?ID=3514638412089
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1984",Kaptan
+http://movie.okru.workers.dev/?ID=3796305455417
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="YERLI FILM" year="1991",Varyemez
+http://movie.okru.workers.dev/?ID=3897353054521
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM"  year="1975",Askerin Dönüşü   (Kadir İnanır - Selma Güneri)
+http://movie.okru.workers.dev/?ID=7972210682191
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1985" ,Züğürt Ağa   (Şener Şen - Erdal Özyağcılar)
+http://movie.okru.workers.dev/?ID=7975846750543
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2001" ,Vizontele   (Yılmaz Erdoğan - Demet Akbağ)
+http://movie.okru.workers.dev/?ID=7976006789455
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1963" ,Susuz Yaz  (Hülya Koçyiğit - Erol Taş)
+http://movie.okru.workers.dev/?ID=7978978257231
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1996" ,Eşkıya  (Şener Şen - Uğur Yücel)
+http://movie.okru.workers.dev/?ID=7979688733007
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1974" ,Arkadaş  (Yılmaz Güney - Melike Demirağ)
+http://movie.okru.workers.dev/?ID=7987931982159
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="YERLI FILM" year="1991" ,Akdeniz
+http://movie.okru.workers.dev/?ID=8139857668488
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2009" ,Güneşi Gördüm   (Mahsun Kırmızıgül - Demet Evgar)
+http://movie.okru.workers.dev/?ID=8251071342927
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2010" ,Kosmos   (Sermet Yeşil - Türkü Turan)
+http://movie.okru.workers.dev/?ID=8251126196559
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2004" ,Mustafa Hakkında Her Şey  (Nejat İşler - Fikret Kuşkan)
+http://movie.okru.workers.dev/?ID=8251153262927
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2007" ,Sonbahar  (Onur Saylak - Megi Kobaladze)
+http://movie.okru.workers.dev/?ID=8251171416399
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1999" ,Laleli'de Bir Azize  (Güven Kıraç - İştar Göksever - Cengiz Küçükayvaz)
+http://movie.okru.workers.dev/?ID=8251186686287
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1999" ,Üçüncü Sayfa   (Ruhi Sarı - Başak Köklükaya)
+http://movie.okru.workers.dev/?ID=8251207067983
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2006" ,Takva  (Erkan Can - Güven Kiraç)
+http://movie.okru.workers.dev/?ID=8251213359439
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2018" ,Ahlat Ağacı   (Doğu Demirkol - Murat Cemcir)
+http://movie.okru.workers.dev/?ID=8251221813583
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2008" ,Üç Maymun  (Yavuz Bingöl - Hatice Aslan - Ahmet Rıfat Şungar)
+http://movie.okru.workers.dev/?ID=8251263232335
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2004" ,Duvara Karşı  (Sibel Kekilli - Birol Ünel)
+http://movie.okru.workers.dev/?ID=8252782160207
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2004" ,Bekleme Odası  (Zeki Demirkubuz - Nurhayat Kavrak)
+http://movie.okru.workers.dev/?ID=8254281230671
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1999" ,Mayıs Sıkıntısı  (Emin Ceylan - Muzaffer Özdemir)
+http://movie.okru.workers.dev/?ID=8254629488975
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1974" ,Diyet  (Hülya Koçyiğit - Hakan Balamir)
+http://movie.okru.workers.dev/?ID=8254766721359
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1973" ,Düğün   (Hülya Koçyiğit - Ahmet Mekin)
+http://movie.okru.workers.dev/?ID=8254889929039
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2011" ,Ekümenopolis Ucu Olmayan Şehir   (İstanbul Belgeseli)
+http://movie.okru.workers.dev/?ID=8273256393039
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM"" year="2010" ,Bal  (Erdal Beşikçioğlu - Bora Altaş)
+http://movie.okru.workers.dev/?ID=8273331562831
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2010" ,Av Mevsimi  (Şener Şen - Cem Yılmaz - Çetin Tekindor
+http://movie.okru.workers.dev/?ID=8273372850511
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1997" ,Masumiyet  (Güven Kıraç - Haluk Bilginer - Derya Alabora)
+http://movie.okru.workers.dev/?ID=8273426852175
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2009" ,Nefes Vatan Sağolsun  (Mete Horozoğlu - İlker Kızmaz)
+http://movie.okru.workers.dev/?ID=8273452345679
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2013" ,Kelebeğin Rüyası  (Kıvanç Tatlıtuğ - Mert Fırat - Belçim Bilgin)
+http://movie.okru.workers.dev/?ID=8273499859279
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1997" ,Kasaba   (Mehmet Emin Toprak - Havva Sağlam)
+http://movie.okru.workers.dev/?ID=8273547897167
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1965" ,Sevmek Zamanı  (Müşfik Kenter - Sema Özcan)
+http://movie.okru.workers.dev/?ID=8273575749967
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2009" ,Vavien  (Engin Günaydın - Settar Tanrıöğen - Binnur Kaya)
+http://movie.okru.workers.dev/?ID=8273588595023
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1993" ,İskilipli Atıf Hoca Kelebekler Sonsuza Uçar  (Yılmaz Zafer - Haluk Kurtoğlu)
+http://movie.okru.workers.dev/?ID=8273724189007
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2023" ,Kuru Otlar Üstüne  (Deniz Celiloğlu - Merve Dizdar)
+http://movie.okru.workers.dev/?ID=8273875052879
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2008" ,Devrim Arabaları   (Taner Birsel - Halit Ergenç)
+http://movie.okru.workers.dev/?ID=8274781481295
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2012" ,Fetih 1453   (Devrim Evin - İbrahim Çelikkol)
+http://movie.okru.workers.dev/?ID=8274873100623
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2011" ,Dedemin İnsanları   (Çetin Tekindor - Hümeyra - Zafer Algöz)
+http://movie.okru.workers.dev/?ID=8275010529615
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2006" ,Kader   (Vildan Atasever - Ufuk Bayraktar)
+http://movie.okru.workers.dev/?ID=8275172927823
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2002" ,Uzak   (Muzaffer Özdemir - Mehmet Emin Toprak)
+http://movie.okru.workers.dev/?ID=8275314485583
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2013" ,Sen Aydınlatırsın Geceyi  (Ali Atay - Tansu Biçer)
+http://movie.okru.workers.dev/?ID=8276429646159
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2008" ,Issız Adam   (Cemal Hünal - Melis Birkan)
+http://movie.okru.workers.dev/?ID=8276497803599
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2008" ,A.R.O.G.  (Cem Yılmaz - Ozan Güven)
+http://movie.okru.workers.dev/?ID=8276548200783
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2004" ,G.O.R.A.  (Cem Yılmaz - Özge Özberk)
+http://movie.okru.workers.dev/?ID=8276693887311
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1982" ,Dünyayı Kurtaran Adam   (Cüneyt Arkın - Aytekin Akkaya)
+http://movie.okru.workers.dev/?ID=8278185421135
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2005" ,Babam ve Oğlum  (Çetin Tekindor - Fikret Kuşkan)
+http://movie.okru.workers.dev/?ID=8278269700431
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2009" ,Yahşi Batı  (Cem Yılmaz - Ozan Güven)
+http://movie.okru.workers.dev/?ID=8278359746895
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2013" ,Düğün Dernek   (Ahmet Kural - Murat Cemcir)
+http://movie.okru.workers.dev/?ID=8278407653711
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2011" ,Aşk Tesadüfleri Sever 1  (Mehmet Günsür - Belçim Bilgin)
+http://movie.okru.workers.dev/?ID=8278449334607
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2011" ,Bir Zamanlar Anadolu'da  (Muhammet Uzuner - Yılmaz Erdoğan)
+http://movie.okru.workers.dev/?ID=8278515394895
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1970" ,Umut   (Yılmaz Güney - Gülşen Alnıaçık)
+http://movie.okru.workers.dev/?ID=8279688816975
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1987" ,Otobüs Yolcuları  (Ayhan Işık - Türkan Şoray)
+http://movie.okru.workers.dev/?ID=8289289316687
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1970" ,Tatlı Meleğim  (Türkan Şoray - Ediz Hun)
+http://movie.okru.workers.dev/?ID=8289601136975
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2012" ,Uzun Hikaye  (Kenan İmirzalıoğlu - Tuğçe Kazaz)
+http://movie.okru.workers.dev/?ID=8289771596111
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1964" ,Gözleri Ömre Bedel  (Türkan Şoray - Cüneyt Arkın - Ekrem Bora)
+http://movie.okru.workers.dev/?ID=8290370201935
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1964" ,Keşanlı Ali Destanı  (Fatma Girik - Fikret Hakan)
+http://movie.okru.workers.dev/?ID=8290657642831
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2012" ,Lal Gece  (İlyas Salman - Dilan Aksüt)
+http://movie.okru.workers.dev/?ID=8291006949711
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1950" ,Lüküs Hayat  (Settar Körmükçü - Sezer Sezin - Halide Pişkin)
+http://movie.okru.workers.dev/?ID=8291173869903
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2010" ,Çoğunluk   (Bartu Küçükçağlayan - Settar Tanrıöğen)
+http://movie.okru.workers.dev/?ID=8291336792399
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2013" ,Çanakkale Yolun Sonu  (Gürkan Uygun - Berrak Tüzünataç - Umut Kurt)
+http://movie.okru.workers.dev/?ID=8292317473103
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2014" ,Fakat Müzeyyen Bu Derin Bir Tutku (Erdal Beşikçioğlu - Sezin Akbaşoğulları)
+http://movie.okru.workers.dev/?ID=8292357384527
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1990" ,Tatar Ramazan  (Kadir İnanır)
+http://movie.okru.workers.dev/?ID=8293686126927
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1970" ,Ah Müjgan Ah  (Sadri Alışık - Esen Püsküllü)
+http://movie.okru.workers.dev/?ID=8294122989903
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1986" ,Teyzem  (Müjde Ar - Yaşar Alptekin)
+http://movie.okru.workers.dev/?ID=8294857582927
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1976" ,Tosun Paşa  (Kemal Sunal - Şener Şen - Müjde Ar)
+http://movie.okru.workers.dev/?ID=8295313320271
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1958" ,Üç Arkadaş  (Fikret Hakan - Muhterem Nur)
+http://movie.okru.workers.dev/?ID=8295378528591
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1968" ,Vesikalı Yarim   (İzzet Günay - Türkan Şoray)
+http://movie.okru.workers.dev/?ID=8295431481679
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1962" ,Yılanların Öcü  (Fikret Hakan - Nurhan Nur)
+http://movie.okru.workers.dev/?ID=8295504292175
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1986" ,Yoksul   (Kemal Sunal - Şehnaz Dilan)
+http://movie.okru.workers.dev/?ID=8295538829647
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1981" ,Yol  (Tarık Akan - Şerif Sezer)
+http://movie.okru.workers.dev/?ID=8295586408783
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1976" ,Süt Kardeşler   (Kemal Sunal - Şener Şen - Hale Soygazi)
+http://movie.okru.workers.dev/?ID=8296596711759
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1999" ,Propaganda   (Kemal Sunal - Metin Akpınar)
+http://movie.okru.workers.dev/?ID=8304719112527
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1978" ,Petrol Kralları   (Zeki Alasya - Metin Akpınar)
+http://movie.okru.workers.dev/?ID=8306332281167
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1977" ,Sakar Şakir  (Kemal Sunal - Ali Şen)
+http://movie.okru.workers.dev/?ID=8313114929487
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1974" ,Köyden İndim Şehire  ( Zeki Alasya - Metin Akpınar)
+http://movie.okru.workers.dev/?ID=8315790174543
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1979" ,Korkusuz Korkak  (Kemal Sunal - Ayşin Atav)
+http://movie.okru.workers.dev/?ID=8321419913551
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1978" ,Kibar Feyzo  (Kemal Sunal - Müjde Ar - Şener Şen)
+http://movie.okru.workers.dev/?ID=8321801267535
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1952" ,Kanun Namına  (Ayhan Işık - Gülistan Güzey - Muzaffer Tema)
+http://movie.okru.workers.dev/?ID=8322775853391
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1976" ,Her Gönülde Bir Aslan Yatar  (Zeki Alasya - Metin Akpınar)
+http://movie.okru.workers.dev/?ID=8322920098127
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1976" ,Kapıcılar Kralı  (Kemal Sunal - Sevda Ferdağ)
+http://movie.okru.workers.dev/?ID=8323134728527
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1978" ,Neşeli Günler  (Adile Naşit - Münir Özkul)
+http://movie.okru.workers.dev/?ID=8324410190159
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1975" ,Nereden Çıktı Bu Velet  (Zeki Alasya - Metin Akpınar)
+http://movie.okru.workers.dev/?ID=8325420230991
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1974" ,Mavi Boncuk  (Emel Sayın - Tarık Akan)
+http://movie.okru.workers.dev/?ID=8327482059087
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1984" ,Namuslu  (Şener Şen - Ayşen Gruda)
+http://movie.okru.workers.dev/?ID=8328328259919
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1966" ,Hudutların Kanunu  (Yılmaz Güney - Pervin Par - Erol Taş)
+http://movie.okru.workers.dev/?ID=8331418478927
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1978" ,Selvi Boylum Al Yazmalım  (Kadir İnanır - Türkan Şoray)
+http://movie.okru.workers.dev/?ID=8333040363855
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2005" ,Pardon  (Ferhan Şensoy - Rasim Öztekin)
+http://movie.okru.workers.dev/?ID=8333498526031
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2008" ,Recep İvedik  (Şahan Gökbakar)
+http://movie.okru.workers.dev/?ID=8333837740367
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1977" ,Şaban Oğlu Şaban  (Kemal Sunal - Şener Şen)
+http://movie.okru.workers.dev/?ID=8334000597327
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2006" ,Hokkabaz  (Cem Yılmaz - Mazhar Alanson)
+http://movie.okru.workers.dev/?ID=8334988028239
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2007" ,Kabadayı  (Şener Şen - Kenan İmirzalıoğlu)
+http://movie.okru.workers.dev/?ID=8335207704911
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1975" ,Hababam Sınıfı  (Tarık Akan - Kemal Sunal)
+http://movie.okru.workers.dev/?ID=8336527206735
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1988" ,Arkadaşım Şeytan  (Mazhar Alanson - Ali Poyrazoğlu)
+http://movie.okru.workers.dev/?ID=8337802144079
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1970" ,Arım Balım Peteğim (Cüneyt Arkın - Türkan Şoray)
+http://movie.okru.workers.dev/?ID=8339261172047
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1996" ,Tabutta Rövaşata  (Ahmet Uğurlu - Tuncel Kurtiz)
+http://movie.okru.workers.dev/?ID=8339836643663
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1964" ,Turist Ömer  (Sadri Alışık - Vahi Öz - Mualla Sürer)
+http://movie.okru.workers.dev/?ID=8340351560015
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1949" ,Vurun Kahpeye  (Sezer Sezin - Kemal Tanrıöver)
+http://movie.okru.workers.dev/?ID=8340684745039
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1977" ,Çöpçüler Kralı  (Kemal Sunal - Şener Şen - Ayşen Gruda)
+http://movie.okru.workers.dev/?ID=8342203083087
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2010" ,Eyvah Eyvah  (Ata Demirer - Demet Akbağ)
+http://movie.okru.workers.dev/?ID=8342365481295
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1973" ,Gelin   (Hülya Koçyiğit - Kerem Yılmazer)
+http://movie.okru.workers.dev/?ID=8342409521487
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1979" ,Bereketli Topraklar Üzerinde  (Tuncel Kurtiz - Erkan Yücel)
+http://movie.okru.workers.dev/?ID=8343019465039
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2006" ,Beynelmilel  (Özgü Namal - Cezmi Baskın)
+http://movie.okru.workers.dev/?ID=8343522847055
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1973" ,Canım Kardeşim  (Tarık Akan - Halit Akçatepe - Kahraman Kıral)
+http://movie.okru.workers.dev/?ID=8343741409615
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1975" ,Bizim Aile   (Tarık Akan - Itır Esen)
+http://movie.okru.workers.dev/?ID=8343811991887
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1971" ,Baba  (Yılmaz Güney - Müşerref Tezcan)
+http://movie.okru.workers.dev/?ID=8345002584399
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1986" ,Muhsin Bey   (Şener Şen - Uğur Yücel)
+http://movie.okru.workers.dev/?ID=8352865921359
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1999" ,Her Şey Çok Güzel Olacak  (Cem Yılmaz - Mazhar Alanson)
+http://movie.okru.workers.dev/?ID=8353621289295
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1996" ,İstanbul Kanatlarımın Altında  (Ege Aydan - Okan Bayülgen)
+http://movie.okru.workers.dev/?ID=8353909188943
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1992" ,Gölge Oyunu  (Şener Şen - Şevket Altuğ)
+http://movie.okru.workers.dev/?ID=8353974331727
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1964" ,Suçlular Aramızda  (Belgin Doruk - Tamer Yiğit)
+http://movie.okru.workers.dev/?ID=8358633613647
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1978" ,Sultan  (Türkan Şoray - Bulut Aras)
+http://movie.okru.workers.dev/?ID=8359025191247
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1974" ,Şeytan  (Cihan Ünal - Canan Perver)
+http://movie.okru.workers.dev/?ID=8359886727503
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1966" ,Malkoçoğlu  (Cüneyt Arkın - Selma Güneri)
+http://movie.okru.workers.dev/?ID=8362329319759
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1974" ,Otobüs  (Tunç Okan - Tuncel Kurtiz)
+http://movie.okru.workers.dev/?ID=8362454886735
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1976" ,Öyle Olsun  (Tarık Akan - Müjde Ar)
+http://movie.okru.workers.dev/?ID=8362708248911
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1990" ,Piano Piano Bacaksız   (Rutkay Aziz - Emin Sivas)
+http://movie.okru.workers.dev/?ID=8363023411535
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2005" ,Kurtlar Vadisi Irak   (Necati Şaşmaz - Billy Zane)
+http://movie.okru.workers.dev/?ID=8364027947343
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1968" ,Kuyu   (Nil Göncü - Hayati Hamzaoğlu)
+http://movie.okru.workers.dev/?ID=8364251556175
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1967" ,Kilink İstanbul'da  (İrfan Atasoy - Pervin Par)
+http://movie.okru.workers.dev/?ID=8365300590927
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1964" ,Karanlıkta Uyananlar  (Fikret Hakan - Ayla Algan)
+http://movie.okru.workers.dev/?ID=8366588897615
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2006" ,Hacivat Karagöz Neden Öldürüldü? (Haluk Bilginer - Beyazıt Öztürk)
+http://movie.okru.workers.dev/?ID=8368842025295
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1977" ,Gülen Gözler  (Münir Özkul - Adile Naşit)
+http://movie.okru.workers.dev/?ID=8369453934927
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2010" ,Gölgeler ve Suretler (Osman Alkas - Popi Avraam)
+http://movie.okru.workers.dev/?ID=8374829394255
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1983" ,Duvar  (Tuncel Kurtiz - Ayşe Emel Mesci)
+http://movie.okru.workers.dev/?ID=8379667523919
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1964" ,Gurbet Kuşları  (Tanju Gürsu - Cüneyt Arkın - Filiz Akın)
+http://movie.okru.workers.dev/?ID=8381051840847
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2010" ,Veda  (S. Mustafa Kılıç - Dolunay Soysert)
+http://movie.okru.workers.dev/?ID=8390263712079
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1992" ,Dönersen Islık Çal  (Fikret Kuşkan)
+http://movie.okru.workers.dev/?ID=8394635684175
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1973" ,Dönüş  (Kadir İnanır - Türkan Şoray)
+http://movie.okru.workers.dev/?ID=8396019738959
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1983" ,Derman  (Hülya Koçyiğit - Tarık Akan)
+http://movie.okru.workers.dev/?ID=8398766418255
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1979" ,Sürü  (Tarık Akan - Melike Demirağ)
+http://movie.okru.workers.dev/?ID=8412555323727
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2008" ,O Çocukları  (Demet Akbağ - Özgü Namal)
+http://movie.okru.workers.dev/?ID=8413688899919
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2001" ,Yazgı  (Serdar Orçin - Zeynep Tokuş)
+http://movie.okru.workers.dev/?ID=8444370299215
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2007" ,Mutluluk  (Özgü Namal - Talat Bulut)
+http://movie.okru.workers.dev/?ID=8446016039247
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2008" ,Kız Kardeşim Mommo  (Elif Bülbül - Mehmet Bülbül)
+http://movie.okru.workers.dev/?ID=8448962931023
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1980" ,Zübük Restorasyonlu  (Kemal Sunal - Nevra Serezli)
+http://movie.okru.workers.dev/?ID=8449721510223
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2014" ,Kış Uykusu  (Haluk Bilginer - Demet Akbağ)
+http://movie.okru.workers.dev/?ID=8462000990543
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2004" ,Karpuz Kabuğundan Gemiler Yapmak  (İsmail Hakkı Taslak - Kadir Kaymaz)
+http://movie.okru.workers.dev/?ID=8474399091023
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1978" ,Hababam Sınıfı Tatilde  (Kemal Sunal - Münir Özkul)
+http://movie.okru.workers.dev/?ID=8475642112335
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2008" ,İki Dil Bir Bavul  (Zülküf Yıldırım)
+http://movie.okru.workers.dev/?ID=8475736418639
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1997" ,Ağır Roman  (Okan Bayülgen - Müjde Ar)
+http://movie.okru.workers.dev/?ID=8490812320079
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1982" ,Çiçek Abbas  (İlyas Salman - Şener Şen)
+http://movie.okru.workers.dev/?ID=8491757545807
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2005" ,Gönül Yarası  (Şener Şen - Meltem Cumbul)
+http://movie.okru.workers.dev/?ID=8497540049231
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1988" ,Gemide  (Erkan Can - Haldun Boysan)
+http://movie.okru.workers.dev/?ID=8498619296079
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2006" ,Dondurmam Gaymak  (Turan Özdemir - Gülnihal Demir)
+http://movie.okru.workers.dev/?ID=8500140386639
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2001" ,Filler ve Çimen  (Haluk Bilginer - Sanem Çelik)
+http://movie.okru.workers.dev/?ID=8500661397839
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2009" ,Başka Dilde Aşk  (Mert Fırat - Saadet Işıl Aksoy)
+http://movie.okru.workers.dev/?ID=8502269126991
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2001" ,Büyük Adam Küçük Aşk  (Şükran Güngör - Dilan Erçetin)
+http://movie.okru.workers.dev/?ID=8502838176079
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2008" ,120  (Özge Özberk - Cansel Elçin)
+http://movie.okru.workers.dev/?ID=8503567001935
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1990" ,Aşk Filmlerinin Unutulmaz Yönetmeni  (Şener Şen - Müjde Ar)
+http://movie.okru.workers.dev/?ID=8510322714959
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2011" ,Yeraltı  (Engin Günaydın - Serhat Tutumluer)
+http://movie.okru.workers.dev/?ID=8548218906959
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1974" ,Salak Milyoner  (Kemal Sunal - Meral Zeren)
+http://movie.okru.workers.dev/?ID=8550065580367
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2004" ,Neredesin Firuze  (Demet Akbağ - Haluk Bilginer - Özcan Deniz)
+http://movie.okru.workers.dev/?ID=8550427011407
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1999" ,Güle Güle  (Zeki Alasya - Metin Akpınar)
+http://movie.okru.workers.dev/?ID=8551536011599
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2016" ,İftarlık Gazoz  (Cem Yılmaz - Berat Efe Parlar)
+http://movie.okru.workers.dev/?ID=8552085072207
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2009" ,11'e 10 Kala  (Nejat İşler - Mithat Esmer)
+http://movie.okru.workers.dev/?ID=8553929124175
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2020" ,Nuh Tepesi  (Haluk Bilginer - Ali Atay)
+http://movie.okru.workers.dev/?ID=8637126551887
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2017" ,Ayla  (İsmail Hacıoğlu - Kim Seol)
+http://movie.okru.workers.dev/?ID=8645554219343
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2015" ,Bana Masal Anlatma  (Hande Doğandemir - Fatih Artman)
+http://movie.okru.workers.dev/?ID=8654313302351
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2020" ,Aşk Tesadüfleri Sever 2  (Nesrin Cavadzade - Yiğit Kirazcı)
+http://movie.okru.workers.dev/?ID=8655349033295
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2014" ,Kırımlı   (Murat Yıldırım - Selma Ergeç)
+http://movie.okru.workers.dev/?ID=8657565919567
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2007" ,Yumurta  (Nejat İşler - Saadet Aksoy)
+http://movie.okru.workers.dev/?ID=8729597126991
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2017" ,Buğday  ( Jean-Marc Barr - Ermin Bravo)
+http://movie.okru.workers.dev/?ID=8729646999887
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2001" ,İtiraf   (Taner Birsel - Başak Köklükaya)
+http://movie.okru.workers.dev/?ID=8729700673871
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2008" ,Süt  (Melih Selçuk - Başak Köklükaya)
+http://movie.okru.workers.dev/?ID=8731630840143
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2014" ,Bi Küçük Eylül Meselesi  (Farah Zeynep Abdullah - Engin Akyürek)
+http://movie.okru.workers.dev/?ID=8867083135311
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2016" ,Dağ 2   (Çağlar Ertuğrul - Ufuk Bayraktar)
+http://movie.okru.workers.dev/?ID=8867138775375
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2011" ,Kaybedenler Kulübü   (Nejat İşler - Yiğit Özşener)
+http://movie.okru.workers.dev/?ID=8867155618127
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2012" ,Dağ 1  (Çağlar Ertuğrul - Ufuk Bayraktar)
+http://movie.okru.workers.dev/?ID=8867203787087
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2019" ,7. Koğuştaki Mucize  (Aras Bulut İynemli - Nisa Sofiya Aksongur)
+http://movie.okru.workers.dev/?ID=8867227576655
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2017" ,Aile Arasında  (Engin Günaydın - Demet Evgar)
+http://movie.okru.workers.dev/?ID=8867251366223
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2015" ,Sarmaşık  (Nadir Sarıbacak - Özgür Emre Yıldırım)
+http://movie.okru.workers.dev/?ID=8867268667727
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2015" ,Kara Bela  (Cengiz Bozkurt - Seda Bakan)
+http://movie.okru.workers.dev/?ID=8867297175887
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2019" ,Organize İşler Sazan Sarmalı  (Yılmaz Erdoğan - Kıvanç Tatlıtuğ)
+http://movie.okru.workers.dev/?ID=8867336890703
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2018" ,Müslüm  (Timuçin Esen - Zerrin Tekindor)
+http://movie.okru.workers.dev/?ID=8867646220623
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2019" ,Mucize - 2 Aşk  (Mert Turak - Biran Damla Yılmaz)
+http://movie.okru.workers.dev/?ID=8871328295247
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2013" ,Tamam mıyız?  (Deniz Ceciloğlu - Aras Bulut İynemli)
+http://movie.okru.workers.dev/?ID=8872846109007
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2012" ,Gözetleme Kulesi  (Olgun Şimşek - Nilay Erdönmez)
+http://movie.okru.workers.dev/?ID=8876237531471
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2018" ,Bizi Hatırla  (Altan Erkekli - Tolga Tekin - Özge Özberk)
+http://movie.okru.workers.dev/?ID=8877564242255
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2018" ,Ölümlü Dünya 1  (Ahmet Mümtaz Taylan - Alper Kul)
+http://movie.okru.workers.dev/?ID=8884365568335
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2019" ,Çiçero  (Erdal Beşikçioğlu - Burcu Biricik)
+http://movie.okru.workers.dev/?ID=8884610738511
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2017" ,İşe Yarar Bir Şey  (Başak Köklükaya - Öykü Karayel)
+http://movie.okru.workers.dev/?ID=8884936321359
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2015" ,Limonata   (Ertan Saban - Serkan Keskin)
+http://movie.okru.workers.dev/?ID=8906810992975
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2009" ,Kirpi  (Mazhar Alanson - Güven Kıraç)
+http://movie.okru.workers.dev/?ID=8917295966543
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2019" ,Cinayet Süsü   (Uğur Yücel - Binnur Kaya)
+http://movie.okru.workers.dev/?ID=8925147244879
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2014" ,İtirazım Var  (Serkan Keskin - Hazal Kaya)
+http://movie.okru.workers.dev/?ID=8925449169231
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2015" ,Kor  (Aslıhan Gürbüz - Taner Birsel)
+http://movie.okru.workers.dev/?ID=8925729925455
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2018" ,Bizim İçin Şampiyon (Bold Pilot)  (Farah Zeynep Abdullah - Ekin Koç)
+http://movie.okru.workers.dev/?ID=8926283704655
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2018" ,Cebimdeki Yabancı (Serkan Altunorak - Belçim Bilgin)
+http://movie.okru.workers.dev/?ID=8926588709199
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2019" ,Cep Herkülü (Naim Süleymanoğlu)   (Hayat Van Ech - Yetkin Dikinciler)
+http://movie.okru.workers.dev/?ID=8926913833295
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1983" ,Tokatçı  (Kemal Sunal - Nazan Saatçi)
+http://movie.okru.workers.dev/?ID=8927169816911
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1981" ,Üç Kağıtçı   (Kemal Sunal - Ülkü Özen)
+http://movie.okru.workers.dev/?ID=8927765801295
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2002" ,Dokuz (9)  (Fikret Kuşkan - Ali Poyrazoğlu)
+http://movie.okru.workers.dev/?ID=8928108226895
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2014" ,Unutursam Fısılda  (Farah Zeynep Abdullah - Mehmet Günsür)
+http://movie.okru.workers.dev/?ID=8928231041359
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1982" ,Yedi Bela Hüsnü  (Kemal Sunal - Oya Aydoğan)
+http://movie.okru.workers.dev/?ID=8928633629007
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1976" ,Sahte Kabadayı  (Kemal Sunal - Yavuz Selekman)
+http://movie.okru.workers.dev/?ID=8929278044495
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1987" ,Selamsız Bandosu  (Şener Şen - Ali Uyandıran)
+http://movie.okru.workers.dev/?ID=8929556703567
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1979" ,Bekçiler Kralı  (Kemal Sunal - Semra Türel)
+http://movie.okru.workers.dev/?ID=8930357553487
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2010" ,Beş Şehir  (Beste Bereket - Ahmet Rıfat Şungar)
+http://movie.okru.workers.dev/?ID=8930637261135
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2014" ,Pek Yakında  (Cem Yılmaz - Tülin Özen)
+http://movie.okru.workers.dev/?ID=8931143002447
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1976" ,Aile Şerefi  (Münir Özkul - Adile Naşit)
+http://movie.okru.workers.dev/?ID=8931415632207
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2018" ,Arif V 216  (Cem Yılmaz - Ozan Güven)
+http://movie.okru.workers.dev/?ID=8931812190543
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1980" ,Banker Bilo  (İlyas Salman - Şener Şen - Meral Zeren)
+http://movie.okru.workers.dev/?ID=8932107626831
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2008" ,Ulak  (Çetin Tekindor - Melis Birkan)
+http://movie.okru.workers.dev/?ID=8932733626703
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2004" ,Vizontele Tuuba  (Yılmaz Erdoğan - Tuba Ünsal)
+http://movie.okru.workers.dev/?ID=8933131495759
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2007" ,Yaşamın Kıyısında  (Nurgül Yeşilçay - Baki Davrak)
+http://movie.okru.workers.dev/?ID=9046503795023
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2004" ,Yazı Tura  (Kenan İmirzalıoğlu - Olgun Şimşek)
+http://movie.okru.workers.dev/?ID=9046803360079
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2007" ,Polis  (Haluk Bilginer - Özgü Namal)
+http://movie.okru.workers.dev/?ID=9047727941967
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2009" ,Vali  (Erdal Beşikçioğlu - Şebnem Dönmez)
+http://movie.okru.workers.dev/?ID=9048227260751
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1999" ,Kaç Para Kaç  (Taner Birsel - Bennu Yıldırımlar)
+http://movie.okru.workers.dev/?ID=9048913619279
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2009" ,Karanlıktakiler  (Erdem Akakçe - Meral Çetinkaya)
+http://movie.okru.workers.dev/?ID=9049385085263
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2008" ,Gölgesizler   (Selçuk Yöntem - Hakan Karahan)
+http://movie.okru.workers.dev/?ID=9050515843407
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2005" ,Eğreti Gelin  (Nurgül Yeşilçay - Onur Ünsal)
+http://movie.okru.workers.dev/?ID=9051606690127
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1994" ,C Blok  (Serap Aksoy - Fikret Kuşkan)
+http://movie.okru.workers.dev/?ID=9052505778511
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="2016" ,Koca Dünya  (Ecem Uzun - Berke Karaer)
+http://movie.okru.workers.dev/?ID=9651483650383
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/25097/poster/thumb/hep-yek.jpg" group-title="YERLI FILM SERİ" year="2013" ,Hep Yek
+https://p3.photofunny.org/v/ojx9ybe2jkys/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.ive/poster/film/hep-yek-1-73108.jpg" group-title="YERLI FILM SERİ"year="2013",Hep Yek
+https://s20.imagescdns.pics/m1/FTIjYyyynl4lZQR2YyqSDv1RGP4kZQtjpNd0zxnJ1uM2ImL2Ehpl5jnJAms0xi20vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.ive/poster/film/hep-yek-2-91137.jpg" group-title="YERLI FILM SERİ" year="2017" ,Hep Yek 2
+https://s20.imagebin.pics/md/FTIjYyyynl4lYwVjZGphI0IPYHEZYwRjBQOjd0zxnJ1uM2IvnJ4hpTywpjs0xi20vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/25516/poster/thumb/hep-yek-2.jpg" group-title="YERLI FILM SERİ" year="2017" ,Hep Yek 2
+https://p3.photofunny.org/v/8dhtgrvtagkq/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.ive/poster/film/hep-yek-3-titrettin-beni-38537.jpg" group-title="YERLI FILM SERİ" year="2019" ,Hep Yek 3 Titrettin Beni
+https://s20.imageshub.pro/mj/FTIjYyyynl4mYyEcqUWyqUEcov5PMJ5cYwVjZGxhI0IPYHEZYwRjBQOjd0zxnJ1uM2ImnUIvYaOlojs0xi20vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/25065/poster/thumb/hep-yek-3-titrettin-beni.jpg" group-title="YERLI FILM SERİ" year="2019" ,Hep Yek 3 Titrettin Beni
+https://p2.photofunia.pro/v/69j734d0y7um/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.ive/poster/film/hep-yek-4-bela-okuma-altan-3971.jpg" group-title="YERLI FILM SERİ" year="2021" ,Hep Yek 4 Bela Okuma Altan
+https://s20.imagebin.pics/md/FTIjYyyynl40YxWyoTRhG2g1oJRhDJk0LJ4hZwNlZF5KEHVgERjhZGN4ZUNd0zxnJ1uM2IvnJ4hpTywpjs0xi20vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/54738/poster/thumb/hep-yek-5-bizim-seyimiz-mi-altan.jpg" group-title="YERLI FILM SERİ" year="2022" ,Hep Yek 5 Bizim Şeyimiz mi Altan
+https://vs5.photour.org/v/g9nj3oul24te/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/54736/poster/thumb/hep-yek-dugun.jpg" group-title="YERLI FILM SERİ" year="2023" ,Hep Yek Düğün
+https://vs1.photour.org/v/oig62e6itr6a/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/58868/poster/thumb/hep-yek-asiret-izle.jpg" group-title="YERLI FILM SERİ" year="2024" ,Hep Yek Aşiret
+https://vs1.photour.org/v/md4upqq9hcot/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/502901/poster/thumb/hep-yek-loto.jpg" group-title="YERLI FILM SERİ" year="2025" ,Hep Yek Loto
+https://vs14.photoflick.org/v/Hep.Yek.Loto.2025.WEB-DL.1080p.H.264-HDM/master.m3u8
 
 
 
