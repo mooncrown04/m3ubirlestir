@@ -1,8 +1,149 @@
 #EXTM3U
+
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-gelecege-donus-1-hd-film-izle.jpg" group-title="SERI FILM Geleceğe Dönüş" year="1985",Geleceğe Dönüş 1
+https://s16.pixtureup.org/m7/DzSwnl50ol50nTHhEaI0qKWyYwR5BQHhDzk1pzS5YwRjBQOjYxEIDHjd0zxpTy4qUIlMKIjYz9lMjs0xi16vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12184/poster/thumb/gelecege-donus.jpg" group-title="SERI FILM Geleceğe Dönüş" year="1985",Geleceğe Dönüş 1
+https://p3.photomag.biz/v/sh3fcf2q0r40/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12185/poster/thumb/gelecege-donus-ii.jpg" group-title="SERI FILM Geleceğe Dönüş" year="1989",Geleceğe Dönüş 2
+https://p3.photofunia.pro/v/sbctz7hesxgq/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/501363/poster/thumb/john-wick-1.jpg" group-title="SERI FILM John Wick" year="2014" ,John Wick 1
+https://vs14.photoflax.org/v/John.Wick.2014.Bluray.1080p.DUAL.x264-HDM/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/501364/poster/thumb/john-wick-2.jpg" group-title="SERI FILM John Wick" year="2017" ,John Wick 2
+https://vs18.photoflix.org/v/John.Wick.Chapter.2.2017.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/501365/poster/thumb/john-wick-3-parabellum.jpg" group-title="SERI FILM John Wick" year="2019" ,John Wick 3 Parabellum
+https://vs14.photomag.biz/v/John.Wick.Chapter.3.Parabellum.2019.Bluray.1080p.DUAL.x264-HDM/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/501366/poster/thumb/john-wick-4.jpg" group-title="SERI FILM John Wick" year="2023" ,John Wick 4
+https://vs9.photostack.net/v/John.Wick.Chapter.4.2023.Bluray.1080p.DUAL.x264-HDM/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-demir-adam-1-iron-man-1.jpg" group-title="SERI FILM Demir Adam" year="2008" ,Demir Adam 1
+https://s1.imagescdns.pics/mm/ETIgnKVhDJEuoF4kYwRjBQOjYxEIDHjd0zxnJ1uM2ImL2Ehpl5jnJAms0xi1vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11851/poster/thumb/demir-adam.jpg" group-title="SERI FILM Demir Adam" year="2008" ,Demir Adam 1
+https://p3.photostack.net/v/5drd8wzveo3r/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11853/poster/thumb/demir-adam-2.jpg" group-title="SERI FILM Demir Adam" year="2010" ,Demir Adam 2
+https://p1.photomag.biz/v/vnbcio4pm9j4/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-demir-adam-3-iron-men-3.jpg" group-title="SERI FILM Demir Adam" year="2013" ,Demir Adam 3
+https://s3.pixypost.art/m6/ETIgnKVhDJEuoF4mYwRjBQOjYxEIDHjd0zxpTy4rKOip3DhLKW0s0xi3vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11855/poster/thumb/demir-adam-3.jpg" group-title="SERI FILM Demir Adam" year="2013" ,Demir Adam 3
+https://p3.photostack.net/v/qe48zgu6saj4/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13633/poster/thumb/arinma-gecesi.jpg" group-title="SERI FILM Arınma Gecesi" year="2008" ,Arınma Gecesi
+https://p2.photofunny.org/v/23472qjunjeg/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/14361/poster/thumb/arinma-gecesi-anarsi.jpg" group-title="Gerilim" year="2014" ,Arınma Gecesi Anarşi
+https://p3.photofunny.org/v/548aoggosigh/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/15190/poster/thumb/arinma-gecesi-secim-yili.jpg" group-title="Aksiyon" year="2016" ,Arınma Gecesi Seçim Yılı
+https://p3.photofunny.org/v/0a3c9vtgkenf/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-arinma-gecesi-3-secim-yili-the-purge-election-year-izle.jpg" group-title="" year="2016" ,Arınma Gecesi 3 Seçim Yılı
+https://s1.imagebin.pics/mk/ITuyYyO1pzqyYxIfMJA0nJ9hYyyyLKVhZwNkAv4kZQtjpP5PoUIFLKxhEUIuoNd0zxnJ1uM2IvnJ4hpTywpjs0xi1vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/14002/poster/thumb/ilk-arinma-gecesi.jpg" group-title="Aksiyon" year="2018" ,Arınma Gecesi İlk Arınma Gecesi
+https://p3.photofunia.pro/v/j5hy2p16g1rn/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/arinma-gecesi-sonsuza-dek-the-forever-purge-19984.jpg" group-title="" year="2021" ,Arınma Gecesi Sonsuza Dek
+https://s14.imglink.info/mt/ITuyYxMipzI2MKVhHUIlM2HhZwNlZF5PoUIlLKxhZGN4ZUNhESIOGNd0zxnJ1aoTyhnl5cozMis0xi14vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12917/poster/thumb/arinma-gecesi-sonsuza-dek.jpg" group-title="Aksiyon" year="2021" ,Arınma Gecesi Sonsuza Dek
+https://p3.photomag.biz/v/glx26h6yppau/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-robocop-film-izle.jpg" group-title="SERI FILM RoboCop" year="2014" ,RoboCop
+https://s16.imglink.pro/me/Hz9vo0AipP40YwVjZGDhZGN4ZUNhMUIuoNd0zxnJ1aoTyhnl5jpz8s0xi16vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/24732/poster/thumb/robocop-2.jpg" group-title="SERI FILM RoboCop" year="1990" ,RoboCop 2
+https://vs2.photour.org/v/foixc29aw1yg/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/24513/poster/thumb/robocop-3.jpg" group-title="SERI FILM RoboCop" year="1993" ,RoboCop 3
+https://vs6.photofunia.pro/v/flyte6w3cnz6/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/19322/poster/thumb/mad-max.jpg" group-title="SERI FILM Çılgın Max" year="1979" ,Çılgın Max
+https://p2.photostack.net/v/5x62svsctxbc/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/18904/poster/thumb/mad-max-2-yol-savascisi.jpg" group-title="SERI FILM Çılgın Max" year="1981" ,Çılgın Max 2 Savaşçı
+https://p2.photofunny.org/v/d8cdynkmjsal/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-cilgin-max-ofkeli-yollar-mad-max-fury-road-2.jpg" group-title="SERI FILM Çılgın Max" year="2015" ,Çılgın Max Öfkeli Yollar
+https://s1.picturebox.cloud/mo/GJSxYx1urP5TqKW5YyWiLJDhZwNkAF4kZQtjpP5RIHSZd0zxpTywqUIlMJWirP5woT91MNs0xi1vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13911/poster/thumb/mad-max-4-ofkeli-yollar.jpg" group-title="SERI FILM Çılgın Max" year="2015" ,Çılgın Max Öfkeli Yollar
+https://p3.photofunia.pro/v/h0r64zlfp27u/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/furiosa-bir-mad-max-destani-furiosa-a-mad-max-saga-94392.jpg" group-title="SERI FILM Çılgın Max" year="2024" ,Furiosa Bir Mad Max Destanı
+https://s10.pixtureup.org/ma/EaIlnJ9mLF5OYx1uMP5ALKthH2SaLF4lZQV0YyqSDv1RGP4kZQtjpP5RIHSZZtd0zxpTy4qUIlMKIjYz9lMjs0xi10vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-bitirim-ikili-1-rush-hour-1.jpg" group-title="SERI FILM Bitirim İkili" year="1998" ,Bitirim İkili 1
+https://s2.pixtureup.org/mr/Dzy0nKWcoF5Wn2yfnF4kYyW1p2thFT91pv4kYwR5BGthZGN4ZUNhEUIuoNd0zxpTy4qUIlMKIjYz9lMjs0xi2vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-bitirim-ikili-2-rush-hour-2.jpg" group-title="Bitirim İkili" year="2001" ,Bitirim İkili 2
+https://s7.pixypost.art/mw/Dzy0nKWcoF5Wn2yfnF4lYyW1p2thFT91pv4lYwVjZQRhZGN4ZUNhEUIuoNd0zxpTy4rKOip3DhLKW0s0xi7vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/30380/poster/thumb/bitirim-ikili-3.jpg" group-title="Bitirim İkili" year="2007" ,Bitirim İkili 3
+https://p2.photostack.net/v/ameuxgf423dn/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="SERI FILM Ip Man" year="2013",Ip Man Büyük Usta
+http://movie.okru.workers.dev/?ID=7281411500424
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="SERI FILM Ip Man" year="2008",Ip Man 1
+http://movie.okru.workers.dev/?ID=7282099300744
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="SERI FILM Ip Man" year="2010",Ip Man 2
+http://movie.okru.workers.dev/?ID=7282100152712
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="SERI FILM Ip Man" year="2015",Ip Man 3
+http://movie.okru.workers.dev/?ID=7282099431816
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="SERI FILM Ip Man" year="2018",Ip Man'ın Mirası
+http://movie.okru.workers.dev/?ID=7281411303816
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="SERI FILM Ip Man" year="2010",Ip Man Efsane Doğuyor
+http://movie.okru.workers.dev/?ID=7281408223624
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/32276/poster/thumb/efsane-doguyor-ip-man.jpg" group-title="SERI FILM Ip Man" year="2010" ,Ip Man Efsane Doğuyor
+https://vs6.photour.org/v/2whh2sg33ylm/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="SERI FILM Ip Man" year="2013",Ip Man Son Dövüş
+http://movie.okru.workers.dev/?ID=7278288447880
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/usta-z-ip-man-in-mirasi-70272.jpg" group-title="SERI FILM Ip Man" year="2018" ,Usta Z Ip Man'in Mirası
+https://s16.pixtureup.org/mw/JJyjYx1uov5hM29cYac5qJ4hD2uyqJ5aYyEcov5QnTxhZwNkBP5PoUIlLKxhZGN4ZUNhESIOGNd0zxpTy4qUIlMKIjYz9lMjs0xi16vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="" year="2019",Ip Man Kung Fu Ustası
+http://movie.okru.workers.dev/?ID=7281408420232
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/ip-man-kung-fu-ustasi-ip-man-kung-fu-master-83264.jpg" group-title="SERI FILM Ip Man" year="2019" ,Ip Man Kung Fu Ustası
+https://s20.imagebin.pics/mx/FKNhGJShYxg1ozphEaHhGJSmqTIlYwVjZGxhDzk1pzS5YwRjBQOjYxEIDHjd0zxnJ1uM2IvnJ4hpTywpjs0xi20vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="SERI FILM Ip Man" year="2015",Ip Man Son Usta
+http://movie.okru.workers.dev/?ID=7281396820360
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/30558/poster/thumb/maymunlar-cehennemi.jpg" group-title="SERI FILM Maymunlar Cehenneminde" year="1968",Maymunlar Cehennemi
+https://p2.photostack.net/v/p0wnza306bnt/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/30563/poster/thumb/maymunlar-cehennemine-donus.jpg" group-title="SERI FILM Maymunlar Cehenneminde" year="1970",Maymunlar Cehennemine Dönüş
+https://p3.gamephotos.pro/v/idj7ylxo6w76/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="SERI FILM Maymunlar Cehenneminde" year="1970",Maymunlar Cehennemi 2
+http://movie.okru.workers.dev/?ID=7281411434888
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/31003/poster/thumb/maymunlar-cehenneminden-kacis.jpg" group-title="SERI FILM Maymunlar Cehenneminde" year="1971",Maymunlar Cehenneminden Kaçış
+https://p3.photofunny.org/v/ms34xo2kf7p6/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/30562/poster/thumb/maymunlar-cehenneminde-isyan.jpg" group-title="SERI FILM Maymunlar Cehenneminde" year="1972",Maymunlar Cehenneminde İsyan
+https://vs8.photour.org/v/2liltdf7mtvr/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13866/poster/thumb/maymunlar-cehennemi-savas.jpg" group-title="SERI FILM Maymunlar Cehenneminde" year="1973",Maymunlar Cehennemi Savaş
+https://p3.photostack.net/v/0g8d65i33kco/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/20167/poster/thumb/maymunlar-cehenneminde-savas.jpg" group-title="SERI FILM Maymunlar Cehenneminde" year="1973",Maymunlar Cehenneminde Savaş
+https://vs5.photour.org/v/ypdt2darp3xh/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13532/poster/thumb/maymunlar-cehennemi-baslangic.jpg" group-title="SERI FILM Maymunlar Cehenneminde" year="2011",Maymunlar Cehennemi Başlangıç
+https://p2.photofunny.org/v/cqu55h8zxes4/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13725/poster/thumb/maymunlar-cehennemi-safak-vakti.jpg" group-title="SERI FILM Maymunlar Cehenneminde" year="2014",Maymunlar Cehennemi Şafak Vakti
+https://p1.photofunny.org/v/nwd9wca8zqx3/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/30999/poster/thumb/maymunlar-gezegeni.jpg" group-title="SERI FILM Maymunlar Cehenneminde" year="2001",Maymunlar Gezegeni
+https://p3.photostack.net/v/asc0gy06pf0k/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-maymunlar-cehennemi-yeni-krallik-fh-izle.jpg" group-title="SERI FILM Maymunlar Cehenneminde" year="2024",Maymunlar Cehennemi Yeni Krallık
+https://s6.imagehub.pics/ms/F2yhM2EioF5iMv50nTHhHTkuozI0Yz9zYaEbMF5OpTImYwVjZwDhI0IPYHEZYwRjBQOjYxEIDHjd0zxnJ1uM2IbqJVhpTywpjs0xi6vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/56070/poster/thumb/maymunlar-cehennemi-yeni-krallik.jpg" group-title="SERI FILM Maymunlar Cehenneminde" year="2024",Maymunlar Cehennemi Yeni Krallık
+https://vs4.pictureflix.org/v/Kingdom.of.the.Planet.of.the.Apes.2024.WEB-DL.1080p.DUAL/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/31206/poster/thumb/jaws.jpg" group-title="SERI FILM Jaws" year="1975" ,Jaws
+https://p2.gamephotos.pro/v/gv0qy7gqbbuo/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/35229/poster/thumb/jaws-2.jpg" group-title="SERI FILM Jaws" year="1978" ,Jaws 2
+https://p3.gamephotos.pro/v/th436livelgm/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/35225/poster/thumb/jaws-3.jpg" group-title="SERI FILM Jaws" year="1983" ,Jaws 3
+https://vs7.photour.org/v/e1col8audmgy/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/35226/poster/thumb/jaws-4-intikam.jpg" group-title="SERI FILM Jaws" year="1987" ,Jaws 4 İntikam
+https://p1.photostack.net/v/ri4yz5pt2q14/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12428/poster/thumb/siyah-giyen-adamlar.jpg" group-title="SERI FILM Siyah Giyen Adamlar" year="1997" ,Siyah Giyen Adamlar
+https://p3.gamephotos.pro/v/uu6vulpxysw3/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12426/poster/thumb/siyah-giyen-adamlar-2.jpg" group-title="SERI FILM Siyah Giyen Adamlar" year="2002" ,Siyah Giyen Adamlar 2
+https://p2.photostack.net/v/wsbqtr4tntiv/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12425/poster/thumb/siyah-giyen-adamlar-3.jpg" group-title="SERI FILM Siyah Giyen Adamlar" year="2012" ,Siyah Giyen Adamlar 3
+https://p1.photofunny.org/v/89wy7x55f99h/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12423/poster/thumb/siyah-giyen-adamlar-global-tehdit.jpg" group-title="SERI FILM Siyah Giyen Adamlar" year="2019" ,Siyah Giyen Adamlar Global Tehdit
+https://p1.photomag.biz/v/ffcp08mcs2hu/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-siyah-giyen-adamlar-4-izle-men-in-black-international-bu-son-yarim.jpg" group-title="SERI FILM Siyah Giyen Adamlar" year="2019" ,Siyah Giyen Adamlar 4 Global Tehdit
+https://s12.imagehub.pics/me/GJIhYzyhYxWfLJAeYxyhqTIlozS0nJ9hLJjhZwNkBF4kZQtjpP5PoUIFLKxhESIOGNd0zxnJ1uM2IbqJVhpTywpjs0xi12vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/karateci-cocuk-the-karate-kid-43855.jpg" group-title="SERI FILM Karateci Çocuk" year="1984" ,Karateci Çocuk
+https://s24.pixtures.art/my/ITuyYxgupzS0MF5YnJDhZGx4AP5KEHVgERjhZGN4ZUNhESIOGNd0zxpTy4qUIlMKZhLKW0s0xi24vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/16572/poster/thumb/karateci-cocuk.jpg" group-title="SERI FILM Karateci Çocuk" year="2013" ,Karateci Çocuk
+https://p3.photofunia.pro/v/iydrnydxskeg/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/karateci-cocuk-2-the-karate-kid-part-2-2102.jpg" group-title="SERI FILM Karateci Çocuk" year="1986" ,Karateci Çocuk 2
+https://s23.pixtures.art/ms/ITuyYxgupzS0MF5YnJDhHTSlqP5WFF4kBGt2YyqSDv1RGP4kZQtjpP5RIHRd0zxpTy4qUIlMKZhLKW0s0xi23vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/karateci-cocuk-3-karate-kid-3-78782.jpg" group-title="SERI FILM Karateci Çocuk" year="1989" ,Karateci Çocuk 3
+https://s22.imagebin.pics/m7/ITuyYxgupzS0MF5YnJDhHTSlqP5WFHxhZGx4BF5KEHVgERjhZGN4ZUNhESIOd0zxnJ1uM2IvnJ4hpTywpjs0xi22vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/karateci-cocuk-4-yeni-nesil-the-next-karate-kid-15784.jpg" group-title="SERI FILM Karateci Çocuk" year="1994" ,Karateci Çocuk 4 Yeni Nesil
+https://s24.photogrids.site/m0/ITuyYx5yrUDhF2SlLKEyYxgcMP4kBGx0YyqSDv1RGP4kZQtjpP5RIHSZd0zxpTuiqT9apzyxpl5mnKEys0xi24vr1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/502340/poster/thumb/karate-kid-efsane-dovusculer.jpg" group-title="SERI FILM Karateci Çocuk" year="2025" ,Karateci Çocuk Efsane Dövüşçüler
+https://vs14.gamephotos.pro/v/Karate.Kid.Legends.2025.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11815/poster/thumb/srek.jpg" group-title="SERI FILM Şrek" year="2001" ,Şrek
 https://p1.photostack.net/v/6zet7563p1xs/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11817/poster/thumb/srek-2.jpg" group-title="SERI FILM Şrek" year="2004" ,Şrek 2
 https://p1.photofunny.org/v/2uwe455gmx1p/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="SERI FILM Şrek" year="2004",Shrek 2
+http://movie.okru.workers.dev/?ID=7467240597896
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11819/poster/thumb/srek-uc.jpg" group-title="SERI FILM Şrek" year="2007" ,Şrek 3
 https://p3.photostack.net/v/q5ml17riphdl/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11821/poster/thumb/srek-sonsuza-dek-mutlu.jpg" group-title="SERI FILM Şrek" year="2010" ,Şrek 4 Sonsuza Dek Mutlu
@@ -19,7 +160,7 @@ https://p2.photofunia.pro/v/w2g42wlrs0ie/master.m3u8
 http://movie.okru.workers.dev/?ID=7328508422536
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/15690/poster/thumb/korku-kapani-3-olume-terkedis.jpg" group-title="SERI FILM Korku Kapanı" year="2009",Korku Kapanı 3 Ölüme Terk Ediş
 https://p3.photostack.net/v/5k4j482ea5xw/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/korku-kapani-4-turkce-dublaj-izle-68126.jpg" group-title="SERI FILM Korku Kapanı" year="2011" ,Korku Kapanı 4 Kanlı Başlangıç
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/korku-kapani-4-turkce-dublaj-izle-68126.jpg" group-title="SERI FILM Korku Kapanı" year="2011" ,Korku Kapanı 4 Kanlı Başlangıç
 https://s3.imglink.pro/ms/F29ln3HhF2SjLJ5cYwDhF2ShoTxhDzSmoTShM2ywYyqlo25aYyE1pz4hAP5PoT9iMUxhDzIanJ5hnJ5mYwVjZGRhZGN4ZUNhEUIuoNd0zxnJ1aoTyhnl5jpz8s0xi3vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="" group-title="SERI FILM Korku Kapanı" year="2011",Korku Kapanı 4 Kanlı Başlangıç
 http://movie.okru.workers.dev/?ID=7328508488072
@@ -33,7 +174,7 @@ http://movie.okru.workers.dev/?ID=7328627960200
 http://movie.okru.workers.dev/?ID=7328627894664
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/14438/poster/thumb/korku-kapani-6-son-care.jpg" group-title="SERI FILM Korku Kapanı" year="2012" ,Korku Kapanı 6 Son Çare
 https://p3.photostack.net/v/9w5udfdn1gxi/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/wrong-turn-70327.jpg" group-title="SERI FILM Korku Kapanı" year="2021" ,Korku Kapanı 7 Başlangıç
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/wrong-turn-70327.jpg" group-title="SERI FILM Korku Kapanı" year="2021" ,Korku Kapanı 7 Başlangıç
 https://s16.imagescdns.pics/m8/I3WiozphIUIlov4lZQVkYxWfqKWurF4kZQtjpP5RIHSZZwVld0zxnJ1uM2ImL2Ehpl5jnJAms0xi16vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/10870/poster/thumb/korku-kapani-baslangic-hd-1.jpg" group-title="SERI FILM Korku Kapanı" year="2021" ,Korku Kapanı 7 Başlangıç
 https://p2.photofunny.org/v/r1bzd18au585/master.m3u8
@@ -41,7 +182,7 @@ https://p2.photofunny.org/v/r1bzd18au585/master.m3u8
 http://movie.okru.workers.dev/?ID=7328627829128
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11865/poster/thumb/gorevimiz-tehlike.jpg" group-title="SERI FILM Görevimiz Tehlike" year="1996" ,Görevimiz Tehlike 1
 https://p3.photostack.net/v/fe1o0xhihk1i/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-gorevimiz-tehlike-1-filmini-izle.jpg" group-title="SERI FILM Görevimiz Tehlike" year="1996" ,Görevimiz Tehlike 1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-gorevimiz-tehlike-1-filmini-izle.jpg" group-title="SERI FILM Görevimiz Tehlike" year="1996" ,Görevimiz Tehlike 1
 https://s13.imagehub.pics/mz/GJymp2yiov5WoKOip3AcLzkyYwRhZGx5Av5FMJ1up3EypzIxYwRjBQOjYzE1LJjd0zxnJ1uM2IbqJVhpTywpjs0xi13vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11867/poster/thumb/gorevimiz-tehlike-ii.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2000" ,Görevimiz Tehlike 2
 https://p1.photostack.net/v/q3ee1h1hi49d/master.m3u8
@@ -49,29 +190,29 @@ https://p1.photostack.net/v/q3ee1h1hi49d/master.m3u8
 https://p1.photofunny.org/v/j3blhp2hvyem/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11869/poster/thumb/gorevimiz-tehlike-hayalet-protokol.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2011" ,Görevimiz Tehlike 4 Hayalet Protokol
 https://p2.photofunny.org/v/8se8ab9anxxj/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-gorevimiz-tehlike-4-hayalet-protokol-720p.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2011" ,Görevimiz Tehlike 4 Hayalet Protokol
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-gorevimiz-tehlike-4-hayalet-protokol-720p.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2011" ,Görevimiz Tehlike 4 Hayalet Protokol
 https://s4.imagescdns.pics/mz/GJymp2yiov5WoKOip3AcLzkyYwDhZwNkZF5FMJ1up3EypzIxYwRjBQOjYzE1LJjd0zxnJ1uM2ImL2Ehpl5jnJAms0xi4vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11888/poster/thumb/gorevimiz-tehlike-rogue-nation.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2015" ,Görevimiz Tehlike 5 Rogue Nation
 https://p3.photostack.net/v/iitth5werogz/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-gorevimiz-tehlike-5-mission-impossible-rogue-nation.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2015" ,Görevimiz Tehlike 5 Rogue Nation
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-gorevimiz-tehlike-5-mission-impossible-rogue-nation.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2015" ,Görevimiz Tehlike 5 Rogue Nation
 https://s1.imagehub.pics/mh/GJymp2yiov5WoKOip3AcLzkyYwHhZwNkAF5FMJ1up3EypzIxYwRjBQOjYzE1LJjd0zxnJ1uM2IbqJVhpTywpjs0xi1vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-gorevimiz-tehlike-6-yansimalar-mission-impossible-6-fallout-hd-izle.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2018" ,Görevimiz Tehlike 6 Yansımalar
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-gorevimiz-tehlike-6-yansimalar-mission-impossible-6-fallout-hd-izle.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2018" ,Görevimiz Tehlike 6 Yansımalar
 https://s6.picturebox.cloud/m4/GJymp2yiov5WoKOip3AcLzkyYwLhZwNkBP5FMJ1up3EypzIxYwRjBQOjYzE1LJjd0zxpTywqUIlMJWirP5woT91MNs0xi6vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11886/poster/thumb/gorevimiz-tehlike-yansimalar.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2018" ,Görevimiz Tehlike 6 Yansımalar
 https://p2.photostack.net/v/lf1ixo4i37o6/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/9403/poster/thumb/gorevimiz-tehlike-7-olumcul-hesaplasma-bolum-1-izle.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2023" ,Görevimiz Tehlike 7 Ölümcül Hesaplaşma Bölüm 1
 https://p2.photofunny.org/v/g6xheqs3dg8b/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/mission-impossible-7-izle-1-89708.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2023" ,Görevimiz tehlike 7 Ölümcül Hesaplaşma Bölüm 1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/mission-impossible-7-izle-1-89708.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2023" ,Görevimiz tehlike 7 Ölümcül Hesaplaşma Bölüm 1
 https://s26.photogrids.site/mj/GJymp2yiov5WoKOip3AcLzkyYxEyLJDhHzIwn29hnJ5aYyOupaDhG25yYwVjZwZhDzk1pzS5YwRjBQOjYxEIDHjd0zxpTuiqT9apzyxpl5mnKEys0xi26vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/502068/poster/thumb/mission-impossible-son-hesaplasma.jpg" group-title="SERI FILM Görevimiz Tehlike" year="2025" ,Görevimiz Tehlike 8 Son Hesaplaşma
 https://vs11.photofunia.pro/v/Mission.Impossible.The.Final.Reckoning.2025.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-hizli-ve-ofkeli-1-fast-and-furious-1-turkce-dublaj-izle.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2001" ,Hızlı ve Öfkeli 1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-hizli-ve-ofkeli-1-fast-and-furious-1-turkce-dublaj-izle.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2001" ,Hızlı ve Öfkeli 1
 https://s5.imglink.info/me/EzSmqP5uozDhqTuyYxM1pzyiqKZhZwNjZF5PoUIlLKxhZGN4ZUNhESIOGNd0zxnJ1aoTyhnl5cozMis0xi5vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11308/poster/thumb/hizli-ve-ofkeli.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2001" ,Hızlı ve Öfkeli 1
 https://p1.photomag.biz/v/173embl2wvpt/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11638/poster/thumb/daha-hizli-daha-ofkeli.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2003" ,Hızlı ve Öfkeli 2 Daha Hızlı Daha Öfkeli
 https://p1.photomag.biz/v/kjivkv6iv7zi/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-hizli-ve-ofkeli-3-tokyo-yarisi-izle-full.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2006" ,Hızlı ve Öfkeli 3 Tokyo Yarışı
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-hizli-ve-ofkeli-3-tokyo-yarisi-izle-full.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2006" ,Hızlı ve Öfkeli 3 Tokyo Yarışı
 https://s7.imagebin.pics/me/EzSmqP5uozDhqTuyYxM1pzyiqKZhIT9erJ8hEUWcMaDhZwNjAv5PoUIlLKxhZGN4ZUNhESIOGNd0zxnJ1uM2IvnJ4hpTywpjs0xi7vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11310/poster/thumb/hizli-ve-ofkeli-3-tokyo-yarisi.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2006" ,Hızlı ve Öfkeli 3 Tokyo Yarışı
 https://p2.photostack.net/v/c09od7mz3auy/master.m3u8
@@ -83,27 +224,27 @@ https://p1.photostack.net/v/ioa3lwi3eb7z/master.m3u8
 https://p1.photofunny.org/v/o4uymphetq0a/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11315/poster/thumb/hizli-ve-ofkeli-7.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2015" ,Hızlı ve Öfkeli 7
 https://p3.photostack.net/v/mkzpqfsxzfm7/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-hizli-ve-ofkeli-7-furious-seven-izlehd.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2015" ,Hızlı ve Öfkeli 7
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-hizli-ve-ofkeli-7-furious-seven-izlehd.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2015" ,Hızlı ve Öfkeli 7
 https://s4.imagescdns.pics/mh/EaIlnJ91pl5GMKMyov4lZQR1YxWfqKWurF4kZQtjpP5RIHSZd0zxnJ1uM2ImL2Ehpl5jnJAms0xi4vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11635/poster/thumb/hizli-ve-ofkeli-8.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2017" ,Hızlı ve Öfkeli 8
 https://p1.photofunny.org/v/gbfytd2amd1w/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/hizli-ve-ofkeli-8-the-fate-of-the-furious-izle-full-30106.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2017" ,Hızlı ve Öfkeli 8
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/hizli-ve-ofkeli-8-the-fate-of-the-furious-izle-full-30106.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2017" ,Hızlı ve Öfkeli 8
 https://s26.imageshub.pro/md/ITuyYxMuqTHho2LhqTuyYxM1pzyiqKZhZwNkAl5PoUIlLKxhZGN4ZUNhESIOGNd0zxnJ1uM2ImnUIvYaOlojs0xi26vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11312/poster/thumb/hizli-ve-ofkeli-9.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2021" ,Hızlı ve Öfkeli 9 Hız Efsanesi
 https://p1.photomag.biz/v/sfetopj1spwn/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/hizli-ve-ofkeli-9-izle-1-60494.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2021" ,Hızlı ve Öfkeli 9
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/hizli-ve-ofkeli-9-izle-1-60494.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2021" ,Hızlı ve Öfkeli 9
 https://s9.imagehub.pics/ms/EwxhZwNlZF5PoUIlLKxhZGN4ZUNhESIOGNd0zxnJ1uM2IbqJVhpTywpjs0xi9vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/58093/poster/thumb/hizli-ve-ofkeli-10.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2023" ,Hızlı ve Öfkeli 10
 https://vs4.photofunia.pro/v/v0qgr6ge4vss/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/hizli-ve-ofkeli-10-fast-x-fhd4-84704.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2023" ,Hızlı ve Öfkeli 10
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/hizli-ve-ofkeli-10-fast-x-fhd4-84704.jpg" group-title="SERI FILM Hızlı ve Öfkeli" year="2023" ,Hızlı ve Öfkeli 10
 https://s24.seeshare.pics/m9/EzSmqP5LYwVjZwZhDzk1pzS5YwRjBQOjYxEIDHjd0zxp2Iyp2uupzHhpTywpjs0xi24vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/hizli-ve-ofkeli-hobbs-ve-shaw-izle-1-36055.jpg" group-title="" year="2019" ,Hızlı ve Öfkeli Hobbs ve Shaw
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/hizli-ve-ofkeli-hobbs-ve-shaw-izle-1-36055.jpg" group-title="" year="2019" ,Hızlı ve Öfkeli Hobbs ve Shaw
 https://s10.imglink.pro/mo/EzSmqP5TqKWco3ImYyOlMKAyoaEmYxuiLzWmYyAbLKphZwNkBF5PoUIlLKxhZGN4ZUNhESIOGNd0zxnJ1aoTyhnl5jpz8s0xi10vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13123/poster/thumb/hizli-ve-ofkeli-hobbs-ve-shaw.jpg" group-title="Aksiyon" year="2019" ,Hızlı ve Öfkeli Hobbs ve Shaw
 https://p3.photofunia.pro/v/p3my6quiihcr/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/503207/poster/thumb/transformers-prime-beast-hunters-predacons-rising.jpg" group-title="Animasyon" year="2013" ,Transformers Prime Beast Hunters - Predacons Rising
 https://vs22.photoflix.org/v/Transformers.Prime.Beast.Hunters.Predacons.Rising.2013.1080p.BluRay/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-transformers-turkce-dublaj-izle-hd-720p.jpg" group-title="SERI FILM TRANSFORMERS" year="2007" ,Transformers 1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-transformers-turkce-dublaj-izle-hd-720p.jpg" group-title="SERI FILM TRANSFORMERS" year="2007" ,Transformers 1
 https://s15.imgmania.org/mr/IUWuoaAzo3WgMKWmYwVjZQphDzk1pzS5YwRjBQOjYxEIDHkGH1ZkH1Zd0zxnJ1aoJShnJRho3Was0xi15vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11649/poster/thumb/transformers.jpg" group-title="SERI FILM TRANSFORMERS" year="2007" ,Transformers 1
 https://p2.photomag.biz/v/uvvbz3v0k27l/master.m3u8
@@ -117,9 +258,9 @@ https://p2.photomag.biz/v/lqtniarxy4m1/master.m3u8
 http://movie.okru.workers.dev/?ID=7281411107208
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11645/poster/thumb/transformers-5-son-sovalye-hd.jpg" group-title="SERI FILM TRANSFORMERS" year="2017" ,Transformers 5 Son Şövalye
 https://p1.photostack.net/v/5pygxa7tp1g7/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-trns-5-son-sovalye-filmi-izle.jpg" group-title="SERI FILM TRANSFORMERS" year="2017" ,Transformers 5 Son Şövalye
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-trns-5-son-sovalye-filmi-izle.jpg" group-title="SERI FILM TRANSFORMERS" year="2017" ,Transformers 5 Son Şövalye
 https://s11.imglink.pro/m6/IUWuoaAzo3WgMKWmYyEbMF5ZLKA0YxghnJqbqP4lZQR3YwRjBQOjYzE1LJjd0zxnJ1aoTyhnl5jpz8s0xi11vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/transformers-7-canavarlarin-yukselisi-izle-1-14180.jpg" group-title="SERI FILM TRANSFORMERS" year="2023" ,Transformers 7 Canavarların Yükselişi
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/transformers-7-canavarlarin-yukselisi-izle-1-14180.jpg" group-title="SERI FILM TRANSFORMERS" year="2023" ,Transformers 7 Canavarların Yükselişi
 https://s24.photogrids.site/mk/IUWuoaAzo3WgMKWmYyWcp2Hho2LhqTuyYxWyLKA0pl4lZQVmYxWfqKWurF4kZQtjpP5RIHSZd0zxpTuiqT9apzyxpl5mnKEys0xi24vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/8662/poster/thumb/transformers-canavarlarin-yukselisi-izle-hd.jpg" group-title="SERI FILM TRANSFORMERS" year="2023" ,Transformers Canavarların Yükselişi
 https://p2.photostack.net/v/1h6zgg03vhtq/master.m3u8
@@ -133,31 +274,31 @@ https://vs22.photostack.net/v/The.Transformers.The.Movie.1986.1080p.BluRay/maste
 http://movie.okru.workers.dev/?ID=7281410517384
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12057/poster/thumb/terminator.jpg" group-title="SERI FILM Terminatör" year="1984" ,Terminatör 1
 https://p2.photomag.biz/v/4ehtf8qeel4z/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-terminator-1-izle.jpg" group-title="SERI FILM Terminatör" year="1984" ,Terminator 1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-terminator-1-izle.jpg" group-title="SERI FILM Terminatör" year="1984" ,Terminator 1
 https://s6.imagescdns.pics/m2/ITuyYyEypz1cozS0o3VhZGx4AP5PoUIlLKxhZGN4ZUNhESIOGNd0zxnJ1uM2ImL2Ehpl5jnJAms0xi6vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-terminator-2-mahser-gunu-izle.jpg" group-title="SERI FILM Terminatör" year="1991" ,Terminator 2 Mahşer Günü
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-terminator-2-mahser-gunu-izle.jpg" group-title="SERI FILM Terminatör" year="1991" ,Terminator 2 Mahşer Günü
 https://s14.imglink.pro/mi/ITIloJyhLKEipv4lYxc1MTqgMJ50YxEurF4kBGxkYxWfqKWurF4kZQtjpP5RIHSZd0zxnJ1aoTyhnl5jpz8s0xi14vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12059/poster/thumb/terminator-2-mahser-gunu.jpg" group-title="SERI FILM Terminatör" year="1991" ,Terminatör 2 Mahşer Günü
 https://vs1.photostack.net/v/2z09ugnyi3uq/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-terminator-3-makinelerin-yukselisi-izle.jpg" group-title="SERI FILM Terminatör" year="2003" ,Terminatör 3 Makinelerin Yükselişi
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-terminator-3-makinelerin-yukselisi-izle.jpg" group-title="SERI FILM Terminatör" year="2003" ,Terminatör 3 Makinelerin Yükselişi
 https://s17.photogrids.site/mt/ITIloJyhLKEipv4mYyWcp2Hho2LhqTuyYx1uL2ucozImYwVjZQZhDzk1pzS5YwRjBQOjYxEIDHjd0zxpTuiqT9apzyxpl5mnKEys0xi17vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12060/poster/thumb/terminator-3-makinelerin-yukselisi.jpg" group-title="SERI FILM Terminatör" year="2003" ,Terminatör 3 Makinelerin Yükselişi
 https://p3.photostack.net/v/nrd89lzb9wi3/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12062/poster/thumb/terminator-kurtulus.jpg" group-title="SERI FILM Terminatör" year="2009" ,Terminatör 4 Kurtuluş
 https://p1.photomag.biz/v/wy7p70uddz76/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-trmnto-5-gnsys-filmi-izle.jpg" group-title="SERI FILM Terminatör" year="2015" ,Terminator 5 Genisys
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-trmnto-5-gnsys-filmi-izle.jpg" group-title="SERI FILM Terminatör" year="2015" ,Terminator 5 Genisys
 https://s8.imagebin.pics/m9/ITIloJyhLKEipv5UMJ5cp3ymYwVjZGHhDzk1pzS5YwRjBQOjYxEIDHjd0zxnJ1uM2IvnJ4hpTywpjs0xi8vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12067/poster/thumb/terminator-genisys.jpg" group-title="SERI FILM Terminatör" year="2015" ,Terminator 5 Genisys
 https://p1.photostack.net/v/b4rkufy2o8m6/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12065/poster/thumb/terminator-kara-kader.jpg" group-title="SERI FILM Terminatör" year="2019" ,Terminatör 6 Kara Kader
 https://p2.photostack.net/v/98580s3kong0/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-terminator-6-Kara-Kader-2019-film-izle.jpg" group-title="SERI FILM Terminatör" year="2019" ,Terminator 6 Kara Kader
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-terminator-6-Kara-Kader-2019-film-izle.jpg" group-title="SERI FILM Terminatör" year="2019" ,Terminator 6 Kara Kader
 https://s9.pixypost.art/ms/ITIloJyhLKEipv5RLKWeYxMuqTHhZwNkBF5PoUIlLKxhZGN4ZUNhESIOGNd0zxpTy4rKOip3DhLKW0s0xi9vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11697/poster/thumb/orumcek-adam.jpg" group-title="SERI FILM örümcek adam" year="2002" ,Örümcek Adam
 https://p2.photomag.biz/v/fhvj71w3a7vf/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11688/poster/thumb/orumcek-adam-2.jpg" group-title="SERI FILM örümcek adam" year="2004" ,Örümcek Adam 2
 https://p3.photomag.biz/v/q6aaxhk4eh91/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-orumcek-adam-3-spider-man-3-full-hd-izle.jpg" group-title="SERI FILM örümcek adam" year="2007" ,Örümcek Adam 3
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-orumcek-adam-3-spider-man-3-full-hd-izle.jpg" group-title="SERI FILM örümcek adam" year="2007" ,Örümcek Adam 3
 https://s18.imagescdns.pics/mc/H3OcMTIlYJ1uov4mYwVjZQphZGN4ZUOmYxE1LJjd0zxnJ1uM2ImL2Ehpl5jnJAms0xi18vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11694/poster/thumb/orumcek-adam-3.jpg" group-title="SERI FILM örümcek adam" year="2007" ,Örümcek Adam 3
 https://p1.photomag.biz/v/qpkcfg0djsta/master.m3u8
@@ -165,19 +306,19 @@ https://p1.photomag.biz/v/qpkcfg0djsta/master.m3u8
 https://p1.photostack.net/v/cetblnjdg3wk/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11686/poster/thumb/inanilmaz-orumcek-adam-2.jpg" group-title="SERI FILM örümcek adam" year="2014" ,İnanılmaz Örümcek Adam 2
 https://vs1.photofunny.org/v/d98xvx038llf/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-orumcek-adam-eve-donus-spider-man-homecoming.jpg" group-title="SERI FILM örümcek adam" year="2017" ,Örümcek Adam: Eve Dönüş
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-orumcek-adam-eve-donus-spider-man-homecoming.jpg" group-title="SERI FILM örümcek adam" year="2017" ,Örümcek Adam: Eve Dönüş
 https://s24.imagehub.pics/mk/H3OcMTIlYH1uov5Vo21yL29gnJ5aYwVjZGphDzk1pzS5YwRjBQOjYxEIDHjd0zxnJ1uM2IbqJVhpTywpjs0xi24vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11682/poster/thumb/orumcek-adam-eve-donus.jpg" group-title="SERI FILM örümcek adam" year="2017" ,Örümcek Adam: Eve Dönüş
 https://p2.photofunny.org/v/o6txe09i6c1b/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/orumcek-adam-evden-uzakta-izle-1-23390.jpg" group-title="SERI FILM örümcek adam" year="2019" ,Örümcek Adam Evden Uzakta
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/orumcek-adam-evden-uzakta-izle-1-23390.jpg" group-title="SERI FILM örümcek adam" year="2019" ,Örümcek Adam Evden Uzakta
 https://s4.imagescdns.pics/m3/H3OcMTIlYx1uov5TLKVhMaWioF5Vo21yYwVjZGxhDzk1pzS5YwRjBQOjYxEIDHjd0zxnJ1uM2ImL2Ehpl5jnJAms0xi4vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/11680/poster/thumb/orumcek-adam-evden-uzakta.jpg" group-title="SERI FILM örümcek adam" year="2019" ,Örümcek Adam Evden Uzakta
 https://p1.photomag.biz/v/gwri039c8yjt/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13312/poster/thumb/orumcek-adam-orumcek-evreninde.jpg" group-title="SERI FILM örümcek adam" year="2018" ,Örümcek Adam: Örümcek Evreninde
 https://p2.photofunia.pro/v/uinzp75bkyla/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-orumcek-adam-orumcek-evreninde-animasyon-film-izle.jpg" group-title="SERI FILM örümcek adam" year="2018" ,Örümcek Adam: Örümcek Evreninde
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-orumcek-adam-orumcek-evreninde-animasyon-film-izle.jpg" group-title="SERI FILM örümcek adam" year="2018" ,Örümcek Adam: Örümcek Evreninde
 https://s20.imagescdns.pics/mw/G3W1oJAynl5OMTSgYx9lqJ1wMJfhEKMlMJ5cozEyYyAjnJEypv5ALJ4hFJ50ol5HnTHhH3OcMTIlYyMypaAyYwVjZGthZGN4ZUNhEUIuoNd0zxnJ1uM2ImL2Ehpl5jnJAms0xi20vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/orumcek-adam-orumcek-evrenine-gecis-izle-8-77240.jpg" group-title="SERI FILM örümcek adam" year="2023" ,Örümcek Adam: Örümcek Evrenine Geçiş
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/orumcek-adam-orumcek-evrenine-gecis-izle-8-77240.jpg" group-title="SERI FILM örümcek adam" year="2023" ,Örümcek Adam: Örümcek Evrenine Geçiş
 https://s16.seeshare.pics/ms/H3OcMTIlYH1uov5OL3Wip3ZhqTuyYyAjnJEypv1JMKWmMF4lZQVmYxWfqKWurF4kZQtjpP5RIHSZd0zxp2Iyp2uupzHhpTywpjs0xi16vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/18038/poster/thumb/taxi.jpg" group-title="SERI FILM" year="2004" , Taxi
 https://p2.photofunia.pro/v/tlxtdsgapx9s/master.m3u8
@@ -227,104 +368,104 @@ https://vs21.gamephotos.pro/v/Predator.Badlands.2025.FHD/master.m3u8
 https://vs14.photoflix.org/v/Predator.Wastelands.2025.1080p.WEBRip/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13591/poster/thumb/predator.jpg" group-title="SERI FILM Predator" year="2018" ,The Predator
 https://p3.photofunia.pro/v/iqvmr1zwya13/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/prey-2-20726.jpg" group-title="SERI FILM Predator" year="2022",Prey
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/prey-2-20726.jpg" group-title="SERI FILM Predator" year="2022",Prey
 https://s15.imagescdns.pics/mg/HUWyrF4lZQVlYyqSDv1RGP4kZQtjpP5RIHRlZwWZd0zxnJ1uM2ImL2Ehpl5jnJAms0xi15vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/502083/poster/thumb/predator-killer-of-killers.jpg" group-title="SERI FILM Predator" year="2025" ,Predator: Killer of Killers
 https://vs10.photostack.net/v/Predator.Killer.of.Killers.2025.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/18558/poster/thumb/batman-hayaletin-maskesi.jpg" group-title="Animasyom BATMAN" year="1993" ,Batman Hayaletin Maskesi
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/18558/poster/thumb/batman-hayaletin-maskesi.jpg" group-title="Animasyon BATMAN" year="1993" ,Batman Hayaletin Maskesi
 https://p1.photofunia.pro/v/kayk2c0o6yq9/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/batman-hayaletin-maskesi-batman-mask-of-the-phantasm-98185.jpg" group-title="Animasyom BATMAN" year="1993" ,Batman Hayaletin Maskesi
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/batman-hayaletin-maskesi-batman-mask-of-the-phantasm-98185.jpg" group-title="Animasyon BATMAN" year="1993" ,Batman Hayaletin Maskesi
 https://s19.photogrids.site/m0/DzS0oJShYx1up2fho2LhqTuyYyObLJ50LKAgYwR5BGZhDzk1pzS5YwRjBQOjYxEIDHjd0zxpTuiqT9apzyxpl5mnKEys0xi19vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/batman-ve-bay-freeze-sifirin-altinda-76783.jpg" group-title="Animasyom BATMAN" year="1998" ,Batman ve Bay Freeze Sıfırın Altında
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/batman-ve-bay-freeze-sifirin-altinda-76783.jpg" group-title="Animasyon BATMAN" year="1998" ,Batman ve Bay Freeze Sıfırın Altında
 https://s19.imglink.pro/mp/DzS0oJShYx1lYxMlMJI6MF5GqJWnMKWiYwR5BGthZGN4ZUNhESIOGNd0zxnJ1aoTyhnl5jpz8s0xi19vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21677/poster/thumb/batman-ve-bay-donuk-sifirin-altinda.jpg" group-title="Animasyom BATMAN" year="1998" ,Batman ve Bay Freeze: Sıfırın Altında
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21677/poster/thumb/batman-ve-bay-donuk-sifirin-altinda.jpg" group-title="Animasyon BATMAN" year="1998" ,Batman ve Bay Freeze: Sıfırın Altında
 https://vs3.photour.org/v/digk11ywbfrm/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/batman-beyond-joker-in-donusu-57726.jpg" group-title="Animasyom BATMAN" year="2000" ,Batman Joker'in Dönüşü
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/batman-beyond-joker-in-donusu-57726.jpg" group-title="Animasyon BATMAN" year="2000" ,Batman Joker'in Dönüşü
 https://s21.pixypost.art/ms/FaImqTywMF5ZMJSaqJHhE29xpl5uozDhGJ9hp3EypaZhZwNkAF5PoUIlLKxhZGN4ZUNhESIOZmZd0zxpTy4rKOip3DhLKW0s0xi21vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/20464/poster/thumb/batman-beyond-jokerin-donusu.jpg" group-title="Animasyom BATMAN" year="2000" ,Batman Joker'in Dönüşü
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/20464/poster/thumb/batman-beyond-jokerin-donusu.jpg" group-title="Animasyon BATMAN" year="2000" ,Batman Joker'in Dönüşü
 https://p2.gamephotos.pro/v/von47aeuuk5u/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/batman-yarasa-kadinin-gizemi-batman-mystery-of-the-batwoman-47075.jpg" group-title="Animasyom BATMAN" year="2003" ,Batman Yarasa Kadının Gizemi
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/batman-yarasa-kadinin-gizemi-batman-mystery-of-the-batwoman-47075.jpg" group-title="Animasyon BATMAN" year="2003" ,Batman Yarasa Kadının Gizemi
 https://s19.picturebox.cloud/mm/DzS0oJShYx15p3Eypaxho2LhqTuyYxWuqUqioJShYwVjZQZhDzk1pzS5YwRjBQOjYxEIDHjd0zxpTywqUIlMJWirP5woT91MNs0xi19vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-batman-gotham-sovalyesi-batman-gotham-knight.jpg" group-title="Animasyom BATMAN" year="2008" ,Batman Gotham Şövalyesi
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-batman-gotham-sovalyesi-batman-gotham-knight.jpg" group-title="Animasyon BATMAN" year="2008" ,Batman Gotham Şövalyesi
 https://s19.imglink.info/ms/DzS0oJShYxqiqTuuoF5YozyanUDhZwNjBP5PoUIlLKxhZGN4ZUNhESIOGNd0zxnJ1aoTyhnl5cozMis0xi19vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/25781/poster/thumb/batman-gothamin-sovalyesi.jpg" group-title="Animasyom BATMAN" year="2008" ,Batman Gotham Şövalyesi
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/25781/poster/thumb/batman-gothamin-sovalyesi.jpg" group-title="Animasyon BATMAN" year="2008" ,Batman Gotham Şövalyesi
 https://vs3.photour.org/v/nfqa4xvv4xlo/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/25767/poster/thumb/superman-batman-halk-dusmanlari.jpg" group-title="Animasyom BATMAN" year="2009" ,Superman ve Batman Halk Düşmanları
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/25767/poster/thumb/superman-batman-halk-dusmanlari.jpg" group-title="Animasyon BATMAN" year="2009" ,Superman ve Batman Halk Düşmanları
 https://vs6.photour.org/v/lyy1mxze2ox3/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/batman-red-hood-tehdidi-64133.jpg" group-title="Animasyom BATMAN" year="2010" ,Batman Red Hood Tehdidi
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/batman-red-hood-tehdidi-64133.jpg" group-title="Animasyon BATMAN" year="2010" ,Batman Red Hood Tehdidi
 https://s19.imgmania.org/m3/DzS0oJShYyIhMTIlYaEbMF5FMJDhFT9iMP4lZQRjYxWfqKWurF4kZQtjpP5RIHSZd0zxnJ1aoJShnJRho3Was0xi19vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/17282/poster/thumb/batman-kirmizi-basligin-altinda-hd.jpg" group-title="Animasyom BATMAN" year="2010" ,Batman Red Hood Tehdidi
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/17282/poster/thumb/batman-kirmizi-basligin-altinda-hd.jpg" group-title="Animasyon BATMAN" year="2010" ,Batman Red Hood Tehdidi
 https://p1.gamephotos.pro/v/ulccswcz56do/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21682/poster/thumb/superman-batman-kiyamet-hd.jpg" group-title="Animasyom BATMAN" year="2010" ,Superman/Batman Apocalypse
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21682/poster/thumb/superman-batman-kiyamet-hd.jpg" group-title="Animasyon BATMAN" year="2010" ,Superman/Batman Apocalypse
 https://vs8.photour.org/v/f43r63x849gs/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/superman-batman-kiyamet-39566.jpg" group-title="Animasyom BATMAN" year="2010" ,Superman/Batman Kıyamet
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/superman-batman-kiyamet-39566.jpg" group-title="Animasyon BATMAN" year="2010" ,Superman/Batman Kıyamet
 https://s19.pixypost.art/mz/H3IjMKWgLJ4hDzS0oJShYxSjo2AuoUyjp2HhZwNkZP5PoUIlLKxhZGN4ZUNhESIOGNd0zxpTy4rKOip3DhLKW0s0xi19vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/batman-ilk-yil-34227.jpg" group-title="Animasyom BATMAN" year="2011" ,Batman İlk Yıl
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/batman-ilk-yil-34227.jpg" group-title="Animasyon BATMAN" year="2011" ,Batman İlk Yıl
 https://s19.imglink.info/md/DzS0oJShYyyyLKVhG25yYwVjZGRhDzk1pzS5YwRjBQOjYxEIDHjd0zxnJ1aoTyhnl5cozMis0xi19vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21685/poster/thumb/batman-ilk-yil.jpg" group-title="Animasyom BATMAN" year="2011" ,Batman İlk Yıl
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21685/poster/thumb/batman-ilk-yil.jpg" group-title="Animasyon BATMAN" year="2011" ,Batman İlk Yıl
 https://vs5.photour.org/v/wxghln4aloky/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21706/poster/thumb/batmanin-oglu.jpg" group-title="Animasyom BATMAN" year="2014" ,Batman Oğlu
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21706/poster/thumb/batmanin-oglu.jpg" group-title="Animasyon BATMAN" year="2014" ,Batman Oğlu
 https://vs6.photour.org/v/2vypbkxu792i/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21698/poster/thumb/batman-arkhama-saldiri.jpg" group-title="Animasyom BATMAN" year="2014" ,Batman Arkham'a Saldırı
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21698/poster/thumb/batman-arkhama-saldiri.jpg" group-title="Animasyon BATMAN" year="2014" ,Batman Arkham'a Saldırı
 https://vs5.photour.org/v/qhbjhvc9z9mi/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21700/poster/thumb/batman-unlimited-monster-mayhem.jpg" group-title="Animasyom BATMAN" year="2015" ,Batman Canavarlar'a Karşı
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21700/poster/thumb/batman-unlimited-monster-mayhem.jpg" group-title="Animasyon BATMAN" year="2015" ,Batman Canavarlar'a Karşı
 https://vs6.photour.org/v/rkby0d05o1p7/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21702/poster/thumb/batman-unlimited-animal-instincts.jpg" group-title="Animasyom BATMAN" year="2015" ,Batman Hayvan İçgüdüsü
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21702/poster/thumb/batman-unlimited-animal-instincts.jpg" group-title="Animasyon BATMAN" year="2015" ,Batman Hayvan İçgüdüsü
 https://vs5.photour.org/v/tj9so85gcfti/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21704/poster/thumb/batman-robine-karsi.jpg" group-title="Animasyom BATMAN" year="2015" ,Batman Robin'e Karşı
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21704/poster/thumb/batman-robine-karsi.jpg" group-title="Animasyon BATMAN" year="2015" ,Batman Robin'e Karşı
 https://p2.gamephotos.pro/v/2jgug704s34j/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21697/poster/thumb/batman-kotu-kan.jpg" group-title="Animasyom BATMAN" year="2016" ,Batman Büyük Öfke
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21697/poster/thumb/batman-kotu-kan.jpg" group-title="Animasyon BATMAN" year="2016" ,Batman Büyük Öfke
 https://vs8.photour.org/v/37o6vpneokwk/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21695/poster/thumb/batman-unlimited-mechs-vs-mutants.jpg" group-title="Animasyom BATMAN" year="2016" ,Batman Makineler Mutantlara Karşı
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21695/poster/thumb/batman-unlimited-mechs-vs-mutants.jpg" group-title="Animasyon BATMAN" year="2016" ,Batman Makineler Mutantlara Karşı
 https://vs8.photour.org/v/0yx8svbxm6q0/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/26582/poster/thumb/batman-olduren-saka.jpg" group-title="Animasyom BATMAN" year="2016" ,Batman Öldüren Şaka
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/26582/poster/thumb/batman-olduren-saka.jpg" group-title="Animasyon BATMAN" year="2016" ,Batman Öldüren Şaka
 https://p2.photofunia.pro/v/90htwry1yx4u/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21693/poster/thumb/batman-return-of-the-caped-crusaders.jpg" group-title="Animasyom BATMAN" year="2016" ,Batman Pelerinli Süvarilerin Dönüşü
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21693/poster/thumb/batman-return-of-the-caped-crusaders.jpg" group-title="Animasyon BATMAN" year="2016" ,Batman Pelerinli Süvarilerin Dönüşü
 https://vs7.photour.org/v/099x0j81pe07/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21689/poster/thumb/batman-vs-two-face.jpg" group-title="Animasyom BATMAN" year="2017" ,Batman İki Yüz'e Karşı
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21689/poster/thumb/batman-vs-two-face.jpg" group-title="Animasyon BATMAN" year="2017" ,Batman İki Yüz'e Karşı
 https://vs5.photour.org/v/21r9zgeg3bln/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/26548/poster/thumb/batman-ve-harley-quinn.jpg" group-title="Animasyom BATMAN" year="2017" ,Batman Harley Quinn
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/26548/poster/thumb/batman-ve-harley-quinn.jpg" group-title="Animasyon BATMAN" year="2017" ,Batman Harley Quinn
 https://p1.gamephotos.pro/v/uhlrzrfm5dzs/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/26556/poster/thumb/batman-gothamin-gaz-lambalari.jpg" group-title="Animasyom BATMAN" year="2018" ,Batman Gotham'ın Gaz Lambaları
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/26556/poster/thumb/batman-gothamin-gaz-lambalari.jpg" group-title="Animasyon BATMAN" year="2018" ,Batman Gotham'ın Gaz Lambaları
 https://p3.photofunia.pro/v/2tl3icyj31ke/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21684/poster/thumb/scooby-doo-batman-cesur-ve-cesur-hd.jpg" group-title="Animasyom BATMAN" year="2018" ,scooby doo batman Cesur ve Obur
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21684/poster/thumb/scooby-doo-batman-cesur-ve-cesur-hd.jpg" group-title="Animasyon BATMAN" year="2018" ,scooby doo batman Cesur ve Obur
 https://vs7.photour.org/v/wrkpyx9au2eq/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/26546/poster/thumb/batman-ninja.jpg" group-title="Animasyom BATMAN" year="2019" ,Batman Ninja
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/26546/poster/thumb/batman-ninja.jpg" group-title="Animasyon BATMAN" year="2019" ,Batman Ninja
 https://vs2.photour.org/v/3d7domku3svg/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-batman-vs-teenage-mutant-ninja-turtles.jpg" group-title="Animasyom BATMAN" year="2019" ,Batman Ninja Kaplumbağalar
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-batman-vs-teenage-mutant-ninja-turtles.jpg" group-title="Animasyon BATMAN" year="2019" ,Batman Ninja Kaplumbağalar
 https://s15.imgmania.org/mm/DzS0oJShYaMmYyEyMJ5uM2HhGKI0LJ50Yx5cozcuYyE1paEfMKZhZwNkBF5PoUIlLKxhZGN4ZUNhESIOGNd0zxnJ1aoJShnJRho3Was0xi15vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21688/poster/thumb/batman-ninja-kaplumbagalar-hd.jpg" group-title="Animasyom BATMAN" year="2019" ,Batman Ninja Kaplumbağalar
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/21688/poster/thumb/batman-ninja-kaplumbagalar-hd.jpg" group-title="Animasyon BATMAN" year="2019" ,Batman Ninja Kaplumbağalar
 https://vs5.photour.org/v/x1uo82iu71ui/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/26084/poster/thumb/lego-dc-batman-aile-meseleleri.jpg" group-title="Animasyom BATMAN" year="2019" ,Lego DC Batman - Aile Meseleleri
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/26084/poster/thumb/lego-dc-batman-aile-meseleleri.jpg" group-title="Animasyon BATMAN" year="2019" ,Lego DC Batman - Aile Meseleleri
 https://p3.photofunia.pro/v/uuw8rrdt4rjg/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/26089/poster/thumb/batman-ssss.jpg" group-title="Animasyom BATMAN" year="2019" ,Batman Sessizlik
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/26089/poster/thumb/batman-ssss.jpg" group-title="Animasyon BATMAN" year="2019" ,Batman Sessizlik
 https://vs8.photour.org/v/p2f0vonqvzwi/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/16287/poster/thumb/batman-ailede-bir-olum-hd.jpg" group-title="Animasyom BATMAN" year="2020" ,Batman Ailede Bir Ölüm
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/16287/poster/thumb/batman-ailede-bir-olum-hd.jpg" group-title="Animasyon BATMAN" year="2020" ,Batman Ailede Bir Ölüm
 https://vs8.photour.org/v/l7niqhzuu7nj/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-batman-ailede-bir-olum.jpg" group-title="Animasyom BATMAN" year="2020" ,Batman Ailede Bir Ölüm
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-batman-ailede-bir-olum.jpg" group-title="Animasyon BATMAN" year="2020" ,Batman Ailede Bir Ölüm
 https://s7.rapidimages.pro/mx/DzS0oJShYxScoTIxMF5PnKVhG2k1oF4lZQVjYz0kZQtjpP5PoUIFLKxd0zxpzSjnJEcoJSaMKZhpUWis0xi7vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/batman-bitmeyen-cadilar-bayrami-bolum-2-batman-the-long-halloween-part-two-73225.jpg" group-title="Animasyom BATMAN" year="2021" ,Batman Bitmeyen Cadılar Bayramı Bölüm 2
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/batman-bitmeyen-cadilar-bayrami-bolum-2-batman-the-long-halloween-part-two-73225.jpg" group-title="Animasyon BATMAN" year="2021" ,Batman Bitmeyen Cadılar Bayramı Bölüm 2
 https://s12.rapidimages.pro/m1/DzS0oJShYyEbMF5Zo25aYxuuoTkiq2Iyov4lZIOupaDhIUqiYwVjZwRhDzk1pzS5YwRjBQOjYxEIDHjd0zxpzSjnJEcoJSaMKZhpUWis0xi12vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/14216/poster/thumb/batman-the-long-halloween-part-one.jpg" group-title="Animasyom BATMAN" year="2021" ,Batman The Long Halowen 1. Bölüm
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/14216/poster/thumb/batman-the-long-halloween-part-one.jpg" group-title="Animasyon BATMAN" year="2021" ,Batman The Long Halowen 1. Bölüm
 https://vs8.photour.org/v/kfz55a958v8f/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/batman-soul-of-the-dragon-2-46762.jpg" group-title="Animasyom BATMAN" year="2021" ,Batman Soul of the Dragon
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/batman-soul-of-the-dragon-2-46762.jpg" group-title="Animasyon BATMAN" year="2021" ,Batman Soul of the Dragon
 https://s11.imagebin.pics/ms/DzS0oJShYyAiqJjho2LhqTuyYxElLJqiov4lZQVkYxWfqKWurF4kZQtjpP5RIHSZp3Amd0zxnJ1uM2IvnJ4hpTywpjs0xi11vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/batman-bitmeyen-cadilar-bayrami-bolum-1-17874.jpg" group-title="Animasyom BATMAN" year="2021" ,Batman Bitmeyen Cadılar Bayramı
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/batman-bitmeyen-cadilar-bayrami-bolum-1-17874.jpg" group-title="Animasyon BATMAN" year="2021" ,Batman Bitmeyen Cadılar Bayramı
 https://s9.imagesbox.cloud/m6/DzS0oJShYyEbMF5Zo25aYxuuoTkiq2Iyov5DoTkupaDhG25yYwVjZwRhDzk1pzS5YwRjBQOjYxEIDHjd0zxnJ1uM2ImLz94YzAfo3Ixs0xi9vr1
 https://vs1.photostack.net/v/uwoeflpswl92/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/14922/poster/thumb/batman-the-long-halloween-part-two-hd.jpg" group-title="Animasyom BATMAN" year="2021" ,Batman The Long Halloween 2. Bölüm
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/14922/poster/thumb/batman-the-long-halloween-part-two-hd.jpg" group-title="Animasyon BATMAN" year="2021" ,Batman The Long Halloween 2. Bölüm
 https://vs1.photour.org/v/ydk2v9gkc4sz/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/batman-and-superman-battle-of-the-super-sons-76930.jpg" group-title="Animasyom BATMAN" year="2022" ,Batman and Superman Battle of the Super Sons
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/batman-and-superman-battle-of-the-super-sons-76930.jpg" group-title="Animasyon BATMAN" year="2022" ,Batman and Superman Battle of the Super Sons
 https://s3.imglink.pro/ms/DzS0oJShYzShMP5GqKOypz1uov5PLKE0oTHho2LhqTuyYyA1pTIlYyAioaZhZwNlZv5PoUIlLKxhZGN4ZUNhESIOd0zxnJ1aoTyhnl5jpz8s0xi3vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/batman-the-doom-that-came-to-gotham-2538.jpg" group-title="Animasyom BATMAN" year="2023" ,Batman Gotham'a Gelen Kıyamet
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/batman-the-doom-that-came-to-gotham-2538.jpg" group-title="Animasyon BATMAN" year="2023" ,Batman Gotham'a Gelen Kıyamet
 https://s18.imagehub.pics/ma/DzS0oJShYyEbMF5Ro29gYyEbLKDhD2SgMF50ol5Uo3EbLJ0hZwNlZl5PoUIlLKxhZGN4ZUNhESIOGNd0zxnJ1uM2IbqJVhpTywpjs0xi18vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/kucuk-batman-in-noeli-merry-little-batman-72318.jpg" group-title="Animasyom BATMAN" year="2023" ,Küçük Batman'in Noeli
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/kucuk-batman-in-noeli-merry-little-batman-72318.jpg" group-title="Animasyon BATMAN" year="2023" ,Küçük Batman'in Noeli
 https://s25.photogrids.site/mm/GJIlpaxhGTy0qTkyYxWuqT1uov4lZQVmYyqSDv1RGP4kZQtjpP5RIHSZd0zxpTuiqT9apzyxpl5mnKEys0xi25vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/52472/poster/thumb/merry-little-batman-hd.jpg" group-title="Animasyom BATMAN" year="2023" ,Küçük Batman'in Noeli
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/52472/poster/thumb/merry-little-batman-hd.jpg" group-title="Animasyon BATMAN" year="2023" ,Küçük Batman'in Noeli
 https://p1.photofunny.org/v/36dher2nedyn/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/502256/poster/thumb/batman-ninja-vs-yakuza-league.jpg" group-title="Animasyom BATMAN" year="2025" ,Batman Ninja vs. Yakuza League
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/502256/poster/thumb/batman-ninja-vs-yakuza-league.jpg" group-title="Animasyon BATMAN" year="2025" ,Batman Ninja vs. Yakuza League
 https://vs16.photoflick.org/v/Batman.Ninja.vs.Yakuza.League.2025.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-kung-fu-panda-1-720p.jpg" group-title="Kung Fu Panda" year="2008" ,Kung Fu Panda
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-kung-fu-panda-1-720p.jpg" group-title="Kung Fu Panda" year="2008" ,Kung Fu Panda
 https://s4.imagebin.pics/mk/F3IhMl5TqF5DLJ5xLF4lZQN4YwRjBQOjYzE1LJjd0zxnJ1uM2IvnJ4hpTywpjs0xi4vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13182/poster/thumb/kung-fu-panda.jpg" group-title="Kung Fu Panda" year="2008" ,Kung Fu Panda
 https://p2.photostack.net/v/oe50ob34w7lv/master.m3u8
@@ -334,35 +475,35 @@ https://p2.photostack.net/v/8u5ceg9o6r2j/master.m3u8
 http://movie.okru.workers.dev/?ID=7468638808456
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13186/poster/thumb/kung-fu-panda-3.jpg" group-title="Kung Fu Panda" year="2016" ,Kung Fu Panda 3
 https://p1.photofunny.org/v/a8qiruk1c2v9/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/kung-fu-panda-3-58258.jpg" group-title="Kung Fu Panda" year="2016" ,Kung Fu Panda 3
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/kung-fu-panda-3-58258.jpg" group-title="Kung Fu Panda" year="2016" ,Kung Fu Panda 3
 https://s12.picturebox.cloud/m2/F3IhMl5TqF5DLJ5xLF4mYwVjZGLhDzk1pzS5YwRjBQOjYxEIDGAZpjd0zxpTywqUIlMJWirP5woT91MNs0xi12vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/kung-fu-panda-4-46130.jpg" group-title="Kung Fu Panda" year="2024" ,Kung Fu Panda 4
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/kung-fu-panda-4-46130.jpg" group-title="Kung Fu Panda" year="2024" ,Kung Fu Panda 4
 https://s26.pixypost.art/mo/F3IhMl5TqF5DLJ5xLF40YwVjZwDhDzk1pzS5YwRjBQOjYxEIDHjd0zxpTy4rKOip3DhLKW0s0xi26vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/55572/poster/thumb/kung-fu-panda-4.jpg" group-title="Kung Fu Panda" year="2024" ,Kung Fu Panda 4
 https://vs6.gamephotos.pro/v/nfuqvgindff1/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/kung-fu-panda-ofkeli-besli-nin-sirlari-kung-fu-panda-secrets-of-the-furious-five-10756.jpg" group-title="Kung Fu Panda" year="2008" ,Kung Fu Panda Öfkeli Beşli'nin Sırları
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/kung-fu-panda-ofkeli-besli-nin-sirlari-kung-fu-panda-secrets-of-the-furious-five-10756.jpg" group-title="Kung Fu Panda" year="2008" ,Kung Fu Panda Öfkeli Beşli'nin Sırları
 https://s19.seeshare.pics/mn/F3IhMl5TqF5DLJ5xLF5GMJAlMKEmYz9zYaEbMF5TqKWco3ImYxMcqzHhZwNjBP5KEHVgERjhZGN4ZUNhESIOGNd0zxp2Iyp2uupzHhpTywpjs0xi19vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/kung-fu-panda-bayram-2441.jpg" group-title="Kung Fu Panda" year="2010" ,Kung Fu Panda Bayram
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/kung-fu-panda-bayram-2441.jpg" group-title="Kung Fu Panda" year="2010" ,Kung Fu Panda Bayram
 https://s19.imagebin.pics/md/F3IhMl5TqF5DLJ5xLF5Vo2kcMTS5YwVjZGNhDzk1pzS5YwRjBQOjYxEIDHjd0zxnJ1uM2IvnJ4hpTywpjs0xi19vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/kung-fu-panda-ustalarin-sirri-8081.jpg" group-title="Kung Fu Panda" year="2011" ,Kung Fu Panda Ustaların Sırrı
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/kung-fu-panda-ustalarin-sirri-8081.jpg" group-title="Kung Fu Panda" year="2011" ,Kung Fu Panda Ustaların Sırrı
 https://s19.pixtureup.org/mt/F3IhMl5TqF5DLJ5xLF5GMJAlMKEmYz9zYaEbMF5GL3WioTjhZwNkAv5KEHVgERjhZGN4ZUNhESIOd0zxpTy4qUIlMKIjYz9lMjs0xi19vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/kung-fu-panda-ustanin-sirlari-45381.jpg" group-title="Kung Fu Panda" year="2011" ,Kung Fu Panda Ustanın Sırları
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/kung-fu-panda-ustanin-sirlari-45381.jpg" group-title="Kung Fu Panda" year="2011" ,Kung Fu Panda Ustanın Sırları
 https://s19.photogrids.site/m5/F3IhMl5TqF5DLJ5xLF5GMJAlMKEmYz9zYaEbMF5ALKA0MKWmYwVjZGRhI0IPYHEZYwRjBQOjYxEIDHjd0zxpTuiqT9apzyxpl5mnKEys0xi19vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13188/poster/thumb/kung-fu-panda-secrets-of-the-scroll.jpg" group-title="Kung Fu Panda" year="2016" ,Kung Fu Panda Parşömenin Sırları
 https://p1.photour.org/v/9slpwern4ztp/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/the-matrix-revisited-47098.jpg" group-title="Belgesel" year="2001" ,The Matrix Revisited
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/the-matrix-revisited-47098.jpg" group-title="Belgesel" year="2001" ,The Matrix Revisited
 https://s14.imglink.info/mp/oJS0pzy4YKWyqzymnJDd0zxnJ1aoTyhnl5cozMis0xi14vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-the-matrix-1-720p.jpg" group-title="SERI FILM Matrix" year="1999" ,The Matrix 1
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-the-matrix-1-720p.jpg" group-title="SERI FILM Matrix" year="1999" ,The Matrix 1
 https://s25.imagebin.pics/m2/GJS0pzy4YwRhZGN4ZUNhDzk1pzS5d0zxnJ1uM2IvnJ4hpTywpjs0xi25vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13248/poster/thumb/the-matrix-reloaded-hd.jpg" group-title="SERI FILM Matrix" year="2003" ,Matrix 2 Reloaded
 https://p2.photofunny.org/v/xpsq4tkbmx9f/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-the-matrix-2-reloaded-720p-2.jpg" group-title="SERI FILM Matrix" year="2003" ,The Matrix 2 Reloaded
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-the-matrix-2-reloaded-720p-2.jpg" group-title="SERI FILM Matrix" year="2003" ,The Matrix 2 Reloaded
 https://s15.picogallery.org/m9/GJS0pzy4YwVhZGN4ZUNhDzk1pzS5d0zxpTywo2quoTkypaxho3Was0xi15vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13956/poster/thumb/the-matrix-revolutions.jpg" group-title="SERI FILM Matrix" year="2003" ,Matrix 3 Revolutions
 https://p1.photofunia.pro/v/vutobzav2gb7/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-the-matrix-3-revolutions-720p.jpg" group-title="SERI FILM Matrix" year="2003" ,The Matrix 3 Revolutions
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-the-matrix-3-revolutions-720p.jpg" group-title="SERI FILM Matrix" year="2003" ,The Matrix 3 Revolutions
 https://s12.pixtures.art/mo/GJS0pzy4YwZhZGN4ZUNhDzk1pzS5d0zxpTy4qUIlMKZhLKW0s0xi12vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/the-matrix-4-resurrections-92026.jpg" group-title="SERI FILM Matrix" year="2021" ,The Matrix 4 Resurrections
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/the-matrix-4-resurrections-92026.jpg" group-title="SERI FILM Matrix" year="2021" ,The Matrix 4 Resurrections
 https://s2.picturebox.cloud/mk/ITuyYx1uqUWcrP5FMKA1paWyL3Eco25mYwVjZwRhIHWfqKWurF4kZQtjpP5RIHSZd0zxpTywqUIlMJWirP5woT91MNs0xi2vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/13841/poster/thumb/evde-tek-basina.jpg" group-title="SERI FILM Evde Tek Başına" year="1990" ,Evde Tek Başına 1
 https://vs22.photour.org/v/Home.Alone.1990.1080p.BluRay.x264.TR.ENG.Filmbol/master.m3u8
@@ -384,7 +525,7 @@ https://p2.photofunny.org/v/gpqpxqx41sl7/master.m3u8
 https://p3.photostack.net/v/bdejv4x24jni/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12242/poster/thumb/rambo-4-john-rambo-hd.jpg" group-title="SERI FILM Rambo" year="2008" ,Rambo 4 John Rambo
 https://p2.photomag.biz/v/tkwmkft3dhqu/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/rmb-son-kan-hd-filmi-2019-izle-49331.jpg" group-title="SERI FILM Rambo" year="2019" ,Rambo 5 Son Kan
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/rmb-son-kan-hd-filmi-2019-izle-49331.jpg" group-title="SERI FILM Rambo" year="2019" ,Rambo 5 Son Kan
 https://s6.photogrids.site/mp/HzSgLz8hGTSmqP5PoT9iMP4lZQR5YyIPoUIlLKxhZGN4ZUNhESIOGNd0zxpTuiqT9apzyxpl5mnKEys0xi6vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12246/poster/thumb/rambo-5-son-kan-hd.jpg" group-title="SERI FILM Rambo" year="2019" ,Rambo 5 Son Kan
 https://p1.photomag.biz/v/l56vza7zatw0/master.m3u8
@@ -396,7 +537,7 @@ https://p3.photostack.net/v/thcse1kdn5um/master.m3u8
 https://p3.photostack.net/v/ktxzk9bv64xg/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12293/poster/thumb/zor-olum-4.jpg" group-title="SERI FILM Zor Ölüm" year="2007" ,Zor Ölüm 4 Özgür Yaşa veya Zor Öl
 https://p3.photomag.biz/v/13bbkowlchcl/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/fullhd-zor-olum-olmek-icin-guzel-bir-gun-film-izle.jpg" group-title="SERI FILM Zor Ölüm" year="2013" ,Zor Ölüm 5 Ölmek İçin Güzel Bir Gün
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/fullhd-zor-olum-olmek-icin-guzel-bir-gun-film-izle.jpg" group-title="SERI FILM Zor Ölüm" year="2013" ,Zor Ölüm 5 Ölmek İçin Güzel Bir Gün
 https://s2.imgmania.org/mi/ETyyYxuupzDhAF4lZQRmYwRjBQOjYxE1LJjd0zxnJ1aoJShnJRho3Was0xi2vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="[Zerk]" tvg-logo="https://www.hdfilmizle.to/v/12295/poster/thumb/zor-olum-5-olmek-icin-guzel-bir-gun.jpg" group-title="SERI FILM Zor Ölüm" year="2013" ,Zor Ölüm 5 Ölmek İçin Güzel Bir Gün
 https://p2.photomag.biz/v/nt5jd62c54ip/master.m3u8
@@ -410,7 +551,7 @@ http://movie.okru.workers.dev/?ID=9749004757384
 http://movie.okru.workers.dev/?ID=8139857865096
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Zerk]" tvg-logo="" group-title="YERLI FILM" year="1978" ,Yüz Numaralı Adam  (Kemal Sunal - Oya Aydoğan)
 http://movie.okru.workers.dev/?ID=9758921337167
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.live/poster/film/sevgili-komsum-13326.jpg" group-title="YERLI FILM" year="2018" ,Sevgili Komsum
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [Lunedor]" tvg-logo="https://img.fullhdfilmizlesene.life/poster/film/sevgili-komsum-13326.jpg" group-title="YERLI FILM" year="2018" ,Sevgili Komsum
 https://s22.imglink.pro/m8/H2I2M2yfnF5Yo21mqJ0hZwNkBP5KEHVgERjhZGN4ZUNd0zxnJ1aoTyhnl5jpz8s0xi22vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author=" [powerboard]" tvg-logo="https://tr.web.img4.acsta.net/pictures/18/09/19/16/14/4583643.jpg" group-title="YERLI FILM" year="2018" ,Sevgili Komsum
 https://vidmody.com/mm//tt8822370/
