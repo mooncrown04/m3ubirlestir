@@ -1,61 +1,105 @@
 #EXTM3U
-#EXTINF:-1 group-title="Feed the Beast" tvg-year="2016" tvg-id="66316" group-author="Zerk",Feed the Beast S01E01
-https://vs3.photofunia.pro/v/Feed.the.Beast.S01E01.Bluray.1080p.x264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="Feed the Beast" tvg-year="2016" tvg-id="66316" group-author="Zerk",Feed the Beast S01E02
-https://vs3.photour.org/v/Feed.the.Beast.S01E02.Bluray.1080p.x264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="Feed the Beast" tvg-year="2016" tvg-id="66316" group-author="Zerk",Feed the Beast S01E03
-https://vs3.photofunny.org/v/Feed.the.Beast.S01E03.Bluray.1080p.x264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="Feed the Beast" tvg-year="2016" tvg-id="66316" group-author="Zerk",Feed the Beast S01E04
-https://vs5.photostack.net/v/Feed.the.Beast.S01E04.Bluray.1080p.x264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="Feed the Beast" tvg-year="2016" tvg-id="66316" group-author="Zerk",Feed the Beast S01E05
-https://vs8.gamephotos.pro/v/Feed.the.Beast.S01E05.Bluray.1080p.x264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="Feed the Beast" tvg-year="2016" tvg-id="66316" group-author="Zerk",Feed the Beast S01E06
-https://vs4.photoflick.org/v/Feed.the.Beast.S01E06.Bluray.1080p.x264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="Feed the Beast" tvg-year="2016" tvg-id="66316" group-author="Zerk",Feed the Beast S01E07
-https://vs8.photofunny.org/v/Feed.the.Beast.S01E07.Bluray.1080p.x264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="Feed the Beast" tvg-year="2016" tvg-id="66316" group-author="Zerk",Feed the Beast S01E08
-https://vs2.pictureflix.org/v/Feed.the.Beast.S01E08.Bluray.1080p.x264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="Feed the Beast" tvg-year="2016" tvg-id="66316" group-author="Zerk",Feed the Beast S01E09
-https://vs5.photoflick.org/v/Feed.the.Beast.S01E09.Bluray.1080p.x264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="Feed the Beast" tvg-year="2016" tvg-id="66316" group-author="Zerk",Feed the Beast S01E10
-https://vs3.pictureflix.org/v/Feed.the.Beast.S01E10.Bluray.1080p.x264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E01
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E01
+https://vs10.photofunny.org/v/Friends-C.S01E01.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E02
+https://vs11.pictureflix.org/v/Friends-C.S01E02.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E03
+https://vs9.photoflax.org/v/Friends-C.S01E03.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E04
+https://vs12.photofunny.org/v/Friends-C.S01E04.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E05
+https://vs11.photostack.net/v/Friends-C.S01E05.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E06
+https://vs16.pictureflix.org/v/Friends-C.S01E06.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E07
+https://vs12.photoflix.org/v/Friends-C.S01E07.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E08
+https://vs18.photoflax.org/v/Friends-C.S01E08.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E09
+https://vs18.photofunny.org/v/Friends-C.S01E09.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E10
+https://vs18.photomag.biz/v/Friends-C.S01E10.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E11
+https://vs9.photostack.net/v/Friends-C.S01E11.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E12
+https://vs10.photomag.biz/v/Friends-C.S01E12.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E13
+https://vs17.photofunny.org/v/Friends-C.S01E13.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E14
+https://vs16.photoflix.org/v/Friends-C.S01E14.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E15
+https://vs12.pictureflix.org/v/Friends-C.S01E15.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E16
+https://vs18.photofunny.org/v/Friends-C.S01E16.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E17
+https://vs9.photostack.net/v/Friends-C.S01E17.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E18
+https://vs11.photostack.net/v/Friends-C.S01E18.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E19
+https://vs13.photomag.biz/v/Friends-C.S01E19.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E20
+https://vs10.pictureflix.org/v/Friends-C.S01E20.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E21
+https://vs18.photofunny.org/v/Friends-C.S01E21.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E22
+https://vs11.photostack.net/v/Friends-C.S01E22.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E23
+https://vs11.photomag.biz/v/Friends-C.S01E23.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Friends-C" tvg-year="1994" tvg-id="1668" group-author="Zerk",Friends-C S01E24
+https://vs10.photoflick.org/v/Friends-C.S01E24.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E01
 https://pixeldrain.com/api/file/ud7PeRCc
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E02
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E02
 https://pixeldrain.com/api/file/dCGuWjGa
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E03
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E03
 https://pixeldrain.com/api/file/cJupR1aV
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E04
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E04
 https://pixeldrain.com/api/file/6ktcFswK
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E05
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E05
 https://pixeldrain.com/api/file/XbUz4MVd
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E06
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E06
 https://pixeldrain.com/api/file/1vna65vu
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E07
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E07
 https://pixeldrain.com/api/file/57PAiLPu
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E08
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E08
 https://pixeldrain.com/api/file/9ox9Rgnu
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E09
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E09
 https://pixeldrain.com/api/file/nntV7HV9
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E10
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E10
 https://pixeldrain.com/api/file/rx4xBoL5
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E11
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E11
 https://pixeldrain.com/api/file/87iJmuv3
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E12
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E12
 https://pixeldrain.com/api/file/xayzjcdY
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E13
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E13
 https://pixeldrain.com/api/file/xYQRxtHo
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E14
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E14
 https://pixeldrain.com/api/file/tsD2WA5h
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E15
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E15
 https://pixeldrain.com/api/file/X4fVKDfo
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E16
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E16
 https://pixeldrain.com/api/file/civLM2vV
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E17
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E17
 https://pixeldrain.com/api/file/wnYeg5JW
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E18
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E18
 https://pixeldrain.com/api/file/b8e3FnAU
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E19
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E19
 https://pixeldrain.com/api/file/wgq12KSH
-#EXTINF:-1 group-title="Fringe" tvg-year="2008" tvg-id="1705" group-author="Zerk",Fringe S01E20
+#EXTINF:-1 group-title="Fringe" group-author="powerboard",Fringe S01E20
 https://pixeldrain.com/api/file/y8MuWJmo
+#EXTINF:-1 group-title="Frozen Planet" group-author="powerboard",Frozen Planet S01E01
+https://pixeldrain.com/api/file/i7vKVCcs
+#EXTINF:-1 group-title="Frozen Planet" group-author="powerboard",Frozen Planet S01E02
+https://pixeldrain.com/api/file/KBLK2JvZ
+#EXTINF:-1 group-title="Frozen Planet" group-author="powerboard",Frozen Planet S01E03
+https://pixeldrain.com/api/file/dP5VqHeQ
+#EXTINF:-1 group-title="Frozen Planet" group-author="powerboard",Frozen Planet S01E04
+https://pixeldrain.com/api/file/vctHqGvZ
+#EXTINF:-1 group-title="Frozen Planet" group-author="powerboard",Frozen Planet S01E05
+https://pixeldrain.com/api/file/LrENuV9o
+#EXTINF:-1 group-title="Frozen Planet" group-author="powerboard",Frozen Planet S01E06
+https://pixeldrain.com/api/file/2zkHPs9N
+#EXTINF:-1 group-title="Frozen Planet" group-author="powerboard",Frozen Planet S01E07
+https://pixeldrain.com/api/file/d5H46CA9
+#EXTINF:-1 group-title="Frozen Planet" group-author="powerboard",Frozen Planet S01E08
+https://pixeldrain.com/api/file/etHEfpMg

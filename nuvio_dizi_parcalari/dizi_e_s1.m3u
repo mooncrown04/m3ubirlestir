@@ -18,7 +18,7 @@ https://vs22.photostack.net/v/Emily.in.Paris.S01E08.WEB-DL.1080p.DUAL.x264-HDM/m
 #EXTINF:-1 group-title="Emily in Paris" tvg-year="2020" tvg-id="82596" group-author="Zerk",Emily in Paris S01E09
 https://vs22.photoflick.org/v/Emily.in.Paris.S01E09.WEB-DL.1080p.DUAL.x264-HDM/master.m3u8
 #EXTINF:-1 group-title="Emily in Paris" tvg-year="2020" tvg-id="82596" group-author="Zerk",Emily in Paris S01E10
-https://vs21.gamephotos.pro/v/Emily.in.Paris.S01E10.WEB-DL.1080p.DUAL.x264-HDM/master.m3u8
+https://vs21.photoflick.org/v/Emily.in.Paris.S01E10.WEB-DL.1080p.DUAL.x264-HDM/master.m3u8
 #EXTINF:-1 group-title="Erşan Kuneri" tvg-year="2022" tvg-id="197679" group-author="Zerk",Erşan Kuneri S01E01
 https://vs7.photour.org/v/Ersan.Kuneri.S01E01.WEB-DL.1080p.H.264-HDM/1080.m3u8
 #EXTINF:-1 group-title="Erşan Kuneri" tvg-year="2022" tvg-id="197679" group-author="Zerk",Erşan Kuneri S01E02
@@ -35,69 +35,183 @@ https://vs4.pictureflix.org/v/Ersan.Kuneri.S01E06.WEB-DL.1080p.H.264-HDM/1080.m3
 https://vs4.photour.org/v/Ersan.Kuneri.S01E07.WEB-DL.1080p.H.264-HDM/1080.m3u8
 #EXTINF:-1 group-title="Erşan Kuneri" tvg-year="2022" tvg-id="197679" group-author="Zerk",Erşan Kuneri S01E08
 https://vs1.photour.org/v/Ersan.Kuneri.S01E08.WEB-DL.1080p.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E01
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E01
 https://pixeldrain.com/api/file/WTt4qRum
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E02
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E02
 https://pixeldrain.com/api/file/ZgX7CwAG
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E03
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E03
 https://pixeldrain.com/api/file/vbazUyWr
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E04
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E04
 https://pixeldrain.com/api/file/5WGJ9N3x
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E05
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E05
 https://pixeldrain.com/api/file/6KeiQj3Z
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E06
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E06
 https://pixeldrain.com/api/file/kNfJcWNe
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E07
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E07
 https://pixeldrain.com/api/file/p2UE9hrP
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E08
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E08
 https://pixeldrain.com/api/file/SMEZtY88
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E09
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E09
 https://pixeldrain.com/api/file/dLgNckty
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E10
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E10
 https://pixeldrain.com/api/file/B9R4qYNN
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E11
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E11
 https://pixeldrain.com/api/file/i9dTe8Ve
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E12
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E12
 https://pixeldrain.com/api/file/sxataUSE
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E13
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E13
 https://pixeldrain.com/api/file/hr3qfroZ
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E14
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E14
 https://pixeldrain.com/api/file/WSKxANAE
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E15
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E15
 https://pixeldrain.com/api/file/jVQcgPAN
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E16
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E16
 https://pixeldrain.com/api/file/3x5qhfK7
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E17
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E17
 https://pixeldrain.com/api/file/Dnm83dSC
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E18
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E18
 https://pixeldrain.com/api/file/wxerWLSj
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E19
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E19
 https://pixeldrain.com/api/file/3VCryLba
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E20
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E20
 https://pixeldrain.com/api/file/jDCG2Cpg
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E21
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E21
 https://pixeldrain.com/api/file/HzPkRwDq
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E22
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E22
 https://pixeldrain.com/api/file/yU6BUGPH
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E23
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E23
 https://pixeldrain.com/api/file/ASE6WLzw
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E24
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E24
 https://pixeldrain.com/api/file/jvnwVmvo
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E25
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E25
 https://pixeldrain.com/api/file/vBtasPfx
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E26
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E26
 https://pixeldrain.com/api/file/HxXoXnDr
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E27
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E27
 https://pixeldrain.com/api/file/mocnE3Nc
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E28
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E28
 https://pixeldrain.com/api/file/DVRH8Ra7
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E29
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E29
 https://pixeldrain.com/api/file/c7bEiQRG
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E30
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E30
 https://pixeldrain.com/api/file/VbXnLYGz
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E31
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E31
 https://pixeldrain.com/api/file/WtSzj1Xw
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E32
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E32
 https://pixeldrain.com/api/file/dR85e9cC
-#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E33
+#EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E33
 https://pixeldrain.com/api/file/Fm7QYryf
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 1 (2009)
+https://httxxkbiqd.erbvr.com/vms/2/e9/e7/2e9e70ca-be2e-442b-ac85-92bc8dcd041f/2e9e70ca-be2e-442b-ac85-92bc8dcd041f_1080p_3000k.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 10 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/10_aobs/9fd5a871-af7c-4caf-bd38-f30d2a1f3c28_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 11 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/11_f7uz/0c5504bc-eb72-4b85-82d9-d26e3ff8cd06_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 12 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/12_l3em/c6e8ad1f-4575-4290-aa79-d353f8a7a3cf_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 13 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/13_q4hg/fbbb0e8d-7ed8-4c7a-8130-6e3aeae6d93b_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 14 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/14_igii/04f59a16-d87d-40ff-b60d-fc0c6ca92ef2_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 15 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/15_2rbe/ace57656-2e46-43a6-af0e-c8ad17b6c981_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 16 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/16_e8xg/58cb2e39-843d-4d99-92d1-99c1c6d46468_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 17 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/17_t4wg/27e203e4-0055-4642-8de2-0b9ba0950c54_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 18 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/18_3lil/76c741ed-f291-44e0-adc0-80d589f14867_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 19 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/19_eewg/955dc3a3-26bd-43d4-a36e-acad79b05b70_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 2 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/2_wpyv/c7a35649-4784-48e7-902c-1e6ebf7a1690_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 20 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/20_jzwr/d566c676-9975-4ffd-b08f-ea857353dfc7_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 21 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/21_tbvc/3d50220e-cd0a-4bb0-af43-9b25301f332f_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 22 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/22_ewu6/9b42994a-74d4-4db1-8b0d-6e99f77b44d7_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 23 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/23_1wn1/1026179f-758e-48a3-85eb-d4b3be856883_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 24 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/24_dvps/0c2dad7b-bf33-441f-ae25-bbcc79b81e09_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 25 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/25_eii1/453fc4ad-316d-47ec-88ce-43008223cca8_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 26 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/26_ixed/559da0a6-0ca1-4838-898d-5a9388cb37c4_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 27 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/27_n4qt/736efe30-d0e8-448d-bcc4-2c9303e34d02_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 28 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/28_p6q0/892b4d10-e1b1-4542-9184-3feeb10e1a9f_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 29 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/29_krcy/6346ed05-ec79-4060-9748-e6034a5a8003_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 3 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/3_jdba/f016c5e0-00f4-4cac-996e-8023f605fa90_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 30 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/30_mhku/5492d1bf-4522-414e-aed4-1eadc76ac8ed_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 31 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/31_vpqb/f4140ee8-ae81-4ecf-8e31-ca44df37295c_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 32 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/32_gfqn/9bdbd6bb-24c8-4588-9e0a-a6330a259b97_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 33 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/33_e23j/3473b418-e1bc-4205-b6c9-14d55c862dad_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 34 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/34_rkq1/4ecf0922-7b90-4b20-acd9-c25248f2f855_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 35 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/35_jgvc/9bb0ca01-f42c-4015-bd35-234e6637dda6_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 36 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/36_czu2/7cde129f-dc1a-4d4d-8b40-e84fb3289e3e_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 37 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/37_gbaj/a9573bcc-9d7b-4326-b491-a867c8b9ff90_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 38 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/38_ciar/809bc8d1-39dd-425a-aec4-117927edb13e_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 39 (2009)
+https://atv-vod.ercdn.net/video/program/ezel/39_qt2l/2be1e152-d189-464c-81ca-2ad5d89a4613_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 4 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/4_j94y/5d3f52fb-e947-4f1f-a366-ecdd99332d4c_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 40 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/40_8peb/616e9368-c780-427d-8d1a-15a89361333b_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 41 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/41_5j8i/6c93b4fb-7d72-4f34-a78e-7b74283668b9_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 42 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/42_uqzx/f4adc71a-272b-4da6-ae2f-bb70fec3bddf_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 43 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/43_l0ph/1551b24b-f5a2-4cb2-a8a3-270948d407df_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 44 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/44_hm0w/d82432cc-102a-40f5-bd31-b17f378e58fd_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 45 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/45_xffu/752a52fa-4542-40d3-99fa-bc425e3a4432_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 46 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/46_jh4s/6468f3a6-9a8e-4980-a1bd-e8a253c45531_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 47 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/47_zm92/f505a94d-b7a2-4700-adec-6917b2f6af70_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 48 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/48_rgsd/2997fb84-b8eb-43dc-b486-69a9aef83508_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 49 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/49_sbmu/54f3d382-0159-4f9e-aadc-0a2b2d5e0b49_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 5 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/5_bki6/43ab7d5f-6948-4bb1-9376-0a80d64fc928_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 50 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/50_ob8w/e32ebb44-6589-4597-8f0b-bac57fd9999b_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 51 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/51_khue/49b86378-01e4-413b-90c9-b48ad3cb7531_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 52 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/52_hi4b/06651dc7-f341-41a0-acc1-0ba59ae57ee4_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 53 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/53_ykbt/bc84ae97-f633-4ab7-8da6-c8c25e6bdc98_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 54 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/54_pmpf/b08d0c3d-bee8-44f9-ac31-664db1d2f5b0_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 55 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/55_mca7/cfb4556b-d260-4711-b456-033d63927368_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 56 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/56_gm1p/2c801cbf-5d5e-4b65-850c-2ad99e288f7e_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 57 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/57_npwl/058eaa49-41f3-4072-96fa-293fdaacc9b5_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 6 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/6_stpx/5b01f774-3146-4d2e-a222-8c630a8560c8_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 7 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/7_msup/c32c4643-c431-4a5f-ba61-6a039bb6a94a_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 8 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/8_8yet/de339545-ed8c-46a5-8536-135d80420732_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel Bölüm 9 (2009)
+https://atv-vod.ercdn.net/video/dizi/ezel/9_k1il/604107f2-1939-4b77-aeb4-905950548015_1800.mp4
