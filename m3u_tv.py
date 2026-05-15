@@ -18,13 +18,14 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 # "KANAL 7" yazdığında "KANAL 7 AVRUPA"yı almaması için "==" kontrolü eklendi.
 OZEL_FILTRELER = {
     "Ulusal Kanallar": ["TRT 1", "ATV", "KANAL D", "SHOW TV", "NOW TV", "STAR TV", "TV 8", "BEYAZ TV", "TEVE 2", "A2", "TELE 1", "SHOWTURK", "KANAL 7"],
-    "SPOR": ["BEIN SPORTS 1 TURKEY", "SPOR", "TARAFTAR", "EXXEN", "S SPORT", "TRT SPOR"],
-    "HABER": ["HALK TV", "TV 100", "SÖZCÜ TV", "NTV", "HABER GLOBAL", "TRT HABER"],
+    "SPOR": ["BEIN SPORTS 1","HT SPOR","TIVIBU SPOR","SPOR","TRT 3 SPOR","","TARAFTAR", "A SPOR", "S SPORT","FUTBOL TV","TRT SPOR"],
+    "HABER": ["HALK TV", "TV 100", "SÖZCÜ TV", "CNN TÜRK","NTV","NEO HABER","HABER GLOBAL", "TRT HABER"],
+    "HABER": ["NATGEO CHANNEL","NAT GEO WILD","TLC", "NEO HABER","PERSIANA TURKIYE","DMAX","CGTN BELGESEL", "BELGESEL TV"],
 }
 
 # --- 2. KATEGORİ MAPPING ---
 CATEGORY_MAPPING = {
-    "haber": "HABER",
+    "haber": "HABER","BEIN SPORTS 1 TURKEY":"BEIN SPORTS 1",
     "ulusal": "Ulusal Kanallar",
     "sport": "SPOR KANALLARI",
     "spor": "SPOR",
