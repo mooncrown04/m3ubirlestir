@@ -209,21 +209,21 @@ https://vs17.photomag.biz/v/The.Mentalist.S01E21.BluRay.720p.DUAL.x264-HDM/maste
 https://vs16.photour.org/v/The.Mentalist.S01E22.BluRay.720p.DUAL.x264-HDM/master.m3u8
 #EXTINF:-1 group-title="The Mentalist" tvg-year="2008" tvg-id="5920" group-author="Zerk",The Mentalist S01E23
 https://vs16.photoflick.org/v/The.Mentalist.S01E23.BluRay.720p.DUAL.x264-HDM/master.m3u8
-#EXTINF:-1 group-title="The Night Of (2016)" group-author="Zerk",The Night Of S01E01
+#EXTINF:-1 group-title="The Night Of (2016)" tvg-year="2016" tvg-id="66276" group-author="Zerk",The Night Of S01E01
 https://vs21.pictureflix.org/v/The.Night.Of.S01E01.HDTV.1080p.x264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="The Night Of (2016)" group-author="Zerk",The Night Of S01E02
+#EXTINF:-1 group-title="The Night Of (2016)" tvg-year="2016" tvg-id="66276" group-author="Zerk",The Night Of S01E02
 https://vs22.photostack.net/v/The.Night.Of.S01E02.HDTV.1080p.x264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="The Night Of (2016)" group-author="Zerk",The Night Of S01E03
+#EXTINF:-1 group-title="The Night Of (2016)" tvg-year="2016" tvg-id="66276" group-author="Zerk",The Night Of S01E03
 https://vs21.photomag.biz/v/The.Night.Of.S01E03.HDTV.1080p.x264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="The Night Of (2016)" group-author="Zerk",The Night Of S01E04
+#EXTINF:-1 group-title="The Night Of (2016)" tvg-year="2016" tvg-id="66276" group-author="Zerk",The Night Of S01E04
 https://vs21.photostack.net/v/The.Night.Of.S01E04.HDTV.1080p.x264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="The Night Of (2016)" group-author="Zerk",The Night Of S01E05
+#EXTINF:-1 group-title="The Night Of (2016)" tvg-year="2016" tvg-id="66276" group-author="Zerk",The Night Of S01E05
 https://vs21.photour.org/v/The.Night.Of.S01E05.HDTV.1080p.x264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="The Night Of (2016)" group-author="Zerk",The Night Of S01E06
+#EXTINF:-1 group-title="The Night Of (2016)" tvg-year="2016" tvg-id="66276" group-author="Zerk",The Night Of S01E06
 https://vs21.photour.org/v/The.Night.Of.S01E06.HDTV.1080p.x264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="The Night Of (2016)" group-author="Zerk",The Night Of S01E07
+#EXTINF:-1 group-title="The Night Of (2016)" tvg-year="2016" tvg-id="66276" group-author="Zerk",The Night Of S01E07
 https://vs21.photoflax.org/v/The.Night.Of.S01E07.HDTV.1080p.x264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="The Night Of (2016)" group-author="Zerk",The Night Of S01E08
+#EXTINF:-1 group-title="The Night Of (2016)" tvg-year="2016" tvg-id="66276" group-author="Zerk",The Night Of S01E08
 https://vs22.photostack.net/v/The.Night.Of.S01E08.HDTV.1080p.x264-HDM.DUAL/master.m3u8
 #EXTINF:-1 group-title="The Planets" group-author="powerboard",The Planets S01E01
 https://pixeldrain.com/api/file/Di15sp9U
@@ -235,6 +235,22 @@ https://pixeldrain.com/api/file/iV1BJXLU
 https://pixeldrain.com/api/file/QTvw2nsm
 #EXTINF:-1 group-title="The Planets" group-author="powerboard",The Planets S01E05
 https://pixeldrain.com/api/file/i2R9mfRm
+#EXTINF:-1 group-title="The Sinner (2017)" group-author="Zerk",The Sinner S01E01
+https://vs2.photofunny.org/v/The.Sinner.S01E01.WEB-DL.1080p.H.264-HDM.DUAL/master.m3u8
+#EXTINF:-1 group-title="The Sinner (2017)" group-author="Zerk",The Sinner S01E02
+https://vs6.photostack.net/v/The.Sinner.S01E02.WEB-DL.1080p.H.264-HDM.DUAL/master.m3u8
+#EXTINF:-1 group-title="The Sinner (2017)" group-author="Zerk",The Sinner S01E03
+https://vs7.photoflick.org/v/The.Sinner.S01E03.WEB-DL.1080p.H.264-HDM.DUAL/master.m3u8
+#EXTINF:-1 group-title="The Sinner (2017)" group-author="Zerk",The Sinner S01E04
+https://vs7.pictureflix.org/v/The.Sinner.S01E04.WEB-DL.1080p.H.264-HDM.DUAL/master.m3u8
+#EXTINF:-1 group-title="The Sinner (2017)" group-author="Zerk",The Sinner S01E05
+https://vs7.photoflax.org/v/The.Sinner.S01E05.WEB-DL.1080p.H.264-HDM.DUAL/master.m3u8
+#EXTINF:-1 group-title="The Sinner (2017)" group-author="Zerk",The Sinner S01E06
+https://vs4.photoflick.org/v/The.Sinner.S01E06.WEB-DL.1080p.H.264-HDM.DUAL/master.m3u8
+#EXTINF:-1 group-title="The Sinner (2017)" group-author="Zerk",The Sinner S01E07
+https://vs4.photofunny.org/v/The.Sinner.S01E07.WEB-DL.1080p.H.264-HDM.DUAL/master.m3u8
+#EXTINF:-1 group-title="The Sinner (2017)" group-author="Zerk",The Sinner S01E08
+https://vs4.photoflax.org/v/The.Sinner.S01E08.WEB-DL.1080p.H.264-HDM.DUAL/master.m3u8
 #EXTINF:-1 group-title="The Veil" tvg-year="2024" tvg-id="207334" group-author="Zerk",The Veil S01E01
 https://vs10.pictureflix.org/v/The.Veil.S01E01.WEB-DL.1080p.DUAL.x264-HDM/master.m3u8
 #EXTINF:-1 group-title="The Veil" tvg-year="2024" tvg-id="207334" group-author="Zerk",The Veil S01E02
@@ -293,6 +309,94 @@ https://vs11.photoflix.org/v/Unburied.S01E05.WEB-DL.1080p.DUAL.H.264-HDM/master.
 https://vs10.gamephotos.pro/v/Unburied.S01E06.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 group-title="ToprakYiyen (2025)" group-author="Zerk",ToprakYiyen S01E07
 https://vs17.pictureflix.org/v/Unburied.S01E07.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 1. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_72768&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 10. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_74172&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 11. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_74358&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 12. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_75286&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 13. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_75500&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 14. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_75605&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 15. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_75762&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 16. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_75895&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 17. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_76043&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 18. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_76205&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 19. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_76287&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 2. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_72897&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 20. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_76431&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 21. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_76551&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 22. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_76668&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 23. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_76782&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 24. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_76887&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 25. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_76988&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 26. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_77076&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 27. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_77247&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 28. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_77364&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 29. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_77478&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 3. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_73098&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 30. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_77596&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 31. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_77745&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 32. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_77887&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 33. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_78017&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 34. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_78160&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 35. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_78288&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 36. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_78422&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 37. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_78521&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 38. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_78737&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 39. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_78854&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 4. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_73266&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 40. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_78996&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 41. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_79124&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 42. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_79258&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 43. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_79379&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 44. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_79509&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 5. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_73410&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 6. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_73530&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 7. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_73712&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 8. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_73854&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="AVLU" tvg-year="2018" tvg-id="78058" group-author="Zerk",TR: Avlu 9. Bölüm (2018)
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_74028&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="True Detective :Night Country" group-author="powerboard",True Detective S01E01
 https://pixeldrain.com/api/file/G5P2aySE
 #EXTINF:-1 group-title="True Detective :Night Country" group-author="powerboard",True Detective S01E02
