@@ -27,9 +27,10 @@ OZEL_FILTRELER = {
 # --- 2. KATEGORİ MAPPING ---
 CATEGORY_MAPPING = {
     "haber": "HABER",
-    "ulusal": "ULUSAL KANALAR",
+    "ulusal": "ULUSAL KANALLAR",
     "sport": "SPOR KANALLARI",
     "spor": "SPOR",
+    "Sarkortv": "YABANCI",
     "movie": "SİNEMA & DİZİ",
     "film": "SİNEMA & DİZİ",
     "belgesel": "BELGESEL",
