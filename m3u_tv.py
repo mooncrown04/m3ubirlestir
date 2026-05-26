@@ -17,18 +17,19 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 # ÖNEMLİ: Burada tam eşleşme mantığı devreye girecek. 
 # "KANAL 7" yazdığında "KANAL 7 AVRUPA"yı almaması için "==" kontrolü eklendi.
 OZEL_FILTRELER = {
-    "Ulusal Kanallar": ["TRT 1", "ATV", "KANAL D", "SHOW TV", "NOW TV", "STAR TV", "TV 8","TV 8.5","BEYAZ TV", "TEVE 2", "A2", "TELE 1", "SHOWTURK", "KANAL 7"],
-    "SPOR": ["BEIN SPORTS 1","HT SPOR","TIVIBU SPOR","SPOR","TRT 3 SPOR","","TARAFTAR", "A SPOR", "S SPORT","FUTBOL TV","TRT SPOR"],
+    "ULUSAL KANALLAR": ["TRT 1", "ATV", "KANAL D", "SHOW TV", "NOW TV", "STAR TV", "TV 8","TV 8.5","BEYAZ TV", "TELE 1", "SHOWTURK", "KANAL 7"],
+    "SPOR": ["BEIN SPORTS 1","HT SPOR","TIVIBU SPOR","SPOR","TRT 3 SPOR","TARAFTAR", "A SPOR", "S SPORT","FUTBOL TV","TRT SPOR"],
     "HABER": ["HALK TV", "TV 100", "SÖZCÜ TV", "CNN TÜRK","NTV","NEO HABER","HABER GLOBAL", "TRT HABER"],
     "BELGESEL": ["NATGEO CHANNEL","NAT GEO WILD","TLC", "NEO HABER","PERSIANA TURKIYE","DMAX","CGTN BELGESEL", "BELGESEL TV"],
     "MÜZİK": ["KRAL POP TV","POWERTÜRK TV","POWER TV", "NUMBER ONE TURK","NUMBER 1 DAMAR","MED MUZIK"],
+    "🎬 SİNEMA & DİZİ": ["FILM SCREEN","TABII TV", "TIVI6","EKOL TV", "TEVE 2","A2", "DIZI-FILM TV", "SIYAH BEYAZ AŞK","TATLI İNTIKAM","ZALIM İSTANBUL"],
 }
 
 # --- 2. KATEGORİ MAPPING ---
 CATEGORY_MAPPING = {
     "haber": "HABER",
     "ulusal": "ULUSAL KANALLAR",
-    "sport": "SPOR KANALLARI",
+    "sport": "YABANCI SPOR",
     "spor": "SPOR",
     "Sarkortv": "YABANCI",
     "movie": "SİNEMA & DİZİ",
@@ -45,6 +46,7 @@ CATEGORY_MAPPING = {
 CHANNEL_NAME_MAPPING = {
     "BEIN SPORTS 1 TURKEY":"BEIN SPORTS 1",
     "TV8": "TV 8","TV8 HD": "TV 8","TV 8 HD": "TV 8",
+    "TV100": "TV 100",
     "NOW": "NOW TV","NOW HD": "NOW TV",
     "TRT1": "TRT 1","TRT 1 HD": "TRT 1",
     "KANALD": "KANAL D",
