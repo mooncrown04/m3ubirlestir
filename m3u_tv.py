@@ -58,6 +58,7 @@ CHANNEL_NAME_MAPPING = {
 # --- 4. KAYNAKLAR (URL ve Yazar Bilgisi) ---
 # Format: (URL, YAZAR_ISMI)
 M3U_SOURCES = [
+    ('https://raw.githubusercontent.com/Luxy44/-ptv/refs/heads/main/xiptv.m3u', "Luxy44"),
     ('https://raw.githubusercontent.com/smartgmr/cdn/refs/heads/main/Perfect.m3u', "smartgmr"),
     ('https://raw.githubusercontent.com/Mertcantv/Mertcan/refs/heads/main/%C4%B0zle2.m3u', "Mertcantv"),
     ('https://raw.githubusercontent.com/primatzeka/kurbaga/main/NeonSpor/NeonSpor.m3u', "NeonSpor"),
