@@ -43,6 +43,8 @@ https://vs16.photoflax.org/v/House.M.D.S01E20.WEB-DL.1080p.DUAL.H.264-HDM/master
 https://vs13.photoflick.org/v/House.M.D.S01E21.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 group-title="House group-author="Zerk",M.D. S01E22
 https://vs11.photomag.biz/v/House.M.D.S01E22.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Maradonayı Öldüren Sır" tvg-id="vod.tr" group-author="Zerk",Maradonayı Öldüren Sır Bölümler 1 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_333989&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Mare of Easttown (2021)" tvg-year="2021" tvg-id="115004" group-author="Zerk",Mare of Easttown S01E01
 https://vs21.photostack.net/v/Mare.of.Easttown.S01E01.WEB-DL.1080p.x264-HDM.DUAL/master.m3u8
 #EXTINF:-1 group-title="Mare of Easttown (2021)" tvg-year="2021" tvg-id="115004" group-author="Zerk",Mare of Easttown S01E02
@@ -89,6 +91,14 @@ https://pixeldrain.com/api/file/tUhMmpqk
 https://pixeldrain.com/api/file/rggVawQU
 #EXTINF:-1 group-title="Medusa'nın Salı" group-author="powerboard",Medusa'nın Salı S01E07
 https://pixeldrain.com/api/file/vLf6P1ZT
+#EXTINF:-1 group-title="Megan Fox ile Kayıp Efsaneler" tvg-id="vod.tr" group-author="Zerk",Megan Fox ile Kayıp Efsaneler Bölümler 1 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_259521&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Megan Fox ile Kayıp Efsaneler" tvg-id="vod.tr" group-author="Zerk",Megan Fox ile Kayıp Efsaneler Bölümler 1 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_259522&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Megan Fox ile Kayıp Efsaneler" tvg-id="vod.tr" group-author="Zerk",Megan Fox ile Kayıp Efsaneler Bölümler 1 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_259523&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Megan Fox ile Kayıp Efsaneler" tvg-id="vod.tr" group-author="Zerk",Megan Fox ile Kayıp Efsaneler Bölümler 1 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_259524&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Mercy for None" group-author="powerboard",Mercy for None S01E01
 https://pixeldrain.com/api/file/LiYUC6j1
 #EXTINF:-1 group-title="Mercy for None" group-author="powerboard",Mercy for None S01E02
@@ -129,6 +139,16 @@ https://vs13.photoflick.org/v/Merlin.S01E11.1080p.BluRay.x264.DUAL/master.m3u8
 https://vs22.photour.org/v/Merlin.S01E12.1080p.BluRay.x264.DUAL/master.m3u8
 #EXTINF:-1 group-title="Merlin" tvg-year="2008" tvg-id="7225" group-author="Zerk",Merlin S01E13
 https://vs22.photour.org/v/Merlin.S01E13.1080p.BluRay.x264.DUAL/master.m3u8
+#EXTINF:-1 group-title="Mike Brewer Araba Dünyası" tvg-id="vod.tr" group-author="Zerk",Mike Brewer Araba Dünyası Bölümler 1 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_313138&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Mike Brewer Araba Dünyası" tvg-id="vod.tr" group-author="Zerk",Mike Brewer Araba Dünyası Bölümler 1 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_313139&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Mike Brewer Araba Dünyası" tvg-id="vod.tr" group-author="Zerk",Mike Brewer Araba Dünyası Bölümler 1 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_313140&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Mike Brewer Araba Dünyası" tvg-id="vod.tr" group-author="Zerk",Mike Brewer Araba Dünyası Bölümler 1 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_313141&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Mike Brewer Araba Dünyası" tvg-id="vod.tr" group-author="Zerk",Mike Brewer Araba Dünyası Bölümler 1 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_313142&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="MobLand" tvg-year="2025" tvg-id="247718" group-author="Zerk",MobLand S01E01
 https://vs14.photoflick.org/v/MobLand.S01E01.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 group-title="MobLand" tvg-year="2025" tvg-id="247718" group-author="Zerk",MobLand S01E02

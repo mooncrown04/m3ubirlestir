@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 group-title="Lezzet Peşinde" tvg-id="vod.tr" group-author="Zerk",Lezzet Peşinde Bölümler 2 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_236058&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Loki" tvg-year="2021" tvg-id="84958" group-author="Zerk",Loki S02E01
 https://vs10.photour.org/v/Loki.S02E01.1080p.BluRay.x264.TR.ENG.Disney.FilmbolSeries/master.m3u8
 #EXTINF:-1 group-title="Loki" tvg-year="2021" tvg-id="84958" group-author="Zerk",Loki S02E02

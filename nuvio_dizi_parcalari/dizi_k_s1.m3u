@@ -219,6 +219,26 @@ https://vs12.photomag.biz/v/XO.Kitty.S01E08.WEB-DL.1080p.DUAL.H.264-HDM/master.m
 https://vs12.photoflax.org/v/XO.Kitty.S01E09.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 group-title="XO group-author="Zerk",Kitty S01E10
 https://vs13.photoflix.org/v/XO.Kitty.S01E10.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Korku Rotası" tvg-id="vod.tr" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=DMAX_780096&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Korku Rotası" tvg-id="vod.tr" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 10 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_288342&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Korku Rotası" tvg-id="vod.tr" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_288334&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Korku Rotası" tvg-id="vod.tr" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_288335&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Korku Rotası" tvg-id="vod.tr" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_288336&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Korku Rotası" tvg-id="vod.tr" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_288337&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Korku Rotası" tvg-id="vod.tr" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 6 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_288338&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Korku Rotası" tvg-id="vod.tr" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 7 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_288339&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Korku Rotası" tvg-id="vod.tr" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 8 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_288340&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Korku Rotası" tvg-id="vod.tr" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 9 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_288341&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Kurtlar Vadisi" group-author="powerboard",Kurtlar Vadisi Bölüm 01
 https://pixeldrain.com/api/file/3fMjHZ1K
 #EXTINF:-1 group-title="Kurtlar Vadisi" group-author="powerboard",Kurtlar Vadisi Bölüm 02
@@ -411,6 +431,10 @@ https://pixeldrain.com/api/file/FSs1vvpN
 https://pixeldrain.com/api/file/MZ3vVG4Y
 #EXTINF:-1 group-title="Kurtlar Vadisi" group-author="powerboard",Kurtlar Vadisi Bölüm 97
 https://pixeldrain.com/api/file/ZL3iFQcr
+#EXTINF:-1 group-title="Kurtul Bakalım Bölümler" tvg-id="vod.tr" group-author="Zerk",Kurtul Bakalım Bölümler 1 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_946751&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kurtul Bakalım Bölümler" tvg-id="vod.tr" group-author="Zerk",Kurtul Bakalım Bölümler 1 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_946745&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 1. Bölüm (2019)
 https://vmcdn.ciner.com.tr/ht/2019/09/14/5EB6F5703249AB64F1499EC8C0B782F1.m3u8
 #EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 10. Bölüm (2019)

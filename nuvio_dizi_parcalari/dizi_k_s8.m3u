@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 group-title="Kirli İşler" tvg-id="vod.tr" group-author="Zerk",Kirli İşler Bölümler 8 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_317574&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kirli İşler" tvg-id="vod.tr" group-author="Zerk",Kirli İşler Bölümler 8 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_317575&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kirli İşler" tvg-id="vod.tr" group-author="Zerk",Kirli İşler Bölümler 8 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_317576&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kirli İşler" tvg-id="vod.tr" group-author="Zerk",Kirli İşler Bölümler 8 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_317577&SecretKey=NtvApiSecret2014*&.m3u8

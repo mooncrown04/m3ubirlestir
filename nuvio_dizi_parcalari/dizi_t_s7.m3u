@@ -1,4 +1,24 @@
 #EXTM3U
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 7 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_893989&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 7 Sezon 10 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_893988&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 7 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_893980&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 7 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_893981&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 7 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_893982&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 7 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_893983&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 7 Sezon 6 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_893984&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 7 Sezon 7 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_893985&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 7 Sezon 8 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_893986&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 7 Sezon 9 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_893987&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="The 100" tvg-year="2014" tvg-id="48866" group-author="Zerk",The 100 S07 E01 (2014)
 https://vs3.photofunny.org/v/The.100.S07E01.1080p.BluRay/master.m3u8
 #EXTINF:-1 group-title="The 100" tvg-year="2014" tvg-id="48866" group-author="Zerk",The 100 S07 E02 (2014)

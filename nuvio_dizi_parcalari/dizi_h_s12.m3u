@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 group-title="Hurda Avcıları" tvg-id="vod.tr" group-author="Zerk",Hurda Avcıları Bölümler 12 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_198541&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Hurda Avcıları" tvg-id="vod.tr" group-author="Zerk",Hurda Avcıları Bölümler 12 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_198548&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Hurda Avcıları" tvg-id="vod.tr" group-author="Zerk",Hurda Avcıları Bölümler 12 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_198536&SecretKey=NtvApiSecret2014*&.m3u8

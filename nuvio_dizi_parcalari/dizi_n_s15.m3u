@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:-1 group-title="Nasıl Yapılır?" tvg-id="vod.tr" group-author="Zerk",Nasıl Yapılır? Bölümler 15 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_215039&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Nasıl Yapılır?" tvg-id="vod.tr" group-author="Zerk",Nasıl Yapılır? Bölümler 15 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_215068&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Nasıl Yapılır?" tvg-id="vod.tr" group-author="Zerk",Nasıl Yapılır? Bölümler 15 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_215069&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Nasıl Yapılır?" tvg-id="vod.tr" group-author="Zerk",Nasıl Yapılır? Bölümler 15 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_215071&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Nasıl Yapılır?" tvg-id="vod.tr" group-author="Zerk",Nasıl Yapılır? Bölümler 15 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_215072&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Nasıl Yapılır?" tvg-id="vod.tr" group-author="Zerk",Nasıl Yapılır? Bölümler 15 Sezon 6 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_215057&SecretKey=NtvApiSecret2014*&.m3u8

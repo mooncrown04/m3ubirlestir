@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:-1 group-title="Nasıl Üretilmiş?" tvg-id="vod.tr" group-author="Zerk",Nasıl Üretilmiş? Bölümler 1 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_887427&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Nasıl Üretilmiş?" tvg-id="vod.tr" group-author="Zerk",Nasıl Üretilmiş? Bölümler 1 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_887428&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="NCIS: Origins" tvg-year="2024" tvg-id="243006" group-author="Zerk",NCIS: Origins S01E01
 https://vs13.photomag.biz/v/NCIS.Tony.and.Ziva.S01E01.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 group-title="NCIS: Origins" tvg-year="2024" tvg-id="243006" group-author="Zerk",NCIS: Origins S01E02

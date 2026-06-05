@@ -5,6 +5,12 @@ https://vs9.photostack.net/v/Sherlock.S04E01.1080p.BluRay.x264.TR.ENG/1080.m3u8
 https://vs14.photoflax.org/v/Sherlock.S04E02.1080p.BluRay.x264.TR.ENG/1080.m3u8
 #EXTINF:-1 group-title="Sherlock" tvg-year="2010" tvg-id="19885" group-author="Zerk",Sherlock S04E03
 https://vs17.gamephotos.pro/v/Sherlock.S04E03.1080p.BluRay.x264.TR.ENG/1080.m3u8
+#EXTINF:-1 group-title="Sıra Dışı Karavanlar" tvg-id="vod.tr" group-author="Zerk",Sıra Dışı Karavanlar Bölümler 4 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_236152&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Sıra Dışı Karavanlar" tvg-id="vod.tr" group-author="Zerk",Sıra Dışı Karavanlar Bölümler 4 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_236153&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Sıra Dışı Karavanlar" tvg-id="vod.tr" group-author="Zerk",Sıra Dışı Karavanlar Bölümler 4 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_236154&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Snowpiercer" tvg-year="2020" tvg-id="79680" group-author="Zerk",Snowpiercer S04E01
 https://vs10.photomag.biz/v/Snowpiercer.S04E01.1080p.WebDL.x264.EN/master.m3u8
 #EXTINF:-1 group-title="Snowpiercer" tvg-year="2020" tvg-id="79680" group-author="Zerk",Snowpiercer S04E02

@@ -1,4 +1,34 @@
 #EXTM3U
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 11 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_947725&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 11 Sezon 10 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_947734&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 11 Sezon 11 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_947735&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 11 Sezon 12 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_947736&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 11 Sezon 13 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_947737&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 11 Sezon 14 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_947738&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 11 Sezon 15 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_947739&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 11 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_947726&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 11 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_947727&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 11 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_947728&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 11 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_947729&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 11 Sezon 6 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_947730&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 11 Sezon 7 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_947731&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 11 Sezon 8 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_947732&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Tamirat Tadilat" tvg-id="vod.tr" group-author="Zerk",Tamirat Tadilat Bölümler 11 Sezon 9 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_947733&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="The Big Bang Theory (2007)" tvg-year="2007" tvg-id="1418" group-author="Zerk",The Big Bang Theory S11 E01 (2007)
 https://vs13.photoflick.org/v/The.Big.Bang.Theory.S11E01.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
 #EXTINF:-1 group-title="The Big Bang Theory (2007)" tvg-year="2007" tvg-id="1418" group-author="Zerk",The Big Bang Theory S11 E02 (2007)

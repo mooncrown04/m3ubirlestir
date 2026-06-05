@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:-1 group-title="Kırsalda Yaşamak Zor" tvg-id="vod.tr" group-author="Zerk",Kırsalda Yaşamak Zor Bölümler 4 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_3222055&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kırsalda Yaşamak Zor" tvg-id="vod.tr" group-author="Zerk",Kırsalda Yaşamak Zor Bölümler 4 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_322220&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kırsalda Yaşamak Zor" tvg-id="vod.tr" group-author="Zerk",Kırsalda Yaşamak Zor Bölümler 4 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_322207&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kırsalda Yaşamak Zor" tvg-id="vod.tr" group-author="Zerk",Kırsalda Yaşamak Zor Bölümler 4 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_322208&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kırsalda Yaşamak Zor" tvg-id="vod.tr" group-author="Zerk",Kırsalda Yaşamak Zor Bölümler 4 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_322209&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kırsalda Yaşamak Zor" tvg-id="vod.tr" group-author="Zerk",Kırsalda Yaşamak Zor Bölümler 4 Sezon 6 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_322210&SecretKey=NtvApiSecret2014*&.m3u8

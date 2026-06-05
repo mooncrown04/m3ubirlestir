@@ -1,4 +1,16 @@
 #EXTM3U
+#EXTINF:-1 group-title="Robert Downey Jr.ın Rüya Arabaları" tvg-id="vod.tr" group-author="Zerk",Robert Downey Jr.ın Rüya Arabaları Bölümler 1 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_383852&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Robert Downey Jr.ın Rüya Arabaları" tvg-id="vod.tr" group-author="Zerk",Robert Downey Jr.ın Rüya Arabaları Bölümler 1 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_383853&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Robert Downey Jr.ın Rüya Arabaları" tvg-id="vod.tr" group-author="Zerk",Robert Downey Jr.ın Rüya Arabaları Bölümler 1 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_383854&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Robert Downey Jr.ın Rüya Arabaları" tvg-id="vod.tr" group-author="Zerk",Robert Downey Jr.ın Rüya Arabaları Bölümler 1 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_383855&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Robert Downey Jr.ın Rüya Arabaları" tvg-id="vod.tr" group-author="Zerk",Robert Downey Jr.ın Rüya Arabaları Bölümler 1 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_383856&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Robert Downey Jr.ın Rüya Arabaları" tvg-id="vod.tr" group-author="Zerk",Robert Downey Jr.ın Rüya Arabaları Bölümler 1 Sezon 6 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_383857&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Roma (2005)" group-author="powerboard",Roma S01E01
 https://vs12.photomag.biz/v/Rome.S01E01.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 group-title="Roma (2005)" group-author="powerboard",Roma S01E02

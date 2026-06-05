@@ -93,3 +93,15 @@ https://vs21.pictureflix.org/v/Merlin.S02E11.1080p.BluRay.x264.DUAL/master.m3u8
 https://vs21.photofunny.org/v/Merlin.S02E12.1080p.BluRay.x264.DUAL/master.m3u8
 #EXTINF:-1 group-title="Merlin" tvg-year="2008" tvg-id="7225" group-author="Zerk",Merlin S02E13
 https://vs21.photostack.net/v/Merlin.S02E13.1080p.BluRay.x264.DUAL/master.m3u8
+#EXTINF:-1 group-title="Morgan Freeman ile Evrenin Sırları" tvg-id="vod.tr" group-author="Zerk",Morgan Freeman ile Evrenin Sırları Bölümler 2 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_902173&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Morgan Freeman ile Evrenin Sırları" tvg-id="vod.tr" group-author="Zerk",Morgan Freeman ile Evrenin Sırları Bölümler 2 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_902174&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Morgan Freeman ile Evrenin Sırları" tvg-id="vod.tr" group-author="Zerk",Morgan Freeman ile Evrenin Sırları Bölümler 2 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_902175&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Morgan Freeman ile Evrenin Sırları" tvg-id="vod.tr" group-author="Zerk",Morgan Freeman ile Evrenin Sırları Bölümler 2 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_902176&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Morgan Freeman ile Evrenin Sırları" tvg-id="vod.tr" group-author="Zerk",Morgan Freeman ile Evrenin Sırları Bölümler 2 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_902177&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Morgan Freeman ile Evrenin Sırları" tvg-id="vod.tr" group-author="Zerk",Morgan Freeman ile Evrenin Sırları Bölümler 2 Sezon 6 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_902178&SecretKey=NtvApiSecret2014*&.m3u8

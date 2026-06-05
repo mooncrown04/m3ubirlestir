@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 group-title="Altın Peşinde" tvg-id="vod.tr" group-author="Zerk",Altın Peşinde Bölümler 13 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_396933&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Altın Peşinde" tvg-id="vod.tr" group-author="Zerk",Altın Peşinde Bölümler 13 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_396934&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Altın Peşinde" tvg-id="vod.tr" group-author="Zerk",Altın Peşinde Bölümler 13 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_396935&SecretKey=NtvApiSecret2014*&.m3u8

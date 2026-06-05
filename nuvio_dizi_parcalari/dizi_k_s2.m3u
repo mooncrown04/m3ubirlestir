@@ -1,4 +1,30 @@
 #EXTM3U
+#EXTINF:-1 group-title="Kırsalda Yaşamak Zor" tvg-id="vod.tr" group-author="Zerk",Kırsalda Yaşamak Zor Bölümler 2 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_210115&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kırsalda Yaşamak Zor" tvg-id="vod.tr" group-author="Zerk",Kırsalda Yaşamak Zor Bölümler 2 Sezon 10 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_210117&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kırsalda Yaşamak Zor" tvg-id="vod.tr" group-author="Zerk",Kırsalda Yaşamak Zor Bölümler 2 Sezon 11 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_210120&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kırsalda Yaşamak Zor" tvg-id="vod.tr" group-author="Zerk",Kırsalda Yaşamak Zor Bölümler 2 Sezon 12 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_210114&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kırsalda Yaşamak Zor" tvg-id="vod.tr" group-author="Zerk",Kırsalda Yaşamak Zor Bölümler 2 Sezon 13 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_258490&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kırsalda Yaşamak Zor" tvg-id="vod.tr" group-author="Zerk",Kırsalda Yaşamak Zor Bölümler 2 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_210112&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kırsalda Yaşamak Zor" tvg-id="vod.tr" group-author="Zerk",Kırsalda Yaşamak Zor Bölümler 2 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_210116&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kırsalda Yaşamak Zor" tvg-id="vod.tr" group-author="Zerk",Kırsalda Yaşamak Zor Bölümler 2 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_210110&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kırsalda Yaşamak Zor" tvg-id="vod.tr" group-author="Zerk",Kırsalda Yaşamak Zor Bölümler 2 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_210107&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kırsalda Yaşamak Zor" tvg-id="vod.tr" group-author="Zerk",Kırsalda Yaşamak Zor Bölümler 2 Sezon 6 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_210118&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kırsalda Yaşamak Zor" tvg-id="vod.tr" group-author="Zerk",Kırsalda Yaşamak Zor Bölümler 2 Sezon 7 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_210119&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kırsalda Yaşamak Zor" tvg-id="vod.tr" group-author="Zerk",Kırsalda Yaşamak Zor Bölümler 2 Sezon 8 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_210108&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kırsalda Yaşamak Zor" tvg-id="vod.tr" group-author="Zerk",Kırsalda Yaşamak Zor Bölümler 2 Sezon 9 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_210113&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="XO group-author="Zerk",Kitty S02E01
 https://vs18.photomag.biz/v/XO,Kitty.S02E01.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 group-title="XO group-author="Zerk",Kitty S02E02

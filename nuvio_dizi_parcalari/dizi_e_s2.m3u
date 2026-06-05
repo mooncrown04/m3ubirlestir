@@ -39,6 +39,18 @@ https://vs11.pictureflix.org/v/Ersan.Kuneri.S02E07.WEB-DL.1080p.H.264-HDM/1080.m
 https://vs11.gamephotos.pro/v/Ersan.Kuneri.S02E08.WEB-DL.1080p.H.264-HDM/1080.m3u8
 #EXTINF:-1 group-title="Erşan Kuneri" tvg-year="2022" tvg-id="197679" group-author="Zerk",Erşan Kuneri S02E08
 https://vs11.photofunny.org/v/Ersan.Kuneri.S02E08.WEB-DL.1080p.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Escobarın Kayıp Milyonları" tvg-id="vod.tr" group-author="Zerk",Escobarın Kayıp Milyonları Bölümler 2 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_220539&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Escobarın Kayıp Milyonları" tvg-id="vod.tr" group-author="Zerk",Escobarın Kayıp Milyonları Bölümler 2 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=DMAX_8904&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Escobarın Kayıp Milyonları" tvg-id="vod.tr" group-author="Zerk",Escobarın Kayıp Milyonları Bölümler 2 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_220541&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Escobarın Kayıp Milyonları" tvg-id="vod.tr" group-author="Zerk",Escobarın Kayıp Milyonları Bölümler 2 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_220542&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Escobarın Kayıp Milyonları" tvg-id="vod.tr" group-author="Zerk",Escobarın Kayıp Milyonları Bölümler 2 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_220543&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Escobarın Kayıp Milyonları" tvg-id="vod.tr" group-author="Zerk",Escobarın Kayıp Milyonları Bölümler 2 Sezon 6 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_220544&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S02E01
 https://pixeldrain.com/api/file/Ryb9G5KC
 #EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S02E01

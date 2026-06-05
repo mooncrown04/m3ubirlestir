@@ -1,4 +1,12 @@
 #EXTM3U
+#EXTINF:-1 group-title="Vahşi Frank" tvg-id="vod.tr" group-author="Zerk",Vahşi Frank Bölümler 2 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_147760&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Vahşi Frank" tvg-id="vod.tr" group-author="Zerk",Vahşi Frank Bölümler 2 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_147761&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Vahşi Frank" tvg-id="vod.tr" group-author="Zerk",Vahşi Frank Bölümler 2 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_147762&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Vahşi Frank" tvg-id="vod.tr" group-author="Zerk",Vahşi Frank Bölümler 2 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_147763&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Vikingler" tvg-year="2013" tvg-id="44217" group-author="Zerk",Vikingler S02E01
 https://vs10.pictureflix.org/v/Vikings.S02E01.WEB-DL.1080p.DUAL.x264-HDM/master.m3u8
 #EXTINF:-1 group-title="Vikingler" tvg-year="2013" tvg-id="44217" group-author="Zerk",Vikingler S02E02

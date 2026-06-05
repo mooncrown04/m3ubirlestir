@@ -1,4 +1,16 @@
 #EXTM3U
+#EXTINF:-1 group-title="Ed Stafford ile Ormana Dönüş" tvg-id="vod.tr" group-author="Zerk",Ed Stafford ile Ormana Dönüş Bölümler 1 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_525815&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Ed Stafford ile Ormana Dönüş" tvg-id="vod.tr" group-author="Zerk",Ed Stafford ile Ormana Dönüş Bölümler 1 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_525816&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Ed Stafford ile Ormana Dönüş" tvg-id="vod.tr" group-author="Zerk",Ed Stafford ile Ormana Dönüş Bölümler 1 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_525817&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Ed Stafford ile Ormana Dönüş" tvg-id="vod.tr" group-author="Zerk",Ed Stafford ile Ormana Dönüş Bölümler 1 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_525818&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Ed Stafford ile Ormana Dönüş" tvg-id="vod.tr" group-author="Zerk",Ed Stafford ile Ormana Dönüş Bölümler 1 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_525819&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Ed Stafford ile Ormana Dönüş" tvg-id="vod.tr" group-author="Zerk",Ed Stafford ile Ormana Dönüş Bölümler 1 Sezon 6 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_525820&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Emily in Paris" tvg-year="2020" tvg-id="82596" group-author="Zerk",Emily in Paris S01E01
 https://vs21.photoflax.org/v/Emily.in.Paris.S01E01.WEB-DL.1080p.DUAL.x264-HDM/master.m3u8
 #EXTINF:-1 group-title="Emily in Paris" tvg-year="2020" tvg-id="82596" group-author="Zerk",Emily in Paris S01E02
@@ -19,6 +31,8 @@ https://vs22.photostack.net/v/Emily.in.Paris.S01E08.WEB-DL.1080p.DUAL.x264-HDM/m
 https://vs22.photoflick.org/v/Emily.in.Paris.S01E09.WEB-DL.1080p.DUAL.x264-HDM/master.m3u8
 #EXTINF:-1 group-title="Emily in Paris" tvg-year="2020" tvg-id="82596" group-author="Zerk",Emily in Paris S01E10
 https://vs21.photoflick.org/v/Emily.in.Paris.S01E10.WEB-DL.1080p.DUAL.x264-HDM/master.m3u8
+#EXTINF:-1 group-title="Emlak Savaşları" tvg-id="vod.tr" group-author="Zerk",Emlak Savaşları Bölümler 1 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_927388&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Erşan Kuneri" tvg-year="2022" tvg-id="197679" group-author="Zerk",Erşan Kuneri S01E01
 https://vs7.photour.org/v/Ersan.Kuneri.S01E01.WEB-DL.1080p.H.264-HDM/1080.m3u8
 #EXTINF:-1 group-title="Erşan Kuneri" tvg-year="2022" tvg-id="197679" group-author="Zerk",Erşan Kuneri S01E02
@@ -35,6 +49,42 @@ https://vs4.pictureflix.org/v/Ersan.Kuneri.S01E06.WEB-DL.1080p.H.264-HDM/1080.m3
 https://vs4.photour.org/v/Ersan.Kuneri.S01E07.WEB-DL.1080p.H.264-HDM/1080.m3u8
 #EXTINF:-1 group-title="Erşan Kuneri" tvg-year="2022" tvg-id="197679" group-author="Zerk",Erşan Kuneri S01E08
 https://vs1.photour.org/v/Ersan.Kuneri.S01E08.WEB-DL.1080p.H.264-HDM/1080.m3u8
+#EXTINF:-1 group-title="Escobarın Kayıp Milyonları" tvg-id="vod.tr" group-author="Zerk",Escobarın Kayıp Milyonları Bölümler 1 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_196636&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Escobarın Kayıp Milyonları" tvg-id="vod.tr" group-author="Zerk",Escobarın Kayıp Milyonları Bölümler 1 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_196637&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Escobarın Kayıp Milyonları" tvg-id="vod.tr" group-author="Zerk",Escobarın Kayıp Milyonları Bölümler 1 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_196639&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Escobarın Kayıp Milyonları" tvg-id="vod.tr" group-author="Zerk",Escobarın Kayıp Milyonları Bölümler 1 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_196635&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Escobarın Kayıp Milyonları" tvg-id="vod.tr" group-author="Zerk",Escobarın Kayıp Milyonları Bölümler 1 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_196640&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Escobarın Kayıp Milyonları" tvg-id="vod.tr" group-author="Zerk",Escobarın Kayıp Milyonları Bölümler 1 Sezon 6 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_196638&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Everest Hava Kurtarma Ekibi" tvg-id="vod.tr" group-author="Zerk",Everest Hava Kurtarma Ekibi Bölümler 1 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_235977&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Everest Hava Kurtarma Ekibi" tvg-id="vod.tr" group-author="Zerk",Everest Hava Kurtarma Ekibi Bölümler 1 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_235978&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Everest Hava Kurtarma Ekibi" tvg-id="vod.tr" group-author="Zerk",Everest Hava Kurtarma Ekibi Bölümler 1 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_235979&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Everest Hava Kurtarma Ekibi" tvg-id="vod.tr" group-author="Zerk",Everest Hava Kurtarma Ekibi Bölümler 1 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_235980&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Everest Hava Kurtarma Ekibi" tvg-id="vod.tr" group-author="Zerk",Everest Hava Kurtarma Ekibi Bölümler 1 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_235981&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Everest Hava Kurtarma Ekibi" tvg-id="vod.tr" group-author="Zerk",Everest Hava Kurtarma Ekibi Bölümler 1 Sezon 6 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_235982&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Everest Kurtarma Ekibi" tvg-id="vod.tr" group-author="Zerk",Everest Kurtarma Ekibi Bölümler 1 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_149510&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Everest Kurtarma Ekibi" tvg-id="vod.tr" group-author="Zerk",Everest Kurtarma Ekibi Bölümler 1 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_149511&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Everest Kurtarma Ekibi" tvg-id="vod.tr" group-author="Zerk",Everest Kurtarma Ekibi Bölümler 1 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_149512&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Everest Kurtarma Ekibi" tvg-id="vod.tr" group-author="Zerk",Everest Kurtarma Ekibi Bölümler 1 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_149513&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Everest Kurtarma Ekibi" tvg-id="vod.tr" group-author="Zerk",Everest Kurtarma Ekibi Bölümler 1 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_149514&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Everest Kurtarma Ekibi" tvg-id="vod.tr" group-author="Zerk",Everest Kurtarma Ekibi Bölümler 1 Sezon 6 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_149515&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E01
 https://pixeldrain.com/api/file/WTt4qRum
 #EXTINF:-1 group-title="Ezel" tvg-year="2009" tvg-id="32519" group-author="Zerk",Ezel S01E01

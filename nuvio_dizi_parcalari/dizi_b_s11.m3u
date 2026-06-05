@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 group-title="Bering Boğazında Altın" tvg-id="vod.tr" group-author="Zerk",Bering Boğazında Altın Bölümler 11 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_426976&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Bering Boğazında Altın" tvg-id="vod.tr" group-author="Zerk",Bering Boğazında Altın Bölümler 11 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_426977&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Bering Boğazında Altın" tvg-id="vod.tr" group-author="Zerk",Bering Boğazında Altın Bölümler 11 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_426978&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Bering Boğazında Altın" tvg-id="vod.tr" group-author="Zerk",Bering Boğazında Altın Bölümler 11 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_426979&SecretKey=NtvApiSecret2014*&.m3u8

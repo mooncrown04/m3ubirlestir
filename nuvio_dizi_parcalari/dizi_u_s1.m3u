@@ -1,4 +1,24 @@
 #EXTM3U
+#EXTINF:-1 group-title="Üç Adam Dört Teker" tvg-id="vod.tr" group-author="Zerk",Üç Adam Dört Teker Bölümler 1 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_331565&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Üç Adam Dört Teker" tvg-id="vod.tr" group-author="Zerk",Üç Adam Dört Teker Bölümler 1 Sezon 10 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_331574&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Üç Adam Dört Teker" tvg-id="vod.tr" group-author="Zerk",Üç Adam Dört Teker Bölümler 1 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_331566&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Üç Adam Dört Teker" tvg-id="vod.tr" group-author="Zerk",Üç Adam Dört Teker Bölümler 1 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_331567&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Üç Adam Dört Teker" tvg-id="vod.tr" group-author="Zerk",Üç Adam Dört Teker Bölümler 1 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_331568&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Üç Adam Dört Teker" tvg-id="vod.tr" group-author="Zerk",Üç Adam Dört Teker Bölümler 1 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_331569&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Üç Adam Dört Teker" tvg-id="vod.tr" group-author="Zerk",Üç Adam Dört Teker Bölümler 1 Sezon 6 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_331570&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Üç Adam Dört Teker" tvg-id="vod.tr" group-author="Zerk",Üç Adam Dört Teker Bölümler 1 Sezon 7 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_331571&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Üç Adam Dört Teker" tvg-id="vod.tr" group-author="Zerk",Üç Adam Dört Teker Bölümler 1 Sezon 8 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_331572&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Üç Adam Dört Teker" tvg-id="vod.tr" group-author="Zerk",Üç Adam Dört Teker Bölümler 1 Sezon 9 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_331573&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Universe" group-author="powerboard",Universe S01E01
 https://pixeldrain.com/api/file/T683XMuo
 #EXTINF:-1 group-title="Universe" group-author="powerboard",Universe S01E02
@@ -9,6 +29,22 @@ https://pixeldrain.com/api/file/TLygyKS6
 https://pixeldrain.com/api/file/Yhv2v31b
 #EXTINF:-1 group-title="Universe" group-author="powerboard",Universe S01E05
 https://pixeldrain.com/api/file/aUWQ7Pbf
+#EXTINF:-1 group-title="Usta Şoförler" tvg-id="vod.tr" group-author="Zerk",Usta Şoförler Bölümler 1 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_317876&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Usta Şoförler" tvg-id="vod.tr" group-author="Zerk",Usta Şoförler Bölümler 1 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_317877&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Usta Şoförler" tvg-id="vod.tr" group-author="Zerk",Usta Şoförler Bölümler 1 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_317878&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Usta Şoförler" tvg-id="vod.tr" group-author="Zerk",Usta Şoförler Bölümler 1 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_317879&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Usta Şoförler" tvg-id="vod.tr" group-author="Zerk",Usta Şoförler Bölümler 1 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_317880&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Usta Şoförler" tvg-id="vod.tr" group-author="Zerk",Usta Şoförler Bölümler 1 Sezon 6 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_317881&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Usta Şoförler" tvg-id="vod.tr" group-author="Zerk",Usta Şoförler Bölümler 1 Sezon 7 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_317882&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Usta Şoförler" tvg-id="vod.tr" group-author="Zerk",Usta Şoförler Bölümler 1 Sezon 8 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_317883&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Özgüven Kraliçesi (2025)" group-author="powerboard",Özgüven Kraliçesi S01E01
 https://vs19.gamephotos.pro/v/Confidence.Queen.S01E01.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
 #EXTINF:-1 group-title="Özgüven Kraliçesi (2025)" group-author="powerboard",Özgüven Kraliçesi S01E02

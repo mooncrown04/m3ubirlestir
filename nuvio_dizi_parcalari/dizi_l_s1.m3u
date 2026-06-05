@@ -1,4 +1,16 @@
 #EXTM3U
+#EXTINF:-1 group-title="Larry ve George Türkiyede" tvg-id="vod.tr" group-author="Zerk",Larry ve George Türkiyede Bölümler 1 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_225956&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Larry ve George Türkiyede" tvg-id="vod.tr" group-author="Zerk",Larry ve George Türkiyede Bölümler 1 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_225957&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Larry ve George Türkiyede" tvg-id="vod.tr" group-author="Zerk",Larry ve George Türkiyede Bölümler 1 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_225958&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Larry ve George Türkiyede" tvg-id="vod.tr" group-author="Zerk",Larry ve George Türkiyede Bölümler 1 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_225959&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Larry ve George Türkiyede" tvg-id="vod.tr" group-author="Zerk",Larry ve George Türkiyede Bölümler 1 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_225960&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Larry ve George Türkiyede" tvg-id="vod.tr" group-author="Zerk",Larry ve George Türkiyede Bölümler 1 Sezon 6 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_225961&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Law & Order True Crime (2017)" tvg-year="2017" tvg-id="72496" group-author="Zerk",Law & Order True Crime S01E01
 https://vs8.photomag.biz/v/Law.Order.True.Crime.S01E01.WEB-DL.1080p.x264-HDM.TR/master.m3u8
 #EXTINF:-1 group-title="Law & Order True Crime (2017)" tvg-year="2017" tvg-id="72496" group-author="Zerk",Law & Order True Crime S01E02
@@ -27,6 +39,18 @@ https://vs1.photoflax.org/v/Legends.S01E04.WEB-DL.1080p.H.264-HDM.DUAL/master.m3
 https://vs6.photoflick.org/v/Legends.S01E05.WEB-DL.1080p.H.264-HDM.DUAL/master.m3u8
 #EXTINF:-1 group-title="Legends (2026)" tvg-year="2026" tvg-id="262280" group-author="Zerk",Legends S01 E06 (2026)
 https://vs8.photostack.net/v/Legends.S01E06.WEB-DL.1080p.H.264-HDM.DUAL/master.m3u8
+#EXTINF:-1 group-title="Lezzet Peşinde" tvg-id="vod.tr" group-author="Zerk",Lezzet Peşinde Bölümler 1 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_236045&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Lezzet Peşinde" tvg-id="vod.tr" group-author="Zerk",Lezzet Peşinde Bölümler 1 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_236046&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Lezzet Peşinde" tvg-id="vod.tr" group-author="Zerk",Lezzet Peşinde Bölümler 1 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_236047&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Lezzet Peşinde" tvg-id="vod.tr" group-author="Zerk",Lezzet Peşinde Bölümler 1 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_236048&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Lezzet Peşinde" tvg-id="vod.tr" group-author="Zerk",Lezzet Peşinde Bölümler 1 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_236056&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Lezzet Peşinde" tvg-id="vod.tr" group-author="Zerk",Lezzet Peşinde Bölümler 1 Sezon 6 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_236057&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Life" group-author="powerboard",Life S01E01
 https://pixeldrain.com/api/file/BXZ6914N
 #EXTINF:-1 group-title="Life" group-author="powerboard",Life S01E02

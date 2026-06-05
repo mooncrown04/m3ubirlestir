@@ -15,3 +15,21 @@ https://vs12.photomag.biz/v/Dark.S03E06.WEB-DL.1080p.DUAL.x264-HDM/1080.m3u8
 https://vs11.photostack.net/v/Dark.S03E07.WEB-DL.1080p.DUAL.x264-HDM/1080.m3u8
 #EXTINF:-1 group-title="Dark (2017)" tvg-year="1966" tvg-id="723786" group-author="Zerk",Dark S03E08
 https://vs11.photoflax.org/v/Dark.S03E08.WEB-DL.1080p.DUAL.x264-HDM/master.m3u8
+#EXTINF:-1 group-title="Doğada Dımdızlak" tvg-id="vod.tr" group-author="Zerk",Doğada Dımdızlak Bölümler 3 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=DMAX_7958&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Doğada Dımdızlak" tvg-id="vod.tr" group-author="Zerk",Doğada Dımdızlak Bölümler 3 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_1575755&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Doğada Dımdızlak" tvg-id="vod.tr" group-author="Zerk",Doğada Dımdızlak Bölümler 3 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_1575766&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Doğada Dımdızlak" tvg-id="vod.tr" group-author="Zerk",Doğada Dımdızlak Bölümler 3 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_157577&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Doğada Dımdızlak" tvg-id="vod.tr" group-author="Zerk",Doğada Dımdızlak Bölümler 3 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_157578&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Doğada Dımdızlak" tvg-id="vod.tr" group-author="Zerk",Doğada Dımdızlak Bölümler 3 Sezon 6 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_157579&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Doğada Dımdızlak" tvg-id="vod.tr" group-author="Zerk",Doğada Dımdızlak Bölümler 3 Sezon 7 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_173964&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Doğada Dımdızlak" tvg-id="vod.tr" group-author="Zerk",Doğada Dımdızlak Bölümler 3 Sezon 8 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_173965&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Doğada Dımdızlak" tvg-id="vod.tr" group-author="Zerk",Doğada Dımdızlak Bölümler 3 Sezon 9 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_173966&SecretKey=NtvApiSecret2014*&.m3u8

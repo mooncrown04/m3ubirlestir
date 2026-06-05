@@ -1,4 +1,16 @@
 #EXTM3U
+#EXTINF:-1 group-title="Yabanda Kayıp" tvg-id="vod.tr" group-author="Zerk",Yabanda Kayıp Bölümler 1 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_245962&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Yabanda Kayıp" tvg-id="vod.tr" group-author="Zerk",Yabanda Kayıp Bölümler 1 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_245963&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Yabanda Kayıp" tvg-id="vod.tr" group-author="Zerk",Yabanda Kayıp Bölümler 1 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_245964&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Yabanda Kayıp" tvg-id="vod.tr" group-author="Zerk",Yabanda Kayıp Bölümler 1 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_245965&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Yabanda Kayıp" tvg-id="vod.tr" group-author="Zerk",Yabanda Kayıp Bölümler 1 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_245966&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Yabanda Kayıp" tvg-id="vod.tr" group-author="Zerk",Yabanda Kayıp Bölümler 1 Sezon 6 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_245967&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Young Sheldon (2017)" tvg-year="2017" tvg-id="71728" group-author="Zerk",Young Sheldon S01 E01 (2017)
 https://sfa86774.5454542.xyz/file/snwaxdop/Young%20Sheldon.S01E01.mkv
 #EXTINF:-1 group-title="Young Sheldon (2017)" tvg-year="2017" tvg-id="71728" group-author="Zerk",Young Sheldon S01 E02 (2017)

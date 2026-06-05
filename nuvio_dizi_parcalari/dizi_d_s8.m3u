@@ -1,0 +1,11 @@
+#EXTM3U
+#EXTINF:-1 group-title="Doğada Dımdızlak" tvg-id="vod.tr" group-author="Zerk",Doğada Dımdızlak Bölümler 8 Sezon 1 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_384987&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Doğada Dımdızlak" tvg-id="vod.tr" group-author="Zerk",Doğada Dımdızlak Bölümler 8 Sezon 2 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_84988&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Doğada Dımdızlak" tvg-id="vod.tr" group-author="Zerk",Doğada Dımdızlak Bölümler 8 Sezon 3 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_384989&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Doğada Dımdızlak" tvg-id="vod.tr" group-author="Zerk",Doğada Dımdızlak Bölümler 8 Sezon 4 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_384979&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Doğada Dımdızlak" tvg-id="vod.tr" group-author="Zerk",Doğada Dımdızlak Bölümler 8 Sezon 5 Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_384991&SecretKey=NtvApiSecret2014*&.m3u8
