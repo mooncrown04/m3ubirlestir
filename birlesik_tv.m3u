@@ -61,8 +61,6 @@ https://streams.uzunmuhalefet.com/stream/92ccdd1d-1d3e-47eb-b84b-e75effe16829.m3
 https://streams.uzunmuhalefet.com/stream/16e43b9b-e175-482c-a105-2253c06515c9.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="http://sarkor.tv/static/images/channels/TRT Avaz.png",TRT AVAZ
 https://streams.uzunmuhalefet.com/stream/3dd49c7a-001c-4be0-9a16-0f8957e3977c.m3u8
-#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="Luxy44" tvg-logo="play.png",TRT AVRUPA
-https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="Mertcantv" tvg-logo="https://img.dsmartgo.com.tr/content/4/uH/13380/Thumbnail.png",TRT KURDİ
 https://tv-trtkurdi.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/trt_turk_bud.png",TRT TURK
@@ -319,8 +317,6 @@ https://streams.uzunmuhalefet.com/stream/b1e006ff-8301-4cf5-846b-b27e70e7f9a3.m3
 https://streams.uzunmuhalefet.com/stream/77c66ce0-7b78-47c1-8c6b-f33fb898bf60.m3u8
 #EXTINF:-1 group-title="Diğer" group-author="TVCANLI" tvg-logo="https://assets.uzunmuhalefet.com/logos/a16de706-98e3-4188-8130-e4eee7c616aa.png",CAN TEMPO TV
 https://streams.uzunmuhalefet.com/stream/a8ffc29c-e155-447b-bc90-b42a6e2cb31e.m3u8
-#EXTINF:-1 group-title="Diğer" group-author="TVCANLI" tvg-logo="https://assets.uzunmuhalefet.com/logos/5faee5ba-3a15-4b59-960e-ea10d983273b.png",CAN TV
-https://streams.uzunmuhalefet.com/stream/904601a0-a0b6-4b3b-9f68-15e73afba3b7.m3u8
 #EXTINF:-1 group-title="Diğer" group-author="TVCANLI" tvg-logo="https://assets.uzunmuhalefet.com/logos/b0c4eabe-d127-41e6-abc7-5180bb7000df.png",CANSUYU TV
 https://streams.uzunmuhalefet.com/stream/c2faaecc-7724-4ca5-b36e-ec9dcd5132dc.m3u8
 #EXTINF:-1 group-title="Çocuk" group-author="TVCANLI" tvg-logo="https://www.polskie.tv/play/images/logos/528.png",CARTOON NETWORK
