@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/28326/poster/thumb/3022.jpg" group-title="Bilim Kurgu",
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/dp1brl24LXGFU3JPFaDoljDONRz.jpg" group-title="Bilim Kurgu" year="2019",
 https://vs7.photour.org/v/em5iohgkmezn/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/503185/poster/thumb/2073.jpg" group-title="Belgesel",
 https://vs22.pictureflix.org/v/2073.Movie.2024.FHD.WebDL/master.m3u8
@@ -27,7 +27,7 @@ https://p2.gamephotos.pro/v/3y3nmmb9qwxs/master.m3u8
 https://p1.photomag.biz/v/7eq0qf8ouv94/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/37896/poster/thumb/camille-claudel-1915.jpg" group-title="Dram",
 https://vs2.photour.org/v/0pgl811gq8u6/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/17694/poster/thumb/1246.jpg" group-title="Aksiyon",
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/sOJAR1YasnxxOBFtSbTcS3pbjok.jpg" group-title="Aksiyon" year="2023",
 https://vs8.photofunia.pro/v/75am5b7uc3ro/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Lunedor" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/1976-96425.jpg" group-title="",
 https://s25.pixypost.art/m8/ZGx3Av4lZQVlYyqSDv1RGP4kZQtjpP5RIHSZd0zxpTy4rKOip3DhLKW0s0xi25vr1
@@ -45,35 +45,33 @@ https://s4.imagebin.pics/ml/ZwN0ZP4lZQR5YxWfqKWurF4kZQtjpP5RIHSZd0zxnJ1uM2IvnJ4h
 https://s22.imagebin.pics/md/ZwN2Al4lZQVjYwRjBQOjYxIBEjd0zxnJ1uM2IvnJ4hpTywpjs0xi22vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Lunedor" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/fullhd-7500.jpg" group-title="",
 https://s8.imagebin.pics/m1/AmHjZP4lZQR5YwRjBQOjYxIBEjd0zxnJ1uM2IvnJ4hpTywpjs0xi8vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/22924/poster/thumb/like.jpg" group-title="Gerilim",#Like
-https://vs5.photour.org/v/t36ygqnex02p/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/42219/poster/thumb/lise-gercegi.jpg" group-title="Komedi",#Realityhigh
-https://vs5.photour.org/v/a6qzdn3wufr1/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/13429/poster/thumb/alive.jpg" group-title="Aksiyon",#Saraitda
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/6zcnbgNm4Es96sfsgoUavqbAed9.jpg" group-title="Drama" year="2001","O" Bir Dev Adam
+https://p2.photostack.net/v/bx2cwh3cw1vg/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/zb06eXz3Pg5JzytPnMFb3cIDV7B.jpg" group-title="Aksiyon" year="2020",#Alive
 https://p3.photomag.biz/v/axujl5v3xsxe/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/503073/poster/thumb/worstchristmasever.jpg" group-title="Dram",#WorstChristmasEver
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/x0nLLxb9jszTpIokAMrbGWqVNeM.jpg" group-title="Drama" year="2023",#who am I
+https://p2.photomag.biz/v/2adm4fhkd4sn/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/GVZJHwpHP9Jtwfvy605cSug2hR.jpg" group-title="Komedi" year="2025",#WorstChristmasEver
 https://vs22.photour.org/v/WorstChristmasEver.2025.1080p.W/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/40731/poster/thumb/16-dogum-gunum.jpg" group-title="Komedi",'16. Doğum Günüm'
-https://vs8.photour.org/v/elima46emujn/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/45034/poster/thumb/hes-watching.jpg" group-title="Gerilim",'He's Watching'
-https://vs3.photour.org/v/nslqnuwnxk97/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/5pLpP7eb3KFB6DhLXJKu8GpxQjM.jpg" group-title="Diğer" year="2017",&美少女 NEXT GIRL meets Tokyo
+https://vs2.photour.org/v/2halmncr39f9/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/lJEzIcEdmwcKnKA9BFhX3UmPeg5.jpg" group-title="Drama" year="2024",'A Muzzarell'
+https://vs13.photofunia.pro/v/A.Muzzarell.2024.1080p.WEBRip/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/37206/poster/thumb/l-storm.jpg" group-title="Aksiyon",'L' fung bou
 https://vs3.photour.org/v/vjt1p12wtu53/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/37205/poster/thumb/p-storm.jpg" group-title="Aksiyon",'P' fung bou
-https://vs1.photour.org/v/tctzg8hl28kb/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/37209/poster/thumb/z-storm-2.jpg" group-title="Aksiyon",'S' fung bou
-https://vs7.photour.org/v/unvlntgewgi9/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/oPjlJfeyK6YluQDxWVn9K3wYxA0.jpg" group-title="Animasyon" year="2008",'Twas the Night Before Christmas
+https://vs1.photour.org/v/c5f1q36x9tv0/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/37211/poster/thumb/z-storm.jpg" group-title="Gerilim",'Z' fung bou
 https://vs2.photour.org/v/jimx3h57686b/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/47560/poster/thumb/dean.jpg" group-title="Komedi",(Dean)
-https://p2.gamephotos.pro/v/135irfa9m16v/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Lunedor" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/dishonesty-the-truth-about-lies-74102.jpg" group-title="",(Dis)Honesty The Truth About Lies
 https://s8.imglink.pro/mu/ETymYxuiozImqUxhITuyYyElqKEbYxSvo3I0YxkcMKZhZwNkAF5KEHWFnKNhAmVjpP5HHxEIDwVd0zxnJ1aoTyhnl5jpz8s0xi8vr1
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Lunedor" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/terror-5-17119.jpg" group-title="",(T)ERROR
 https://s19.pixypost.art/md/IRIFHx9FYwVjZGHhI0IPYHEZYwRjBQOjYxEIDHjd0zxpTy4rKOip3DhLKW0s0xi19vr1
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/7TjPCQFg0qtevvqaLZ5utwSCzaG.jpg" group-title="Belgesel" year="2015",+/- 5 mètres
+https://p2.photofunia.pro/v/8k15uo3sb3py/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Lunedor" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/-1-45894.jpg" group-title="",+1
 https://s13.imglink.info/mp/ZF4lZQRmYyqSDv1RGP4kZQtjpP5RIHSZd0zxnJ1aoTyhnl5cozMis0xi13vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/41214/poster/thumb/ve-herkes-icin-adalet.jpg" group-title="Dram",...And Justice for All
+#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/41214/poster/thumb/ve-herkes-icin-adalet.jpg" group-title="Diğer",...And Justice for All
 https://p3.photofunny.org/v/xx3i08vr000t/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Lunedor" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/cargo-3-95589.jpg" group-title="",[Cargo]
 https://s10.seeshare.pics/mg/D2SlM28hZwNkBP4kZQtjpP5KEHWFnKNd0zxp2Iyp2uupzHhpTywpjs0xi10vr1
@@ -81,29 +79,85 @@ https://s10.seeshare.pics/mg/D2SlM28hZwNkBP4kZQtjpP5KEHWFnKNd0zxp2Iyp2uupzHhpTyw
 https://vs7.photoflix.org/v/Casa.Bonita.Mi.Amor.2024.1080p.WEBRip2/master.m3u8
 #EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Lunedor" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/casa-bonita-mi-amor-45971.jpg" group-title="",¡Casa Bonita Mi Amor!
 https://s27.imglink.pro/mj/D2SmLF5Po25cqTRhGJxhDJ1ipv4lZQV0YwRjBQOjYyqSDyWcpQVd0zxnJ1aoTyhnl5jpz8s0xi27vr1
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/502271/poster/thumb/maria-me-muero.jpg" group-title="Komedi",¡Me muero!
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/cTQIU3kJBPI5BG5WGVnUuU5yAnB.jpg" group-title="Komedi" year="2024",¡Hasta la Madre de la Navidad!
+https://vs19.photomag.biz/v/Christmas.Is.Cancelled.2024.1080p.WEBRip/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/4BMzmf3vEAVdapBU59KQmux0V9I.jpg" group-title="Komedi" year="2024",¡Me muero!
 https://vs13.photoflix.org/v/Maria.Me.Muero.2024.1080p.WEBRi/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/501131/poster/thumb/salta.jpg" group-title="Aile",¡Salta!
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/cbT0HxoPlw3ntz2P39na5qqe5GL.jpg" group-title="Talk Show" year="2025",¡Salta!
 https://vs17.photoflix.org/v/Salta.2023.1080p.WEBRip/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/33214/poster/thumb/tam-gaz-2.jpg" group-title="Aile",À fond
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/xzMQqTTmjofphjTdeFaPm16G6gp.jpg" group-title="Pembe Dizi" year="2015",¿Quién es Quién?
+https://vs19.photostack.net/v/Quien.Es.Quien.2024.1080p.BluRa/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/yTHIStSrprpxa1Gw7ou1u0CjtDg.jpg" group-title="Aile" year="2017",À fond de train
 https://vs5.photour.org/v/36lit1px8i84/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/46217/poster/thumb/aga.jpg" group-title="Dram",Ága
-https://vs4.photour.org/v/9vj8r20y5xmg/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/33442/poster/thumb/ani-tanimlamak.jpg" group-title="Dram",Ânı Tanımlamak
-https://vs3.photofunia.pro/v/zgyd3hdwy6vk/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/18758/poster/thumb/asik-shakespeare.jpg" group-title="Komedi",Âşık Shakespeare
-https://p2.photostack.net/v/nl6lhm1kttft/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-05-19_19:42:00" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/oSTFMqFpVB4yq9SOIxBp8xZ9jh5.jpg" group-title="Dram" year="2014",Òlòturé
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/b9oQI9ep2dpah3OXuSxFqFIaRlV.jpg" group-title="Sci-Fi & Fantezi" year="2014",À la recherche du Hobbit
+https://vs5.photour.org/v/1rpsx1ow2f8q/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/aHcJuzyGiHCRqtxjOxvDMJ2Kn5e.jpg" group-title="Drama" year="2024",Òlòtūré Yolculuk
 https://vs5.photour.org/v/739mq2ierxh0/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-05-19_19:42:00" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/nH4uloyMjopxDxCMmcgamGN8SHS.jpg" group-title="Dram" year="2012",Ô Rûshî!
-https://p1.gamephotos.pro/v/o4sxy9ahrd1g/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-05-19_19:42:00" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/501733/poster/thumb/population-purge.jpg" group-title="Aksiyon" year="2011",Último a Sair
+#EXTINF:-1 type="video" group-time="2026-05-19_19:42:00" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/vHjDBYxPWwv9n3ZXPBXbY2IyWbA.jpg" group-title="Komedi" year="2011",Último a Sair
 https://vs15.photoflax.org/v/Population.Purge.2023.1080p.WEBRi/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-05-19_19:42:00" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/wOJZ3XvHjcGfLBh0GLJU3HhsJKE.jpg" group-title="Dram" year="2009",Úsvit
-https://vs10.photour.org/v/Usvit.2023.1080p.WEBRip/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-04-05_14:10:19" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/500713/poster/thumb/a-mame-co-sme-chceli.jpg" group-title="Dram",čo sme chceli
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/l4hJCRWhODB1gPTC1J2J2s5Z0CS.jpg" group-title="Komedi" year="2023",čo sme chceli
 https://vs13.photostack.net/v/Reveillon.2023.1080p.WEBRip/master.m3u8
-#EXTINF:-1 type="video" group-time="2026-05-19_19:42:00" group-author="Zerk" tvg-logo="" group-title="" year="1997",Đất phương Nam
+#EXTINF:-1 type="video" group-time="2026-05-19_19:42:00" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/oRoXkNXKTpdk5R7AxXqMZ0RtK9M.jpg" group-title="Drama" year="1997",Đất phương Nam
 http://movie.okru.workers.dev/?ID=7332805224840
-#EXTINF:-1 type="video" group-time="2026-05-19_19:42:00" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/42808/poster/thumb/end-game.jpg" group-title="Komedi",Šok su manimi
+#EXTINF:-1 type="video" group-time="2026-05-19_19:42:00" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/42808/poster/thumb/end-game.jpg" group-title="Diğer",Šok su manimi
 https://vs3.photour.org/v/lpkjg17xip3i/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://www.hdfilmizle.life/v/32254/poster/thumb/haberciler.jpg" group-title="Animasyon" year="2023",Горячие новости
+https://vs3.photour.org/v/tv8ro0uhtgsx/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/r45Hz6dwZ1u5mpgNcABz3SPUSPa.jpg" group-title="Diğer" year="2022",คลับฟรายเดย์ ตอน The Last Happy New Year
+https://p3.gamephotos.pro/v/48zrrrf3w4wv/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/qe0d4B1VEIkpPJ9hkY4miC9Ivm3.jpg" group-title="Aksiyon" year="2012",アウトレイジ ビヨンド
+https://vs1.photour.org/v/yfbdpoarerfc/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/naUpOu9yGGczI7p5uxgAdITA4LC.jpg" group-title="Animasyon" year="2007",キミキス pure rouge
+https://vs7.photour.org/v/6xipggahw4c0/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/sVgUMpD62gO4LK1rED2ZVZCO1RD.jpg" group-title="Aksiyon" year="2014",クローズ EXPLODE
+https://p2.photostack.net/v/2sofyiwcctgm/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/2g7s4sT5ybJENO5AMOlZ0dor4q.jpg" group-title="Animasyon" year="2013",コープスパーティー Tortured Souls
+https://vs5.photour.org/v/shoshs95e4sg/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/8O97sHxuMInR50hrBk7MW1v9ti0.jpg" group-title="Animasyon" year="2001",サイボーグ009 THE CYBORG SOLDIER
+https://vs2.photour.org/v/mhuqtz3zq7lc/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/phuQjrKDQLYKcdHvbsENRUi66JE.jpg" group-title="Animasyon" year="2006",シュヴァリエ 〜Le Chevalier D'Eon〜
+https://vs3.photour.org/v/sihjlrrd6ojw/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/1rYOC6iVrVLqA3QC1U8i4fqfQvV.jpg" group-title="Macera" year="2019",ルパン三世 THE FIRST
+https://vs4.photour.org/v/vekwjzcld3q1/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/33fW2eJKFwf9mKHeuA9Agtw2Dzl.jpg" group-title="Animasyon" year="1997",ヴァンパイアハンター THE ANIMATED SERIES
+https://p3.photofunny.org/v/oyavmzdm5ekn/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/gXpWkSUDU4gRCtrVK9bh3IAyCS8.jpg" group-title="Gerilim" year="2015",劇場版 MOZU
+https://p3.photomag.biz/v/pdq6lw3o5ffy/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/loQnGx81zO3RDf1VmNiGZf60mCg.jpg" group-title="Animasyon" year="2023",劇場版 PSYCHO-PASS サイコパス PROVIDENCE
+https://vs9.photoflix.org/v/Psycho-Pass.Providence.2023.1080p.BluRay/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/vhhoEknGGKknvNXyEKXhtuJSIDz.jpg" group-title="Animasyon" year="2023",劇場版 SPY×FAMILY CODE White
+https://vs22.photomag.biz/v/Spy.x.Family.Code.White.2023.1080p.BluRay/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/wSyPY2GYHCyVchjVSekfxRcuR6.jpg" group-title="Diğer" year="2024",姜小姐的反击
+https://vs1.photour.org/v/99soejvh6nsz/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/digyHMNMAljJZnCm6GSuWcOo4fw.jpg" group-title="Aksiyon" year="2026",寒戰
+https://vs4.photour.org/v/lwm72111tse8/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/qAAB0ZWNuVxDyAYtfw55ikbenko.jpg" group-title="Diğer" year="2024",总裁，夫人一心想离婚
+https://vs4.photour.org/v/fzrhwglpnzra/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/lIyMEp6icAB9PvVsvtTusjlNaNP.jpg" group-title="Animasyon" year="2004",月は東に日は西に Operation Sanctuary
+https://vs22.pictureflix.org/v/East.Is.East.1999.1080p.BluRay/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/5MoyWzmh7bDVLxd0udkuikaHHw1.jpg" group-title="Drama" year="2013",武工队传奇
+https://vs4.photour.org/v/kkd04qvrx2g5/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/tlqlBHkZc9z04AUsJVlU0TWx3nS.jpg" group-title="Drama" year="2023",满级魔尊攻略手册
+https://vs8.photour.org/v/d1aphicu2rwj/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/cvnvxunvy9aIInU38wxjyD90G3a.jpg" group-title="Drama" year="2011",激战江南
+https://p3.photofunny.org/v/obk8fdhl1f6t/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/fpztOX1bACbtb7Hvk6hT07gENAL.jpg" group-title="Drama" year="2017",相信我
+https://vs2.photoflax.org/v/8c69c7tzuwjm/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/bjoJP6qMML0loyE5bjtGhf5iKtR.jpg" group-title="Diğer" year="2024",老婆跑路我傻五年，女儿把我宠成神
+https://vs6.photour.org/v/ku9tr2g2ltf5/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/wpQn6Q54tQfjPXR0Ba7KfvS3qPz.jpg" group-title="Reality" year="2024",胶个朋友
+https://p3.photofunia.pro/v/s7n5444xrxb6/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/ynEhPFHQbmc1PsJtMVQlsykr2Px.jpg" group-title="Animasyon" year="2008",蓝猫淘气问之太阳城的故事
+https://p1.photostack.net/v/lr6sehnecdpl/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/gfsEWQkbzJOa6zBb4ST8eYd3Fdf.jpg" group-title="Diğer" year="2014",跟我回家
+https://p3.photomag.biz/v/vml0ada0e9rx/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/4MiASGnj9aDxBG0XCbxZsnd4tIw.jpg" group-title="Diğer" year="2023",逆袭人生之无双神瞳
+https://vs7.photour.org/v/ofs2s0b8p3e7/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/ll84CrLiDX4urxjBzLiFTM9YQL3.jpg" group-title="Diğer" year="2007",陆军特战队
+https://vs5.photour.org/v/if4gcr9u8ouf/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/rH3QrDBw5qDa06kwGsGeGX6nwfr.jpg" group-title="Reality" year="2021",集合！开心果
+https://vs6.photour.org/v/ms0ddyp3s2gb/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/oJQER4I2VHbydEfEITbgLOBTDBS.jpg" group-title="Drama" year="2026",黑傘，白傘
+https://p3.photofunia.pro/v/wvc38op9qurb/master.m3u8
+#EXTINF:-1 type="video" group-time="2026-06-21_09:39:59" group-author="Zerk" tvg-logo="https://image.tmdb.org/t/p/w200/onQ8XbOyZDdSlExpYEjmuNvhB1z.jpg" group-title="Diğer" year="2020",龙虎纪之忠义关云长
+https://p1.photomag.biz/v/7yk4b96ban0f/master.m3u8
