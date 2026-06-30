@@ -159,8 +159,12 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198
 http://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8
 #EXTINF:-1 group-title="Müzik" group-author="Mertcantv" tvg-logo="http://1.bp.blogspot.com/-OvCV-qKr2fc/Xk140I96rqI/AAAAAAAAYEc/Vbvxg8SOvZQnSCsdrF1fCki03HoXmeSeQCLcBGAsYHQ/s1600/nrturk.jpg",NUMBER 1 TÜRK TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/playlist.m3u8?md5=T5XRaMShyuirhEdm4U70yQ&expires=1745141016
+#EXTINF:-1 group-title="Müzik" group-author="Mertcantv" tvg-logo="https://i.ibb.co/xXcBD2C/powerturk.png",POWER TURK
+https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlists.m3u8
 #EXTINF:-1 group-title="Müzik" group-author="Luxy44" tvg-logo="play.png",POWER TÜRK
 https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
+#EXTINF:-1 group-title="Müzik" group-author="Mertcantv" tvg-logo="https://i.ibb.co/R4pcKqK/powerturk-slow.png",POWERTÜRK SLOW
+https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
 #EXTINF:-1 group-title="YABANCI SPOR" group-author="NeonSpor" tvg-logo="https://i.hizliresim.com/bcnszq0.png",S SPORT 2
 https://zeus324232.cfd/s2/index.txt
 #EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",SAT 7 TÜRK
