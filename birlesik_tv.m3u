@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="Mertcantv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/S/Js/246030/logo.png",ATV
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="NeonSpor" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/S/Js/246030/logo.png",ATV
 https://zeus324232.cfd/xatv/index.txt
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="Mertcantv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/a/-p/245931/logo.png",KANAL D
@@ -41,8 +39,6 @@ https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/chunklist.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://i.ibb.co/9H3DMWz/tivi6.png",TIVI 6
 https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
-#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="Luxy44" tvg-logo="play.png",TRT AVRUPA
-https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://yt3.ggpht.com/6_jhTr2aolmOP8qNq24ReRalaiu8LNSX-OD4fh9wWcIALv67la_kYKHDe-2QjmGJ3GqH8UULVQ",TRT COCUK
 https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-cocuk-tr.png",TRT COCUK DIYANET
@@ -151,6 +147,8 @@ https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m
 http://dygvideo.dygdigital.com/live/hls/kralpop
 #EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",KRAL TV
 http://dygvideo.dygdigital.com/live/hls/kralpop?m3u8
+#EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",LIFE TV
+https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 #EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",MERCAN TV
 https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
 #EXTINF:-1 group-title="Sinema" group-author="TVCANLI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/MinikaGO_logo.png/1536px-MinikaGO_logo.png?20200428070543",MINIKA GO
