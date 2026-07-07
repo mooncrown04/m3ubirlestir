@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 group-title="How I Met Your Mother" tvg-year="2005" tvg-id="1100" group-author="Zerk",How I Met Your Mother S05E24
+https://vs14.photoflick.org/v/How.I.Met.Your.Mother.S05E24.1080p.BluRay.x264.TR.ENG/master.m3u8
 #EXTINF:-1 group-title="How to Get Away with Murder (2014)" tvg-year="2014" tvg-id="61056" group-author="Zerk",How to Get Away with Murder S05E01
 https://vs6.photoflax.org/v/How.to.Get.Away.With.Murder.S05E01.WEB-DL.1080p.x264-HDM.DUAL/master.m3u8
 #EXTINF:-1 group-title="How to Get Away with Murder (2014)" tvg-year="2014" tvg-id="61056" group-author="Zerk",How to Get Away with Murder S05E02
