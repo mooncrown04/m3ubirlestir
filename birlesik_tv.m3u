@@ -77,6 +77,8 @@ https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
 https://zeus324232.cfd/tivibu/index.txt
 #EXTINF:-1 group-title="SPOR" group-author="Mertcantv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/T/Rx/246135/logo.png",A SPOR
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8
+#EXTINF:-1 group-title="SPOR" group-author="Mertcantv" tvg-logo="",BRİÇ VE SATRANÇ TV
+http://139.162.182.79/live/test/index.m3u8
 #EXTINF:-1 group-title="SPOR" group-author="NeonSpor" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/3/36/Tivibu_spor_logosu.jpg",TIVIBU SPOR 2
 https://zeus324232.cfd/tivibu2/index.txt
 #EXTINF:-1 group-title="SPOR" group-author="Mertcantv" tvg-logo="",TJK TV
@@ -111,8 +113,6 @@ http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6915/index.m3u8
 https://canli.tgrthaber.com/tgrt.m3u8
 #EXTINF:-1 group-title="MÜZİK" group-author="Mertcantv" tvg-logo="",KRAL POP TV
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
-#EXTINF:-1 group-title="🎬 SİNEMA & DİZİ" group-author="TVCANLI" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7d58e86c-d38e-4ef5-8ee0-fda0a7e65914.png",FILM SCREEN
-https://edge-e3.evrideo.tv/f2dcbecf-5af0-47db-a82e-032112050a23_1000027346_HLS/manifest.m3u8
 #EXTINF:-1 group-title="🎬 SİNEMA & DİZİ" group-author="smartgmr" tvg-logo="https://cms-rotf-api.tabii.com/r/int/webp/w273/h154/q90/45155.jpeg",TABII TV
 http://tabii.mobi-tv.workers.dev/tabiiTV.m3u8
 #EXTINF:-1 group-title="🎬 SİNEMA & DİZİ" group-author="TVCANLI" tvg-logo="https://cms-rotf-api.tabii.com/r/int/webp/w273/h154/q90/45155.jpeg",TABII TV
