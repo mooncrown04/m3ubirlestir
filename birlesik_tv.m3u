@@ -113,6 +113,8 @@ http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6915/index.m3u8
 https://canli.tgrthaber.com/tgrt.m3u8
 #EXTINF:-1 group-title="MÜZİK" group-author="Mertcantv" tvg-logo="",KRAL POP TV
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
+#EXTINF:-1 group-title="🎬 SİNEMA & DİZİ" group-author="TVCANLI" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7d58e86c-d38e-4ef5-8ee0-fda0a7e65914.png",FILM SCREEN
+https://edge-e3.evrideo.tv/f2dcbecf-5af0-47db-a82e-032112050a23_1000027346_HLS/manifest.m3u8
 #EXTINF:-1 group-title="🎬 SİNEMA & DİZİ" group-author="smartgmr" tvg-logo="https://cms-rotf-api.tabii.com/r/int/webp/w273/h154/q90/45155.jpeg",TABII TV
 http://tabii.mobi-tv.workers.dev/tabiiTV.m3u8
 #EXTINF:-1 group-title="🎬 SİNEMA & DİZİ" group-author="TVCANLI" tvg-logo="https://cms-rotf-api.tabii.com/r/int/webp/w273/h154/q90/45155.jpeg",TABII TV
@@ -167,8 +169,6 @@ https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m
 http://dygvideo.dygdigital.com/live/hls/kralpop
 #EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",KRAL TV
 http://dygvideo.dygdigital.com/live/hls/kralpop?m3u8
-#EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",LIFE TV
-https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 #EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",MERCAN TV
 https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
 #EXTINF:-1 group-title="Sinema" group-author="TVCANLI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/MinikaGO_logo.png/1536px-MinikaGO_logo.png?20200428070543",MINIKA GO
