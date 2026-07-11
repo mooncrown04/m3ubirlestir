@@ -169,6 +169,8 @@ https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m
 http://dygvideo.dygdigital.com/live/hls/kralpop
 #EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",KRAL TV
 http://dygvideo.dygdigital.com/live/hls/kralpop?m3u8
+#EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",LIFE TV
+https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 #EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",MERCAN TV
 https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
 #EXTINF:-1 group-title="Sinema" group-author="TVCANLI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/MinikaGO_logo.png/1536px-MinikaGO_logo.png?20200428070543",MINIKA GO
