@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="Mertcantv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/S/tg/245943/logo.png",TRT 1
+https://tv-trt1-esdai.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="Mertcantv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/S/Js/246030/logo.png",ATV
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="NeonSpor" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/S/Js/246030/logo.png",ATV
@@ -143,6 +145,8 @@ https://zeus324232.cfd/b5/index.txt
 https://zeus324232.cfd/b1max/index.txt
 #EXTINF:-1 group-title="Arabesk Radyolar" group-author="Mertcantv" tvg-logo="",DAMAR FM
 https://tinyurl.com/SyndraxicDAMARfm
+#EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",DENIZ POSTASI
+https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
 #EXTINF:-1 group-title="SİNEMA & DİZİ" group-author="Luxy44" tvg-logo="https://yt3.ggpht.com/ytc/AIdro_kg1PXkb5IvOoU7c2haUmoWIPg20lNNFb-jk8qkh4PQ3_4",DIYANET TV
 https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
 #EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/diyar-tv.png",DIYAR TV
