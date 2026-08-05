@@ -195,6 +195,14 @@ https://vs4.photoflix.org/v/Love.and.Death.S01E05.WEB-DL.1080p.DUAL.H.264-HDM/ma
 https://vs4.photour.org/v/Love.and.Death.S01E06.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 group-title="Love group-author="Zerk",🔄 Death & Robots" tvg-year="2019" tvg-id="86831"
 https://vs2.photomag.biz/v/Love.and.Death.S01E07.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="La catedral del mar (2018)" tvg-year="2018" tvg-id="72613" group-author="Zerk",🔄 Deniz Katedrali (2018)
+https://vs4.photoflick.org/v/La.catedral.del.mar.S01E01.WEB-DL.1080p.H.264-HDM.DUAL/master.m3u8
+#EXTINF:-1 group-title="La catedral del mar (2018)" tvg-year="2018" tvg-id="72613" group-author="Zerk",🔄 Deniz Katedrali (2018)
+https://vs3.photomag.biz/v/La.catedral.del.mar.S01E02.WEB-DL.1080p.H.264-HDM.DUAL/master.m3u8
+#EXTINF:-1 group-title="La catedral del mar (2018)" tvg-year="2018" tvg-id="72613" group-author="Zerk",🔄 Deniz Katedrali (2018)
+https://vs4.photoflax.org/v/La.catedral.del.mar.S01E03.WEB-DL.1080p.H.264-HDM.DUAL/master.m3u8
+#EXTINF:-1 group-title="La catedral del mar (2018)" tvg-year="2018" tvg-id="72613" group-author="Zerk",🔄 Deniz Katedrali (2018)
+https://vs7.photoflix.org/v/La.catedral.del.mar.S01E04.WEB-DL.1080p.H.264-HDM.DUAL/master.m3u8
 #EXTINF:-1 group-title="Dexter (2006)" group-author="Zerk",🔄 Dexter S01E01
 https://vs10.photomag.biz/v/Dexter.S01E01.1080p.BluRay.x264.TR.ENG/master.m3u8
 #EXTINF:-1 group-title="Dexter (2006)" group-author="Zerk",🔄 Dexter S01E02
@@ -407,14 +415,6 @@ https://vs10.pictureflix.org/v/XO,Kitty.S02E06.WEB-DL.1080p.DUAL.H.264-HDM/maste
 https://vs10.photour.org/v/XO,Kitty.S02E07.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 group-title="XO group-author="Zerk",🔄 Kitty" tvg-year="2023" tvg-id="195670"
 https://vs9.photour.org/v/XO,Kitty.S02E08.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="La catedral del mar (2018)" group-author="Zerk",🔄 La catedral del mar (2018)
-https://vs4.photoflick.org/v/La.catedral.del.mar.S01E01.WEB-DL.1080p.H.264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="La catedral del mar (2018)" group-author="Zerk",🔄 La catedral del mar (2018)
-https://vs3.photomag.biz/v/La.catedral.del.mar.S01E02.WEB-DL.1080p.H.264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="La catedral del mar (2018)" group-author="Zerk",🔄 La catedral del mar (2018)
-https://vs4.photoflax.org/v/La.catedral.del.mar.S01E03.WEB-DL.1080p.H.264-HDM.DUAL/master.m3u8
-#EXTINF:-1 group-title="La catedral del mar (2018)" group-author="Zerk",🔄 La catedral del mar (2018)
-https://vs7.photoflix.org/v/La.catedral.del.mar.S01E04.WEB-DL.1080p.H.264-HDM.DUAL/master.m3u8
 #EXTINF:-1 group-title="La catedral del mar (2018)" group-author="Zerk",🔄 La catedral del mar (2018)
 https://vs4.photoflix.org/v/La.catedral.del.mar.S01E05.WEB-DL.1080p.H.264-HDM.DUAL/master.m3u8
 #EXTINF:-1 group-title="La catedral del mar (2018)" group-author="Zerk",🔄 La catedral del mar (2018)
@@ -997,25 +997,25 @@ https://vs10.photoflix.org/v/Snowpiercer.S01E08.WEB-DL.1080p.DUAL.H.264-HDM/mast
 https://vs10.photoflax.org/v/Snowpiercer.S01E09.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 group-title="Snowpiercer" group-author="Zerk",🔄 Snowpiercer S01E10
 https://vs19.photoflick.org/v/Snowpiercer.S01E10.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Spartacus: House of Ashur (2025)" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
+#EXTINF:-1 group-title="Drama" tvg-year="2025" tvg-id="240459" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
 https://one.makesomthingup.click/XrgkE5TYgQv8BMvvdeeqnSti/master.m3u8
-#EXTINF:-1 group-title="Spartacus: House of Ashur (2025)" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
+#EXTINF:-1 group-title="Drama" tvg-year="2025" tvg-id="240459" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
 https://one.makesomthingup.click/ZcZLom4dHt9udpkSUpgFbBRd/master.m3u8
-#EXTINF:-1 group-title="Spartacus: House of Ashur (2025)" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
+#EXTINF:-1 group-title="Drama" tvg-year="2025" tvg-id="240459" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
 https://one.makesomthingup.click/qTwHLC5v6mbGkmz5ZbekDCgU/master.m3u8
-#EXTINF:-1 group-title="Spartacus: House of Ashur (2025)" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
+#EXTINF:-1 group-title="Drama" tvg-year="2025" tvg-id="240459" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
 https://one.makesomthingup.click/Lnp3p8wqvyod091A5nJZaEjb/master.m3u8
-#EXTINF:-1 group-title="Spartacus: House of Ashur (2025)" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
+#EXTINF:-1 group-title="Drama" tvg-year="2025" tvg-id="240459" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
 https://one.makesomthingup.click/gTTERpcOSPqpgqA4Cqw7Peq3/master.m3u8
-#EXTINF:-1 group-title="Spartacus: House of Ashur (2025)" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
+#EXTINF:-1 group-title="Drama" tvg-year="2025" tvg-id="240459" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
 https://one.makesomthingup.click/xeNCQvUJnU6C5jLcenwr3GLM/master.m3u8
-#EXTINF:-1 group-title="Spartacus: House of Ashur (2025)" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
+#EXTINF:-1 group-title="Drama" tvg-year="2025" tvg-id="240459" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
 https://one.makesomthingup.click/NUH4Ub4RhcenV1YMU__1SoTP/master.m3u8
-#EXTINF:-1 group-title="Spartacus: House of Ashur (2025)" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
+#EXTINF:-1 group-title="Drama" tvg-year="2025" tvg-id="240459" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
 https://one.makesomthingup.click/7_gTCqLjHFO_jAu4AVfteYJu/master.m3u8
-#EXTINF:-1 group-title="Spartacus: House of Ashur (2025)" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
+#EXTINF:-1 group-title="Drama" tvg-year="2025" tvg-id="240459" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
 https://one.makesomthingup.click/4V4G0B5M_XooQ5Gx4yy7paId/master.m3u8
-#EXTINF:-1 group-title="Spartacus: House of Ashur (2025)" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
+#EXTINF:-1 group-title="Drama" tvg-year="2025" tvg-id="240459" group-author="Zerk",🔄 Spartacus: House of Ashur (2025)
 https://one.makesomthingup.click/_rSBojsw5_JXhPNnLw2Ha44c/master.m3u8
 #EXTINF:-1 group-title="Star Wars: Tales of the Underworld" group-author="Zerk",🔄 Star Wars: Tales of the Underworld S01E01
 https://vs9.photour.org/v/Star.Wars.Tales.of.the.Underworld.S01E01.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
