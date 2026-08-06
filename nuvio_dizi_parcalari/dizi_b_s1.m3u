@@ -1,16 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="El jardinero (2025)" group-author="Zerk",Bahçıvan S01 E01 (2025)
-https://vs14.photostack.net/v/The.Gardener.S01E01.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="El jardinero (2025)" group-author="Zerk",Bahçıvan S01 E02 (2025)
-https://vs13.photoflax.org/v/The.Gardener.S01E02.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="El jardinero (2025)" group-author="Zerk",Bahçıvan S01 E03 (2025)
-https://vs13.pictureflix.org/v/The.Gardener.S01E03.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="El jardinero (2025)" group-author="Zerk",Bahçıvan S01 E04 (2025)
-https://vs15.photostack.net/v/The.Gardener.S01E04.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="El jardinero (2025)" group-author="Zerk",Bahçıvan S01 E05 (2025)
-https://vs14.photour.org/v/The.Gardener.S01E05.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="El jardinero (2025)" group-author="Zerk",Bahçıvan S01 E06 (2025)
-https://vs16.pictureflix.org/v/The.Gardener.S01E06.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 group-title="Band of Brothers" group-author="powerboard",Band of Brothers S01E01
 https://pixeldrain.com/api/file/vwaqc2fk
 #EXTINF:-1 group-title="Band of Brothers" group-author="powerboard",Band of Brothers S01E02
@@ -41,6 +29,18 @@ https://vs19.photostack.net/v/The.Stolen.Girl.S01E03.WEB-DL.1080p.DUAL.H.264-HDM
 https://vs13.photomag.biz/v/The.Stolen.Girl.S01E04.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 group-title="The Stolen Girl (2025)" tvg-year="2023" tvg-id="1193730" group-author="Zerk",Banksy e la ragazza del Bataclan S01 E05
 https://vs12.photoflix.org/v/The.Stolen.Girl.S01E05.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Bardot (2023)" tvg-year="2023" tvg-id="217641" group-author="Zerk",Bardot S01 E01
+https://one.makesomthingup.click/5FSIdsJy8Y_Cumj3lwwfZSxL/master.m3u8
+#EXTINF:-1 group-title="Bardot (2023)" tvg-year="2023" tvg-id="217641" group-author="Zerk",Bardot S01 E02
+https://one.makesomthingup.click/8DyjIn1OBVbwjMflLDYdWt_r/master.m3u8
+#EXTINF:-1 group-title="Bardot (2023)" tvg-year="2023" tvg-id="217641" group-author="Zerk",Bardot S01 E03
+https://one.makesomthingup.click/cEUTmnKpYCUOKI8YaO63nGrx/master.m3u8
+#EXTINF:-1 group-title="Bardot (2023)" tvg-year="2023" tvg-id="217641" group-author="Zerk",Bardot S01 E04
+https://one.makesomthingup.click/YCiLBiVQVMtTNv1zFW_2gshU/master.m3u8
+#EXTINF:-1 group-title="Bardot (2023)" tvg-year="2023" tvg-id="217641" group-author="Zerk",Bardot S01 E05
+https://one.makesomthingup.click/9OatlCrQjH1HnPbHyI31jPHn/master.m3u8
+#EXTINF:-1 group-title="Bardot (2023)" tvg-year="2023" tvg-id="217641" group-author="Zerk",Bardot S01 E06
+https://one.makesomthingup.click/58dau6eX_a3p14GEok1Zu6gd/master.m3u8
 #EXTINF:-1 group-title="Battlestar Galactica" group-author="powerboard",Battlestar Galactica S01E01
 https://pixeldrain.com/api/file/KU1hfRHJ
 #EXTINF:-1 group-title="Battlestar Galactica" group-author="powerboard",Battlestar Galactica S01E02
@@ -225,6 +225,32 @@ https://vs21.photomag.biz/v/Bir.Baskadir.S01E06.WEB-DL.1080p.DUAL.H.264-HDM/1080
 https://vs22.photomag.biz/v/Bir.Baskadir.S01E07.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
 #EXTINF:-1 group-title="Bir Başkadır (2020)" group-author="Zerk",Bir Başkadır S01E08
 https://vs22.photoflax.org/v/Bir.Baskadir.S01E08.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
+#EXTINF:-1 group-title="Cin bir dilek tut (2025)" tvg-year="2025" tvg-id="228689" group-author="Zerk",Bir Dilek Tut S01 E01
+https://one.makesomthingup.click/hbAQ9ND_7FaqxgDcnMBCfRZP/master.m3u8
+#EXTINF:-1 group-title="Cin bir dilek tut (2025)" tvg-year="2025" tvg-id="228689" group-author="Zerk",Bir Dilek Tut S01 E02
+https://one.makesomthingup.click/DFt3R3wQhQXluZ9hweutxrjq/master.m3u8
+#EXTINF:-1 group-title="Cin bir dilek tut (2025)" tvg-year="2025" tvg-id="228689" group-author="Zerk",Bir Dilek Tut S01 E03
+https://one.makesomthingup.click/mslAW0xwHwhPW5qTEhwKVxBs/master.m3u8
+#EXTINF:-1 group-title="Cin bir dilek tut (2025)" tvg-year="2025" tvg-id="228689" group-author="Zerk",Bir Dilek Tut S01 E04
+https://one.makesomthingup.click/RJioAZcgPlviC_y33IzKpOq3/master.m3u8
+#EXTINF:-1 group-title="Cin bir dilek tut (2025)" tvg-year="2025" tvg-id="228689" group-author="Zerk",Bir Dilek Tut S01 E05
+https://one.makesomthingup.click/HxGDEzLxk037n0GWUHRhkP_x/master.m3u8
+#EXTINF:-1 group-title="Cin bir dilek tut (2025)" tvg-year="2025" tvg-id="228689" group-author="Zerk",Bir Dilek Tut S01 E06
+https://one.makesomthingup.click/7ptgAETbM_GWOhD9yvtPFB4B/master.m3u8
+#EXTINF:-1 group-title="Cin bir dilek tut (2025)" tvg-year="2025" tvg-id="228689" group-author="Zerk",Bir Dilek Tut S01 E07
+https://one.makesomthingup.click/zqtN5KpX5sNhie2K5ozjBL1T/master.m3u8
+#EXTINF:-1 group-title="Cin bir dilek tut (2025)" tvg-year="2025" tvg-id="228689" group-author="Zerk",Bir Dilek Tut S01 E08
+https://one.makesomthingup.click/l2et0IVK6rpp2AhhATg1kDTh/master.m3u8
+#EXTINF:-1 group-title="Cin bir dilek tut (2025)" tvg-year="2025" tvg-id="228689" group-author="Zerk",Bir Dilek Tut S01 E09
+https://one.makesomthingup.click/4XbVycLgjuLZtHma8cLleljW/master.m3u8
+#EXTINF:-1 group-title="Cin bir dilek tut (2025)" tvg-year="2025" tvg-id="228689" group-author="Zerk",Bir Dilek Tut S01 E10
+https://one.makesomthingup.click/6HuL49jip8TOSYH8sn97Gd5D/master.m3u8
+#EXTINF:-1 group-title="Cin bir dilek tut (2025)" tvg-year="2025" tvg-id="228689" group-author="Zerk",Bir Dilek Tut S01 E11
+https://one.makesomthingup.click/VqTz9BQkUBvn9dPwZZuw5zXI/master.m3u8
+#EXTINF:-1 group-title="Cin bir dilek tut (2025)" tvg-year="2025" tvg-id="228689" group-author="Zerk",Bir Dilek Tut S01 E12
+https://one.makesomthingup.click/tUYt4wLHbgjRBezSAfum0P4B/master.m3u8
+#EXTINF:-1 group-title="Cin bir dilek tut (2025)" tvg-year="2025" tvg-id="228689" group-author="Zerk",Bir Dilek Tut S01 E13
+https://one.makesomthingup.click/Vz1USPAaT16r7HL5ueYtAT7t/master.m3u8
 #EXTINF:-1 group-title="Bir Soygunun İçinde" group-author="Zerk",Bir Soygunun İçinde Bölümler 1 Sezon 1 Bölüm
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_403626&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Bir Soygunun İçinde" group-author="Zerk",Bir Soygunun İçinde Bölümler 1 Sezon 2 Bölüm
