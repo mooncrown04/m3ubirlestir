@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="Mertcantv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/S/tg/245943/logo.png",TRT 1
+https://tv-trt1-esdai.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/atv-tr.png",ATV
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="NeonSpor" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/atv-tr.png",ATV
@@ -63,10 +65,6 @@ http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/4001/index.m3u8
 https://sweet-truth-729d.han686314.workers.dev/?url=https%3A%2F%2Fhelga.iptv2022.com%2Fsh%2Ftrt_2%2Ftracks-v1a1%2Fmono.ts.m3u8%3Ffilter.tracks%3Da1v1v2v3v4
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="Luxy44" tvg-logo="play.png",TRT AVRUPA
 https://tv-trt1.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://yt3.ggpht.com/6_jhTr2aolmOP8qNq24ReRalaiu8LNSX-OD4fh9wWcIALv67la_kYKHDe-2QjmGJ3GqH8UULVQ",TRT COCUK
-https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
-#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://yt3.ggpht.com/6_jhTr2aolmOP8qNq24ReRalaiu8LNSX-OD4fh9wWcIALv67la_kYKHDe-2QjmGJ3GqH8UULVQ",TRT COCUK
-https://tv-trtcocuk.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/trt_kurdi_CCE.png",TRT KURDI
 https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="Mertcantv" tvg-logo="https://img.dsmartgo.com.tr/content/4/uH/13380/Thumbnail.png",TRT KURDİ
@@ -195,6 +193,8 @@ https://tv-e-okul01.medya.trt.com.tr/master_720.m3u8
 https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
 #EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",FRT TV
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
+#EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",HUNAT TV
+https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
 #EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",KANAL 15
 https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
 #EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",KANAL 3
