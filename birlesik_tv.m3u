@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/atv-tr.png",ATV
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png",KANAL D
 https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_1080p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png",KANAL D
@@ -9,8 +7,6 @@ https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web
 http://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/track_4_1250/playlist.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/star-tv-tr.png",STAR TV
 https://dogus.daioncdn.net/startv/startv.m3u8?ce=3&app=1740db13-3ee9-4858-8d2c-b1a9cfaa3718
-#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="IPTVSevenler" tvg-logo="https://imgs.search.brave.com/OjYN02PMadfM-5wK12rHI66fq_jdflScTuMdKdwaj5k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9maWxl/cy5zaWtheWV0dmFy/LmNvbS9sZy9jbXAv/MTEvMTE3Mi5wbmc_/MTUyMjY1MDEyNQ",TV 8
-https://tatatam.trt1sultanfatihss.workers.dev/https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?app=tv8_web
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://imgs.search.brave.com/OjYN02PMadfM-5wK12rHI66fq_jdflScTuMdKdwaj5k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9maWxl/cy5zaWtheWV0dmFy/LmNvbS9sZy9jbXAv/MTEvMTE3Mi5wbmc_/MTUyMjY1MDEyNQ",TV 8
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/6/68/Tv8_Yeni_Logo.png",TV 8.5
@@ -111,8 +107,6 @@ https://live.duhnet.tv/S2/HLS_LIVE/teve2np/track_4_1000/playlist.m3u8
 https://turkmedya-live.ercdn.net/tv24/tv24_1080p.m3u8
 #EXTINF:-1 group-title="Genel" group-author="Luxy44" tvg-logo="play.png",AKSU TV
 https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
-#EXTINF:-1 group-title="Sinema" group-author="IPTVSevenler" tvg-logo="https://tv.canlitvvolo.com/media/images/tvlogo/cine-1-tv-tvlive-hr36.webp",CINE 1
-https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3_output_0.m3u8?session=MB4VJMtU3MMh9iDu8dtZRu
 #EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",DENIZ POSTASI
 https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
 #EXTINF:-1 group-title="SİNEMA & DİZİ" group-author="Luxy44" tvg-logo="play.png",DIYANET TV
