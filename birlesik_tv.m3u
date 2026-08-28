@@ -161,8 +161,6 @@ https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
 https://aegis-cloudfront-1.tubi.video/bb1fc6ad-9948-42ea-aaf3-20acfcdeecac/playlist1080p.m3u8
 #EXTINF:-1 group-title="BELGESEL" group-author="TVCANLI" tvg-logo="https://imgs.search.brave.com/BIBol19g3atxU-qj_2zQGif_dpSJP3P9U3GCLH-iirE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzIyLzIvdGxjLWxv/Z28tcG5nX3NlZWts/b2dvLTIyMDUzMC5w/bmc",TLC
 http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6915/index.m3u8
-#EXTINF:-1 group-title="BELGESEL" group-author="IPTVSevenler" tvg-logo="https://imgs.search.brave.com/jqGiLB8MoGnJ6MgSbceLfxYH7II-QDhWrW_g4zEZk-M/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hLmpz/cmRuLmNvbS9obHMv/MjMwNjQvNGstdHJh/dmVsLXR2L3RodW1i/aF8yMDIyMDUzMV8x/ODM4MTguanBn",TRAVEL
-https://streams2.sofast.tv/umaxx/v1/01977dd01f661ebd47042b72b0c07c/01977dd12cc51ebd416a3eb5c6c77f/4k_travel_tv_2500k.m3u8
 #EXTINF:-1 group-title="MÜZİK" group-author="EYUP" tvg-logo="https://cdn.powergroup.com.tr/image/200x200/powerapp/channels/v3/inverse/logo_44.png",POWER TV
 https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
 #EXTINF:-1 group-title="MÜZİK" group-author="EYUP" tvg-logo="https://cdn.powergroup.com.tr/image/200x200/powerapp/channels/v3/inverse/logo_44.png",POWER TV
@@ -213,6 +211,8 @@ https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_3_750/playlist.m3u8
 #EXTINF:-1 group-title="🇹🇷 Yerel Kanallar 💒🏠🏯" group-author="EYUP" tvg-logo="",F TV
 https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Di̇zi̇&Si̇nema Kanallari 🎥🎦🎬⚡" group-author="EYUP" tvg-logo="",FANATIK SİNEMA DAĞ:🎬
+https://catcast.ismailturret.workers.dev/fanatikmaxdag.m3u8
 #EXTINF:-1 group-title="𝖡𝖤𝖫𝖦𝖤𝖲𝖤𝖫&Yaşam Kanallari" group-author="EYUP" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/rGiogSDpVEUtAwTl.png",FIT YAŞA TV
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/fit-yasa-tv/playlist.m3u8
 #EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",FRT TV
@@ -229,8 +229,8 @@ https://kanal53.ozelip.com:3448/hybrid/play.m3u8
 https://cdn4.yayin.com.tr/channel6tv/index.m3u8
 #EXTINF:-1 group-title="🇹🇷  Radyo" group-author="EYUP" tvg-logo="https://cdn.kanal7.com/kanal7/wp-content/themes/kanal7avrupa/images/kanal7avrupa_logo.png",KANAL 7 AVRUPA
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/chunklist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Di̇zi̇&Si̇nema Kanallari 🎥🎦🎬⚡" group-author="EYUP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNA-69YzZJQiXbmQ6dtQ4x8QptS1fQg6_BplCog8mCTiUgIQlTOi9QgZM&s=10",KANAL F
-https://catcast.ismailturret.workers.dev/50659.m3u8
+#EXTINF:-1 group-title="🇹🇷 Di̇zi̇&Si̇nema Kanallari 🎥🎦🎬⚡" group-author="EYUP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNA-69YzZJQiXbmQ6dtQ4x8QptS1fQg6_BplCog8mCTiUgIQlTOi9QgZM&s=10",KANAL F YEŞILÇAM
+https://catcast.ismailturret.workers.dev/50823.m3u8
 #EXTINF:-1 group-title="🇹🇷 Yerel Kanallar 💒🏠🏯" group-author="EYUP" tvg-logo="",KANAL FIRAT
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/chunks.m3u8
 #EXTINF:-1 group-title="🇹🇷 Yerel Kanallar 💒🏠🏯" group-author="EYUP" tvg-logo="",KANAL PLUS
