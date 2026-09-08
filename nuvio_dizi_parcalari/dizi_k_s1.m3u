@@ -1,13 +1,13 @@
 #EXTM3U
-#EXTINF:-1 group-title="Kafes (2024)" group-author="Zerk",Kafes S01 E01 (2024)
+#EXTINF:-1 group-title="Kafes (2024)" tvg-year="1998" tvg-id="1261368" group-author="Zerk",Kafes S01 E01
 https://r5sa.5455456.xyz/file/snwaxdop/Kafes.S01E01.mkv
-#EXTINF:-1 group-title="Kafes (2024)" group-author="Zerk",Kafes S01 E02 (2024)
+#EXTINF:-1 group-title="Kafes (2024)" tvg-year="1998" tvg-id="1261368" group-author="Zerk",Kafes S01 E02
 https://r5sa.5455456.xyz/file/snwaxdop/Kafes.S01E02.mkv
-#EXTINF:-1 group-title="Kafes (2024)" group-author="Zerk",Kafes S01 E03 (2024)
+#EXTINF:-1 group-title="Kafes (2024)" tvg-year="1998" tvg-id="1261368" group-author="Zerk",Kafes S01 E03
 https://r5sa.5455456.xyz/file/snwaxdop/Kafes.S01E03.mkv
-#EXTINF:-1 group-title="Kafes (2024)" group-author="Zerk",Kafes S01 E04 (2024)
+#EXTINF:-1 group-title="Kafes (2024)" tvg-year="1998" tvg-id="1261368" group-author="Zerk",Kafes S01 E04
 https://r5sa.5455456.xyz/file/snwaxdop/Kafes.S01E04.mkv
-#EXTINF:-1 group-title="Kafes (2024)" group-author="Zerk",Kafes S01 E05 (2024)
+#EXTINF:-1 group-title="Kafes (2024)" tvg-year="1998" tvg-id="1261368" group-author="Zerk",Kafes S01 E05
 https://r5sa.5455456.xyz/file/snwaxdop/Kafes.S01E05.mkv
 #EXTINF:-1 group-title="Kanıt" group-author="powerboard",Kanıt Bölüm 001
 https://pixeldrain.com/api/file/4njAAyK7
@@ -209,6 +209,26 @@ https://pixeldrain.com/api/file/p11isn1f
 https://pixeldrain.com/api/file/3qigr63x
 #EXTINF:-1 group-title="Kanıt" group-author="powerboard",Kanıt Bölüm 100
 https://pixeldrain.com/api/file/jWXSi2uh
+#EXTINF:-1 group-title="Dark (2017)" tvg-year="2017" tvg-id="353491" group-author="Zerk",Kara Kule S01 E01
+https://vs14.pictureflix.org/v/Dark.S01E01.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
+#EXTINF:-1 group-title="Dark (2017)" tvg-year="2017" tvg-id="353491" group-author="Zerk",Kara Kule S01 E02
+https://vs14.photoflick.org/v/Dark.S01E02.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Dark (2017)" tvg-year="2017" tvg-id="353491" group-author="Zerk",Kara Kule S01 E03
+https://vs16.photostack.net/v/Dark.S01E03.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
+#EXTINF:-1 group-title="Dark (2017)" tvg-year="2017" tvg-id="353491" group-author="Zerk",Kara Kule S01 E04
+https://vs16.photofunny.org/v/Dark.S01E04.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
+#EXTINF:-1 group-title="Dark (2017)" tvg-year="2017" tvg-id="353491" group-author="Zerk",Kara Kule S01 E05
+https://vs9.photoflick.org/v/Dark.S01E05.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Dark (2017)" tvg-year="2017" tvg-id="353491" group-author="Zerk",Kara Kule S01 E06
+https://vs14.photostack.net/v/Dark.S01E06.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Dark (2017)" tvg-year="2017" tvg-id="353491" group-author="Zerk",Kara Kule S01 E07
+https://vs18.photomag.biz/v/Dark.S01E07.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
+#EXTINF:-1 group-title="Dark (2017)" tvg-year="2017" tvg-id="353491" group-author="Zerk",Kara Kule S01 E08
+https://vs18.photour.org/v/Dark.S01E08.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
+#EXTINF:-1 group-title="Dark (2017)" tvg-year="2017" tvg-id="353491" group-author="Zerk",Kara Kule S01 E09
+https://vs14.photoflix.org/v/Dark.S01E09.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
+#EXTINF:-1 group-title="Dark (2017)" tvg-year="2017" tvg-id="353491" group-author="Zerk",Kara Kule S01 E10
+https://vs10.photoflax.org/v/Dark.S01E10.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
 #EXTINF:-1 group-title="Karnaval Sokağı (2019)" tvg-year="2019" tvg-id="90027" group-author="Zerk",Karnaval Sokağı S01 E01
 https://vs12.photomag.biz/v/Carnival.Row.S01E01.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 group-title="Karnaval Sokağı (2019)" tvg-year="2019" tvg-id="90027" group-author="Zerk",Karnaval Sokağı S01 E02
@@ -225,18 +245,100 @@ https://vs15.photour.org/v/Carnival.Row.S01E06.WEB-DL.1080p.DUAL.H.264-HDM/maste
 https://vs17.photostack.net/v/Carnival.Row.S01E07.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 group-title="Karnaval Sokağı (2019)" tvg-year="2019" tvg-id="90027" group-author="Zerk",Karnaval Sokağı S01 E08
 https://vs11.photofunny.org/v/Carnival.Row.S01E08.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Kirli Para (2018)" group-author="Zerk",Kirli Para S01 E01 (2018)
+#EXTINF:-1 group-title="Katla (2021)" tvg-year="2021" tvg-id="104157" group-author="Zerk",Katla S01 E01
+https://one.makesomthingup.click/VOxqkip3p1fyAeWzipcCPci_/master.m3u8
+#EXTINF:-1 group-title="Katla (2021)" tvg-year="2021" tvg-id="104157" group-author="Zerk",Katla S01 E02
+https://one.makesomthingup.click/H4Pn4zmQ5G_VRuX8vhgXUjmX/master.m3u8
+#EXTINF:-1 group-title="Katla (2021)" tvg-year="2021" tvg-id="104157" group-author="Zerk",Katla S01 E03
+https://one.makesomthingup.click/AuX5bfVJrKEY_jJQp7Giw5f6/master.m3u8
+#EXTINF:-1 group-title="Katla (2021)" tvg-year="2021" tvg-id="104157" group-author="Zerk",Katla S01 E04
+https://one.makesomthingup.click/ScbkDvpIq2dbsAs3BVd5GKYP/master.m3u8
+#EXTINF:-1 group-title="Katla (2021)" tvg-year="2021" tvg-id="104157" group-author="Zerk",Katla S01 E05
+https://one.makesomthingup.click/Lb0ME0DBs_RclVjvbEY2je1x/master.m3u8
+#EXTINF:-1 group-title="Katla (2021)" tvg-year="2021" tvg-id="104157" group-author="Zerk",Katla S01 E06
+https://one.makesomthingup.click/M5ZNRNuLW4I6mqux1UcF9Y1h/master.m3u8
+#EXTINF:-1 group-title="Katla (2021)" tvg-year="2021" tvg-id="104157" group-author="Zerk",Katla S01 E07
+https://one.makesomthingup.click/wdBVZQwdieHMKjlrdO4bMKVE/master.m3u8
+#EXTINF:-1 group-title="Katla (2021)" tvg-year="2021" tvg-id="104157" group-author="Zerk",Katla S01 E08
+https://one.makesomthingup.click/C5u9LU8Q21XWtIY9IYaV2YN0/master.m3u8
+#EXTINF:-1 group-title="Kirli Para (2018)" tvg-year="2014" tvg-id="154400" group-author="Zerk",Kirli Para S01 E01
 https://r5sa.5455456.xyz/file/snwaxdop/Kirli.Para.S01E01.mkv
-#EXTINF:-1 group-title="Kirli Para (2018)" group-author="Zerk",Kirli Para S01 E02 (2018)
+#EXTINF:-1 group-title="Kirli Para (2018)" tvg-year="2014" tvg-id="154400" group-author="Zerk",Kirli Para S01 E02
 https://r5sa.5455456.xyz/file/snwaxdop/Kirli.Para.S01E02.mkv
-#EXTINF:-1 group-title="Kirli Para (2018)" group-author="Zerk",Kirli Para S01 E03 (2018)
+#EXTINF:-1 group-title="Kirli Para (2018)" tvg-year="2014" tvg-id="154400" group-author="Zerk",Kirli Para S01 E03
 https://r5sa.5455456.xyz/file/snwaxdop/Kirli.Para.S01E03.mkv
-#EXTINF:-1 group-title="Kirli Para (2018)" group-author="Zerk",Kirli Para S01 E04 (2018)
+#EXTINF:-1 group-title="Kirli Para (2018)" tvg-year="2014" tvg-id="154400" group-author="Zerk",Kirli Para S01 E04
 https://r5sa.5455456.xyz/file/snwaxdop/Kirli.Para.S01E04.mkv
-#EXTINF:-1 group-title="Kirli Para (2018)" group-author="Zerk",Kirli Para S01 E05 (2018)
+#EXTINF:-1 group-title="Kirli Para (2018)" tvg-year="2014" tvg-id="154400" group-author="Zerk",Kirli Para S01 E05
 https://r5sa.5455456.xyz/file/snwaxdop/Kirli.Para.S01E05.mkv
-#EXTINF:-1 group-title="Kirli Para (2018)" group-author="Zerk",Kirli Para S01 E06 (2018)
+#EXTINF:-1 group-title="Kirli Para (2018)" tvg-year="2014" tvg-id="154400" group-author="Zerk",Kirli Para S01 E06
 https://r5sa.5455456.xyz/file/snwaxdop/Kirli.Para.S01E06.mkv
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E01
+https://httxxkbiqd.erbvr.com/vms/2/e9/e7/2e9e70ca-be2e-442b-ac85-92bc8dcd041f/2e9e70ca-be2e-442b-ac85-92bc8dcd041f_1080p_3000k.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E02
+https://atv-vod.ercdn.net/video/dizi/ezel/2_wpyv/c7a35649-4784-48e7-902c-1e6ebf7a1690_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E03
+https://atv-vod.ercdn.net/video/dizi/ezel/3_jdba/f016c5e0-00f4-4cac-996e-8023f605fa90_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E04
+https://atv-vod.ercdn.net/video/dizi/ezel/4_j94y/5d3f52fb-e947-4f1f-a366-ecdd99332d4c_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E05
+https://atv-vod.ercdn.net/video/dizi/ezel/5_bki6/43ab7d5f-6948-4bb1-9376-0a80d64fc928_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E06
+https://atv-vod.ercdn.net/video/dizi/ezel/6_stpx/5b01f774-3146-4d2e-a222-8c630a8560c8_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E07
+https://atv-vod.ercdn.net/video/dizi/ezel/7_msup/c32c4643-c431-4a5f-ba61-6a039bb6a94a_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E08
+https://atv-vod.ercdn.net/video/dizi/ezel/8_8yet/de339545-ed8c-46a5-8536-135d80420732_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E09
+https://atv-vod.ercdn.net/video/dizi/ezel/9_k1il/604107f2-1939-4b77-aeb4-905950548015_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E10
+https://atv-vod.ercdn.net/video/dizi/ezel/10_aobs/9fd5a871-af7c-4caf-bd38-f30d2a1f3c28_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E11
+https://atv-vod.ercdn.net/video/dizi/ezel/11_f7uz/0c5504bc-eb72-4b85-82d9-d26e3ff8cd06_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E12
+https://atv-vod.ercdn.net/video/dizi/ezel/12_l3em/c6e8ad1f-4575-4290-aa79-d353f8a7a3cf_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E13
+https://atv-vod.ercdn.net/video/dizi/ezel/13_q4hg/fbbb0e8d-7ed8-4c7a-8130-6e3aeae6d93b_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E14
+https://atv-vod.ercdn.net/video/dizi/ezel/14_igii/04f59a16-d87d-40ff-b60d-fc0c6ca92ef2_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E15
+https://atv-vod.ercdn.net/video/dizi/ezel/15_2rbe/ace57656-2e46-43a6-af0e-c8ad17b6c981_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E16
+https://atv-vod.ercdn.net/video/dizi/ezel/16_e8xg/58cb2e39-843d-4d99-92d1-99c1c6d46468_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E17
+https://atv-vod.ercdn.net/video/dizi/ezel/17_t4wg/27e203e4-0055-4642-8de2-0b9ba0950c54_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E18
+https://atv-vod.ercdn.net/video/dizi/ezel/18_3lil/76c741ed-f291-44e0-adc0-80d589f14867_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E19
+https://atv-vod.ercdn.net/video/dizi/ezel/19_eewg/955dc3a3-26bd-43d4-a36e-acad79b05b70_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E20
+https://atv-vod.ercdn.net/video/dizi/ezel/20_jzwr/d566c676-9975-4ffd-b08f-ea857353dfc7_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E21
+https://atv-vod.ercdn.net/video/dizi/ezel/21_tbvc/3d50220e-cd0a-4bb0-af43-9b25301f332f_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E22
+https://atv-vod.ercdn.net/video/dizi/ezel/22_ewu6/9b42994a-74d4-4db1-8b0d-6e99f77b44d7_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E23
+https://atv-vod.ercdn.net/video/dizi/ezel/23_1wn1/1026179f-758e-48a3-85eb-d4b3be856883_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E24
+https://atv-vod.ercdn.net/video/dizi/ezel/24_dvps/0c2dad7b-bf33-441f-ae25-bbcc79b81e09_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E25
+https://atv-vod.ercdn.net/video/dizi/ezel/25_eii1/453fc4ad-316d-47ec-88ce-43008223cca8_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E26
+https://atv-vod.ercdn.net/video/dizi/ezel/26_ixed/559da0a6-0ca1-4838-898d-5a9388cb37c4_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E27
+https://atv-vod.ercdn.net/video/dizi/ezel/27_n4qt/736efe30-d0e8-448d-bcc4-2c9303e34d02_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E28
+https://atv-vod.ercdn.net/video/dizi/ezel/28_p6q0/892b4d10-e1b1-4542-9184-3feeb10e1a9f_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E29
+https://atv-vod.ercdn.net/video/dizi/ezel/29_krcy/6346ed05-ec79-4060-9748-e6034a5a8003_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E30
+https://atv-vod.ercdn.net/video/dizi/ezel/30_mhku/5492d1bf-4522-414e-aed4-1eadc76ac8ed_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E31
+https://atv-vod.ercdn.net/video/dizi/ezel/31_vpqb/f4140ee8-ae81-4ecf-8e31-ca44df37295c_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E32
+https://atv-vod.ercdn.net/video/dizi/ezel/32_gfqn/9bdbd6bb-24c8-4588-9e0a-a6330a259b97_1800.mp4
+#EXTINF:-1 group-title="Ezel" tvg-year="2011" tvg-id="55979" group-author="Zerk",Kleine Ezel S01 E33
+https://atv-vod.ercdn.net/video/dizi/ezel/33_e23j/3473b418-e1bc-4205-b6c9-14d55c862dad_1800.mp4
 #EXTINF:-1 group-title="Korku Burnu (2026)" tvg-year="2026" tvg-id="277439" group-author="Zerk",Korku Burnu S01 E01
 https://one.makesomthingup.click/jQObRuHuhJswJrVKr65OEE6R/master.m3u8
 #EXTINF:-1 group-title="Korku Burnu (2026)" tvg-year="2026" tvg-id="277439" group-author="Zerk",Korku Burnu S01 E02
@@ -255,38 +357,54 @@ https://one.makesomthingup.click/ZotLYoDDTn8nrnbvXmOwXfmA/master.m3u8
 https://one.makesomthingup.click/JMB_Apxz9fZV7YRpYZFOZb3S/master.m3u8
 #EXTINF:-1 group-title="Korku Burnu (2026)" tvg-year="2026" tvg-id="277439" group-author="Zerk",Korku Burnu S01 E09
 https://one.makesomthingup.click/Zqh4M49J9t9QbrgdItBg1eH1/master.m3u8
-#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 1 Bölüm
+#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler S01E01
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=DMAX_780096&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 10 Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_288342&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 2 Bölüm
+#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler S01E02
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_288334&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 3 Bölüm
+#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler S01E03
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_288335&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 4 Bölüm
+#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler S01E04
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_288336&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 5 Bölüm
+#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler S01E05
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_288337&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 6 Bölüm
+#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler S01E06
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_288338&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 7 Bölüm
+#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler S01E07
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_288339&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 8 Bölüm
+#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler S01E08
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_288340&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler 1 Sezon 9 Bölüm
+#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler S01E09
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_288341&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 group-title="Kristal Guguk Kuşu (2025)" group-author="Zerk",Kristal Guguk Kuşu S01 E01 (2025)
+#EXTINF:-1 group-title="Korku Rotası" group-author="Zerk",Korku Rotası Bölümler S01E10
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_288342&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Kristal Guguk Kuşu (2025)" tvg-year="2025" tvg-id="274979" group-author="Zerk",Kristal Guguk Kuşu S01 E01
 https://r5sa.5455456.xyz/file/snwaxdop/Kristal.Guguk.Kusu.S01E01.mkv
-#EXTINF:-1 group-title="Kristal Guguk Kuşu (2025)" group-author="Zerk",Kristal Guguk Kuşu S01 E02 (2025)
+#EXTINF:-1 group-title="Kristal Guguk Kuşu (2025)" tvg-year="2025" tvg-id="274979" group-author="Zerk",Kristal Guguk Kuşu S01 E02
 https://r5sa.5455456.xyz/file/snwaxdop/Kristal.Guguk.Kusu.S01E02.mkv
-#EXTINF:-1 group-title="Kristal Guguk Kuşu (2025)" group-author="Zerk",Kristal Guguk Kuşu S01 E03 (2025)
+#EXTINF:-1 group-title="Kristal Guguk Kuşu (2025)" tvg-year="2025" tvg-id="274979" group-author="Zerk",Kristal Guguk Kuşu S01 E03
 https://r5sa.5455456.xyz/file/snwaxdop/Kristal.Guguk.Kusu.S01E03.mkv
-#EXTINF:-1 group-title="Kristal Guguk Kuşu (2025)" group-author="Zerk",Kristal Guguk Kuşu S01 E04 (2025)
+#EXTINF:-1 group-title="Kristal Guguk Kuşu (2025)" tvg-year="2025" tvg-id="274979" group-author="Zerk",Kristal Guguk Kuşu S01 E04
 https://r5sa.5455456.xyz/file/snwaxdop/Kristal.Guguk.Kusu.S01E04.mkv
-#EXTINF:-1 group-title="Kristal Guguk Kuşu (2025)" group-author="Zerk",Kristal Guguk Kuşu S01 E05 (2025)
+#EXTINF:-1 group-title="Kristal Guguk Kuşu (2025)" tvg-year="2025" tvg-id="274979" group-author="Zerk",Kristal Guguk Kuşu S01 E05
 https://r5sa.5455456.xyz/file/snwaxdop/Kristal.Guguk.Kusu.S01E05.mkv
-#EXTINF:-1 group-title="Kristal Guguk Kuşu (2025)" group-author="Zerk",Kristal Guguk Kuşu S01 E06 (2025)
+#EXTINF:-1 group-title="Kristal Guguk Kuşu (2025)" tvg-year="2025" tvg-id="274979" group-author="Zerk",Kristal Guguk Kuşu S01 E06
 https://r5sa.5455456.xyz/file/snwaxdop/Kristal.Guguk.Kusu.S01E06.mkv
+#EXTINF:-1 group-title="Kübra (2024)" tvg-year="2024" tvg-id="242073" group-author="Zerk",Kübra S01 E01
+https://one.makesomthingup.click/HKmQlQaXXLQr8Uydo4v92DXO/master.m3u8
+#EXTINF:-1 group-title="Kübra (2024)" tvg-year="2024" tvg-id="242073" group-author="Zerk",Kübra S01 E02
+https://one.makesomthingup.click/0KKZ8HtLeNy8ztUZgydRS0ZP/master.m3u8
+#EXTINF:-1 group-title="Kübra (2024)" tvg-year="2024" tvg-id="242073" group-author="Zerk",Kübra S01 E03
+https://one.makesomthingup.click/2GvGd894piUqfFyO3fxXvu9P/master.m3u8
+#EXTINF:-1 group-title="Kübra (2024)" tvg-year="2024" tvg-id="242073" group-author="Zerk",Kübra S01 E04
+https://one.makesomthingup.click/tSThcaMTqsQMTcmD3IOBcQlC/master.m3u8
+#EXTINF:-1 group-title="Kübra (2024)" tvg-year="2024" tvg-id="242073" group-author="Zerk",Kübra S01 E05
+https://one.makesomthingup.click/tUJDGY5jFrDZs0Wdg4u_O_Jg/master.m3u8
+#EXTINF:-1 group-title="Kübra (2024)" tvg-year="2024" tvg-id="242073" group-author="Zerk",Kübra S01 E06
+https://one.makesomthingup.click/9jDbkLxTI7oXVjrgKKajlEwg/master.m3u8
+#EXTINF:-1 group-title="Kübra (2024)" tvg-year="2024" tvg-id="242073" group-author="Zerk",Kübra S01 E07
+https://one.makesomthingup.click/WYj8Z3Ca8JYU7svLY50Uwx45/master.m3u8
+#EXTINF:-1 group-title="Kübra (2024)" tvg-year="2024" tvg-id="242073" group-author="Zerk",Kübra S01 E08
+https://one.makesomthingup.click/mkzuc1yfzNvUdMlX2q6osvA7/master.m3u8
 #EXTINF:-1 group-title="Küçük Ev (2026)" tvg-year="1974" tvg-id="1781" group-author="Zerk",Küçük Ev S01 E01
 https://one.makesomthingup.click/odil5QQdqSiLN6sM7Z0hwv_N/master.m3u8
 #EXTINF:-1 group-title="Küçük Ev (2026)" tvg-year="1974" tvg-id="1781" group-author="Zerk",Küçük Ev S01 E02
@@ -495,133 +613,133 @@ https://pixeldrain.com/api/file/FSs1vvpN
 https://pixeldrain.com/api/file/MZ3vVG4Y
 #EXTINF:-1 group-title="Kurtlar Vadisi" group-author="powerboard",Kurtlar Vadisi Bölüm 97
 https://pixeldrain.com/api/file/ZL3iFQcr
-#EXTINF:-1 group-title="Kurtul Bakalım Bölümler" group-author="Zerk",Kurtul Bakalım Bölümler 1 Sezon 1 Bölüm
+#EXTINF:-1 group-title="Kurtul Bakalım Bölümler" group-author="Zerk",Kurtul Bakalım Bölümler S01E01
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_946751&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 group-title="Kurtul Bakalım Bölümler" group-author="Zerk",Kurtul Bakalım Bölümler 1 Sezon 2 Bölüm
+#EXTINF:-1 group-title="Kurtul Bakalım Bölümler" group-author="Zerk",Kurtul Bakalım Bölümler S01E02
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_946745&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 1. Bölüm (2019)
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E01
 https://vmcdn.ciner.com.tr/ht/2019/09/14/5EB6F5703249AB64F1499EC8C0B782F1.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 10. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2019/11/16/0437FA8132D20EA8D033C0DB7FDF7D51.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 11. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2019/11/23/DAC5BBD157D8E280866E864E781888C5.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 12. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2019/11/30/8C8BB6F1038BB2814776611BA4F92F60.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 13. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2019/12/07/0F119BE6123FFCDA9DE6BA185CD790E8.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 14. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2019/12/14/DB8E06457B88F44029B1F83B2E4F7D92.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 15. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2019/12/21/4263A5F37DD7500133BE752B93B8FD73.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 16. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2019/12/28/0C60D3678FA6AA1254BCE4764D1D59FD.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 17. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/01/18/CAD476128D3BF06E5B770B553A97B84F.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 18. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/01/25/DAA15FF0F3F03027A084597D98A45D76.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 19. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/02/01/7D3EE32672BBD97BA4C3581976C2B87A.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 2. Bölüm (2019)
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E02
 https://vmcdn.ciner.com.tr/ht/2019/09/21/6EEA1E195886F003511D0B61C2B37C81.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 20. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/02/08/839B00080AC00F1AEFF643C3231E9849.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 21. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/02/16/EDC39442DBED789E66C2D58B0C42077E.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 22. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/02/22/D7D1AE1A3426EB6031BFB00A0F115404.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 23. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/03/01/19CF93C8A08BD7B734022B0A655E1E4A.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 24. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/03/07/C8CBF4E66434DE931E9DB37ACD6F59F7.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 25. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/03/14/09E57227BCCA229ED1DAF13EF0FFACD8.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 26. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/03/21/B13F2F2BC47930C58E8D38BC42162DD5.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 27. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/04/04/1EC755D9474FB880E3297C999C3DF524.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 28. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/06/06/1782706CB6D5F929ABC757A2848170A3.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 29. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/06/13/F12CE4D217FD7D5A731E6A3984CF6E58.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 3. Bölüm (2019)
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E03
 https://vmcdn.ciner.com.tr/ht/2019/09/28/0552A57B58FFEDEEEEB946E105CA1A0F.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 30. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/09/05/15C03687E7454F58D8CBD3F8A23A3F66.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 31. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/09/12/67377F202328B8B66B87E3F4057C0986.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 32. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/09/19/21223CEF3DD325AA42DC4CF9B724AEE0.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 33. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/09/26/A684D6BEF65655D8973BDA509B12ECFC.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 34. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/10/03/7356CAD5E317A90B3C5CA502F93CD6BE.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 35. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/10/10/B4AF413C42602E9E0D5FD82EA852BEB7.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 36. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/10/17/0A2D9D72666CD1CA4F160222AE2B6A52.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 37. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/10/24/06A0262BA3E3EF6ED9FCEC04A95BBF06.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 38. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/11/07/EBD9874AE5CF52862731E2D68E6A13E3.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 39. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/11/21/17A366B73A90D53026B754E6FBA4B344.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 4. Bölüm (2019)
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E04
 https://vmcdn.ciner.com.tr/ht/2019/10/05/9D99C12F72C0438DA5648B8E3316E31E.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 41. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/11/28/D20985969BF9D1D2DC7915995A4B484D.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 42. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/12/05/8DD4D9F417C4E00208CB9F3D89EABD88.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 43. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/12/12/E1CE35FBF7239811DD6C2D428DAEF5C8.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 44. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/12/19/EA9ED5DDFD4DC2F9D29DEB4D4F4E7FC1.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 45. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2020/12/26/12E2F6628F1AF08E3ACE7A75DC8976B1.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 46. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2021/01/09/6FF76F165C723833B2E78BB86EF1D04E.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 47. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2021/01/16/D967C913151E5E6B9869A4A6AE7FC983.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 48. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2021/01/23/8C75BECDD58FF91E8002A805BACAE30F.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 49. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2021/01/30/AC8BD83BB408ED760689B2B1FAB20B5D.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 5. Bölüm (2019)
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E05
 https://vmcdn.ciner.com.tr/ht/2019/10/17/FA9507DB2494249C59F3D1C554F37418.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 50. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2021/02/06/6130B5DEEDED75D0FE4F92737E60C3DE.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 51. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2021/02/13/617F47A1FDE3D20A4E51B29EA4A930A3.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 52. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2021/02/20/6AEE4F8A3D5926C216A656C373D76ED1.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 53. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2021/02/27/FADCEF222B6FFF3BEB95039BE77CE578.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 54. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2021/03/06/7A971519428B201ADBB1ED3035AF32D3.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 55. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2021/03/13/A633CDAFA151C7AC0CB0AFA3D3504D90.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 56. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2021/03/20/8F862D2E8282CDBDA38257047EB86568.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 57. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2021/04/03/12BAE7C17A2EA6711E7F6F527838D68A.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 58. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2021/04/03/985C9B0B6E4112339ECC898FBDA44382.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 59. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2021/04/10/70AA18AB39C282DCFF009864B49A0CFD.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 6. Bölüm (2019)
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E06
 https://vmcdn.ciner.com.tr/ht/2019/10/19/7797165EDA8E04842A14A271521465F2.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 60. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2021/04/17/1BDA6570391FC9CECBCBFF9D561A5D67.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 61. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2021/04/24/095ED1C0A6269225D751AD75F1A2497B.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 62. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2021/05/01/CD610CDABFCA974866BA9A9D68D678B8.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 63. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2021/05/08/C4D36BB235E8E23C578B51B593D2D105.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 64. Bölüm (2019)
-https://vmcdn.ciner.com.tr/ht/2021/05/15/5E8CED3CC0050F3458668EDC16191C34.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 7. Bölüm (2019)
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E07
 https://vmcdn.ciner.com.tr/ht/2019/10/26/864417FC972614EE354D54B66E7D3611.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 8. Bölüm (2019)
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E08
 https://vmcdn.ciner.com.tr/ht/2019/11/02/D4BE769A7E246CE35CC26FF89E88DD66.m3u8
-#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" group-author="Zerk",Kuzey Yıldızı: İlk Aşk 9. Bölüm (2019)
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E09
 https://vmcdn.ciner.com.tr/ht/2019/11/09/4BE05ECA8687FB56E61DE3295A76D878.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E10
+https://vmcdn.ciner.com.tr/ht/2019/11/16/0437FA8132D20EA8D033C0DB7FDF7D51.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E11
+https://vmcdn.ciner.com.tr/ht/2019/11/23/DAC5BBD157D8E280866E864E781888C5.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E12
+https://vmcdn.ciner.com.tr/ht/2019/11/30/8C8BB6F1038BB2814776611BA4F92F60.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E13
+https://vmcdn.ciner.com.tr/ht/2019/12/07/0F119BE6123FFCDA9DE6BA185CD790E8.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E14
+https://vmcdn.ciner.com.tr/ht/2019/12/14/DB8E06457B88F44029B1F83B2E4F7D92.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E15
+https://vmcdn.ciner.com.tr/ht/2019/12/21/4263A5F37DD7500133BE752B93B8FD73.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E16
+https://vmcdn.ciner.com.tr/ht/2019/12/28/0C60D3678FA6AA1254BCE4764D1D59FD.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E17
+https://vmcdn.ciner.com.tr/ht/2020/01/18/CAD476128D3BF06E5B770B553A97B84F.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E18
+https://vmcdn.ciner.com.tr/ht/2020/01/25/DAA15FF0F3F03027A084597D98A45D76.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E19
+https://vmcdn.ciner.com.tr/ht/2020/02/01/7D3EE32672BBD97BA4C3581976C2B87A.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E20
+https://vmcdn.ciner.com.tr/ht/2020/02/08/839B00080AC00F1AEFF643C3231E9849.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E21
+https://vmcdn.ciner.com.tr/ht/2020/02/16/EDC39442DBED789E66C2D58B0C42077E.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E22
+https://vmcdn.ciner.com.tr/ht/2020/02/22/D7D1AE1A3426EB6031BFB00A0F115404.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E23
+https://vmcdn.ciner.com.tr/ht/2020/03/01/19CF93C8A08BD7B734022B0A655E1E4A.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E24
+https://vmcdn.ciner.com.tr/ht/2020/03/07/C8CBF4E66434DE931E9DB37ACD6F59F7.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E25
+https://vmcdn.ciner.com.tr/ht/2020/03/14/09E57227BCCA229ED1DAF13EF0FFACD8.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E26
+https://vmcdn.ciner.com.tr/ht/2020/03/21/B13F2F2BC47930C58E8D38BC42162DD5.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E27
+https://vmcdn.ciner.com.tr/ht/2020/04/04/1EC755D9474FB880E3297C999C3DF524.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E28
+https://vmcdn.ciner.com.tr/ht/2020/06/06/1782706CB6D5F929ABC757A2848170A3.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E29
+https://vmcdn.ciner.com.tr/ht/2020/06/13/F12CE4D217FD7D5A731E6A3984CF6E58.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E30
+https://vmcdn.ciner.com.tr/ht/2020/09/05/15C03687E7454F58D8CBD3F8A23A3F66.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E31
+https://vmcdn.ciner.com.tr/ht/2020/09/12/67377F202328B8B66B87E3F4057C0986.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E32
+https://vmcdn.ciner.com.tr/ht/2020/09/19/21223CEF3DD325AA42DC4CF9B724AEE0.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E33
+https://vmcdn.ciner.com.tr/ht/2020/09/26/A684D6BEF65655D8973BDA509B12ECFC.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E34
+https://vmcdn.ciner.com.tr/ht/2020/10/03/7356CAD5E317A90B3C5CA502F93CD6BE.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E35
+https://vmcdn.ciner.com.tr/ht/2020/10/10/B4AF413C42602E9E0D5FD82EA852BEB7.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E36
+https://vmcdn.ciner.com.tr/ht/2020/10/17/0A2D9D72666CD1CA4F160222AE2B6A52.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E37
+https://vmcdn.ciner.com.tr/ht/2020/10/24/06A0262BA3E3EF6ED9FCEC04A95BBF06.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E38
+https://vmcdn.ciner.com.tr/ht/2020/11/07/EBD9874AE5CF52862731E2D68E6A13E3.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E39
+https://vmcdn.ciner.com.tr/ht/2020/11/21/17A366B73A90D53026B754E6FBA4B344.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E41
+https://vmcdn.ciner.com.tr/ht/2020/11/28/D20985969BF9D1D2DC7915995A4B484D.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E42
+https://vmcdn.ciner.com.tr/ht/2020/12/05/8DD4D9F417C4E00208CB9F3D89EABD88.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E43
+https://vmcdn.ciner.com.tr/ht/2020/12/12/E1CE35FBF7239811DD6C2D428DAEF5C8.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E44
+https://vmcdn.ciner.com.tr/ht/2020/12/19/EA9ED5DDFD4DC2F9D29DEB4D4F4E7FC1.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E45
+https://vmcdn.ciner.com.tr/ht/2020/12/26/12E2F6628F1AF08E3ACE7A75DC8976B1.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E46
+https://vmcdn.ciner.com.tr/ht/2021/01/09/6FF76F165C723833B2E78BB86EF1D04E.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E47
+https://vmcdn.ciner.com.tr/ht/2021/01/16/D967C913151E5E6B9869A4A6AE7FC983.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E48
+https://vmcdn.ciner.com.tr/ht/2021/01/23/8C75BECDD58FF91E8002A805BACAE30F.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E49
+https://vmcdn.ciner.com.tr/ht/2021/01/30/AC8BD83BB408ED760689B2B1FAB20B5D.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E50
+https://vmcdn.ciner.com.tr/ht/2021/02/06/6130B5DEEDED75D0FE4F92737E60C3DE.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E51
+https://vmcdn.ciner.com.tr/ht/2021/02/13/617F47A1FDE3D20A4E51B29EA4A930A3.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E52
+https://vmcdn.ciner.com.tr/ht/2021/02/20/6AEE4F8A3D5926C216A656C373D76ED1.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E53
+https://vmcdn.ciner.com.tr/ht/2021/02/27/FADCEF222B6FFF3BEB95039BE77CE578.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E54
+https://vmcdn.ciner.com.tr/ht/2021/03/06/7A971519428B201ADBB1ED3035AF32D3.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E55
+https://vmcdn.ciner.com.tr/ht/2021/03/13/A633CDAFA151C7AC0CB0AFA3D3504D90.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E56
+https://vmcdn.ciner.com.tr/ht/2021/03/20/8F862D2E8282CDBDA38257047EB86568.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E57
+https://vmcdn.ciner.com.tr/ht/2021/04/03/12BAE7C17A2EA6711E7F6F527838D68A.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E58
+https://vmcdn.ciner.com.tr/ht/2021/04/03/985C9B0B6E4112339ECC898FBDA44382.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E59
+https://vmcdn.ciner.com.tr/ht/2021/04/10/70AA18AB39C282DCFF009864B49A0CFD.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E60
+https://vmcdn.ciner.com.tr/ht/2021/04/17/1BDA6570391FC9CECBCBFF9D561A5D67.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E61
+https://vmcdn.ciner.com.tr/ht/2021/04/24/095ED1C0A6269225D751AD75F1A2497B.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E62
+https://vmcdn.ciner.com.tr/ht/2021/05/01/CD610CDABFCA974866BA9A9D68D678B8.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E63
+https://vmcdn.ciner.com.tr/ht/2021/05/08/C4D36BB235E8E23C578B51B593D2D105.m3u8
+#EXTINF:-1 group-title="Kuzey Yıldızı: İlk Aşk" tvg-year="2019" tvg-id="93216" group-author="Zerk",Kuzey Yıldızı: İlk Aşk S01 E64
+https://vmcdn.ciner.com.tr/ht/2021/05/15/5E8CED3CC0050F3458668EDC16191C34.m3u8
