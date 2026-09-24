@@ -3,8 +3,6 @@
 https://trt.daioncdn.net/trt-1/master.m3u8?app=clean
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="https://picon.pics/TR/Ulusal/Trt1.png",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/atv-tr.png",ATV
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png",KANAL D
 https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_1080p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png",KANAL D
@@ -19,8 +17,6 @@ https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv.m3u8
 https://dogus.daioncdn.net/startv/startv.m3u8?ce=3&app=1740db13-3ee9-4858-8d2c-b1a9cfaa3718
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="IPTVSevenler" tvg-logo="https://imgs.search.brave.com/OjYN02PMadfM-5wK12rHI66fq_jdflScTuMdKdwaj5k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9maWxl/cy5zaWtheWV0dmFy/LmNvbS9sZy9jbXAv/MTEvMTE3Mi5wbmc_/MTUyMjY1MDEyNQ",TV 8
 https://tatatam.trt1sultanfatihss.workers.dev/https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?app=tv8_web
-#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="https://imgs.search.brave.com/OjYN02PMadfM-5wK12rHI66fq_jdflScTuMdKdwaj5k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9maWxl/cy5zaWtheWV0dmFy/LmNvbS9sZy9jbXAv/MTEvMTE3Mi5wbmc_/MTUyMjY1MDEyNQ",TV 8
-https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://imgs.search.brave.com/OjYN02PMadfM-5wK12rHI66fq_jdflScTuMdKdwaj5k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9maWxl/cy5zaWtheWV0dmFy/LmNvbS9sZy9jbXAv/MTEvMTE3Mi5wbmc_/MTUyMjY1MDEyNQ",TV 8
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/6/68/Tv8_Yeni_Logo.png",TV 8.5
@@ -47,8 +43,6 @@ http://yayin.arabeskturk.com:8000/;
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_720p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="play.png",BIR TV
 https://edge1.socialsmart.tv/birtv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="",ERCIYES TV
-https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/chunks.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://eurod.kanald.com.tr/assets/img/logo.v5.png",EURO D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Haberturk_logo.png",HABER TURK
@@ -87,6 +81,8 @@ https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
 https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
 #EXTINF:-1 group-title="SPOR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/a-spor-tr.png",A SPOR
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8
+#EXTINF:-1 group-title="SPOR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png",BIZIM MAX 2
+https://cdn.codenet.work/auth/Qs7v6OQ-hf0g9MpjIGO5JCs-LVfLJPHLbFBRJVUWtwW-oRNS8S1wK0_kIjGIchRx99S88di8miaWGZZTFXIJrifmuWDO8F0ZOEXup-LuraFzophiQHevzbT3-TzwZtZXsnfhWpBrzKu-57seQi1-vAr_8eaZnHXpCkYF5GfL6EJ2YKluLGd9mNRUbUp0uZmDn0lTO-ey3Xyjl-c5t3qJoML4iUczH_C9whcnN7Vpn1wmZjBe8Dg1iV3uEot7bdA-s4RQPoj1HgBNkuXdN-GrotVCE55cPzajXnzBD0JZ-CyqQTX9UZ_8ED_0ozE3nwd31yZm5oyr09JHKIjW83Eo3zzF3TCzr64hFT-TRAZzwGHsqq9Bb1gCyPkzNZk_7vEYu7yEXANZe0mebsOa4L4-a6iErSJEtJI7_uHbL2yXk9xHfLPSaGEA7-BMbRg9i-OTBiRhcr-CoPb8CCaOP3X88_NpvtvelrYkJfmrTLjMvW8cCse81NJBZD1Okcx__OIQaWgFIaW01q8TFvYP_G2-5vcdcHn__0xKF1_Yqz0c4dyPGWZIMcs6KVBD6zxwN5A5YbE-Dc-QMZmZgsYhrx6xN3Ux1a-QlGBRhmbm8F6ziJI
 #EXTINF:-1 group-title="SPOR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png",BIZIM SPOR
 https://andro.evrenesoglu65.lat/checklist/androstreamlivebiraz1.m3u8
 #EXTINF:-1 group-title="SPOR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png",BIZIM SPOR 3
@@ -95,12 +91,16 @@ https://andro.evrenesoglu65.lat/checklist/androstreamlivebs3.m3u8
 https://andro.evrenesoglu65.lat/checklist/androstreamlivebs5.m3u8
 #EXTINF:-1 group-title="SPOR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png",BIZIM SPOR ALTERNATIF 4
 https://yayinlarfidanafidanlaragaca.xyz/hls/4.m3u8
+#EXTINF:-1 group-title="SPOR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png",BIZIM SPOR ALTERNATIF 6
+https://cdn.codenet.work/auth/WX0pOZNVtUeDaOd_i_-UBPCrpKeJeF37M-cj1SII-dK_sJcsodj-UHsgIiAA6eKb1g7fmz7a2zdBwv5O0RS_oB0IcNHuoNQFFARXSQFsRu_SCm96VICfjgamRtKyoZjFIFpCjrmPZiuhVekqAmWbxXs62DYY5diykjHpP5QV6-Wh_9kBMtM50_nKV1pJK0PIi5VRW289mLl2bdMsMM0zATGHO_rQWwTO8qAY6jynZc9zyQRvteanUENVOEBnuy_jJou0SCjCUo27Q9J0D2mKzfvIGczVPXK5tYt62MUvbnLrWwt0welqO6JJOCibPDyLbD3uzWmgauBTQCpPnO3OL-ptQcngFFx5nq5T7m2DZwMuQk7s8BQSqvDsWfXWze6e7pJfWIvY73PiheIieP-UEfiEm2wYEQjG30R4qm3HaFnb7NdvcppYmy4DAUfuObBFw6X899ad0JYBF1aiddBq6s6iLbwZwm3r75CD0RjeXzTHlMKCpUDHJnY6xnQ4p1-QtELDCayVp_IGiAJwPNW5F6jXftPaoKhrpiiny55kovzOrs4i0L-gRwc-6d0CgF_Rcja4sYhh4ECdVBBoHApwLixAw9aptosgaN_u9Jkn6Hk
 #EXTINF:-1 group-title="SPOR" group-author="EYUP" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/KtQBKvChbqGjMgXu.png",CNBC-E - KODLUK.COM
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
 #EXTINF:-1 group-title="SPOR" group-author="EYUP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqzS70I58r2o70L-oPmTBqtL--C_sv4vR1Pw&s",FB TV
 https://1hskrdto.rocketcdn.com/fenerbahcetv.stream/playlist.m3u8
 #EXTINF:-1 group-title="SPOR" group-author="EYUP" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png",HT SPOR TV
 https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
+#EXTINF:-1 group-title="SPOR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png",MAVI SPOR
+https://cdn.codenet.work/auth/Qs7v6OQ-hf0g9MpjIGO5JAld3ZNdTxXjyt6iK0BvIT744zyu8xWhE7PC6qKxEhd7w1XIne3BYPZLRCuw_c22E96KoRTEY8UfvcxNQ1_6_gFltZHc5FRVyR37C7XwUu5Yq071eL4XKRFulwtUMTp5n8EEM7R3mVZn43uEzEFrBKccX5KUr83IKixEFVl05EYZqxq_pERTU72mRt6T6x4-7nK2UFh7FhagnXPFMoNx8BQ7EBYz0-1mx00uc1P0w4p7scYgDHgHNiqE5URHmpnA_FEQsASLq6jP9nzbdk1Khwk6gIOBc4ZknwFPoxiKl8aTmyfEHDjo9bueIbVBT5OHxJIKWYYZXjQMcoxbrz1CS3_J2fK4SjlMfowS_ItN3wCHrNIYlp-dGw99_kWMq3wHQmhYCTo3as5gMuU53SXudiyqjUU07lu8F7K0EPqpKMK6n5iZ-G9zyhJdkR38qqTGa3FaCP5Eimz88UwudBXPz6PUU9EidSbvVbSXD9ajBAQrCniB2XaCc9NQlkAcM-jGWi5up4NT1MAIkEFQeU9Q5VfjOUwdEQs7ZklP27Xqkb4JgZCcrUSJGhWDbOhqK99huhDcPRYvjJKFsag3PZH75js
 #EXTINF:-1 group-title="SPOR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png",MAVI SPOR 3
 https://andro.evrenesoglu101.click/checklist/androstreamlivets3.m3u8
 #EXTINF:-1 group-title="SPOR" group-author="EYUP" tvg-logo="",SPOR TV
@@ -367,8 +367,6 @@ https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="🇹🇷 Di̇zi̇&Si̇nema Kanallari 🎥🎦🎬⚡" group-author="EYUP" tvg-logo="https://yt3.googleusercontent.com/aTkDrJ4-tvQBycXJkhMgBBfX-o4iw0AMykmjfRCSiixpXIxmPj3spULmpXtKvSxn0aQeNfWNOQ=s900-c-k-c0x00ffffff-no-rj",TRT NOSTALJI
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8
-#EXTINF:-1 group-title="Muzik" group-author="IPTVSevenler" tvg-logo="https://imgs.search.brave.com/PlfpX3TDSsuVLZRzJuZbIXLNjUmE_dbZmH4cZQmR7co/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wbGF5/LWxoLmdvb2dsZXVz/ZXJjb250ZW50LmNv/bS9PT2lxZzdVbmcy/T2kyd01uN2xzaFAw/Y1NKMU5xVVctU2cw/RXQxMVZneHlMckhK/dnpoS1pmeW5ia0ox/UGZNRm1yWnBFPXcy/NDAtaDQ4MC1ydw",TURK POP
-https://cdn-4turkpop.yayin.com.tr/4turkpop/4turkpop/chunklist_w1485381529.m3u8
 #EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",TV 41
 https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8
 #EXTINF:-1 group-title="🇹🇷 Di̇zi̇&Si̇nema Kanallari 🎥🎦🎬⚡" group-author="EYUP" tvg-logo="",TV B
