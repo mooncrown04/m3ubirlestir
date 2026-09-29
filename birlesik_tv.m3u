@@ -81,8 +81,6 @@ https://tv-trtturk.medya.trt.com.tr/master.m3u8
 https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2_1080p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://i.postimg.cc/FKkHW8KK/tv4.png",TV 4
 https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
-#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://play-lh.googleusercontent.com/AECL6sDr1YtDec7ZuBXs5ESB3fdHDZLdapYf-kKsR_miNAtrFXRxoD08qZg4hfwP_pvx",TV NET
-https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
 #EXTINF:-1 group-title="SPOR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png",BIZIM SPOR
 https://andro.evrenesoglu65.lat/checklist/androstreamlivebiraz1.m3u8
 #EXTINF:-1 group-title="SPOR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png",BIZIM SPOR 3
@@ -195,6 +193,8 @@ https://live.euromediacenter.com/brukselturk/index.m3u8
 https://panel.5gtvhosting.com:2020/hls/cemtv/cemtv.m3u8
 #EXTINF:-1 group-title="Sinema" group-author="IPTVSevenler" tvg-logo="https://tv.canlitvvolo.com/media/images/tvlogo/cine-1-tv-tvlive-hr36.webp",CINE 1
 https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3_output_0.m3u8?session=MB4VJMtU3MMh9iDu8dtZRu
+#EXTINF:-1 group-title="🇹🇷  Müzi̇k Kanallari 🎵🎸🎻🎹" group-author="EYUP" tvg-logo="https://i.hizliresim.com/hkbu81q.png",DAMAR TV
+https://tvsms.club/tv.php?kanal=damar&file=.m3u8
 #EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",DENIZ POSTASI
 https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
 #EXTINF:-1 group-title="🇹🇷 Yerel Kanallar 💒🏠🏯" group-author="EYUP" tvg-logo="https://i.imgur.com/Mm8hdfx.png",DENIZ POSTASI TV
@@ -319,6 +319,8 @@ https://live.euromediacenter.com/saglikchannel/tracks-v1a1/mono.m3u8
 https://host.onlineradyotv.net:8081/sdmtv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Deneme" group-author="EYUP" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/GmlvQQzbgooDLCed.png",SHOW MAX - KODLUK.COM
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8
+#EXTINF:-1 group-title="🇹🇷  Müzi̇k Kanallari 🎵🎸🎻🎹" group-author="EYUP" tvg-logo="https://i.hizliresim.com/clds0hv.png",SILA TV
+https://tvsms.club/tv.php?kanal=silatv&file=.m3u8
 #EXTINF:-1 group-title="Yabanci Müzi̇k Kanallari 🎵🎸🎻🎹" group-author="EYUP" tvg-logo="https://i.imgur.com/FBgu8yB.png",STINGRAY CLASSIC ROCK
 https://lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 group-title="Yabanci Müzi̇k Kanallari 🎵🎸🎻🎹" group-author="EYUP" tvg-logo="https://i.imgur.com/nh1k5RC.png",STINGRAY CLASSICA
