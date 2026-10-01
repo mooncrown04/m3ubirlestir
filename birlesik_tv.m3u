@@ -39,8 +39,6 @@ https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
 https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://gitlatte.github.io/m3ueditor/images/kanal-gorselleri/turkiye/360-tr.png",360 TV
 https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
-#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png",A2TV
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="",ARABESK TURK
 http://yayin.arabeskturk.com:8000/;
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/beyaz-tv-tr.png",BEYAZ
@@ -69,8 +67,6 @@ http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/4001/index.m3u8
 https://sweet-truth-729d.han686314.workers.dev/?url=https%3A%2F%2Fhelga.iptv2022.com%2Ftrt_2%2Ftracks-v1a1%2Fmono.ts.m3u8%3Ffilter.tracks%3Da1v1v2v3v4
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/512px-TRT_Avaz_logo.svg.png",TRT AVAZ
 https://tv-trtavaz.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-cocuk-tr.png",TRT COCUK
-https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-cocuk-tr.png",TRT COCUK DIYANET
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="https://yt3.googleusercontent.com/P_bzcxCwZv7-sm5NYVRxo6RMbAEP4AjQSSsAfzOOySY4O1WmyRtDK87Ga31LW-6lGRvgyER1",TRT KURDI
@@ -363,10 +359,6 @@ https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_tontv/tontv/chunks.m3u8
 #EXTINF:-1 group-title="Deneme" group-author="EYUP" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/sozcu.png",TR:SOZCU TV
 https://helga.iptv2022.com/szc_tv/index.m3u8
-#EXTINF:-1 group-title="Muzik" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-cocuk-tr.png",TRT COCUK
-https://tv-trtcocuk.medya.trt.com.tr/master_1440.m3u8
-#EXTINF:-1 group-title="🇹🇷 Çocuk Kanallari 👶🍼" group-author="EYUP" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-cocuk-tr.png",TRT COCUK
-https://tv-trtcocuk.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 group-title="Yabanci Müzi̇k Kanallari 🎵🎸🎻🎹" group-author="EYUP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNwBQtkeuk0a1Ofxhin7lGP_VtWNecIwOsSA&s",TRT DIYANET ÇOCUK
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Muzik" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-muzik-tr.png",TRT MUZIK
