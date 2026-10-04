@@ -11,6 +11,8 @@ https://one.makesomthingup.click/qe6YmXDf9XSqr_uSEoxqKYRL/master.m3u8
 https://one.makesomthingup.click/xzjXxFiZh_AJfiIbVDKADsAo/master.m3u8
 #EXTINF:-1 group-title="Ricky Gervais Alley Cats (2026)" tvg-year="2026" tvg-id="300480" group-author="Zerk",Ricky Gervais Alley Cats S01 E06
 https://one.makesomthingup.click/MwRdxefel6b6SMbJdnl2xQEa/master.m3u8
+#EXTINF:-1 group-title="Ricky Gervais Alley Cats" tvg-id="300480:1:1" group-author="Zerk",Ricky Gervais Alley Cats S01E01
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTINF:-1 group-title="Roma (2005)" group-author="powerboard",Roma S01E01
 https://vs12.photomag.biz/v/Rome.S01E01.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 group-title="Roma (2005)" group-author="powerboard",Roma S01E02
