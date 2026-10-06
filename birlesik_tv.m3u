@@ -5,8 +5,6 @@ https://trt.daioncdn.net/trt-1/master.m3u8?app=clean
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png",KANAL D
 https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_1080p.m3u8
-#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png",KANAL D
-https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_720p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png",KANAL D
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png",KANAL D
@@ -45,8 +43,12 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
 http://yayin.arabeskturk.com:8000/;
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/beyaz-tv-tr.png",BEYAZ
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_720p.m3u8
+#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="",ERCIYES TV
+https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/chunks.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://eurod.kanald.com.tr/assets/img/logo.v5.png",EURO D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8
+#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/fox-tr.png",FOX
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://imgs.search.brave.com/IatIIzow7IVAfeAmnTgmRAUBDmINMSbdBABRzpzwb7M/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZnJlZWxvZ292ZWN0/b3JzLm5ldC93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOC8wMy9o/YWJlcnR1cmstbG9n/by5wbmc",HABER TURK
 https://ciner.daioncdn.net/haberturktv/haberturktv_1080p.m3u8?sid=8b65nnyxpdwm&app=c98ab0b0-50cc-495b-bb37-778e91f5ff5b&ce=2
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://e7.pngegg.com/pngimages/758/259/png-clipart-medina-mecca-television-channel-streaming-media-others-miscellaneous-television.png",MADINAH TV
@@ -81,8 +83,6 @@ https://tv-trtturk.medya.trt.com.tr/master.m3u8
 https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2_1080p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://i.postimg.cc/FKkHW8KK/tv4.png",TV 4
 https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
-#EXTINF:-1 group-title="SPOR" group-author="TVCANLI" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/archive/e/e9/20140920094552%21A_Spor_logosu.png",A SPOR
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8
 #EXTINF:-1 group-title="SPOR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-spor-tr.png",TRT SPOR
 https://andro.evrenesoglu121.click/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="SPOR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png",BIZIM SPOR 2
@@ -153,6 +153,8 @@ https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e_1080p.m3u8
 #EXTINF:-1 group-title="HABER" group-author="IPTVSevenler" tvg-logo="https://imgs.search.brave.com/IatIIzow7IVAfeAmnTgmRAUBDmINMSbdBABRzpzwb7M/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZnJlZWxvZ292ZWN0/b3JzLm5ldC93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOC8wMy9o/YWJlcnR1cmstbG9n/by5wbmc",HABER TURK
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8
+#EXTINF:-1 group-title="HABER" group-author="EYUP" tvg-logo="https://asset.artidijitalmedya.com/image/400x400/channels/v1/logo_103.png?v=15",MAVI KARADENIZ TV
+https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/chunks.m3u8
 #EXTINF:-1 group-title="HABER" group-author="EYUP" tvg-logo="",NEO TV HABER
 https://edge1.taksimbilisim.com/neohaber/bant1/chunks.m3u8
 #EXTINF:-1 group-title="HABER" group-author="EYUP" tvg-logo="",TBMM TV HABER
@@ -173,6 +175,10 @@ https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
 http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6915/index.m3u8
 #EXTINF:-1 group-title="BELGESEL" group-author="IPTVSevenler" tvg-logo="https://imgs.search.brave.com/jqGiLB8MoGnJ6MgSbceLfxYH7II-QDhWrW_g4zEZk-M/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hLmpz/cmRuLmNvbS9obHMv/MjMwNjQvNGstdHJh/dmVsLXR2L3RodW1i/aF8yMDIyMDUzMV8x/ODM4MTguanBn",TRAVEL
 https://streams2.sofast.tv/umaxx/v1/01977dd01f661ebd47042b72b0c07c/01977dd12cc51ebd416a3eb5c6c77f/4k_travel_tv_2500k.m3u8
+#EXTINF:-1 group-title="MÜZİK" group-author="EYUP" tvg-logo="https://cdn.powergroup.com.tr/image/200x200/powerapp/channels/v3/inverse/logo_44.png",POWER TV
+https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
+#EXTINF:-1 group-title="MÜZİK" group-author="EYUP" tvg-logo="https://cdn.powergroup.com.tr/image/200x200/powerapp/channels/v3/inverse/logo_44.png",POWER TV
+https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
 #EXTINF:-1 group-title="🎬 SİNEMA & DİZİ" group-author="TVCANLI" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7d58e86c-d38e-4ef5-8ee0-fda0a7e65914.png",FILM SCREEN
 https://edge-e3.evrideo.tv/f2dcbecf-5af0-47db-a82e-032112050a23_1000027346_HLS/manifest.m3u8
 #EXTINF:-1 group-title="🎬 SİNEMA & DİZİ" group-author="IPTVSevenler" tvg-logo="https://imgs.search.brave.com/RK7ZfcDofa94durmgqhH9G_XrlN8VEqBhUMp4vGcF-A/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/cGlyaS5uZXQvbW5y/ZXNpemUvNzIwLy0v/cGlyaS91cGxvYWQv/My8yMDI0LzkvMTcv/ZmZiMzg0ZDYtMjAy/MzA2MTAtdHJ0LXRh/YmlpLXBsYXRmb3Jt/dS03LW1heWlzdGEt/eWF5aW4taGF5YXRp/bmEtYmFzbGFkaS0z/MDYzNzEtOWM5YWMw/ODNjYjhmMmU1ODk1/MjUuanBn",TABII TV
@@ -189,26 +195,56 @@ http://89.187.191.41/A2-HD-TR/video.m3u8
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
 #EXTINF:-1 group-title="Genel" group-author="Luxy44" tvg-logo="http://assets.tvcdn.net/49267a8f-6313-43f9-bab4-9d5f109bad1b.png",24 TV
 https://turkmedya-live.ercdn.net/tv24/tv24_1080p.m3u8
+#EXTINF:-1 group-title="𝖡𝖤𝖫𝖦𝖤𝖲𝖤𝖫&Yaşam Kanallari" group-author="EYUP" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/aksu-tv-tr.png",AKSU TV
+https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/chunks.m3u8
+#EXTINF:-1 group-title="Genel" group-author="Luxy44" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/aksu-tv-tr.png",AKSU TV
+https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
 #EXTINF:-1 group-title="🇹🇷 Yerel Kanallar 💒🏠🏯" group-author="EYUP" tvg-logo="https://www.alanyapostatv.com/wp-content/uploads/2019/03/ap_logo_trnsp_red.png",ALANYA POSTASI WEBTV
 https://api-tv3.yayin.com.tr/postatv/postatv/chunklist_w2139100238.m3u8?_=1
 #EXTINF:-1 group-title="Yerel" group-author="EYUP" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/aRzROOdpKcyOfVTo.png",BRÜKSEL TÜRK - KODLUK.COM
 https://live.euromediacenter.com/brukselturk/index.m3u8
 #EXTINF:-1 group-title="🇹🇷  Müzi̇k Kanallari 🎵🎸🎻🎹" group-author="EYUP" tvg-logo="https://i.hizliresim.com/hkbu81q.png",DAMAR TV
 https://tvsms.club/tv.php?kanal=damar&file=.m3u8
+#EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",DENIZ POSTASI
+https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Yerel Kanallar 💒🏠🏯" group-author="EYUP" tvg-logo="https://i.imgur.com/Mm8hdfx.png",DENIZ POSTASI TV
+https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/chunks.m3u8
 #EXTINF:-1 group-title="SİNEMA & DİZİ" group-author="Luxy44" tvg-logo="play.png",DIYANET TV
 https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
+#EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",DIYAR TV
+https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
 #EXTINF:-1 group-title="Çocuk" group-author="TVCANLI" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/dost-tv.png",DOST TV
 https://dost.stream.emsal.im/tv/live.m3u8
 #EXTINF:-1 group-title="Muzik" group-author="TVCANLI" tvg-logo="https://i.ibb.co/fxRrKmB/dream-turk.png",DREAM TURK
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
 #EXTINF:-1 group-title="Eğitim" group-author="Luxy44" tvg-logo="play.png",EBA TV ORTAOKUL
 https://tv-e-okul01.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 group-title="🇹🇷 Yerel Kanallar 💒🏠🏯" group-author="EYUP" tvg-logo="https://i.imgur.com/VDGEPrD.png",ER TV
+https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
 #EXTINF:-1 group-title="🇹🇷 Yerel Kanallar 💒🏠🏯" group-author="EYUP" tvg-logo="https://i.imgur.com/HF7N4Li.png",ERZURUM WEB TV
 https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
+#EXTINF:-1 group-title="🇹🇷 Yerel Kanallar 💒🏠🏯" group-author="EYUP" tvg-logo="https://i.imgur.com/epAEBrp.png",ES TV
+https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
 #EXTINF:-1 group-title="🇪🇺 Yurtdişi Kanallar" group-author="EYUP" tvg-logo="https://eurod.kanald.com.tr/assets/img/logo.v5.png",EURO D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_3_750/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Di̇zi̇&Si̇nema Kanallari 🎥🎦🎬⚡" group-author="EYUP" tvg-logo="",FANATIK DİZİ ED STAFFORD:📺
+https://catcast.ismailturret.workers.dev/fanatikprimeEdStafford.m3u8
+#EXTINF:-1 group-title="🇹🇷 Çocuk Kanallari 👶🍼" group-author="EYUP" tvg-logo="",FANATIK KIDS ŞARKILAR
+https://catcast.ismailturret.workers.dev/fanatikkidsarkilar.m3u8
+#EXTINF:-1 group-title="🇹🇷 Çocuk Kanallari 👶🍼" group-author="EYUP" tvg-logo="",FANATIK PEPEE
+https://catcast.ismailturret.workers.dev/fanatikkidspepee.m3u8
+#EXTINF:-1 group-title="🇹🇷 Di̇zi̇&Si̇nema Kanallari 🎥🎦🎬⚡" group-author="EYUP" tvg-logo="",FANATIK SİNEMA KORKU:🎬
+https://catcast.ismailturret.workers.dev/fanatikmaxkorku.m3u8
 #EXTINF:-1 group-title="𝖡𝖤𝖫𝖦𝖤𝖲𝖤𝖫&Yaşam Kanallari" group-author="EYUP" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/rGiogSDpVEUtAwTl.png",FIT YAŞA TV
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/fit-yasa-tv/playlist.m3u8
+#EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",FRT TV
+https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
+#EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",HUNAT TV
+https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
+#EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",KANAL 15
+https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
+#EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",KANAL 3
+https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
 #EXTINF:-1 group-title="🇹🇷 Yerel Kanallar 💒🏠🏯" group-author="EYUP" tvg-logo="https://assets.tvcdn.net/9eb1d0e2-2e57-468d-ae02-c208d98d55d9.png",KANAL 53
 https://kanal53.ozelip.com:3448/hybrid/play.m3u8
 #EXTINF:-1 group-title="🇹🇷 Yerel Kanallar 💒🏠🏯" group-author="EYUP" tvg-logo="",KANAL 6
@@ -221,8 +257,14 @@ https://catcast.ismailturret.workers.dev/50659.m3u8
 https://catcast.ismailturret.workers.dev/50823.m3u8
 #EXTINF:-1 group-title="🇹🇷 Çocuk Kanallari 👶🍼" group-author="EYUP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNA-69YzZJQiXbmQ6dtQ4x8QptS1fQg6_BplCog8mCTiUgIQlTOi9QgZM&s=10",KANAL F ÇOCUK
 https://catcast.ismailturret.workers.dev/50822.m3u8
+#EXTINF:-1 group-title="🇹🇷 Yerel Kanallar 💒🏠🏯" group-author="EYUP" tvg-logo="",KANAL FIRAT
+https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/chunks.m3u8
+#EXTINF:-1 group-title="🇹🇷 Yerel Kanallar 💒🏠🏯" group-author="EYUP" tvg-logo="",KANAL PLUS
+https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8
 #EXTINF:-1 group-title="𝖡𝖤𝖫𝖦𝖤𝖲𝖤𝖫&Yaşam Kanallari" group-author="EYUP" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/rJtTnjScrxamhMCc.png",KIŞISEL GELIŞIM TV
 https://kisiselvideo.stopvideodownload.com:8443/nefes/ngrp:live_all/playlist.m3u8
+#EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",KONYA OLAY TV
+https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
 #EXTINF:-1 group-title="Muzik" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kral-pop-tr.png",KRAL POP
 https://tatatam.trt1sultanfatihss.workers.dev/https://dogus.daioncdn.net/kralpoptv/kralpoptv_720p.m3u8?&sid=8nosfpxccyq6&app=f38a38b4-ce55-4040-8676-9826937d6128&ce=2
 #EXTINF:-1 group-title="Muzik" group-author="TVCANLI" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kral-pop-tr.png",KRAL POP
@@ -231,6 +273,12 @@ http://dygvideo.dygdigital.com/live/hls/kralpop
 http://dygvideo.dygdigital.com/live/hls/kralpop?m3u8
 #EXTINF:-1 group-title="🇹🇷 Yerel Kanallar 💒🏠🏯" group-author="EYUP" tvg-logo="",LALEGUL TV
 https://lbl.netmedya.net/hls/lalegultv.m3u8
+#EXTINF:-1 group-title="𝖡𝖤𝖫𝖦𝖤𝖲𝖤𝖫&Yaşam Kanallari" group-author="EYUP" tvg-logo="https://i.imgur.com/lWeJxm0.png",LIFE TV
+https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/chunks.m3u8
+#EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="https://i.imgur.com/lWeJxm0.png",LIFE TV
+https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
+#EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",MERCAN TV
+https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
 #EXTINF:-1 group-title="Çocuk" group-author="TVCANLI" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/minika-cocuk.png",MINIKA COCUK
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
 #EXTINF:-1 group-title="ÇOCUK & AİLE" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/minika-go-tr.png",MINIKA GO
@@ -257,8 +305,18 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e17cd6360b_1/playlist.m3u8
 #EXTINF:-1 group-title="Müzik" group-author="EYUP" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5e415748866ac31d980eb317",NUMBERONE TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷  Müzi̇k Kanallari 🎵🎸🎻🎹" group-author="EYUP" tvg-logo="https://cdn.powergroup.com.tr/image/200x200/powerapp/channels/v3/inverse/logo_2559.png",POWER LOVE
+https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷  Müzi̇k Kanallari 🎵🎸🎻🎹" group-author="EYUP" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2c125866ac31da06187d6",POWER TÜRK
+https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
+#EXTINF:-1 group-title="Müzik" group-author="Luxy44" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2c125866ac31da06187d6",POWER TÜRK
+https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷  Müzi̇k Kanallari 🎵🎸🎻🎹" group-author="EYUP" tvg-logo="https://i.ibb.co/R4pcKqK/powerturk-slow.png",POWERTÜRK SLOW
+https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
 #EXTINF:-1 group-title="🇪🇺 Yurtdişi Kanallar" group-author="EYUP" tvg-logo="",RIZE TURK TV
 https://yayin.rizeturk.com:3777/hybrid/play.m3u8
+#EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",SAT 7 TÜRK
+https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
 #EXTINF:-1 group-title="𝖡𝖤𝖫𝖦𝖤𝖲𝖤𝖫&Yaşam Kanallari" group-author="EYUP" tvg-logo="https://i.hizliresim.com/cvhj6qg.png",SAĞLIK CHANNEL TV
 https://live.euromediacenter.com/saglikchannel/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Deneme" group-author="EYUP" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/GmlvQQzbgooDLCed.png",SHOW MAX - KODLUK.COM
@@ -289,6 +347,10 @@ https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/master.m3u
 https://lotus.stingray.com/manifest/ose-133ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 group-title="𝖡𝖤𝖫𝖦𝖤𝖲𝖤𝖫&Yaşam Kanallari" group-author="EYUP" tvg-logo="",THE PET COLLECTIVE
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=1993
+#EXTINF:-1 group-title="Yerel" group-author="EYUP" tvg-logo="https://assets.tvcdn.net/9c64876c-5e36-402c-86eb-e3b179072d21.png",TIVI 6
+https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Yerel Kanallar 💒🏠🏯" group-author="EYUP" tvg-logo="",TON TV
+https://live.artidijitalmedya.com/artidijital_tontv/tontv/chunks.m3u8
 #EXTINF:-1 group-title="Deneme" group-author="EYUP" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/sozcu.png",TR:SOZCU TV
 https://helga.iptv2022.com/szc_tv/index.m3u8
 #EXTINF:-1 group-title="Muzik" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-cocuk-tr.png",TRT COCUK
@@ -303,10 +365,18 @@ https://tv-trtmuzik.medya.trt.com.tr/master_1080.m3u8
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="🇹🇷 Di̇zi̇&Si̇nema Kanallari 🎥🎦🎬⚡" group-author="EYUP" tvg-logo="https://yt3.googleusercontent.com/aTkDrJ4-tvQBycXJkhMgBBfX-o4iw0AMykmjfRCSiixpXIxmPj3spULmpXtKvSxn0aQeNfWNOQ=s900-c-k-c0x00ffffff-no-rj",TRT NOSTALJI
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8
+#EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",TV 41
+https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8
 #EXTINF:-1 group-title="🇹🇷 Di̇zi̇&Si̇nema Kanallari 🎥🎦🎬⚡" group-author="EYUP" tvg-logo="",TV B
 https://ip44.radyotelekomtv.com:3958/hybrid/play.m3u8
+#EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",VUSLAT TV
+https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8
 #EXTINF:-1 group-title="🇹🇷 Çocuk Kanallari 👶🍼" group-author="EYUP" tvg-logo="https://i.imgur.com/o0eevnb.png",ZAROK TV
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
+#EXTINF:-1 group-title="𝖡𝖤𝖫𝖦𝖤𝖲𝖤𝖫&Yaşam Kanallari" group-author="EYUP" tvg-logo="https://www.ciftcitv.com/wp-content/uploads/2021/02/favicon.png",ÇIFTÇI TV
+https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Yerel Kanallar 💒🏠🏯" group-author="EYUP" tvg-logo="https://i.imgur.com/VZhag2x.png",İHA
+https://live01.iha.tv/webabone/live2/chunks.m3u8
 #EXTINF:-1 group-title="🇹🇷 Di̇zi̇&Si̇nema Kanallari 🎥🎦🎬⚡" group-author="EYUP" tvg-logo="https://i.hizliresim.com/qg54j1v.png",İSVİÇRE TV
 https://i41.ozelip.com:3269/hybrid/play.m3u8
 #EXTINF:-1 group-title="🇹🇷 Yerel Kanallar 💒🏠🏯" group-author="EYUP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bc/Tv4_logo.png",🇹🇷TV 4
