@@ -1,8 +1,6 @@
 #EXTM3U
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="https://picon.pics/TR/Ulusal/Trt1.png",TRT 1
 https://trt.daioncdn.net/trt-1/master.m3u8?app=clean
-#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="https://picon.pics/TR/Ulusal/Trt1.png",TRT 1
-https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png",KANAL D
 https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_1080p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png",KANAL D
@@ -109,8 +107,6 @@ https://andro.evrenesoglu101.click/checklist/androstreamlivets2.m3u8
 https://andro.evrenesoglu101.click/checklist/androstreamlivets4.m3u8
 #EXTINF:-1 group-title="SPOR" group-author="IPTVSevenler" tvg-logo="https://imgs.search.brave.com/4145mf_jSglOQ1vdyHn0U0HVjFfO4twMKk5JliOa4_8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzE4Lzg5Lzc3/LzM2MF9GXzUxODg5/NzcwNl91UjFyam9x/VUJ1MnVhbUxQRVZj/R21ITUQ2aUVuS2Fy/Wi5qcGc",SDM SINEMA
 https://host.onlineradyotv.net:8081/sdmtv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="SPOR" group-author="EYUP" tvg-logo="",SPOR TV
-https://cdn-gzcspor.yayin.com.tr/gzcspor/gzcspor/playlist.m3u8
 #EXTINF:-1 group-title="SPOR" group-author="EYUP" tvg-logo="https://i.hizliresim.com/p48esle.png",TAY TV
 https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8
 #EXTINF:-1 group-title="SPOR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png",Z SPOR 2
@@ -159,8 +155,6 @@ https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e_1080p.m3u8
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8
 #EXTINF:-1 group-title="HABER" group-author="EYUP" tvg-logo="https://asset.artidijitalmedya.com/image/400x400/channels/v1/logo_103.png?v=15",MAVI KARADENIZ TV
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/chunks.m3u8
-#EXTINF:-1 group-title="HABER" group-author="EYUP" tvg-logo="",NEO TV HABER
-https://edge1.taksimbilisim.com/neohaber/bant1/chunks.m3u8
 #EXTINF:-1 group-title="HABER" group-author="EYUP" tvg-logo="",TBMM TV HABER
 https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
 #EXTINF:-1 group-title="HABER" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/tgrt-haber-tr.png",TGRT HABER
