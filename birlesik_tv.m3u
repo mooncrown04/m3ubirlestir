@@ -49,6 +49,8 @@ https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_720p.m3u8
 https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/chunks.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://eurod.kanald.com.tr/assets/img/logo.v5.png",EURO D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8
+#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/fox-tr.png",FOX
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://imgs.search.brave.com/IatIIzow7IVAfeAmnTgmRAUBDmINMSbdBABRzpzwb7M/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZnJlZWxvZ292ZWN0/b3JzLm5ldC93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOC8wMy9o/YWJlcnR1cmstbG9n/by5wbmc",HABER TURK
 https://ciner.daioncdn.net/haberturktv/haberturktv_1080p.m3u8?sid=8b65nnyxpdwm&app=c98ab0b0-50cc-495b-bb37-778e91f5ff5b&ce=2
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://e7.pngegg.com/pngimages/758/259/png-clipart-medina-mecca-television-channel-streaming-media-others-miscellaneous-television.png",MADINAH TV
@@ -229,12 +231,6 @@ https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
 https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
 #EXTINF:-1 group-title="🇪🇺 Yurtdişi Kanallar" group-author="EYUP" tvg-logo="https://eurod.kanald.com.tr/assets/img/logo.v5.png",EURO D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_3_750/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Di̇zi̇&Si̇nema Kanallari 🎥🎦🎬⚡" group-author="EYUP" tvg-logo="",FANATIK DİZİ ED STAFFORD:📺
-https://catcast.ismailturret.workers.dev/fanatikprimeEdStafford.m3u8
-#EXTINF:-1 group-title="🇹🇷 Di̇zi̇&Si̇nema Kanallari 🎥🎦🎬⚡" group-author="EYUP" tvg-logo="",FANATIK SİNEMA DAĞ:🎬
-https://catcast.ismailturret.workers.dev/fanatikmaxdag.m3u8
-#EXTINF:-1 group-title="🇹🇷 Di̇zi̇&Si̇nema Kanallari 🎥🎦🎬⚡" group-author="EYUP" tvg-logo="",FANATIK SİNEMA KORKU:🎬
-https://catcast.ismailturret.workers.dev/fanatikmaxkorku.m3u8
 #EXTINF:-1 group-title="𝖡𝖤𝖫𝖦𝖤𝖲𝖤𝖫&Yaşam Kanallari" group-author="EYUP" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/rGiogSDpVEUtAwTl.png",FIT YAŞA TV
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/fit-yasa-tv/playlist.m3u8
 #EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",FRT TV
