@@ -367,3 +367,5 @@ https://vs16.pictureflix.org/v/Caught.S01E04.WEB-DL.1080p.DUAL.H.264-HDM/master.
 https://vs16.photour.org/v/Caught.S01E05.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 group-title="ATRAPADOS: Un viaje transmedia a través de la deshumanización limeña (2025)" tvg-year="2025" tvg-id="1571340" group-author="Zerk",ATRAPADOS: Un viaje transmedia a través de la deshumanización limeña S01 E06
 https://vs11.photoflick.org/v/Caught.S01E06.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Ay Şövalyesi" tvg-id="92749:1:1" group-author="Zerk",Ay Şövalyesi S01E01
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
