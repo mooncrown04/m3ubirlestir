@@ -57,6 +57,26 @@ https://vs22.photostack.net/v/Emily.in.Paris.S01E08.WEB-DL.1080p.DUAL.x264-HDM/m
 https://vs22.photoflick.org/v/Emily.in.Paris.S01E09.WEB-DL.1080p.DUAL.x264-HDM/master.m3u8
 #EXTINF:-1 group-title="Emily in Paris" tvg-year="2020" tvg-id="82596" group-author="Zerk",Emily in Paris S01 E10
 https://vs21.photoflick.org/v/Emily.in.Paris.S01E10.WEB-DL.1080p.DUAL.x264-HDM/master.m3u8
+#EXTINF:-1 group-title="Emily in Paris (2020)" tvg-id="tt8962124.s1e1" group-author="Zerk",Emily in Paris S01E01
+https://ha.vixolity.com/vs/tt8962124/s1/e01
+#EXTINF:-1 group-title="Emily in Paris (2020)" tvg-id="tt8962124.s1e2" group-author="Zerk",Emily in Paris S01E02
+https://ha.vixolity.com/vs/tt8962124/s1/e02
+#EXTINF:-1 group-title="Emily in Paris (2020)" tvg-id="tt8962124.s1e3" group-author="Zerk",Emily in Paris S01E03
+https://ha.vixolity.com/vs/tt8962124/s1/e03
+#EXTINF:-1 group-title="Emily in Paris (2020)" tvg-id="tt8962124.s1e4" group-author="Zerk",Emily in Paris S01E04
+https://ha.vixolity.com/vs/tt8962124/s1/e04
+#EXTINF:-1 group-title="Emily in Paris (2020)" tvg-id="tt8962124.s1e5" group-author="Zerk",Emily in Paris S01E05
+https://ha.vixolity.com/vs/tt8962124/s1/e05
+#EXTINF:-1 group-title="Emily in Paris (2020)" tvg-id="tt8962124.s1e6" group-author="Zerk",Emily in Paris S01E06
+https://ha.vixolity.com/vs/tt8962124/s1/e06
+#EXTINF:-1 group-title="Emily in Paris (2020)" tvg-id="tt8962124.s1e7" group-author="Zerk",Emily in Paris S01E07
+https://ha.vixolity.com/vs/tt8962124/s1/e07
+#EXTINF:-1 group-title="Emily in Paris (2020)" tvg-id="tt8962124.s1e8" group-author="Zerk",Emily in Paris S01E08
+https://ha.vixolity.com/vs/tt8962124/s1/e08
+#EXTINF:-1 group-title="Emily in Paris (2020)" tvg-id="tt8962124.s1e9" group-author="Zerk",Emily in Paris S01E09
+https://ha.vixolity.com/vs/tt8962124/s1/e09
+#EXTINF:-1 group-title="Emily in Paris (2020)" tvg-id="tt8962124.s1e10" group-author="Zerk",Emily in Paris S01E10
+https://ha.vixolity.com/vs/tt8962124/s1/e10
 #EXTINF:-1 group-title="Emlak Savaşları" group-author="Zerk",Emlak Savaşları Bölümler S01E01
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_927388&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Eric (2024)" tvg-id="tt16283824.s1e1" group-author="Zerk",Eric S01E01
@@ -149,6 +169,14 @@ https://ha.vixolity.com/vs/tt9055008/s1/e11
 https://ha.vixolity.com/vs/tt9055008/s1/e12
 #EXTINF:-1 group-title="Evil (2019)" tvg-id="tt9055008.s1e13" group-author="Zerk",Evil S01E13
 https://ha.vixolity.com/vs/tt9055008/s1/e13
+#EXTINF:-1 group-title="Eyes of Wakanda (2025)" tvg-id="tt13968252.s1e1" group-author="Zerk",Eyes of Wakanda S01E01
+https://ha.vixolity.com/vs/tt13968252/s1/e01
+#EXTINF:-1 group-title="Eyes of Wakanda (2025)" tvg-id="tt13968252.s1e2" group-author="Zerk",Eyes of Wakanda S01E02
+https://ha.vixolity.com/vs/tt13968252/s1/e02
+#EXTINF:-1 group-title="Eyes of Wakanda (2025)" tvg-id="tt13968252.s1e3" group-author="Zerk",Eyes of Wakanda S01E03
+https://ha.vixolity.com/vs/tt13968252/s1/e03
+#EXTINF:-1 group-title="Eyes of Wakanda (2025)" tvg-id="tt13968252.s1e4" group-author="Zerk",Eyes of Wakanda S01E04
+https://ha.vixolity.com/vs/tt13968252/s1/e04
 #EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E01
 https://pixeldrain.com/api/file/WTt4qRum
 #EXTINF:-1 group-title="Ezel" group-author="powerboard",Ezel S01E02
