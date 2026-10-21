@@ -49,22 +49,6 @@ https://vs16.photoflick.org/v/WandaVision.S01E07.WEB-DL.1080p.DUAL.x264-HDM/mast
 https://vs11.photomag.biz/v/WandaVision.S01E08.WEB-DL.1080p.DUAL.x264-HDM/master.m3u8
 #EXTINF:-1 group-title="WandaVision (2021)" group-author="powerboard",WandaVision S01E09
 https://vs14.photofunia.pro/v/WandaVision.S01E09.WEB-DL.1080p.DUAL.x264-HDM/master.m3u8
-#EXTINF:-1 group-title="Wayward (2025)" group-author="powerboard",Wayward S01E01
-https://vs9.gamephotos.pro/v/Wayward.S01E01.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Wayward (2025)" group-author="powerboard",Wayward S01E02
-https://vs17.photomag.biz/v/Wayward.S01E02.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Wayward (2025)" group-author="powerboard",Wayward S01E03
-https://vs14.photofunny.org/v/Wayward.S01E03.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Wayward (2025)" group-author="powerboard",Wayward S01E04
-https://vs19.photostack.net/v/Wayward.S01E04.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Wayward (2025)" group-author="powerboard",Wayward S01E05
-https://vs9.photoflix.org/v/Wayward.S01E05.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Wayward (2025)" group-author="powerboard",Wayward S01E06
-https://vs10.photostack.net/v/Wayward.S01E06.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Wayward (2025)" group-author="powerboard",Wayward S01E07
-https://vs17.photoflax.org/v/Wayward.S01E07.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Wayward (2025)" group-author="powerboard",Wayward S01E08
-https://vs16.pictureflix.org/v/Wayward.S01E08.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
 #EXTINF:-1 group-title="We Were Liars" group-author="powerboard",We Were Liars S01E01
 https://pixeldrain.com/api/file/5uLQkeoY
 #EXTINF:-1 group-title="We Were Liars" group-author="powerboard",We Were Liars S01E02
@@ -81,22 +65,6 @@ https://pixeldrain.com/api/file/WgbuFoTL
 https://pixeldrain.com/api/file/yV7WtJvk
 #EXTINF:-1 group-title="We Were Liars" group-author="powerboard",We Were Liars S01E08
 https://pixeldrain.com/api/file/cac4PiDy
-#EXTINF:-1 group-title="Wednesday" group-author="powerboard",Wednesday S01E01
-https://vs15.photoflax.org/v/Wednesday.S01E01.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Wednesday" group-author="powerboard",Wednesday S01E02
-https://vs16.photofunia.pro/v/Wednesday.S01E02.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Wednesday" group-author="powerboard",Wednesday S01E03
-https://vs9.photoflax.org/v/Wednesday.S01E03.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Wednesday" group-author="powerboard",Wednesday S01E04
-https://vs19.photour.org/v/Wednesday.S01E04.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Wednesday" group-author="powerboard",Wednesday S01E05
-https://vs15.photostack.net/v/Wednesday.S01E05.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Wednesday" group-author="powerboard",Wednesday S01E06
-https://vs9.photour.org/v/Wednesday.S01E06.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Wednesday" group-author="powerboard",Wednesday S01E07
-https://vs9.photostack.net/v/Wednesday.S01E07.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Wednesday" group-author="powerboard",Wednesday S01E08
-https://vs12.photour.org/v/Wednesday.S01E08.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
 #EXTINF:-1 group-title="When All of Us Are Dead and Buried (2022)" tvg-year="2022" tvg-id="1290811" group-author="Zerk",When All of Us Are Dead and Buried S01 E01
 https://vs2.photour.org/v/All.of.Us.Are.Dead.S01E01.WEB-DL.1080p.DUAL.x264-HDM/1080.m3u8
 #EXTINF:-1 group-title="When All of Us Are Dead and Buried (2022)" tvg-year="2022" tvg-id="1290811" group-author="Zerk",When All of Us Are Dead and Buried S01 E02
@@ -153,6 +121,32 @@ https://pixeldrain.com/api/file/4Mi5yEPp
 https://pixeldrain.com/api/file/LvUsXBpS
 #EXTINF:-1 group-title="When Life Gives You Tangerines" group-author="powerboard",When Life Gives You Tangerines S01E16
 https://pixeldrain.com/api/file/2tgYnMRx
+#EXTINF:-1 group-title="Will Trent (2023)" tvg-id="tt17543592.s1e1" group-author="Zerk",Will Trent S01E01
+https://ha.vixolity.com/vs/tt17543592/s1/e01
+#EXTINF:-1 group-title="Will Trent (2023)" tvg-id="tt17543592.s1e2" group-author="Zerk",Will Trent S01E02
+https://ha.vixolity.com/vs/tt17543592/s1/e02
+#EXTINF:-1 group-title="Will Trent (2023)" tvg-id="tt17543592.s1e3" group-author="Zerk",Will Trent S01E03
+https://ha.vixolity.com/vs/tt17543592/s1/e03
+#EXTINF:-1 group-title="Will Trent (2023)" tvg-id="tt17543592.s1e4" group-author="Zerk",Will Trent S01E04
+https://ha.vixolity.com/vs/tt17543592/s1/e04
+#EXTINF:-1 group-title="Will Trent (2023)" tvg-id="tt17543592.s1e5" group-author="Zerk",Will Trent S01E05
+https://ha.vixolity.com/vs/tt17543592/s1/e05
+#EXTINF:-1 group-title="Will Trent (2023)" tvg-id="tt17543592.s1e6" group-author="Zerk",Will Trent S01E06
+https://ha.vixolity.com/vs/tt17543592/s1/e06
+#EXTINF:-1 group-title="Will Trent (2023)" tvg-id="tt17543592.s1e7" group-author="Zerk",Will Trent S01E07
+https://ha.vixolity.com/vs/tt17543592/s1/e07
+#EXTINF:-1 group-title="Will Trent (2023)" tvg-id="tt17543592.s1e8" group-author="Zerk",Will Trent S01E08
+https://ha.vixolity.com/vs/tt17543592/s1/e08
+#EXTINF:-1 group-title="Will Trent (2023)" tvg-id="tt17543592.s1e9" group-author="Zerk",Will Trent S01E09
+https://ha.vixolity.com/vs/tt17543592/s1/e09
+#EXTINF:-1 group-title="Will Trent (2023)" tvg-id="tt17543592.s1e10" group-author="Zerk",Will Trent S01E10
+https://ha.vixolity.com/vs/tt17543592/s1/e10
+#EXTINF:-1 group-title="Will Trent (2023)" tvg-id="tt17543592.s1e11" group-author="Zerk",Will Trent S01E11
+https://ha.vixolity.com/vs/tt17543592/s1/e11
+#EXTINF:-1 group-title="Will Trent (2023)" tvg-id="tt17543592.s1e12" group-author="Zerk",Will Trent S01E12
+https://ha.vixolity.com/vs/tt17543592/s1/e12
+#EXTINF:-1 group-title="Will Trent (2023)" tvg-id="tt17543592.s1e13" group-author="Zerk",Will Trent S01E13
+https://ha.vixolity.com/vs/tt17543592/s1/e13
 #EXTINF:-1 group-title="WondLa (2024)" tvg-year="2024" tvg-id="237853" group-author="Zerk",WondLa S01 E01
 https://one.makesomthingup.click/TLiLWHt77dEXXg4_XU8OPZZa/master.m3u8
 #EXTINF:-1 group-title="WondLa (2024)" tvg-year="2024" tvg-id="237853" group-author="Zerk",WondLa S01 E02

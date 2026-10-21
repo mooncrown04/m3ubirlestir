@@ -39,3 +39,15 @@ https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_3396
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_339670&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Bilinmeyene Yolculuk" group-author="Zerk",Bilinmeyene Yolculuk Bölümler S07E20
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_339671&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="Black Mirror (2011)" tvg-id="tt2085059.s7e1" group-author="Zerk",Black Mirror S07E01
+https://ha.vixolity.com/vs/tt2085059/s7/e01
+#EXTINF:-1 group-title="Black Mirror (2011)" tvg-id="tt2085059.s7e2" group-author="Zerk",Black Mirror S07E02
+https://ha.vixolity.com/vs/tt2085059/s7/e02
+#EXTINF:-1 group-title="Black Mirror (2011)" tvg-id="tt2085059.s7e3" group-author="Zerk",Black Mirror S07E03
+https://ha.vixolity.com/vs/tt2085059/s7/e03
+#EXTINF:-1 group-title="Black Mirror (2011)" tvg-id="tt2085059.s7e4" group-author="Zerk",Black Mirror S07E04
+https://ha.vixolity.com/vs/tt2085059/s7/e04
+#EXTINF:-1 group-title="Black Mirror (2011)" tvg-id="tt2085059.s7e5" group-author="Zerk",Black Mirror S07E05
+https://ha.vixolity.com/vs/tt2085059/s7/e05
+#EXTINF:-1 group-title="Black Mirror (2011)" tvg-id="tt2085059.s7e6" group-author="Zerk",Black Mirror S07E06
+https://ha.vixolity.com/vs/tt2085059/s7/e06

@@ -5,3 +5,23 @@ https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_2966
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_2966544&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Altın Peşinde" group-author="Zerk",Altın Peşinde Bölümler S11E03
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_296655&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s11e1" group-author="Zerk",American Horror Story S11E01
+https://ha.vixolity.com/vs/tt1844624/s11/e01
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s11e2" group-author="Zerk",American Horror Story S11E02
+https://ha.vixolity.com/vs/tt1844624/s11/e02
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s11e3" group-author="Zerk",American Horror Story S11E03
+https://ha.vixolity.com/vs/tt1844624/s11/e03
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s11e4" group-author="Zerk",American Horror Story S11E04
+https://ha.vixolity.com/vs/tt1844624/s11/e04
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s11e5" group-author="Zerk",American Horror Story S11E05
+https://ha.vixolity.com/vs/tt1844624/s11/e05
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s11e6" group-author="Zerk",American Horror Story S11E06
+https://ha.vixolity.com/vs/tt1844624/s11/e06
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s11e7" group-author="Zerk",American Horror Story S11E07
+https://ha.vixolity.com/vs/tt1844624/s11/e07
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s11e8" group-author="Zerk",American Horror Story S11E08
+https://ha.vixolity.com/vs/tt1844624/s11/e08
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s11e9" group-author="Zerk",American Horror Story S11E09
+https://ha.vixolity.com/vs/tt1844624/s11/e09
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s11e10" group-author="Zerk",American Horror Story S11E10
+https://ha.vixolity.com/vs/tt1844624/s11/e10

@@ -41,3 +41,23 @@ https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_2667
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_266729&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Altın Peşinde" group-author="Zerk",Altın Peşinde Bölümler S10E21
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_266730&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s10e1" group-author="Zerk",American Horror Story S10E01
+https://ha.vixolity.com/vs/tt1844624/s10/e01
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s10e2" group-author="Zerk",American Horror Story S10E02
+https://ha.vixolity.com/vs/tt1844624/s10/e02
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s10e3" group-author="Zerk",American Horror Story S10E03
+https://ha.vixolity.com/vs/tt1844624/s10/e03
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s10e4" group-author="Zerk",American Horror Story S10E04
+https://ha.vixolity.com/vs/tt1844624/s10/e04
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s10e5" group-author="Zerk",American Horror Story S10E05
+https://ha.vixolity.com/vs/tt1844624/s10/e05
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s10e6" group-author="Zerk",American Horror Story S10E06
+https://ha.vixolity.com/vs/tt1844624/s10/e06
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s10e7" group-author="Zerk",American Horror Story S10E07
+https://ha.vixolity.com/vs/tt1844624/s10/e07
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s10e8" group-author="Zerk",American Horror Story S10E08
+https://ha.vixolity.com/vs/tt1844624/s10/e08
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s10e9" group-author="Zerk",American Horror Story S10E09
+https://ha.vixolity.com/vs/tt1844624/s10/e09
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s10e10" group-author="Zerk",American Horror Story S10E10
+https://ha.vixolity.com/vs/tt1844624/s10/e10

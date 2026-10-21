@@ -41,5 +41,25 @@ https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_4292
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_429267&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Altın Peşinde: Parkerın Yolu" group-author="Zerk",Altın Peşinde: Parkerın Yolu Bölümler S06E08
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_429268&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s6e1" group-author="Zerk",American Horror Story S06E01
+https://ha.vixolity.com/vs/tt1844624/s6/e01
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s6e2" group-author="Zerk",American Horror Story S06E02
+https://ha.vixolity.com/vs/tt1844624/s6/e02
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s6e3" group-author="Zerk",American Horror Story S06E03
+https://ha.vixolity.com/vs/tt1844624/s6/e03
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s6e4" group-author="Zerk",American Horror Story S06E04
+https://ha.vixolity.com/vs/tt1844624/s6/e04
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s6e5" group-author="Zerk",American Horror Story S06E05
+https://ha.vixolity.com/vs/tt1844624/s6/e05
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s6e6" group-author="Zerk",American Horror Story S06E06
+https://ha.vixolity.com/vs/tt1844624/s6/e06
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s6e7" group-author="Zerk",American Horror Story S06E07
+https://ha.vixolity.com/vs/tt1844624/s6/e07
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s6e8" group-author="Zerk",American Horror Story S06E08
+https://ha.vixolity.com/vs/tt1844624/s6/e08
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s6e9" group-author="Zerk",American Horror Story S06E09
+https://ha.vixolity.com/vs/tt1844624/s6/e09
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s6e10" group-author="Zerk",American Horror Story S06E10
+https://ha.vixolity.com/vs/tt1844624/s6/e10
 #EXTINF:-1 group-title="Ateş ve Yemek" group-author="Zerk",Ateş ve Yemek Bölümler S06E01
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_246020&SecretKey=NtvApiSecret2014*&.m3u8

@@ -61,6 +61,32 @@ https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_2284
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_228443&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Altın Peşinde: Parkerın Yolu" group-author="Zerk",Altın Peşinde: Parkerın Yolu Bölümler S03E07
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_228444&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s3e1" group-author="Zerk",American Horror Story S03E01
+https://ha.vixolity.com/vs/tt1844624/s3/e01
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s3e2" group-author="Zerk",American Horror Story S03E02
+https://ha.vixolity.com/vs/tt1844624/s3/e02
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s3e3" group-author="Zerk",American Horror Story S03E03
+https://ha.vixolity.com/vs/tt1844624/s3/e03
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s3e4" group-author="Zerk",American Horror Story S03E04
+https://ha.vixolity.com/vs/tt1844624/s3/e04
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s3e5" group-author="Zerk",American Horror Story S03E05
+https://ha.vixolity.com/vs/tt1844624/s3/e05
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s3e6" group-author="Zerk",American Horror Story S03E06
+https://ha.vixolity.com/vs/tt1844624/s3/e06
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s3e7" group-author="Zerk",American Horror Story S03E07
+https://ha.vixolity.com/vs/tt1844624/s3/e07
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s3e8" group-author="Zerk",American Horror Story S03E08
+https://ha.vixolity.com/vs/tt1844624/s3/e08
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s3e9" group-author="Zerk",American Horror Story S03E09
+https://ha.vixolity.com/vs/tt1844624/s3/e09
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s3e10" group-author="Zerk",American Horror Story S03E10
+https://ha.vixolity.com/vs/tt1844624/s3/e10
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s3e11" group-author="Zerk",American Horror Story S03E11
+https://ha.vixolity.com/vs/tt1844624/s3/e11
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s3e12" group-author="Zerk",American Horror Story S03E12
+https://ha.vixolity.com/vs/tt1844624/s3/e12
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s3e13" group-author="Zerk",American Horror Story S03E13
+https://ha.vixolity.com/vs/tt1844624/s3/e13
 #EXTINF:-1 group-title="Anne with an E (2017)" tvg-year="2017" tvg-id="70785" group-author="Zerk",Anne with an E S03 E01
 https://vs18.photofunny.org/v/Anne.S03E01.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 group-title="Anne with an E (2017)" tvg-year="2017" tvg-id="70785" group-author="Zerk",Anne with an E S03 E02
@@ -123,3 +149,47 @@ https://vs21.photoflax.org/v/Atiye.S03E08.WEB-DL.1080p.H.264-HDM/master.m3u8
 https://vs21.gamephotos.pro/v/Atiye.S03E03.WEB-DL.1080p.H.264-HDM/master.m3u8
 #EXTINF:-1 group-title="Atiye (2019)" group-author="powerboard",Atiye S03E06
 https://vs16.photour.org/v/Atiye.S03E06.WEB-DL.1080p.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e1" group-author="Zerk",Attack on Titan S03E01
+https://ha.vixolity.com/vs/tt2560140/s3/e01
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e2" group-author="Zerk",Attack on Titan S03E02
+https://ha.vixolity.com/vs/tt2560140/s3/e02
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e3" group-author="Zerk",Attack on Titan S03E03
+https://ha.vixolity.com/vs/tt2560140/s3/e03
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e4" group-author="Zerk",Attack on Titan S03E04
+https://ha.vixolity.com/vs/tt2560140/s3/e04
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e5" group-author="Zerk",Attack on Titan S03E05
+https://ha.vixolity.com/vs/tt2560140/s3/e05
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e6" group-author="Zerk",Attack on Titan S03E06
+https://ha.vixolity.com/vs/tt2560140/s3/e06
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e7" group-author="Zerk",Attack on Titan S03E07
+https://ha.vixolity.com/vs/tt2560140/s3/e07
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e8" group-author="Zerk",Attack on Titan S03E08
+https://ha.vixolity.com/vs/tt2560140/s3/e08
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e9" group-author="Zerk",Attack on Titan S03E09
+https://ha.vixolity.com/vs/tt2560140/s3/e09
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e10" group-author="Zerk",Attack on Titan S03E10
+https://ha.vixolity.com/vs/tt2560140/s3/e10
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e11" group-author="Zerk",Attack on Titan S03E11
+https://ha.vixolity.com/vs/tt2560140/s3/e11
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e12" group-author="Zerk",Attack on Titan S03E12
+https://ha.vixolity.com/vs/tt2560140/s3/e12
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e13" group-author="Zerk",Attack on Titan S03E13
+https://ha.vixolity.com/vs/tt2560140/s3/e13
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e14" group-author="Zerk",Attack on Titan S03E14
+https://ha.vixolity.com/vs/tt2560140/s3/e14
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e15" group-author="Zerk",Attack on Titan S03E15
+https://ha.vixolity.com/vs/tt2560140/s3/e15
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e16" group-author="Zerk",Attack on Titan S03E16
+https://ha.vixolity.com/vs/tt2560140/s3/e16
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e17" group-author="Zerk",Attack on Titan S03E17
+https://ha.vixolity.com/vs/tt2560140/s3/e17
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e18" group-author="Zerk",Attack on Titan S03E18
+https://ha.vixolity.com/vs/tt2560140/s3/e18
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e19" group-author="Zerk",Attack on Titan S03E19
+https://ha.vixolity.com/vs/tt2560140/s3/e19
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e20" group-author="Zerk",Attack on Titan S03E20
+https://ha.vixolity.com/vs/tt2560140/s3/e20
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e21" group-author="Zerk",Attack on Titan S03E21
+https://ha.vixolity.com/vs/tt2560140/s3/e21
+#EXTINF:-1 group-title="Attack on Titan (2013)" tvg-id="tt2560140.s3e22" group-author="Zerk",Attack on Titan S03E22
+https://ha.vixolity.com/vs/tt2560140/s3/e22

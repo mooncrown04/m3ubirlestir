@@ -1,4 +1,16 @@
 #EXTM3U
+#EXTINF:-1 group-title="La Brea (2021)" tvg-id="tt11640018.s3e1" group-author="Zerk",La Brea S03E01
+https://ha.vixolity.com/vs/tt11640018/s3/e01
+#EXTINF:-1 group-title="La Brea (2021)" tvg-id="tt11640018.s3e2" group-author="Zerk",La Brea S03E02
+https://ha.vixolity.com/vs/tt11640018/s3/e02
+#EXTINF:-1 group-title="La Brea (2021)" tvg-id="tt11640018.s3e3" group-author="Zerk",La Brea S03E03
+https://ha.vixolity.com/vs/tt11640018/s3/e03
+#EXTINF:-1 group-title="La Brea (2021)" tvg-id="tt11640018.s3e4" group-author="Zerk",La Brea S03E04
+https://ha.vixolity.com/vs/tt11640018/s3/e04
+#EXTINF:-1 group-title="La Brea (2021)" tvg-id="tt11640018.s3e5" group-author="Zerk",La Brea S03E05
+https://ha.vixolity.com/vs/tt11640018/s3/e05
+#EXTINF:-1 group-title="La Brea (2021)" tvg-id="tt11640018.s3e6" group-author="Zerk",La Brea S03E06
+https://ha.vixolity.com/vs/tt11640018/s3/e06
 #EXTINF:-1 group-title="Leverage (2008)" tvg-year="2023" tvg-id="1201679" group-author="Zerk",Leverage S03 E01
 https://r5sa.5455456.xyz/file/snwaxdop/Leverage.S03E01.mkv
 #EXTINF:-1 group-title="Leverage (2008)" tvg-year="2023" tvg-id="1201679" group-author="Zerk",Leverage S03 E02
@@ -79,6 +91,12 @@ https://vs16.pictureflix.org/v/After.Life.S03E04.1080p.BluRay.x264.TR/master.m3u
 https://vs22.photoflix.org/v/After.Life.S03E05.1080p.BluRay.x264.TR/master.m3u8
 #EXTINF:-1 group-title="Life After Death (2019)" tvg-year="2019" tvg-id="710675" group-author="Zerk",Life After Death S03 E06
 https://vs22.photoflax.org/v/After.Life.S03E06.1080p.BluRay.x264.TR/master.m3u8
+#EXTINF:-1 group-title="Lioness (2023)" tvg-id="tt13111078.s3e1" group-author="Zerk",Lioness S03E01
+https://ha.vixolity.com/vs/tt13111078/s3/e01
+#EXTINF:-1 group-title="Lioness (2023)" tvg-id="tt13111078.s3e2" group-author="Zerk",Lioness S03E02
+https://ha.vixolity.com/vs/tt13111078/s3/e02
+#EXTINF:-1 group-title="Lioness (2023)" tvg-id="tt13111078.s3e3" group-author="Zerk",Lioness S03E03
+https://ha.vixolity.com/vs/tt13111078/s3/e03
 #EXTINF:-1 group-title="Luther (2010)" tvg-year="2010" tvg-id="522644" group-author="Zerk",Luther Allison: Songs from the Road S03 E01
 https://r5sa.5455456.xyz/file/snwaxdop/Luther.S03E01.mkv
 #EXTINF:-1 group-title="Luther (2010)" tvg-year="2010" tvg-id="522644" group-author="Zerk",Luther Allison: Songs from the Road S03 E02

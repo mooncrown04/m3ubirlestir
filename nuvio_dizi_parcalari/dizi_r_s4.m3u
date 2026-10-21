@@ -1,4 +1,24 @@
 #EXTM3U
+#EXTINF:-1 group-title="Rick and Morty (2013)" tvg-id="tt2861424.s4e1" group-author="Zerk",Rick and Morty S04E01
+https://ha.vixolity.com/vs/tt2861424/s4/e01
+#EXTINF:-1 group-title="Rick and Morty (2013)" tvg-id="tt2861424.s4e2" group-author="Zerk",Rick and Morty S04E02
+https://ha.vixolity.com/vs/tt2861424/s4/e02
+#EXTINF:-1 group-title="Rick and Morty (2013)" tvg-id="tt2861424.s4e3" group-author="Zerk",Rick and Morty S04E03
+https://ha.vixolity.com/vs/tt2861424/s4/e03
+#EXTINF:-1 group-title="Rick and Morty (2013)" tvg-id="tt2861424.s4e4" group-author="Zerk",Rick and Morty S04E04
+https://ha.vixolity.com/vs/tt2861424/s4/e04
+#EXTINF:-1 group-title="Rick and Morty (2013)" tvg-id="tt2861424.s4e5" group-author="Zerk",Rick and Morty S04E05
+https://ha.vixolity.com/vs/tt2861424/s4/e05
+#EXTINF:-1 group-title="Rick and Morty (2013)" tvg-id="tt2861424.s4e6" group-author="Zerk",Rick and Morty S04E06
+https://ha.vixolity.com/vs/tt2861424/s4/e06
+#EXTINF:-1 group-title="Rick and Morty (2013)" tvg-id="tt2861424.s4e7" group-author="Zerk",Rick and Morty S04E07
+https://ha.vixolity.com/vs/tt2861424/s4/e07
+#EXTINF:-1 group-title="Rick and Morty (2013)" tvg-id="tt2861424.s4e8" group-author="Zerk",Rick and Morty S04E08
+https://ha.vixolity.com/vs/tt2861424/s4/e08
+#EXTINF:-1 group-title="Rick and Morty (2013)" tvg-id="tt2861424.s4e9" group-author="Zerk",Rick and Morty S04E09
+https://ha.vixolity.com/vs/tt2861424/s4/e09
+#EXTINF:-1 group-title="Rick and Morty (2013)" tvg-id="tt2861424.s4e10" group-author="Zerk",Rick and Morty S04E10
+https://ha.vixolity.com/vs/tt2861424/s4/e10
 #EXTINF:-1 group-title="Konuşanlar" tvg-year="2002" tvg-id="12100" group-author="Zerk",Rüzgarla Konuşanlar S04 E01
 https://ha.vixolity.com/vs/tt13667230/s4/e01
 #EXTINF:-1 group-title="Konuşanlar" tvg-year="2002" tvg-id="12100" group-author="Zerk",Rüzgarla Konuşanlar S04 E02

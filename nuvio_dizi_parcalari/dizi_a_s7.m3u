@@ -41,6 +41,28 @@ https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_1496
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_152134&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Altın Peşinde" group-author="Zerk",Altın Peşinde Bölümler S07E21
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_152135&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s7e1" group-author="Zerk",American Horror Story S07E01
+https://ha.vixolity.com/vs/tt1844624/s7/e01
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s7e2" group-author="Zerk",American Horror Story S07E02
+https://ha.vixolity.com/vs/tt1844624/s7/e02
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s7e3" group-author="Zerk",American Horror Story S07E03
+https://ha.vixolity.com/vs/tt1844624/s7/e03
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s7e4" group-author="Zerk",American Horror Story S07E04
+https://ha.vixolity.com/vs/tt1844624/s7/e04
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s7e5" group-author="Zerk",American Horror Story S07E05
+https://ha.vixolity.com/vs/tt1844624/s7/e05
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s7e6" group-author="Zerk",American Horror Story S07E06
+https://ha.vixolity.com/vs/tt1844624/s7/e06
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s7e7" group-author="Zerk",American Horror Story S07E07
+https://ha.vixolity.com/vs/tt1844624/s7/e07
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s7e8" group-author="Zerk",American Horror Story S07E08
+https://ha.vixolity.com/vs/tt1844624/s7/e08
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s7e9" group-author="Zerk",American Horror Story S07E09
+https://ha.vixolity.com/vs/tt1844624/s7/e09
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s7e10" group-author="Zerk",American Horror Story S07E10
+https://ha.vixolity.com/vs/tt1844624/s7/e10
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s7e11" group-author="Zerk",American Horror Story S07E11
+https://ha.vixolity.com/vs/tt1844624/s7/e11
 #EXTINF:-1 group-title="Ateş ve Yemek" group-author="Zerk",Ateş ve Yemek Bölümler S07E01
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_246047&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Ateş ve Yemek" group-author="Zerk",Ateş ve Yemek Bölümler S07E02

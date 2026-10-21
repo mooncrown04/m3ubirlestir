@@ -49,6 +49,24 @@ https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_2119
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_211950&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Altın Peşinde" group-author="Zerk",Altın Peşinde Bölümler S09E25
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_2119322&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s9e1" group-author="Zerk",American Horror Story S09E01
+https://ha.vixolity.com/vs/tt1844624/s9/e01
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s9e2" group-author="Zerk",American Horror Story S09E02
+https://ha.vixolity.com/vs/tt1844624/s9/e02
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s9e3" group-author="Zerk",American Horror Story S09E03
+https://ha.vixolity.com/vs/tt1844624/s9/e03
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s9e4" group-author="Zerk",American Horror Story S09E04
+https://ha.vixolity.com/vs/tt1844624/s9/e04
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s9e5" group-author="Zerk",American Horror Story S09E05
+https://ha.vixolity.com/vs/tt1844624/s9/e05
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s9e6" group-author="Zerk",American Horror Story S09E06
+https://ha.vixolity.com/vs/tt1844624/s9/e06
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s9e7" group-author="Zerk",American Horror Story S09E07
+https://ha.vixolity.com/vs/tt1844624/s9/e07
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s9e8" group-author="Zerk",American Horror Story S09E08
+https://ha.vixolity.com/vs/tt1844624/s9/e08
+#EXTINF:-1 group-title="American Horror Story (2011)" tvg-id="tt1844624.s9e9" group-author="Zerk",American Horror Story S09E09
+https://ha.vixolity.com/vs/tt1844624/s9/e09
 #EXTINF:-1 group-title="Ateş ve Yemek" group-author="Zerk",Ateş ve Yemek Bölümler S09E01
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_317306&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Ateş ve Yemek" group-author="Zerk",Ateş ve Yemek Bölümler S09E02
