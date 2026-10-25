@@ -15,6 +15,18 @@ https://vs18.photoflick.org/v/Alice.in.Borderland.S03E04.WEB-DL.1080p.DUAL.H.264
 https://vs17.photoflax.org/v/Alice.in.Borderland.S03E05.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
 #EXTINF:-1 group-title="Alice in Borderland (2020)" tvg-year="2020" tvg-id="110316" group-author="Zerk",Alice in Borderland S03 E06
 https://vs16.pictureflix.org/v/Alice.in.Borderland.S03E06.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
+#EXTINF:-1 group-title="Alice in Borderland (2020)" tvg-id="tt10795658.s3e1" group-author="Zerk",Alice in Borderland S03E01
+https://ha.vixolity.com/vs/tt10795658/s3/e01
+#EXTINF:-1 group-title="Alice in Borderland (2020)" tvg-id="tt10795658.s3e2" group-author="Zerk",Alice in Borderland S03E02
+https://ha.vixolity.com/vs/tt10795658/s3/e02
+#EXTINF:-1 group-title="Alice in Borderland (2020)" tvg-id="tt10795658.s3e3" group-author="Zerk",Alice in Borderland S03E03
+https://ha.vixolity.com/vs/tt10795658/s3/e03
+#EXTINF:-1 group-title="Alice in Borderland (2020)" tvg-id="tt10795658.s3e4" group-author="Zerk",Alice in Borderland S03E04
+https://ha.vixolity.com/vs/tt10795658/s3/e04
+#EXTINF:-1 group-title="Alice in Borderland (2020)" tvg-id="tt10795658.s3e5" group-author="Zerk",Alice in Borderland S03E05
+https://ha.vixolity.com/vs/tt10795658/s3/e05
+#EXTINF:-1 group-title="Alice in Borderland (2020)" tvg-id="tt10795658.s3e6" group-author="Zerk",Alice in Borderland S03E06
+https://ha.vixolity.com/vs/tt10795658/s3/e06
 #EXTINF:-1 group-title="Altın Peşinde" group-author="Zerk",Altın Peşinde Bölümler S03E01
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=27&ReferenceId=EHD_924439&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 group-title="Altın Peşinde" group-author="Zerk",Altın Peşinde Bölümler S03E02
