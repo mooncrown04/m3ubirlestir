@@ -45,8 +45,6 @@ https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
 http://yayin.arabeskturk.com:8000/;
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="",ERCIYES TV
 https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/chunks.m3u8
-#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/euro-d-tr.png",EURO D
-https://tatatam.trt1sultanfatihss.workers.dev/https://live.duhnet.tv//S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/euro-d-tr.png",EURO D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="http://epg.one/img2/3979.png",HABER TURK
@@ -133,8 +131,6 @@ https://tv.ensonhaber.com/tv24/tv24.m3u8
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber_1080p.m3u8
 #EXTINF:-1 group-title="HABER" group-author="TVCANLI" tvg-logo="https://i.ibb.co/CHWhMvQ/bengu-turk.png",BENGU TURK
 https://tv.ensonhaber.com/benguturk/benguturk_720p.m3u8
-#EXTINF:-1 group-title="HABER" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/bloomberg-ht-tr.png",BLOOMBERG
-https://tatatam.trt1sultanfatihss.workers.dev/https://ciner.daioncdn.net/bloomberght/bloomberght_720p.m3u8?app=201b9556-b11c-4d92-b264-f21fd24e9aaf&ce=3
 #EXTINF:-1 group-title="HABER" group-author="EYUP" tvg-logo="https://picon.pics/TR/News/Bloomberg.png",BLOOMBERG HT
 https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8
 #EXTINF:-1 group-title="HABER" group-author="IPTVSevenler" tvg-logo="https://imgs.search.brave.com/WqduuXnknqgarYDiLCc-FERBNfS7mAA1TcOOdtFgcKE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIwLzA5/L0NOQkMtTG9nby0y/MDIzLTUwMHgyODEu/cG5n",CNBC
@@ -257,8 +253,6 @@ https://stream41.radyotelekom.com.tr/stream/m3u8/a94fc44623d98b825183db41afd8763
 https://kisiselvideo.stopvideodownload.com:8443/nefes/ngrp:live_all/playlist.m3u8
 #EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",KONYA OLAY TV
 https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
-#EXTINF:-1 group-title="Muzik" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kral-pop-tr.png",KRAL POP
-https://tatatam.trt1sultanfatihss.workers.dev/https://dogus.daioncdn.net/kralpoptv/kralpoptv_720p.m3u8?&sid=8nosfpxccyq6&app=f38a38b4-ce55-4040-8676-9826937d6128&ce=2
 #EXTINF:-1 group-title="Muzik" group-author="TVCANLI" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kral-pop-tr.png",KRAL POP
 http://dygvideo.dygdigital.com/live/hls/kralpop
 #EXTINF:-1 group-title="Yerel" group-author="Luxy44" tvg-logo="play.png",KRAL TV
