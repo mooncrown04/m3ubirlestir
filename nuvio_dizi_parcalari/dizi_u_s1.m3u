@@ -1,18 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Under the Banner of Heaven (2022)" tvg-year="2022" tvg-id="128095" group-author="Zerk",Under the Banner of Heaven S01 E01
-https://vs20.photoflix.org/v/Under.the.Banner.of.Heaven.S01E01.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Under the Banner of Heaven (2022)" tvg-year="2022" tvg-id="128095" group-author="Zerk",Under the Banner of Heaven S01 E02
-https://vs7.photoflax.org/v/Under.the.Banner.of.Heaven.S01E02.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Under the Banner of Heaven (2022)" tvg-year="2022" tvg-id="128095" group-author="Zerk",Under the Banner of Heaven S01 E03
-https://vs20.pictureflix.org/v/Under.the.Banner.of.Heaven.S01E03.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Under the Banner of Heaven (2022)" tvg-year="2022" tvg-id="128095" group-author="Zerk",Under the Banner of Heaven S01 E04
-https://vs6.photostack.net/v/Under.the.Banner.of.Heaven.S01E04.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Under the Banner of Heaven (2022)" tvg-year="2022" tvg-id="128095" group-author="Zerk",Under the Banner of Heaven S01 E05
-https://vs7.photoflax.org/v/Under.the.Banner.of.Heaven.S01E05.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Under the Banner of Heaven (2022)" tvg-year="2022" tvg-id="128095" group-author="Zerk",Under the Banner of Heaven S01 E06
-https://vs20.photofunny.org/v/Under.the.Banner.of.Heaven.S01E06.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Under the Banner of Heaven (2022)" tvg-year="2022" tvg-id="128095" group-author="Zerk",Under the Banner of Heaven S01 E07
-https://vs20.photour.org/v/Under.the.Banner.of.Heaven.S01E07.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 group-title="Universe" group-author="powerboard",Universe S01E01
 https://pixeldrain.com/api/file/T683XMuo
 #EXTINF:-1 group-title="Universe" group-author="powerboard",Universe S01E02
@@ -23,48 +9,6 @@ https://pixeldrain.com/api/file/TLygyKS6
 https://pixeldrain.com/api/file/Yhv2v31b
 #EXTINF:-1 group-title="Universe" group-author="powerboard",Universe S01E05
 https://pixeldrain.com/api/file/aUWQ7Pbf
-#EXTINF:-1 group-title="Up Here (2023)" tvg-year="2023" tvg-id="218268" group-author="Zerk",Up Here S01 E01
-https://one.makesomthingup.click/IxZPf7rTRi0mC6ePyQJr9tgV/master.m3u8
-#EXTINF:-1 group-title="Up Here (2023)" tvg-year="2023" tvg-id="218268" group-author="Zerk",Up Here S01 E02
-https://one.makesomthingup.click/rUWnqT_fT5FmvO5jyAOI7U4h/master.m3u8
-#EXTINF:-1 group-title="Up Here (2023)" tvg-year="2023" tvg-id="218268" group-author="Zerk",Up Here S01 E03
-https://one.makesomthingup.click/9VYCWoP4jL7HWU_KuqTLNI6g/master.m3u8
-#EXTINF:-1 group-title="Up Here (2023)" tvg-year="2023" tvg-id="218268" group-author="Zerk",Up Here S01 E04
-https://one.makesomthingup.click/HNpdx5wGgcajR0XtYPUHvEro/master.m3u8
-#EXTINF:-1 group-title="Up Here (2023)" tvg-year="2023" tvg-id="218268" group-author="Zerk",Up Here S01 E05
-https://one.makesomthingup.click/SfPD2_FQefvtKBZTQQHMMygR/master.m3u8
-#EXTINF:-1 group-title="Up Here (2023)" tvg-year="2023" tvg-id="218268" group-author="Zerk",Up Here S01 E06
-https://one.makesomthingup.click/9dmR0r0jQkwHtUg_2APx7Mmc/master.m3u8
-#EXTINF:-1 group-title="Up Here (2023)" tvg-year="2023" tvg-id="218268" group-author="Zerk",Up Here S01 E07
-https://one.makesomthingup.click/bl4KpRQlSQYDGtmATJjknaS4/master.m3u8
-#EXTINF:-1 group-title="Up Here (2023)" tvg-year="2023" tvg-id="218268" group-author="Zerk",Up Here S01 E08
-https://one.makesomthingup.click/ZZQnt96Yl9iWWnQo1KNeCmHM/master.m3u8
-#EXTINF:-1 group-title="Usta Bahçıvan (2023)" tvg-year="2023" tvg-id="869612" group-author="Zerk",Usta Bahçıvan S01 E01
-https://vs14.photostack.net/v/The.Gardener.S01E01.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Usta Bahçıvan (2023)" tvg-year="2023" tvg-id="869612" group-author="Zerk",Usta Bahçıvan S01 E02
-https://vs13.photoflax.org/v/The.Gardener.S01E02.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Usta Bahçıvan (2023)" tvg-year="2023" tvg-id="869612" group-author="Zerk",Usta Bahçıvan S01 E03
-https://vs13.pictureflix.org/v/The.Gardener.S01E03.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Usta Bahçıvan (2023)" tvg-year="2023" tvg-id="869612" group-author="Zerk",Usta Bahçıvan S01 E04
-https://vs15.photostack.net/v/The.Gardener.S01E04.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Usta Bahçıvan (2023)" tvg-year="2023" tvg-id="869612" group-author="Zerk",Usta Bahçıvan S01 E05
-https://vs14.photour.org/v/The.Gardener.S01E05.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Usta Bahçıvan (2023)" tvg-year="2023" tvg-id="869612" group-author="Zerk",Usta Bahçıvan S01 E06
-https://vs16.pictureflix.org/v/The.Gardener.S01E06.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Uzaylılarla Karşılaşmalar (2023)" tvg-year="2023" tvg-id="232811" group-author="Zerk",Uzaylılarla Karşılaşmalar S01 E01
-https://one.makesomthingup.click/InyG8D7VIlDRmLmrsU5UM4fV/master.m3u8
-#EXTINF:-1 group-title="Uzaylılarla Karşılaşmalar (2023)" tvg-year="2023" tvg-id="232811" group-author="Zerk",Uzaylılarla Karşılaşmalar S01 E02
-https://one.makesomthingup.click/hcl5IGcisgBnMbjy7PDjBK0K/master.m3u8
-#EXTINF:-1 group-title="Uzaylılarla Karşılaşmalar (2023)" tvg-year="2023" tvg-id="232811" group-author="Zerk",Uzaylılarla Karşılaşmalar S01 E03
-https://one.makesomthingup.click/UjOb50MLepSyHF3sAXypfOzi/master.m3u8
-#EXTINF:-1 group-title="Uzaylılarla Karşılaşmalar (2023)" tvg-year="2023" tvg-id="232811" group-author="Zerk",Uzaylılarla Karşılaşmalar S01 E04
-https://one.makesomthingup.click/7er8Erg22yYcIunjAG1bxflO/master.m3u8
-#EXTINF:-1 group-title="Uzaylılarla Karşılaşmalar (2023)" tvg-year="2023" tvg-id="232811" group-author="Zerk",Uzaylılarla Karşılaşmalar S01 E05
-https://one.makesomthingup.click/SnFGGTdZDmI9Ah5NKMDtOYnd/master.m3u8
-#EXTINF:-1 group-title="Uzaylılarla Karşılaşmalar (2023)" tvg-year="2023" tvg-id="232811" group-author="Zerk",Uzaylılarla Karşılaşmalar S01 E06
-https://one.makesomthingup.click/sQA29oAoZXk_M9vquwoRi7hd/master.m3u8
-#EXTINF:-1 group-title="Uzaylılarla Karşılaşmalar (2023)" tvg-year="2023" tvg-id="232811" group-author="Zerk",Uzaylılarla Karşılaşmalar S01 E07
-https://one.makesomthingup.click/gdyDOwsIR9wyAh0JWwAssWr_/master.m3u8
 #EXTINF:-1 group-title="Özgüven Kraliçesi (2025)" group-author="powerboard",Özgüven Kraliçesi S01E01
 https://vs19.gamephotos.pro/v/Confidence.Queen.S01E01.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
 #EXTINF:-1 group-title="Özgüven Kraliçesi (2025)" group-author="powerboard",Özgüven Kraliçesi S01E02
