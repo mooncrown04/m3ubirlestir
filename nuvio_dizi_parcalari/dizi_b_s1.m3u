@@ -1,4 +1,24 @@
 #EXTM3U
+#EXTINF:-1 group-title="Bahar Esintisi" group-author="powerboard",Bahar Esintisi S01E01
+https://ha.vixolity.com/vs/tt39137681/s1/e01
+#EXTINF:-1 group-title="Bahar Esintisi" group-author="powerboard",Bahar Esintisi S01E02
+https://ha.vixolity.com/vs/tt39137681/s1/e02
+#EXTINF:-1 group-title="Bahar Esintisi" group-author="powerboard",Bahar Esintisi S01E03
+https://ha.vixolity.com/vs/tt39137681/s1/e03
+#EXTINF:-1 group-title="Bahar Esintisi" group-author="powerboard",Bahar Esintisi S01E04
+https://ha.vixolity.com/vs/tt39137681/s1/e04
+#EXTINF:-1 group-title="Bahçıvan" group-author="powerboard",Bahçıvan S01E01
+https://ha.vixolity.com/vs/tt30494784/s1/e01
+#EXTINF:-1 group-title="Bahçıvan" group-author="powerboard",Bahçıvan S01E02
+https://ha.vixolity.com/vs/tt30494784/s1/e02
+#EXTINF:-1 group-title="Bahçıvan" group-author="powerboard",Bahçıvan S01E03
+https://ha.vixolity.com/vs/tt30494784/s1/e03
+#EXTINF:-1 group-title="Bahçıvan" group-author="powerboard",Bahçıvan S01E04
+https://ha.vixolity.com/vs/tt30494784/s1/e04
+#EXTINF:-1 group-title="Bahçıvan" group-author="powerboard",Bahçıvan S01E05
+https://ha.vixolity.com/vs/tt30494784/s1/e05
+#EXTINF:-1 group-title="Bahçıvan" group-author="powerboard",Bahçıvan S01E06
+https://ha.vixolity.com/vs/tt30494784/s1/e06
 #EXTINF:-1 group-title="Band of Brothers" group-author="powerboard",Band of Brothers S01E01
 https://pixeldrain.com/api/file/vwaqc2fk
 #EXTINF:-1 group-title="Band of Brothers" group-author="powerboard",Band of Brothers S01E02
@@ -19,91 +39,119 @@ https://pixeldrain.com/api/file/5AyGxcbr
 https://pixeldrain.com/api/file/dmJA9NUN
 #EXTINF:-1 group-title="Band of Brothers" group-author="powerboard",Band of Brothers S01E10
 https://pixeldrain.com/api/file/spDPk79L
-#EXTINF:-1 group-title="Battlestar Galactica" group-author="powerboard",Battlestar Galactica S01E01
-https://pixeldrain.com/api/file/KU1hfRHJ
-#EXTINF:-1 group-title="Battlestar Galactica" group-author="powerboard",Battlestar Galactica S01E02
-https://pixeldrain.com/api/file/iAfwqzf2
-#EXTINF:-1 group-title="Battlestar Galactica" group-author="powerboard",Battlestar Galactica S01E03
-https://pixeldrain.com/api/file/Ns9Ksj2G
-#EXTINF:-1 group-title="Battlestar Galactica" group-author="powerboard",Battlestar Galactica S01E04
-https://pixeldrain.com/api/file/T62bZkrt
-#EXTINF:-1 group-title="Battlestar Galactica" group-author="powerboard",Battlestar Galactica S01E05
-https://pixeldrain.com/api/file/2xZ9Fqtg
-#EXTINF:-1 group-title="Battlestar Galactica" group-author="powerboard",Battlestar Galactica S01E06
-https://pixeldrain.com/api/file/EtMaZykZ
-#EXTINF:-1 group-title="Battlestar Galactica" group-author="powerboard",Battlestar Galactica S01E07
-https://pixeldrain.com/api/file/K4SZ9Spa
-#EXTINF:-1 group-title="Battlestar Galactica" group-author="powerboard",Battlestar Galactica S01E08
-https://pixeldrain.com/api/file/3VTAUNdP
-#EXTINF:-1 group-title="Battlestar Galactica" group-author="powerboard",Battlestar Galactica S01E09
-https://pixeldrain.com/api/file/FvZ3MD7f
-#EXTINF:-1 group-title="Battlestar Galactica" group-author="powerboard",Battlestar Galactica S01E10
-https://pixeldrain.com/api/file/qagVnE4U
-#EXTINF:-1 group-title="Battlestar Galactica" group-author="powerboard",Battlestar Galactica S01E11
-https://pixeldrain.com/api/file/vSEm7fte
-#EXTINF:-1 group-title="Battlestar Galactica" group-author="powerboard",Battlestar Galactica S01E12
-https://pixeldrain.com/api/file/noFrGhiC
-#EXTINF:-1 group-title="Battlestar Galactica" group-author="powerboard",Battlestar Galactica S01E13
-https://pixeldrain.com/api/file/WHogoSFZ
-#EXTINF:-1 group-title="Bayan Playmen (2025)" group-author="powerboard",Bayan Playmen S01E01
-https://vs11.photour.org/v/Mrs.Playmen.S01E01.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Bayan Playmen (2025)" group-author="powerboard",Bayan Playmen S01E02
-https://vs19.photofunia.pro/v/Mrs.Playmen.S01E02.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Bayan Playmen (2025)" group-author="powerboard",Bayan Playmen S01E03
-https://vs9.photoflax.org/v/Mrs.Playmen.S01E03.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Bayan Playmen (2025)" group-author="powerboard",Bayan Playmen S01E04
-https://vs15.photofunny.org/v/Mrs.Playmen.S01E04.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Bayan Playmen (2025)" group-author="powerboard",Bayan Playmen S01E05
-https://vs13.photoflix.org/v/Mrs.Playmen.S01E05.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Bayan Playmen (2025)" group-author="powerboard",Bayan Playmen S01E06
-https://vs12.photour.org/v/Mrs.Playmen.S01E06.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Bayan Playmen (2025)" group-author="powerboard",Bayan Playmen S01E07
-https://vs9.photofunia.pro/v/Mrs.Playmen.S01E07.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Bir Başkadır (2020)" group-author="powerboard",Bir Başkadır S01E01
-https://vs22.photoflax.org/v/Bir.Baskadir.S01E01.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Bir Başkadır (2020)" group-author="powerboard",Bir Başkadır S01E02
-https://vs21.photofunny.org/v/Bir.Baskadir.S01E02.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
-#EXTINF:-1 group-title="Bir Başkadır (2020)" group-author="powerboard",Bir Başkadır S01E03
-https://vs22.photoflix.org/v/Bir.Baskadir.S01E03.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Bir Başkadır (2020)" group-author="powerboard",Bir Başkadır S01E04
-https://vs21.gamephotos.pro/v/Bir.Baskadir.S01E04.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Bir Başkadır (2020)" group-author="powerboard",Bir Başkadır S01E05
-https://vs21.photofunia.pro/v/Bir.Baskadir.S01E05.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Bir Başkadır (2020)" group-author="powerboard",Bir Başkadır S01E06
-https://vs21.photomag.biz/v/Bir.Baskadir.S01E06.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Bir Başkadır (2020)" group-author="powerboard",Bir Başkadır S01E07
-https://vs22.photomag.biz/v/Bir.Baskadir.S01E07.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Bir Başkadır (2020)" group-author="powerboard",Bir Başkadır S01E08
-https://vs22.photoflax.org/v/Bir.Baskadir.S01E08.WEB-DL.1080p.DUAL.H.264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Büyücüler: Arcadia Hikâyeleri (2020)" group-author="powerboard",Büyücüler: Arcadia Hikâyeleri S01E01
-https://vs12.photofunny.org/v/Wizards.S01E01.WEB-DL.1080p.DUAL.x264-HDM/720.m3u8
-#EXTINF:-1 group-title="Büyücüler: Arcadia Hikâyeleri (2020)" group-author="powerboard",Büyücüler: Arcadia Hikâyeleri S01E02
-https://vs11.photomag.biz/v/Wizards.S01E02.WEB-DL.1080p.DUAL.x264-HDM/720.m3u8
-#EXTINF:-1 group-title="Büyücüler: Arcadia Hikâyeleri (2020)" group-author="powerboard",Büyücüler: Arcadia Hikâyeleri S01E03
-https://vs18.pictureflix.org/v/Wizards.S01E03.WEB-DL.1080p.DUAL.x264-HDM/720.m3u8
-#EXTINF:-1 group-title="Büyücüler: Arcadia Hikâyeleri (2020)" group-author="powerboard",Büyücüler: Arcadia Hikâyeleri S01E04
-https://vs11.photofunny.org/v/Wizards.S01E04.WEB-DL.1080p.DUAL.x264-HDM/720.m3u8
-#EXTINF:-1 group-title="Büyücüler: Arcadia Hikâyeleri (2020)" group-author="powerboard",Büyücüler: Arcadia Hikâyeleri S01E05
-https://vs19.photofunny.org/v/Wizards.S01E05.WEB-DL.1080p.DUAL.x264-HDM/720.m3u8
-#EXTINF:-1 group-title="Büyücüler: Arcadia Hikâyeleri (2020)" group-author="powerboard",Büyücüler: Arcadia Hikâyeleri S01E06
-https://vs9.photoflix.org/v/Wizards.S01E06.WEB-DL.1080p.DUAL.x264-HDM/720.m3u8
-#EXTINF:-1 group-title="Büyücüler: Arcadia Hikâyeleri (2020)" group-author="powerboard",Büyücüler: Arcadia Hikâyeleri S01E07
-https://vs17.photoflix.org/v/Wizards.S01E07.WEB-DL.1080p.DUAL.x264-HDM/720.m3u8
-#EXTINF:-1 group-title="Büyücüler: Arcadia Hikâyeleri (2020)" group-author="powerboard",Büyücüler: Arcadia Hikâyeleri S01E08
-https://vs12.gamephotos.pro/v/Wizards.S01E08.WEB-DL.1080p.DUAL.x264-HDM/720.m3u8
-#EXTINF:-1 group-title="Büyücüler: Arcadia Hikâyeleri (2020)" group-author="powerboard",Büyücüler: Arcadia Hikâyeleri S01E09
-https://vs16.photofunia.pro/v/Wizards.S01E09.WEB-DL.1080p.DUAL.x264-HDM/720.m3u8
-#EXTINF:-1 group-title="Büyücüler: Arcadia Hikâyeleri (2020)" group-author="powerboard",Büyücüler: Arcadia Hikâyeleri S01E10
-https://vs18.photour.org/v/Wizards.S01E10.WEB-DL.1080p.DUAL.x264-HDM/720.m3u8
-#EXTINF:-1 group-title="Büyük İskender Nasıl Büyük Oldu? (2024)" group-author="powerboard",Büyük İskender Nasıl Büyük Oldu? S01E01
-https://vs9.photoflax.org/v/Alexander.The.Making.of.a.God.S01E01.WEB-DL.1080p.DUAL.x264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Büyük İskender Nasıl Büyük Oldu? (2024)" group-author="powerboard",Büyük İskender Nasıl Büyük Oldu? S01E02
-https://vs9.photoflick.org/v/Alexander.The.Making.of.a.God.S01E02.WEB-DL.1080p.DUAL.x264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Büyük İskender Nasıl Büyük Oldu? (2024)" group-author="powerboard",Büyük İskender Nasıl Büyük Oldu? S01E03
-https://vs15.photour.org/v/Alexander.The.Making.of.a.God.S01E03.WEB-DL.1080p.DUAL.x264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Büyük İskender Nasıl Büyük Oldu? (2024)" group-author="powerboard",Büyük İskender Nasıl Büyük Oldu? S01E04
-https://vs16.photoflax.org/v/Alexander.The.Making.of.a.God.S01E04.WEB-DL.1080p.DUAL.x264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Büyük İskender Nasıl Büyük Oldu? (2024)" group-author="powerboard",Büyük İskender Nasıl Büyük Oldu? S01E05
-https://vs9.photour.org/v/Alexander.The.Making.of.a.God.S01E05.WEB-DL.1080p.DUAL.x264-HDM/1080.m3u8
-#EXTINF:-1 group-title="Büyük İskender Nasıl Büyük Oldu? (2024)" group-author="powerboard",Büyük İskender Nasıl Büyük Oldu? S01E06
-https://vs9.photofunia.pro/v/Alexander.The.Making.of.a.God.S01E06.WEB-DL.1080p.DUAL.x264-HDM/1080.m3u8
+#EXTINF:-1 group-title="Better Call Saul" group-author="powerboard",Better Call Saul S01E01
+https://ha.vixolity.com/vs/tt3032476/s1/e01
+#EXTINF:-1 group-title="Better Call Saul" group-author="powerboard",Better Call Saul S01E02
+https://ha.vixolity.com/vs/tt3032476/s1/e02
+#EXTINF:-1 group-title="Better Call Saul" group-author="powerboard",Better Call Saul S01E03
+https://ha.vixolity.com/vs/tt3032476/s1/e03
+#EXTINF:-1 group-title="Better Call Saul" group-author="powerboard",Better Call Saul S01E04
+https://ha.vixolity.com/vs/tt3032476/s1/e04
+#EXTINF:-1 group-title="Better Call Saul" group-author="powerboard",Better Call Saul S01E05
+https://ha.vixolity.com/vs/tt3032476/s1/e05
+#EXTINF:-1 group-title="Better Call Saul" group-author="powerboard",Better Call Saul S01E06
+https://ha.vixolity.com/vs/tt3032476/s1/e06
+#EXTINF:-1 group-title="Better Call Saul" group-author="powerboard",Better Call Saul S01E07
+https://ha.vixolity.com/vs/tt3032476/s1/e07
+#EXTINF:-1 group-title="Better Call Saul" group-author="powerboard",Better Call Saul S01E08
+https://ha.vixolity.com/vs/tt3032476/s1/e08
+#EXTINF:-1 group-title="Better Call Saul" group-author="powerboard",Better Call Saul S01E09
+https://ha.vixolity.com/vs/tt3032476/s1/e09
+#EXTINF:-1 group-title="Better Call Saul" group-author="powerboard",Better Call Saul S01E10
+https://ha.vixolity.com/vs/tt3032476/s1/e10
+#EXTINF:-1 group-title="Cin group-author="powerboard",Bir Dilek Tut S01E01
+https://ha.vixolity.com/vs/tt32409807/s1/e01
+#EXTINF:-1 group-title="Cin group-author="powerboard",Bir Dilek Tut S01E02
+https://ha.vixolity.com/vs/tt32409807/s1/e02
+#EXTINF:-1 group-title="Cin group-author="powerboard",Bir Dilek Tut S01E03
+https://ha.vixolity.com/vs/tt32409807/s1/e03
+#EXTINF:-1 group-title="Cin group-author="powerboard",Bir Dilek Tut S01E04
+https://ha.vixolity.com/vs/tt32409807/s1/e04
+#EXTINF:-1 group-title="Cin group-author="powerboard",Bir Dilek Tut S01E05
+https://ha.vixolity.com/vs/tt32409807/s1/e05
+#EXTINF:-1 group-title="Cin group-author="powerboard",Bir Dilek Tut S01E06
+https://ha.vixolity.com/vs/tt32409807/s1/e06
+#EXTINF:-1 group-title="Cin group-author="powerboard",Bir Dilek Tut S01E07
+https://ha.vixolity.com/vs/tt32409807/s1/e07
+#EXTINF:-1 group-title="Cin group-author="powerboard",Bir Dilek Tut S01E08
+https://ha.vixolity.com/vs/tt32409807/s1/e08
+#EXTINF:-1 group-title="Cin group-author="powerboard",Bir Dilek Tut S01E09
+https://ha.vixolity.com/vs/tt32409807/s1/e09
+#EXTINF:-1 group-title="Cin group-author="powerboard",Bir Dilek Tut S01E10
+https://ha.vixolity.com/vs/tt32409807/s1/e10
+#EXTINF:-1 group-title="Cin group-author="powerboard",Bir Dilek Tut S01E11
+https://ha.vixolity.com/vs/tt32409807/s1/e11
+#EXTINF:-1 group-title="Cin group-author="powerboard",Bir Dilek Tut S01E12
+https://ha.vixolity.com/vs/tt32409807/s1/e12
+#EXTINF:-1 group-title="Cin group-author="powerboard",Bir Dilek Tut S01E13
+https://ha.vixolity.com/vs/tt32409807/s1/e13
+#EXTINF:-1 group-title="Bir Zamanlar Alfaydık" group-author="powerboard",Bir Zamanlar Alfaydık S01E01
+https://ha.vixolity.com/vs/tt33034757/s1/e01
+#EXTINF:-1 group-title="Bir Zamanlar Alfaydık" group-author="powerboard",Bir Zamanlar Alfaydık S01E02
+https://ha.vixolity.com/vs/tt33034757/s1/e02
+#EXTINF:-1 group-title="Bir Zamanlar Alfaydık" group-author="powerboard",Bir Zamanlar Alfaydık S01E03
+https://ha.vixolity.com/vs/tt33034757/s1/e03
+#EXTINF:-1 group-title="Bir Zamanlar Alfaydık" group-author="powerboard",Bir Zamanlar Alfaydık S01E04
+https://ha.vixolity.com/vs/tt33034757/s1/e04
+#EXTINF:-1 group-title="Bir Zamanlar Alfaydık" group-author="powerboard",Bir Zamanlar Alfaydık S01E05
+https://ha.vixolity.com/vs/tt33034757/s1/e05
+#EXTINF:-1 group-title="Bir Zamanlar Alfaydık" group-author="powerboard",Bir Zamanlar Alfaydık S01E06
+https://ha.vixolity.com/vs/tt33034757/s1/e06
+#EXTINF:-1 group-title="Bir Zamanlar Alfaydık" group-author="powerboard",Bir Zamanlar Alfaydık S01E07
+https://ha.vixolity.com/vs/tt33034757/s1/e07
+#EXTINF:-1 group-title="Bir Zamanlar Alfaydık" group-author="powerboard",Bir Zamanlar Alfaydık S01E08
+https://ha.vixolity.com/vs/tt33034757/s1/e08
+#EXTINF:-1 group-title="Dear Hongrang" group-author="powerboard",Bitmedi Jin - Kardeşim Mu-jin
+https://ha.vixolity.com/vs/tt27554348/s1/e06
+#EXTINF:-1 group-title="Black Mirror" group-author="powerboard",Black Mirror S01E01
+https://ha.vixolity.com/vs/tt2085059/s1/e01
+#EXTINF:-1 group-title="Black Mirror" group-author="powerboard",Black Mirror S01E02
+https://ha.vixolity.com/vs/tt2085059/s1/e02
+#EXTINF:-1 group-title="Black Mirror" group-author="powerboard",Black Mirror S01E03
+https://ha.vixolity.com/vs/tt2085059/s1/e03
+#EXTINF:-1 group-title="Black Rabbit" group-author="powerboard",Black Rabbit S01E01
+https://ha.vixolity.com/vs/tt23055142/s1/e01
+#EXTINF:-1 group-title="Black Rabbit" group-author="powerboard",Black Rabbit S01E02
+https://ha.vixolity.com/vs/tt23055142/s1/e02
+#EXTINF:-1 group-title="Black Rabbit" group-author="powerboard",Black Rabbit S01E03
+https://ha.vixolity.com/vs/tt23055142/s1/e03
+#EXTINF:-1 group-title="Black Rabbit" group-author="powerboard",Black Rabbit S01E04
+https://ha.vixolity.com/vs/tt23055142/s1/e04
+#EXTINF:-1 group-title="Black Rabbit" group-author="powerboard",Black Rabbit S01E05
+https://ha.vixolity.com/vs/tt23055142/s1/e05
+#EXTINF:-1 group-title="Black Rabbit" group-author="powerboard",Black Rabbit S01E06
+https://ha.vixolity.com/vs/tt23055142/s1/e06
+#EXTINF:-1 group-title="Black Rabbit" group-author="powerboard",Black Rabbit S01E07
+https://ha.vixolity.com/vs/tt23055142/s1/e07
+#EXTINF:-1 group-title="Black Rabbit" group-author="powerboard",Black Rabbit S01E08
+https://ha.vixolity.com/vs/tt23055142/s1/e08
+#EXTINF:-1 group-title="Boots" group-author="powerboard",Boots S01E01
+https://ha.vixolity.com/vs/tt27987047/s1/e01
+#EXTINF:-1 group-title="Boots" group-author="powerboard",Boots S01E02
+https://ha.vixolity.com/vs/tt27987047/s1/e02
+#EXTINF:-1 group-title="Boots" group-author="powerboard",Boots S01E03
+https://ha.vixolity.com/vs/tt27987047/s1/e03
+#EXTINF:-1 group-title="Boots" group-author="powerboard",Boots S01E04
+https://ha.vixolity.com/vs/tt27987047/s1/e04
+#EXTINF:-1 group-title="Boots" group-author="powerboard",Boots S01E05
+https://ha.vixolity.com/vs/tt27987047/s1/e05
+#EXTINF:-1 group-title="Boots" group-author="powerboard",Boots S01E06
+https://ha.vixolity.com/vs/tt27987047/s1/e06
+#EXTINF:-1 group-title="Boots" group-author="powerboard",Boots S01E07
+https://ha.vixolity.com/vs/tt27987047/s1/e07
+#EXTINF:-1 group-title="Boots" group-author="powerboard",Boots S01E08
+https://ha.vixolity.com/vs/tt27987047/s1/e08
+#EXTINF:-1 group-title="Breaking Bad" group-author="powerboard",Breaking Bad S01E01
+https://ha.vixolity.com/vs/tt0903747/s1/e01
+#EXTINF:-1 group-title="Breaking Bad" group-author="powerboard",Breaking Bad S01E02
+https://ha.vixolity.com/vs/tt0903747/s1/e02
+#EXTINF:-1 group-title="Breaking Bad" group-author="powerboard",Breaking Bad S01E03
+https://ha.vixolity.com/vs/tt0903747/s1/e03
+#EXTINF:-1 group-title="Breaking Bad" group-author="powerboard",Breaking Bad S01E04
+https://ha.vixolity.com/vs/tt0903747/s1/e04
+#EXTINF:-1 group-title="Breaking Bad" group-author="powerboard",Breaking Bad S01E05
+https://ha.vixolity.com/vs/tt0903747/s1/e05
+#EXTINF:-1 group-title="Breaking Bad" group-author="powerboard",Breaking Bad S01E06
+https://ha.vixolity.com/vs/tt0903747/s1/e06
+#EXTINF:-1 group-title="Breaking Bad" group-author="powerboard",Breaking Bad S01E07
+https://ha.vixolity.com/vs/tt0903747/s1/e07
