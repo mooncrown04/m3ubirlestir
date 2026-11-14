@@ -9,6 +9,8 @@ https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://i.ibb.co/hf2mSz5/kanal-d.png",KANAL D
 http://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/track_4_1250/playlist.m3u8
+#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/show-tr.png",SHOW TV
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv_720p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/show-tr.png",SHOW TV
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/show-tr.png",SHOW TV
@@ -77,6 +79,8 @@ https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
 https://tv-trtturk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="IPTVSevenler" tvg-logo="https://imgs.search.brave.com/I_bVWnioFJj3jWiVntvQ1_QwnS4Usde8H_f_Ij-tWRU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/dHVya21lZHlhLmNv/bS50ci9hc3NldHMv/aW1nL2xvZ28vbG9n/b190djQucG5nP1Y9/MTI",TV 4
 https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
+#EXTINF:-1 group-title="SPOR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/a-spor-tr.png",A SPOR
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8
 #EXTINF:-1 group-title="SPOR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png",BIZIM SPOR
 https://zeus7779284.cfd/b1/index.txt
 #EXTINF:-1 group-title="SPOR" group-author="IPTVSevenler" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png",BIZIM SPOR 3
