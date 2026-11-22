@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="https://yt3.googleusercontent.com/Ar9s9sZNclvmZN1l7GfIdnAQjh_ZkVhGMx6Dy5PHbq2keR9ijkPMFkk9VxZnIEnTf0MrXfSU4g",TRT 1
+https://tv-trt1-dash.medya.trt.com.tr/master.mpd
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="https://picon.pics/TR/Ulusal/Atv.png",ATV
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="https://i.ibb.co/hf2mSz5/kanal-d.png",KANAL D
@@ -19,8 +21,6 @@ https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 https://dogus.daioncdn.net/startv/startv.m3u8?ce=3&app=1740db13-3ee9-4858-8d2c-b1a9cfaa3718
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="EYUP" tvg-logo="https://picon.pics/TR/Ulusal/Tv8.png",TV 8
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788
-#EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://picon.pics/TR/Ulusal/Tv8.png",TV 8
-https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="TVCANLI" tvg-logo="https://picon.pics/TR/Ulusal/Tv8.png",TV 8
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8.m3u8
 #EXTINF:-1 group-title="ULUSAL KANALLAR" group-author="IPTVSevenler" tvg-logo="https://imgs.search.brave.com/s3URAsUXPeTGzjutcMtQ6S1-xTNldgqU5BqvklDZ0i0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9mb3Rv/LmhhYmVybGVyLmNv/bS9oYWJlci8yMDI0/LzA1LzAxL3R2LTgt/NS10di04LWJ1Y3Vr/LWd1bmNlbC1oZC1m/cmVrYW5zLWRlZ2Vy/bGVyaS0xNzI4NDk5/NV85MzA3X2FtcC5q/cGc",TV 8.5
